@@ -3182,9 +3182,9 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://pic.imgdb.cn/item/65effdf99f345e8d03a5323b.jpg);
-    --darkmode-bg:url(https://pic.imgdb.cn/item/65effdf99f345e8d03a5323b.jpg);
-    --mobileday-bg: url(https://pic.imgdb.cn/item/65f1119b9f345e8d038c3c9d.jpg);
+    --default-bg: url(https://pic.imgdb.cn/item/661bf6d368eb9357135d00fd.jpg);
+    --darkmode-bg:url(https://pic.imgdb.cn/item/661bf66568eb9357135cab6f.jpg);
+    --mobileday-bg: url(https://pic.imgdb.cn/item/661bfacd68eb93571360ab03.jpg);
     --mobilenight-bg: url(https://pic.imgdb.cn/item/65f1119b9f345e8d038c3c9d.jpg);
   }`; 
 }
@@ -3198,9 +3198,9 @@ function changeBg(s) {
 // 设置背景属性
 function setBg(s) {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://pic.imgdb.cn/item/65effdf99f345e8d03a5323b.jpg);
-    --darkmode-bg:url(https://pic.imgdb.cn/item/65effdf99f345e8d03a5323b.jpg);
-    --mobileday-bg: url(https://pic.imgdb.cn/item/65f1119b9f345e8d038c3c9d.jpg);
+    --default-bg: url(https://pic.imgdb.cn/item/661bf6d368eb9357135d00fd.jpg);
+    --darkmode-bg:url(https://pic.imgdb.cn/item/661bf4a668eb9357135b750c.jpg);
+    --mobileday-bg: url(https://pic.imgdb.cn/item/661bfacd68eb93571360ab03.jpg);
     --mobilenight-bg: url(https://pic.imgdb.cn/item/65f1119b9f345e8d038c3c9d.jpg);
   }`;
 }

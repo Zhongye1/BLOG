@@ -2474,7 +2474,7 @@ if (m == 10 && dd <= 3) {//国庆节
 }
 if (m == 8 && dd == 15) {//搞来玩的，小日子投降
   if (sessionStorage.getItem("isPopupWindow") != "1") {
-    Swal.fire("小日子已经投降" + (y - 1945).toString() + "年了😃");
+    Swal.fire("日本已投降" + (y - 1945).toString() + "年");
     sessionStorage.setItem("isPopupWindow", "1");
   }
 }
@@ -3182,9 +3182,9 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://pic.imgdb.cn/item/661bf6d368eb9357135d00fd.jpg);
+    --default-bg: url(https://pic.imgdb.cn/item/6633b2fc0ea9cb140393c914.jpg);
     --darkmode-bg:url(https://pic.imgdb.cn/item/661bf66568eb9357135cab6f.jpg);
-    --mobileday-bg: url(https://pic.imgdb.cn/item/661bfacd68eb93571360ab03.jpg);
+    --mobileday-bg: url(https://pic.imgdb.cn/item/6633b3630ea9cb140394af6e.jpg);
     --mobilenight-bg: url(https://pic.imgdb.cn/item/65f1119b9f345e8d038c3c9d.jpg);
   }`; 
 }
@@ -3198,9 +3198,9 @@ function changeBg(s) {
 // 设置背景属性
 function setBg(s) {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://pic.imgdb.cn/item/661bf6d368eb9357135d00fd.jpg);
+    --default-bg: url(https://pic.imgdb.cn/item/6633b2fc0ea9cb140393c914.jpg);
     --darkmode-bg:url(https://pic.imgdb.cn/item/661bf4a668eb9357135b750c.jpg);
-    --mobileday-bg: url(https://pic.imgdb.cn/item/661bfacd68eb93571360ab03.jpg);
+    --mobileday-bg: url(https://pic.imgdb.cn/item/6633b3630ea9cb140394af6e.jpg);
     --mobilenight-bg: url(https://pic.imgdb.cn/item/65f1119b9f345e8d038c3c9d.jpg);
   }`;
 }

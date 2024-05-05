@@ -285,7 +285,7 @@ function showWelcome() {
   try {
     //自定义文本和需要放的位置
     document.getElementById("welcome-info").innerHTML =
-      `<b><center> 登入成功 </center>&emsp;&emsp;欢迎来自 <span style="color:var(--theme-color)">${pos}</span> 的同志，${timeChange}您现在距离站长约 <span style="color:var(--theme-color)">${dist}</span> 公里，当前的IP地址为： <span style="color:var(--theme-color)">${ip}</span>， ${posdesc}</b>`;
+      `<b><center> 登入成功 </center>&emsp;&emsp;欢迎 <span style="color:var(--theme-color)">${pos}</span> 的同志，${timeChange}您现在距离站长约 <span style="color:var(--theme-color)">${dist}</span> 公里，当前的IP地址为： <span style="color:var(--theme-color)">${ip}</span>， ${posdesc}</b>`;
   } catch (err) {
     // console.log("Pjax无法获取#welcome-info元素🙄🙄🙄")
   }
@@ -348,8 +348,8 @@ document.addEventListener("copy", function () {
     new Vue({
       data: function () {
         this.$notify({
-          title: "哎嘿！复制成功🍬",
-          message: "若要转载最好保留原文链接哦，给你一个大大的赞！",
+          title: "复制成功！",
+          message: "若要转载最好保留原文链接！",
           position: 'top-left',
           offset: 50,
           showClose: true,
@@ -370,7 +370,7 @@ document.onkeydown = function (e) {
         data: function () {
           this.$notify({
             title: "你已被发现😜",
-            message: "小伙子，扒源记住要遵循GPL协议！",
+            message: "扒源记住要遵循GPL协议！",
             position: 'top-left',
             offset: 50,
             showClose: true,
@@ -1128,7 +1128,7 @@ function createtime1() {
    | |__| |  / /__  | |  | | | |__| |
     \_____| /_____| |_|  |_|  \____/   
      
-     还有40姐sana
+     还有40姐（
      
      
      _    _   __  __   _____    _  _      ___  

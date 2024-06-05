@@ -137,7 +137,7 @@ function showWelcome() {
           posdesc = "我想去华北诶";
           break;
         case "天津市":
-          posdesc = "讲段相声吧。";
+          posdesc = "想去看渤海湾。";
           break;
         case "河北省":
           posdesc = "想去秦皇岛";
@@ -146,7 +146,7 @@ function showWelcome() {
           posdesc = "展开坐具长三尺，已占山河五百余。";
           break;
         case "内蒙古自治区":
-          posdesc = "天苍苍，野茫茫，风吹草低见牛羊。";
+          posdesc = "内蒙古的同志你好！";
           break;
         case "辽宁省":
           posdesc = "沈阳好果汁（bushi";
@@ -208,19 +208,19 @@ function showWelcome() {
           posdesc = "落霞与孤鹜齐飞，秋水共长天一色。";
           break;
         case "山东省":
-          posdesc = "遥望齐州九点烟，一泓海水杯中泻。";
+          posdesc = "山东青岛挺不错的";
           break;
         case "湖北省":
-          posdesc = "是湖北的？我仙桃的";
+          posdesc = "同省的hhh";
           break;
         case "湖南省":
           posdesc = "长沙哈哈哈";
           break;
         case "广东省":
-          posdesc = "我在广州大学诶（避雷";
+          posdesc = "广州挺热的（";
           break;
         case "广西壮族自治区":
-          posdesc = "广西老哥好。";
+          posdesc = "广西同胞好。";
           break;
         case "海南省":
           posdesc = "东北第四省";
@@ -277,7 +277,7 @@ function showWelcome() {
   if (date.getHours() >= 5 && date.getHours() < 11) timeChange = "<span>上午好</span>，（然而我每天早八...";
   else if (date.getHours() >= 11 && date.getHours() < 13) timeChange = "<span>中午好</span>，（该摸鱼吃午饭了。";
   else if (date.getHours() >= 13 && date.getHours() < 15) timeChange = "<span>下午好</span>，（摸了...";
-  else if (date.getHours() >= 15 && date.getHours() < 16) timeChange = "<span>下午好同志</span>，(摸了...";
+  else if (date.getHours() >= 15 && date.getHours() < 16) timeChange = "<span>下午好同志</span>，";
   else if (date.getHours() >= 16 && date.getHours() < 19) timeChange = "<span>🌆现在是傍晚时分。</span>";
   else if (date.getHours() >= 19 && date.getHours() < 24) timeChange = "<span>🌃晚上好</span>，同志！";
   else timeChange = "(🌃夜深了同志，早点休息。";
@@ -3182,7 +3182,7 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://free-img.mofashi.ltd/4/2024/05/08/663b81f49d47e.jpg);
+    --default-bg: url(https://free-img.mofashi.ltd/4/2024/06/05/66600f88ad797.jpg);
     --darkmode-bg:url(https://pic.imgdb.cn/item/661bf66568eb9357135cab6f.jpg);
     --mobileday-bg: url(https://pic.imgdb.cn/item/6633b3630ea9cb140394af6e.jpg);
     --mobilenight-bg: url(https://pic.imgdb.cn/item/65f1119b9f345e8d038c3c9d.jpg);
@@ -3198,7 +3198,7 @@ function changeBg(s) {
 // 设置背景属性
 function setBg(s) {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://free-img.mofashi.ltd/4/2024/05/08/663b81f49d47e.jpg);
+    --default-bg: url(https://free-img.mofashi.ltd/4/2024/06/05/66600f88ad797.jpg);
     --darkmode-bg:url(https://pic.imgdb.cn/item/661bf4a668eb9357135b750c.jpg);
     --mobileday-bg: url(https://pic.imgdb.cn/item/6633b3630ea9cb140394af6e.jpg);
     --mobilenight-bg: url(https://pic.imgdb.cn/item/65f1119b9f345e8d038c3c9d.jpg);

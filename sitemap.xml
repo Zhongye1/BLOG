@@ -459,6 +459,13 @@
   </url>
   
   <url>
+    <loc>https://www.fomal.cc/tags/%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2024-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.fomal.cc/tags/Markdown/</loc>
     <lastmod>2024-06-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -473,14 +480,14 @@
   </url>
   
   <url>
-    <loc>https://www.fomal.cc/tags/%E6%88%98%E5%9C%B0/</loc>
+    <loc>https://www.fomal.cc/tags/%E7%94%BB%E9%9B%86/</loc>
     <lastmod>2024-06-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.fomal.cc/tags/%E7%94%BB%E9%9B%86/</loc>
+    <loc>https://www.fomal.cc/tags/%E6%88%98%E5%9C%B0/</loc>
     <lastmod>2024-06-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -494,21 +501,14 @@
   </url>
   
   <url>
-    <loc>https://www.fomal.cc/tags/github/</loc>
-    <lastmod>2024-06-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.fomal.cc/tags/%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2024-06-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.fomal.cc/tags/%E5%8A%A0%E5%AF%86/</loc>
+    <lastmod>2024-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.fomal.cc/tags/github/</loc>
     <lastmod>2024-06-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -566,14 +566,14 @@
   </url>
   
   <url>
-    <loc>https://www.fomal.cc/categories/github/</loc>
+    <loc>https://www.fomal.cc/categories/%E5%88%98%E6%85%88%E6%AC%A3%E6%95%A3%E6%96%87/</loc>
     <lastmod>2024-06-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.fomal.cc/categories/%E5%88%98%E6%85%88%E6%AC%A3%E6%95%A3%E6%96%87/</loc>
+    <loc>https://www.fomal.cc/categories/github/</loc>
     <lastmod>2024-06-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

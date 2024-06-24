@@ -3182,9 +3182,9 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://free-img.400040.xyz/4/2024/06/24/66798dc9b22cc.gif); 
+    --default-bg: url(https://free-img.400040.xyz/4/2024/06/24/667990a947547.gif); 
     --darkmode-bg:url(https://pic.imgdb.cn/item/661bf66568eb9357135cab6f.jpg);
-    --mobileday-bg: url(https://free-img.400040.xyz/4/2024/06/24/66798dc9b22cc.gif);
+    --mobileday-bg: url(https://free-img.400040.xyz/4/2024/06/24/667990a947547.gif);
     --mobilenight-bg: url(https://pic.imgdb.cn/item/65f1119b9f345e8d038c3c9d.jpg);
   }`; 
 }

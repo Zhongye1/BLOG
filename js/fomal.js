@@ -3177,14 +3177,14 @@ let btstu = "url(http://api.btstu.cn/sjbz/?lx=suiji)";
 let unsplash = "url(https://source.unsplash.com/random/1920x1080/)";
 
 
-// 更换背景(自己的代码)
+// 更换背景(自己的代码)//https://free-img.400040.xyz/4/2024/06/23/66783f1838cbf.jpg
 if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://free-img.400040.xyz/4/2024/06/23/66783f1838cbf.jpg);
+    --default-bg: url(https://free-img.400040.xyz/4/2024/06/24/66798dc9b22cc.gif); 
     --darkmode-bg:url(https://pic.imgdb.cn/item/661bf66568eb9357135cab6f.jpg);
-    --mobileday-bg: url(https://pic.imgdb.cn/item/6633b3630ea9cb140394af6e.jpg);
+    --mobileday-bg: url(https://free-img.400040.xyz/4/2024/06/24/66798dc9b22cc.gif);
     --mobilenight-bg: url(https://pic.imgdb.cn/item/65f1119b9f345e8d038c3c9d.jpg);
   }`; 
 }

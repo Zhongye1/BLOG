@@ -106,7 +106,7 @@ function showWelcome() {
   //根据国家、省份、城市信息自定义欢迎语
   switch (ipLoacation.result.ad_info.nation) {
     case "日本":
-      posdesc = "よろしく，一起去看樱花吗";
+      posdesc = "欢迎！";
       break;
     case "美国":
       posdesc = "California Dreaming~~";
@@ -217,7 +217,7 @@ function showWelcome() {
           posdesc = "长沙哈哈哈";
           break;
         case "广东省":
-          posdesc = "广州挺热的（";
+          posdesc = "在广州大学蒸桑拿中（";
           break;
         case "广西壮族自治区":
           posdesc = "广西同胞好。";
@@ -274,13 +274,13 @@ function showWelcome() {
   //根据本地时间切换欢迎语
   let timeChange;
   let date = new Date();
-  if (date.getHours() >= 5 && date.getHours() < 11) timeChange = "<span>上午好</span>，（然而我每天早八...";
-  else if (date.getHours() >= 11 && date.getHours() < 13) timeChange = "<span>中午好</span>，（该摸鱼吃午饭了。";
-  else if (date.getHours() >= 13 && date.getHours() < 15) timeChange = "<span>下午好</span>，（摸了...";
-  else if (date.getHours() >= 15 && date.getHours() < 16) timeChange = "<span>下午好同志</span>，";
-  else if (date.getHours() >= 16 && date.getHours() < 19) timeChange = "<span>🌆现在是傍晚时分。</span>";
-  else if (date.getHours() >= 19 && date.getHours() < 24) timeChange = "<span>🌃晚上好</span>，同志！";
-  else timeChange = "(🌃夜深了同志，早点休息。";
+  if (date.getHours() >= 5 && date.getHours() < 11) timeChange = "<span>上午好</span>，站长早八中...";
+  else if (date.getHours() >= 11 && date.getHours() < 13) timeChange = "<span>中午好</span>，同志";
+  else if (date.getHours() >= 13 && date.getHours() < 15) timeChange = "<span>下午好</span>";
+  else if (date.getHours() >= 15 && date.getHours() < 16) timeChange = "<span>下午好</span>";
+  else if (date.getHours() >= 16 && date.getHours() < 19) timeChange = "<span>现在是傍晚时分。</span>";
+  else if (date.getHours() >= 19 && date.getHours() < 24) timeChange = "<span>晚上好！</span>，";
+  else timeChange = "(夜深了，同志早点休息。";
 
   try {
     //自定义文本和需要放的位置
@@ -675,7 +675,7 @@ if (document.body.clientWidth > 992) {
         borderRadius: 5 + 'px',
         right: 55.6 + 'px',
         nekoImg: "https://bu.dusays.com/2022/07/20/62d812db74be9.png",
-        hoverMsg: "春天啦~",
+        hoverMsg: "127.0.0.1",
         color: "var(--theme-color)",
         during: 500,
         blog_body: "body",
@@ -2590,7 +2590,7 @@ if ((lunar["IMonthCn"] == "七月" && lunar["IDayCn"] == "初七")) {
 if ((lunar["IMonthCn"] == "八月" && lunar["IDayCn"] == "十五")) {
   //中秋节
   if (sessionStorage.getItem("isPopupWindow") != "1") {
-    Swal.fire("中秋节快乐\n请你吃一块月饼🍪");
+    Swal.fire("中秋节快乐\n");
     sessionStorage.setItem("isPopupWindow", "1");
   }
 }

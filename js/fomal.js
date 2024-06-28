@@ -3182,10 +3182,10 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://free-img.400040.xyz/4/2024/06/24/667990a947547.gif); 
-    --darkmode-bg:url(https://pic.imgdb.cn/item/661bf66568eb9357135cab6f.jpg);
-    --mobileday-bg: url(https://free-img.400040.xyz/4/2024/06/24/667990a947547.gif);
-    --mobilenight-bg: url(https://pic.imgdb.cn/item/65f1119b9f345e8d038c3c9d.jpg);
+    --default-bg: url(https://pic1.zhimg.com/v2-576643299b0497c2a341e4ab4b7b4030_b.webp); 
+    --darkmode-bg:url(https://pic1.zhimg.com/v2-576643299b0497c2a341e4ab4b7b4030_b.webp);
+    --mobileday-bg: url(https://pic1.zhimg.com/v2-576643299b0497c2a341e4ab4b7b4030_b.webp);
+    --mobilenight-bg: url(https://pic1.zhimg.com/v2-576643299b0497c2a341e4ab4b7b4030_b.webp);
   }`; 
 }
 // 切换背景主函数
@@ -3198,9 +3198,9 @@ function changeBg(s) {
 // 设置背景属性
 function setBg(s) {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://free-img.400040.xyz/4/2024/06/23/66783f1838cbf.jpg);
+    --default-bg: url(https://pic1.zhimg.com/v2-576643299b0497c2a341e4ab4b7b4030_b.webp);
     --darkmode-bg:url(https://pic.imgdb.cn/item/661bf4a668eb9357135b750c.jpg);
-    --mobileday-bg: url(https://pic.imgdb.cn/item/6633b3630ea9cb140394af6e.jpg);
+    --mobileday-bg: url(https://pic1.zhimg.com/v2-576643299b0497c2a341e4ab4b7b4030_b.webp);
     --mobilenight-bg: url(https://pic.imgdb.cn/item/65f1119b9f345e8d038c3c9d.jpg);
   }`;
 }

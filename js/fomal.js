@@ -638,7 +638,7 @@ function randomPost() {
 
 //----------------------------------------------------------------
 
-/* 小猫咪 start */
+/* 小波奇 start */
 if (document.body.clientWidth > 992) {
   function getBasicInfo() {
     /* 窗口高度 */
@@ -674,8 +674,8 @@ if (document.body.clientWidth > 992) {
         zoom: 0.9,
         borderRadius: 5 + 'px',
         right: 55.6 + 'px',
-        nekoImg: "https://bu.dusays.com/2022/07/20/62d812db74be9.png",
-        hoverMsg: "127.0.0.1",
+        nekoImg: "https://free-img.400040.xyz/4/2024/06/29/667f94825bfd9.png",
+        hoverMsg: "Rockdesu",
         color: "var(--theme-color)",
         during: 500,
         blog_body: "body",

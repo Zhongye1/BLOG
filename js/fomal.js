@@ -675,7 +675,7 @@ if (document.body.clientWidth > 992) {
         borderRadius: 5 + 'px',
         right: 55.6 + 'px',
         nekoImg: "https://free-img.400040.xyz/4/2024/06/29/667f94825bfd9.png",
-        hoverMsg: "Rockdesu",
+        hoverMsg: "127.0.0.1",
         color: "var(--theme-color)",
         during: 500,
         blog_body: "body",

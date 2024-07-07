@@ -7446,7 +7446,7 @@ button#go-up:hover #percent {
 
 /* 个人信息卡片背景图 */
 [data-theme="light"] #aside-content > .card-widget.card-info {
-  background-image: url(https://picst.sunbangyan.cn/2023/12/09/7547ab1769e4214bbda1f17756b84b94.jpeg);
+  background-image: url(https://pic4.zhimg.com/80/v2-7c046fc439e9fab342cda2e9291febdb_1440w.webp);
   background-repeat: no-repeat;
   background-attachment: inherit;
   background-size: 100%;
@@ -7518,7 +7518,7 @@ input#pic-link {
 
 /* heo 加载动画头像 */
 .loading-img {
-  background: url(https://pic3.zhimg.com/80/v2-509d52072fa600219a40b6452c70d1d2_720w.webp)
+  background: url(https://pic2.zhimg.com/80/v2-3f1f3dce2846c330907c72ce31b90ec9_1440w.webp)
     no-repeat center center;
   background-size: cover;
 }

@@ -3182,9 +3182,9 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://pic4.zhimg.com/80/v2-1ad7934722e7c4ffc876ef97f1c1be13_1440w.webp); 
+    --default-bg: url(https://pic3.zhimg.com/80/v2-7e8d13f346f6fe7db3e59ee6170feb16_720w.webp); 
     --darkmode-bg:url(https://pic1.zhimg.com/v2-576643299b0497c2a341e4ab4b7b4030_b.webp);
-    --mobileday-bg: url(https://pic4.zhimg.com/80/v2-1ad7934722e7c4ffc876ef97f1c1be13_1440w.webp);
+    --mobileday-bg: url(https://pic3.zhimg.com/80/v2-7e8d13f346f6fe7db3e59ee6170feb16_720w.webp);
     --mobilenight-bg: url(https://pic1.zhimg.com/v2-576643299b0497c2a341e4ab4b7b4030_b.webp);
   }`; 
 }

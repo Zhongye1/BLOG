@@ -134,16 +134,16 @@ function showWelcome() {
       ip = ipLoacation.result.ip;
       switch (ipLoacation.result.ad_info.province) {
         case "北京市":
-          posdesc = "我想去华北诶";
+          posdesc = "想去华北诶";
           break;
         case "天津市":
-          posdesc = "想去看渤海湾。";
+          posdesc = "记得去看渤海湾。";
           break;
         case "河北省":
           posdesc = "想去秦皇岛";
           break;
         case "山西省":
-          posdesc = "展开坐具长三尺，已占山河五百余。";
+          posdesc = "欢迎";
           break;
         case "内蒙古自治区":
           posdesc = "内蒙古的同志你好！";
@@ -166,7 +166,7 @@ function showWelcome() {
               posdesc = "南京哈哈哈";
               break;
             case "苏州市":
-              posdesc = "上有天堂，下有苏杭。";
+              posdesc = "欢迎";
               break;
             default:
               posdesc = "散装是必须要散装的。";
@@ -182,42 +182,42 @@ function showWelcome() {
               posdesc = "郑州诶";
               break;
             case "南阳市":
-              posdesc = "臣本布衣，躬耕于南阳。此南阳非彼南阳！";
+              posdesc = "欢迎";
               break;
             case "驻马店市":
-              posdesc = "峰峰有奇石，石石挟仙气。嵖岈山的花很美哦！";
+              posdesc = "欢迎";
               break;
             case "开封市":
-              posdesc = "刚正不阿包青天。";
+              posdesc = "欢迎。";
               break;
             case "洛阳市":
-              posdesc = "洛阳牡丹甲天下。";
+              posdesc = "欢迎。";
               break;
             default:
-              posdesc = "可否带我品尝河南烩面啦？";
+              posdesc = "欢迎";
               break;
           }
           break;
         case "安徽省":
-          posdesc = "芜湖起飞。";
+          posdesc = "欢迎。";
           break;
         case "福建省":
-          posdesc = "井邑白云间，岩城远带山。";
+          posdesc = "欢迎。";
           break;
         case "江西省":
-          posdesc = "落霞与孤鹜齐飞，秋水共长天一色。";
+          posdesc = "欢迎。";
           break;
         case "山东省":
-          posdesc = "山东青岛挺不错的";
+          posdesc = "站长目前在广州";
           break;
         case "湖北省":
           posdesc = "同省的hhh";
           break;
         case "湖南省":
-          posdesc = "长沙哈哈哈";
+          posdesc = "想去长沙hhh";
           break;
         case "广东省":
-          posdesc = "在广州大学蒸桑拿中（";
+          posdesc = "站长目前在广州";
           break;
         case "广西壮族自治区":
           posdesc = "广西同胞好。";
@@ -226,13 +226,13 @@ function showWelcome() {
           posdesc = "东北第四省";
           break;
         case "四川省":
-          posdesc = "康康川妹子。";
+          posdesc = "欢迎。";
           break;
         case "贵州省":
-          posdesc = "有茅台诶";
+          posdesc = "欢迎";
           break;
         case "云南省":
-          posdesc = "云南挺不错";
+          posdesc = "欢迎";
           break;
         case "西藏自治区":
           posdesc = "西藏同胞好！";
@@ -241,10 +241,10 @@ function showWelcome() {
           posdesc = "来份臊子面加馍。";
           break;
         case "甘肃省":
-          posdesc = "羌笛何须怨杨柳，春风不度玉门关。";
+          posdesc = "欢迎";
           break;
         case "青海省":
-          posdesc = "牛肉干和老酸奶都好好吃。";
+          posdesc = "欢迎";
           break;
         case "宁夏回族自治区":
           posdesc = "大漠孤烟直，长河落日圆。";
@@ -274,18 +274,18 @@ function showWelcome() {
   //根据本地时间切换欢迎语
   let timeChange;
   let date = new Date();
-  if (date.getHours() >= 5 && date.getHours() < 11) timeChange = "<span>上午好</span>，站长早八中...";
-  else if (date.getHours() >= 11 && date.getHours() < 13) timeChange = "<span>中午好</span>，同志";
+  if (date.getHours() >= 5 && date.getHours() < 11) timeChange = "<span>上午好</span>";
+  else if (date.getHours() >= 11 && date.getHours() < 13) timeChange = "<span>中午好</span>";
   else if (date.getHours() >= 13 && date.getHours() < 15) timeChange = "<span>下午好</span>";
   else if (date.getHours() >= 15 && date.getHours() < 16) timeChange = "<span>下午好</span>";
   else if (date.getHours() >= 16 && date.getHours() < 19) timeChange = "<span>现在是傍晚时分。</span>";
   else if (date.getHours() >= 19 && date.getHours() < 24) timeChange = "<span>晚上好！</span>，";
-  else timeChange = "(夜深了，同志早点休息。";
+  else timeChange = "夜深了，早点休息。";
 
   try {
     //自定义文本和需要放的位置
     document.getElementById("welcome-info").innerHTML =
-      `<b><center> 登入成功 </center>&emsp;&emsp;欢迎 <span style="color:var(--theme-color)">${pos}</span> 的同志，${timeChange}您现在距离站长约 <span style="color:var(--theme-color)">${dist}</span> 公里，当前的IP地址为： <span style="color:var(--theme-color)">${ip}</span>， ${posdesc}</b>`;
+      `<b><center> 石菖蒲.aic 已提交登录申请 </center>&emsp;&emsp;欢迎来自 <span style="color:var(--theme-color)">${pos}</span> 的同志，${timeChange}您现在距离站长约 <span style="color:var(--theme-color)">${dist}</span> 公里，已定位当前的IP地址为： <span style="color:var(--theme-color)">${ip}</span>， ${posdesc}</b>`;
   } catch (err) {
     // console.log("Pjax无法获取#welcome-info元素🙄🙄🙄")
   }
@@ -3182,9 +3182,9 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://pic3.zhimg.com/80/v2-7e8d13f346f6fe7db3e59ee6170feb16_720w.webp); 
+    --default-bg: url(https://pic4.zhimg.com/v2-fc0e9f96a5d1d4564a5ff3e193123a67_r.jpg); 
     --darkmode-bg:url(https://pic1.zhimg.com/v2-576643299b0497c2a341e4ab4b7b4030_b.webp);
-    --mobileday-bg: url(https://pic3.zhimg.com/80/v2-7e8d13f346f6fe7db3e59ee6170feb16_720w.webp);
+    --mobileday-bg: url(https://pic4.zhimg.com/v2-fc0e9f96a5d1d4564a5ff3e193123a67_r.jpg);
     --mobilenight-bg: url(https://pic1.zhimg.com/v2-576643299b0497c2a341e4ab4b7b4030_b.webp);
   }`; 
 }

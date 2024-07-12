@@ -2827,58 +2827,7 @@ setInterval(() => {
 //----------------------------------------------------------------
 
 
-/* fps检测 start */
-if (window.localStorage.getItem("fpson") == undefined || window.localStorage.getItem("fpson") == "1") {
-  var rAF = function () {
-    return (
-      window.requestAnimationFrame ||
-      window.webkitRequestAnimationFrame ||
-      function (callback) {
-        window.setTimeout(callback, 1000 / 60);
-      }
-    );
-  }();
-  var frame = 0;
-  var allFrameCount = 0;
-  var lastTime = Date.now();
-  var lastFameTime = Date.now();
-  var loop = function () {
-    var now = Date.now();
-    var fs = (now - lastFameTime);
-    var fps = Math.round(1000 / fs);
 
-    lastFameTime = now;
-    // 不置 0，在动画的开头及结尾记录此值的差值算出 FPS
-    allFrameCount++;
-    frame++;
-
-    if (now > 1000 + lastTime) {
-      var fps = Math.round((frame * 1000) / (now - lastTime));
-      if (fps <= 5) {
-        var kd = `<span style="color:#bd0000">卡成ppt了啊</span>`
-      } else if (fps <= 15) {
-        var kd = `<span style="color:red">电竞帧率</span>`
-      } else if (fps <= 25) {
-        var kd = `<span style="color:orange">核显玩战地</span>`
-      } else if (fps < 35) {
-        var kd = `<span style="color:#9338e6">较为卡顿</span>`
-      } else if (fps <= 45) {
-        var kd = `<span style="color:#08b7e4">较为流畅</span>`
-      } else {
-        var kd = `<span style="color:#39c5bb">纵享丝滑</span>`
-      }
-      document.getElementById("fps").innerHTML = `FPS:${fps} ${kd}`;
-      frame = 0;
-      lastTime = now;
-    };
-
-    rAF(loop);
-  }
-
-  loop();
-} else {
-  document.getElementById("fps").style = "display:none!important"
-}
 /* fps检测 end */
 
 //----------------------------------------------------------------
@@ -3377,7 +3326,7 @@ function createWinbox() {
 </div>
 
 <div class="content" style="display:flex">
-  <div class="content-text" style="font-weight:bold; padding-left:10px"> 帧率监测 (刷新生效) </div><input type="checkbox" id="fpson" onclick="fpssw()">
+
   <div class="content-text" style="font-weight:bold; padding-left:10px"> 雪花特效 (白天模式) </div><input type="checkbox" id="snowSet" onclick="setSnow()">
 </div>
 

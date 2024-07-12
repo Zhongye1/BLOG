@@ -1335,7 +1335,7 @@ var titleTime;
 document.addEventListener('visibilitychange', function () {
   if (document.hidden) {
     //离开当前页面时标签显示内容
-    document.title = '别离开啊QAQ';
+    document.title = '柊野的博客📟';
     clearTimeout(titleTime);
   } else {
     //返回当前页面时标签显示内容
@@ -3147,10 +3147,10 @@ function changeBg(s) {
 // 设置背景属性
 function setBg(s) {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://source.fomal.cc/img/dm4.webp);
-    --darkmode-bg:url(https://pic.imgdb.cn/item/661bf4a668eb9357135b750c.jpg);
+    --default-bg: url(https://source.fomal.cc/img/dm4.webp); 
+    --darkmode-bg:url(https://source.fomal.cc/img/dm4.webp);
     --mobileday-bg: url(https://source.fomal.cc/img/dm4.webp);
-    --mobilenight-bg: url(https://pic.imgdb.cn/item/65f1119b9f345e8d038c3c9d.jpg);
+    --mobilenight-bg: url(https://source.fomal.cc/img/dm4.webp);
   }`;
 }
 
@@ -3168,7 +3168,7 @@ function getPicture_() {
     new Vue({
       data: function () {
         this.$notify({
-          title: "可以啦🍨",
+          title: "OK",
           message: "切换自定义背景成功！",
           position: 'top-left',
           offset: 50,
@@ -3183,7 +3183,7 @@ function getPicture_() {
     new Vue({
       data: function () {
         this.$notify({
-          title: "链接不对欸QAQ",
+          title: "链接错误",
           message: "请输入有效的图片链接！",
           position: 'top-left',
           offset: 50,

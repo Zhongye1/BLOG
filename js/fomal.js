@@ -1168,7 +1168,7 @@ function createtime1() {
 createtime1();
 
 function createtime2() {
-  var ascll2 = [`SITE-CN-03`, `翻源代码是吧`, `好好好 `, ` 来广大有你好果子吃（bushi `];
+  var ascll2 = [`SITE-CN-03`, `翻源代码是吧`, `好好好 `, ``];
 
   setTimeout(
     console.log.bind(

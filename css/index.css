@@ -6256,7 +6256,7 @@ blockquote.pullquote.right {
   --color-purple: rgb(179, 71, 241);
   --color-blue: rgb(102, 204, 255);
   --color-gray: rgb(226, 226, 226);
-  --color-green: rgb(57, 197, 187);
+  --color-green: rgb(120, 209, 239);
   --color-whitegray: rgb(241, 241, 241);
   --color-pink: rgb(237, 112, 155);
   --color-black: rgb(0, 0, 0);
@@ -6494,7 +6494,7 @@ div#archive {
 
 /* 导航栏颜色 */
 #page-header.nav-fixed #nav {
-  background: linear-gradient(60deg, #ffd7e4 0, #c8f1ff 93%);
+  background: linear-gradient(60deg, #acccfc 0, #c8f1ff 93%);
   opacity: 0.95;
   backdrop-filter: var(--backdrop-filter);
 }
@@ -6533,10 +6533,10 @@ div#archive {
 
 /* 阅读模式 */
 .read-mode #aside-content .card-widget {
-  background: rgba(158, 204, 171, 0.5) !important;
+  background: rgba(71, 239, 254, 0.5) !important;
 }
 .read-mode div#post {
-  background: rgba(158, 204, 171, 0.5) !important;
+  background: rgba(177, 229, 248, 0.5) !important;
 }
 
 /* 夜间模式下的阅读模式 */
@@ -7466,7 +7466,7 @@ button#go-up:hover #percent {
 }
 @keyframes huxi_light {
   0% {
-    box-shadow: 0px 0px 1px 1px #9ff2d2;
+    box-shadow: 0px 0px 1px 1px #9fecf2;
   }
   50% {
     box-shadow: 0px 0px 5px 5px #9ff2d2;
@@ -7477,13 +7477,13 @@ button#go-up:hover #percent {
 }
 @keyframes huxi_dark {
   0% {
-    box-shadow: 0px 0px 1px 1px #39c5bb;
+    box-shadow: 0px 0px 1px 1px #4dd2ff;
   }
   50% {
-    box-shadow: 0px 0px 5px 5px #39c5bb;
+    box-shadow: 0px 0px 5px 5px #4dd2ff;
   }
   100% {
-    box-shadow: 0px 0px 1px 1px #39c5bb;
+    box-shadow: 0px 0px 1px 1px #4dd2ff;
   }
 }
 
@@ -9069,7 +9069,7 @@ figure.highlight pre .deletion {
     text-shadow: #ed709b 0 0 15px;
   }
   87.5% {
-    text-shadow: #39c5bb 0 0 15px;
+    text-shadow: #83e8fe 0 0 15px;
   }
   100% {
     text-shadow: #5636ed 0 0 15px;
@@ -9135,7 +9135,7 @@ figure.highlight pre .deletion {
     text-shadow: #ed709b 0 0 5px;
   }
   87.5% {
-    text-shadow: #39c5bb 0 0 5px;
+    text-shadow: #84cefc 0 0 5px;
   }
   100% {
     text-shadow: #5636ed 0 0 5px;

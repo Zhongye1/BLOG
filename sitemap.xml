@@ -2,7 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://zhongye1.github.io/box/gallery/index.html</loc>
+    
+    <lastmod>2024-07-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhongye1.github.io/life/music/index.html</loc>
+    
+    <lastmod>2024-07-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://zhongye1.github.io/posts/a04fb176.html</loc>
+    
+    <lastmod>2024-07-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhongye1.github.io/posts/3b4b656d.html</loc>
+    
+    <lastmod>2024-07-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhongye1.github.io/personal/about/index.html</loc>
     
     <lastmod>2024-07-16</lastmod>
     
@@ -47,15 +83,6 @@
   </url>
   
   <url>
-    <loc>https://zhongye1.github.io/posts/3b4b656d.html</loc>
-    
-    <lastmod>2024-07-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://zhongye1.github.io/life/movies/index.html</loc>
     
     <lastmod>2024-07-14</lastmod>
@@ -75,15 +102,6 @@
   
   <url>
     <loc>https://zhongye1.github.io/site/echarts/index.html</loc>
-    
-    <lastmod>2024-07-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhongye1.github.io/personal/about/index.html</loc>
     
     <lastmod>2024-07-14</lastmod>
     
@@ -182,15 +200,6 @@
   </url>
   
   <url>
-    <loc>https://zhongye1.github.io/life/music/index.html</loc>
-    
-    <lastmod>2024-07-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://zhongye1.github.io/posts/431fc160.html</loc>
     
     <lastmod>2024-07-12</lastmod>
@@ -219,15 +228,6 @@
   
   <url>
     <loc>https://zhongye1.github.io/posts/28b2f8f2.html</loc>
-    
-    <lastmod>2024-06-29</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhongye1.github.io/box/gallery/index.html</loc>
     
     <lastmod>2024-06-29</lastmod>
     
@@ -524,6 +524,13 @@
 
   
   <url>
+    <loc>https://zhongye1.github.io/tags/%E9%9A%8F%E8%AE%B0/</loc>
+    <lastmod>2024-07-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://zhongye1.github.io/tags/%E6%88%98%E5%9C%B0/</loc>
     <lastmod>2024-07-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -531,7 +538,7 @@
   </url>
   
   <url>
-    <loc>https://zhongye1.github.io/tags/%E9%9A%8F%E8%AE%B0/</loc>
+    <loc>https://zhongye1.github.io/tags/%E7%94%BB%E9%9B%86/</loc>
     <lastmod>2024-07-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -546,20 +553,6 @@
   
   <url>
     <loc>https://zhongye1.github.io/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/</loc>
-    <lastmod>2024-07-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhongye1.github.io/tags/%E7%94%BB%E9%9B%86/</loc>
-    <lastmod>2024-07-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhongye1.github.io/tags/%E9%9F%B3%E4%B9%90/</loc>
     <lastmod>2024-07-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -587,7 +580,7 @@
   </url>
   
   <url>
-    <loc>https://zhongye1.github.io/tags/%E5%88%98%E6%85%88%E6%AC%A3/</loc>
+    <loc>https://zhongye1.github.io/tags/%E9%9F%B3%E4%B9%90/</loc>
     <lastmod>2024-07-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -595,6 +588,13 @@
   
   <url>
     <loc>https://zhongye1.github.io/tags/%E5%8A%A0%E5%AF%86/</loc>
+    <lastmod>2024-07-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhongye1.github.io/tags/%E5%88%98%E6%85%88%E6%AC%A3/</loc>
     <lastmod>2024-07-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -610,13 +610,6 @@
 
   
   <url>
-    <loc>https://zhongye1.github.io/categories/%E6%88%98%E5%9C%B0/</loc>
-    <lastmod>2024-07-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://zhongye1.github.io/categories/%E9%9A%8F%E8%AE%B0/</loc>
     <lastmod>2024-07-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -624,14 +617,14 @@
   </url>
   
   <url>
-    <loc>https://zhongye1.github.io/categories/%E6%BC%94%E7%A4%BA/</loc>
+    <loc>https://zhongye1.github.io/categories/%E6%88%98%E5%9C%B0/</loc>
     <lastmod>2024-07-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zhongye1.github.io/categories/%E9%9F%B3%E4%B9%90/</loc>
+    <loc>https://zhongye1.github.io/categories/%E6%BC%94%E7%A4%BA/</loc>
     <lastmod>2024-07-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -652,6 +645,13 @@
   </url>
   
   <url>
+    <loc>https://zhongye1.github.io/categories/%E9%9F%B3%E4%B9%90/</loc>
+    <lastmod>2024-07-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://zhongye1.github.io/categories/AI%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2024-07-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -659,14 +659,14 @@
   </url>
   
   <url>
-    <loc>https://zhongye1.github.io/categories/github/</loc>
+    <loc>https://zhongye1.github.io/categories/%E5%88%98%E6%85%88%E6%AC%A3/</loc>
     <lastmod>2024-07-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zhongye1.github.io/categories/%E5%88%98%E6%85%88%E6%AC%A3/</loc>
+    <loc>https://zhongye1.github.io/categories/github/</loc>
     <lastmod>2024-07-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

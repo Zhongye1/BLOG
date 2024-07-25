@@ -6,7 +6,7 @@
   <link href="https://zhongye1.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhongye1.github.io/"/>
-  <updated>2024-07-24T11:14:22.764Z</updated>
+  <updated>2024-07-25T17:42:03.611Z</updated>
   <id>https://zhongye1.github.io/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>广大选课脚本</title>
+    <link href="https://zhongye1.github.io/posts/f4171415.html"/>
+    <id>https://zhongye1.github.io/posts/f4171415.html</id>
+    <published>2024-07-25T17:34:28.000Z</published>
+    <updated>2024-07-25T17:42:03.611Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="广大选课脚本"><a href="#广大选课脚本" class="headerlink" title="广大选课脚本"></a>广大选课脚本</h1><blockquote><p> 本脚本只做学习使用, 禁止用作商业用途</p></blockquote><ul><li>version: 1.0.1</li><li>author: acring</li><li>简介:</li></ul><p>广大选课脚本, 可多线程自动选全校性选课和体育选课的课程</p><ul><li>usage:</li></ul><ol><li>安装python3</li><li>安装第三方库<ol><li><code>pip install requests</code></li><li><code>pip install beautifulsoup4</code></li></ol></li><li>点开run.py, 按提示修改上面的学号,密码,目标老师等信息</li></ol><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">data = &#123;</span><br><span class="line">    <span class="string">&quot;tag&quot;</span>: <span class="string">&quot;xxx&quot;</span>,  <span class="comment"># 标志</span></span><br><span class="line">    <span class="string">&quot;username&quot;</span>: <span class="string">&quot;xxx&quot;</span>,  <span class="comment"># 学号</span></span><br><span class="line">    <span class="string">&quot;password&quot;</span>: <span class="string">&quot;xxx&quot;</span>,  <span class="comment"># 密码</span></span><br><span class="line">    <span class="string">&quot;cour_type&quot;</span>: <span class="string">&quot;whole&quot;</span>,  <span class="comment"># 选课类型 sport/whole</span></span><br><span class="line">    <span class="string">&quot;teacher&quot;</span>: <span class="string">&quot;方碧真&quot;</span>,  <span class="comment"># 目标老师</span></span><br><span class="line">    <span class="string">&quot;index&quot;</span>: <span class="number">1</span>  <span class="comment"># 相同老师,选第几个</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><ol><li><code>python run.py</code> 运行脚本</li></ol><ul><li>package:<ul><li>requests</li><li>bs4</li></ul></li><li>运行截图</li></ul><p><img src="https://pic4.zhimg.com/80/v2-c90a260c6e9cb003d523be395425950f_720w.webp" alt="img"></p><p><img src="https://pic4.zhimg.com/80/v2-94687a507fa006a01561996f33895d2f_720w.webp" alt="img"></p><p><img src="https://pic4.zhimg.com/80/v2-3ceac94ee2e9d52def748d66e998adbb_720w.webp" alt="img"></p>]]></content>
+    
+    
+    <summary type="html">广大选课脚本, 可多线程自动选全校性选课和体育选课的课程</summary>
+    
+    
+    
+    <category term="Github项目" scheme="https://zhongye1.github.io/categories/Github%E9%A1%B9%E7%9B%AE/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>周边</title>
@@ -402,27 +421,6 @@
     <category term="美化" scheme="https://zhongye1.github.io/tags/%E7%BE%8E%E5%8C%96/"/>
     
     <category term="github" scheme="https://zhongye1.github.io/tags/github/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>博客文章阅读数统计</title>
-    <link href="https://zhongye1.github.io/posts/26cfb3a9.html"/>
-    <id>https://zhongye1.github.io/posts/26cfb3a9.html</id>
-    <published>2024-07-13T16:00:00.000Z</published>
-    <updated>2024-07-17T16:24:06.622Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="不蒜子-给网站、博客文章添加阅读次数统计"><a href="#不蒜子-给网站、博客文章添加阅读次数统计" class="headerlink" title="不蒜子 | 给网站、博客文章添加阅读次数统计"></a>不蒜子 | 给网站、博客文章添加阅读次数统计</h2><h2 id="效果演示："><a href="#效果演示：" class="headerlink" title="效果演示："></a>效果演示：</h2><p>-</p><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><blockquote><blockquote><p>本站总访问量<span id="busuanzi_value_site_pv"></span>次</p></blockquote></blockquote><p>-</p><blockquote><blockquote><p>本站访客数<span id="busuanzi_value_site_uv"></span>人次</p></blockquote></blockquote><p>-</p><p><strong>一行脚本+一行标签</strong>，搞定一切。追求极致的用户可以进行任意DIY。</p><p>不蒜子官网：<a href="http://busuanzi.ibruce.info/">http://busuanzi.ibruce.info/</a></p><h2 id="一、安装脚本（必选）"><a href="#一、安装脚本（必选）" class="headerlink" title="一、安装脚本（必选）"></a><strong>一、安装脚本（必选）</strong></h2><p>要使用不蒜子必须在页面中引入busuanzi.js，目前最新版如下。</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script <span class="keyword">async</span> src=<span class="string">&quot;//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js&quot;</span>&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure><p>不蒜子可以给任何类型的个人站点使用，如果你是用的hexo，打开<strong>themes/你的主题/layout/_partial/footer.ejs</strong>添加上述脚本即可，当然你也可以添加到 header 中。</p><h3 id="二、安装标签（可选）"><a href="#二、安装标签（可选）" class="headerlink" title="二、安装标签（可选）"></a><strong>二、安装标签（可选）</strong></h3><hr><p>只需要复制相应的html标签到你的网站要显示访问量的位置即可。您可以随意更改不蒜子标签为自己喜欢的显示效果，内容参考第三部分<strong>扩展开发</strong>。根据你要显示内容的不同，这分几种情况。</p><h4 id="1、显示站点总访问量"><a href="#1、显示站点总访问量" class="headerlink" title="1、显示站点总访问量"></a><strong>1、显示站点总访问量</strong></h4><p>要显示站点总访问量，复制以下代码添加到你需要显示的位置。有两种算法可选：</p><p>算法a：pv的方式，单个用户连续点击n篇文章，记录n次访问量。</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">本站总访问量&lt;span id=<span class="string">&quot;busuanzi_value_site_pv&quot;</span>&gt;&lt;/span&gt;次</span><br></pre></td></tr></table></figure><p>算法b：uv的方式，单个用户连续点击n篇文章，只记录1次访客数。</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">本站访客数&lt;span id=<span class="string">&quot;busuanzi_value_site_uv&quot;</span>&gt;&lt;/span&gt;人次</span><br></pre></td></tr></table></figure><p>如果你是用的hexo，打开<strong>themes/你的主题/layout/_partial/footer.ejs</strong>添加即可。</p><p><strong>实例效果参考：</strong></p><p><a href="https://blog.ccswust.org/busuanzi/">https://blog.ccswust.org/busuanzi/</a></p><h4 id="2、显示单页面访问量"><a href="#2、显示单页面访问量" class="headerlink" title="2、显示单页面访问量"></a><strong>2、显示单页面访问量</strong></h4><p>要显示每篇文章的访问量，复制以下代码添加到你需要显示的位置。</p><p>算法：pv的方式，单个用户点击1篇文章，本篇文章记录1次阅读量。</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">本站总访问量&lt;span id=<span class="string">&quot;busuanzi_value_site_pv&quot;</span>&gt;&lt;/span&gt;次</span><br></pre></td></tr></table></figure><p>代码中文字是可以修改的，只要保留id正确即可。</p><p>注意：不蒜子为保持极简，暂不支持在站点文章摘要列表中（如首页）逐个显示每篇文章的阅读次数，如果您非常需要这一功能，可以留言。根据需要程度再考虑开发相应的功能。</p><p><strong>实例效果参考：</strong></p><p><a href="https://blog.ccswust.org/busuanzi/pv.html">https://blog.ccswust.org/busuanzi/pv.html</a></p><p>注意：不蒜子为保持极简，暂不支持在站点文章摘要列表中（如首页）逐个显示每篇文章的阅读次数，如果您非常需要这一功能，可以留言。根据需要程度再考虑开发相应的功能。</p><h3 id="3、显示站点总访问量和单页面访问量"><a href="#3、显示站点总访问量和单页面访问量" class="headerlink" title="3、显示站点总访问量和单页面访问量"></a><strong>3、显示站点总访问量和单页面访问量</strong></h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">本站访客数&lt;span id=<span class="string">&quot;busuanzi_value_site_uv&quot;</span>&gt;&lt;/span&gt;人次</span><br></pre></td></tr></table></figure><p><strong>实例效果参考：</strong></p><p><a href="https://blog.ccswust.org/busuanzi/ip.html">https://blog.ccswust.org/busuanzi/ip.html</a></p><h3 id="4、只计数不显示"><a href="#4、只计数不显示" class="headerlink" title="4、只计数不显示"></a><strong>4、只计数不显示</strong></h3><p>只安装脚本代码，不安装标签代码。</p><p><strong>至此，不蒜子已经可以正常运行</strong></p><h2 id="附录：扩展开发（自定义）"><a href="#附录：扩展开发（自定义）" class="headerlink" title="附录：扩展开发（自定义）"></a><strong>附录：扩展开发（自定义）</strong></h2><p>不蒜子之所以称为极客的算子，正是因为不蒜子自身只提供<strong>标签+数字</strong>，至于显示的style和css动画效果，任你发挥。</p><ul><li><code>**busuanzi_value_site_pv**</code> 的作用是异步回填访问数，这个id一定要正确。</li><li><code>**busuanzi_container_site_pv**</code>的作用是为防止计数服务访问出错或超时（3秒）的情况下，使整个标签自动隐藏显示，带来更好的体验。这个id可以省略。</li></ul><p>因此，你也可以使用极简模式：</p><p>本站总访问量<code>&lt;span id=&quot;busuanzi_value_site_pv&quot;&gt;&lt;/span&gt;</code>次本站访客数  <code>&lt;span id=&quot;busuanzi_value_site_uv&quot;&gt;&lt;/span&gt;</code>  人次本文总阅读量<code>&lt;span id=&quot;busuanzi_value_page_pv&quot;&gt;&lt;/span&gt;</code>次</p><p>或者个性化一下：</p><p>Total <code>&lt;span id=&quot;busuanzi_value_site_pv&quot;&gt;&lt;/span&gt;</code> views.您是xxx的第<span id="busuanzi_value_site_uv">&lt;/span&gt;个小伙伴<span id="busuanzi_value_page_pv"></span> Hits</p><p>1、我只要统计不显示？ 只引入busuanzi.js，不引入显示标签即可。</p><p>2、你的标签太丑了，我想美化一下可以么？ 可以的，您可以用自己站点的css进行控制，只要内层span的id正确以便回填访问次数即可，甚至标签都可以不是span。</p><p>3、中文字体太丑了，我的主题不适合？ 您可以将<strong>本站总访问量xxx次</strong>改成<strong>view xxx times</strong>等英文以获得更和谐的显示效果。</p><p>4、在访问量数据未取回来之前，我不想让页面显示为诸如“本站总访问量 次”，显得太low，怎么办？ 只需要如下css，不蒜子执行完毕会自动将标签显示出来，其他以此类推：</p><p><span id="busuanzi_container_site_pv" style='display:none'> `本站总访问量<span id="busuanzi_value_site_pv"></span>次`&lt;/span&gt;</p><p>上面的做法还是很low？！看下这个<a href="https://blog.ccswust.org/busuanzi/diy.html">https://blog.ccswust.org/busuanzi/diy.html</a> 右键看下源码，没加载出来前就显示个菊花转转转: 首先，你要引入<strong>font-awesome</strong>字体：</p><p><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css&quot;&gt;或&lt;link rel=&quot;stylesheet&quot; href=&quot;//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css&quot;&gt;</code></p><p>其次，修改不蒜子标签：</p><p><code>&lt;span id=&quot;busuanzi_value_page_pv&quot;&gt;&lt;i class=&quot;fa fa-spinner&quot;&gt;&lt;/i&gt;&lt;/span&gt; Hits或（旋转效果）&lt;span id=&quot;busuanzi_value_page_pv&quot;&gt;&lt;i class=&quot;fa fa-spinner fa-spin&quot;&gt;&lt;/i&gt;&lt;/span&gt; Hits</code></p><p><span id="busuanzi_value_page_pv"><i class="fa fa-spinner"></i></span> Hits或（旋转效果）<span id="busuanzi_value_page_pv"><i class="fa fa-spinner fa-spin"></i></span> Hits</p>]]></content>
-    
-    
-    <summary type="html">给网站、博客文章添加阅读次数统计</summary>
-    
-    
-    
-    <category term="博客美化" scheme="https://zhongye1.github.io/categories/%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/"/>
-    
-    
-    <category term="美化" scheme="https://zhongye1.github.io/tags/%E7%BE%8E%E5%8C%96/"/>
     
   </entry>
   

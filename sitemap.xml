@@ -983,7 +983,7 @@
   </url>
   
   <url>
-    <loc>https://zhongye1.github.io/tags/index.html</loc>
+    <loc>https://zhongye1.github.io/categories/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -992,7 +992,7 @@
   </url>
   
   <url>
-    <loc>https://zhongye1.github.io/categories/index.html</loc>
+    <loc>https://zhongye1.github.io/tags/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -1033,6 +1033,13 @@
   </url>
   
   <url>
+    <loc>https://zhongye1.github.io/tags/%E9%9A%8F%E8%AE%B0/</loc>
+    <lastmod>2024-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://zhongye1.github.io/tags/%E7%94%BB%E9%9B%86/</loc>
     <lastmod>2024-07-26</lastmod>
     <changefreq>weekly</changefreq>
@@ -1047,7 +1054,7 @@
   </url>
   
   <url>
-    <loc>https://zhongye1.github.io/tags/%E9%9A%8F%E8%AE%B0/</loc>
+    <loc>https://zhongye1.github.io/tags/%E6%91%87%E6%BB%9A/</loc>
     <lastmod>2024-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1062,13 +1069,6 @@
   
   <url>
     <loc>https://zhongye1.github.io/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/</loc>
-    <lastmod>2024-07-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhongye1.github.io/tags/%E6%91%87%E6%BB%9A/</loc>
     <lastmod>2024-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1168,14 +1168,14 @@
   </url>
   
   <url>
-    <loc>https://zhongye1.github.io/categories/%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/</loc>
+    <loc>https://zhongye1.github.io/categories/Github%E9%A1%B9%E7%9B%AE/</loc>
     <lastmod>2024-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zhongye1.github.io/categories/Github%E9%A1%B9%E7%9B%AE/</loc>
+    <loc>https://zhongye1.github.io/categories/%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/</loc>
     <lastmod>2024-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

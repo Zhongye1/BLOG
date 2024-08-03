@@ -1028,7 +1028,7 @@
   </url>
   
   <url>
-    <loc>https://zhongye1.github.io/tags/index.html</loc>
+    <loc>https://zhongye1.github.io/categories/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -1037,7 +1037,7 @@
   </url>
   
   <url>
-    <loc>https://zhongye1.github.io/categories/index.html</loc>
+    <loc>https://zhongye1.github.io/tags/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -1071,7 +1071,35 @@
   </url>
   
   <url>
+    <loc>https://zhongye1.github.io/tags/%E9%9A%8F%E8%AE%B0/</loc>
+    <lastmod>2024-08-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://zhongye1.github.io/tags/%E6%88%98%E5%9C%B0/</loc>
+    <lastmod>2024-08-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhongye1.github.io/tags/%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2024-08-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhongye1.github.io/tags/%E6%91%87%E6%BB%9A/</loc>
+    <lastmod>2024-08-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhongye1.github.io/tags/%E7%94%BB%E9%9B%86/</loc>
     <lastmod>2024-08-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1092,28 +1120,7 @@
   </url>
   
   <url>
-    <loc>https://zhongye1.github.io/tags/%E9%9A%8F%E8%AE%B0/</loc>
-    <lastmod>2024-08-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhongye1.github.io/tags/%E7%94%BB%E9%9B%86/</loc>
-    <lastmod>2024-08-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://zhongye1.github.io/tags/%E7%BE%8E%E5%8C%96/</loc>
-    <lastmod>2024-08-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhongye1.github.io/tags/%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2024-08-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1141,13 +1148,6 @@
   </url>
   
   <url>
-    <loc>https://zhongye1.github.io/tags/%E5%AD%A4%E7%8B%AC%E6%91%87%E6%BB%9A/</loc>
-    <lastmod>2024-08-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://zhongye1.github.io/tags/CDN/</loc>
     <lastmod>2024-08-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -1155,7 +1155,7 @@
   </url>
   
   <url>
-    <loc>https://zhongye1.github.io/tags/%E6%91%87%E6%BB%9A/</loc>
+    <loc>https://zhongye1.github.io/tags/%E5%AD%A4%E7%8B%AC%E6%91%87%E6%BB%9A/</loc>
     <lastmod>2024-08-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

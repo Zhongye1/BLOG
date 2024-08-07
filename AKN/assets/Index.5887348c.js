@@ -74,7 +74,7 @@ const Ps = "" + new URL("https://www.gfwiki.org/images/thumb/1/1a/13CG3v2.png/90
   Vs = "" + new URL("https://www.gfwiki.org/images/thumb/c/c0/2018Winter9-1.png/900px-2018Winter9-1.png?20180316030720", import.meta.url).href,
   js = "" + new URL("https://www.gfwiki.org/images/thumb/3/35/2018SummerCG7.png/900px-2018SummerCG7.png?20200303160935", import.meta.url).href,
   qs = "" + new URL("https://www.gfwiki.org/images/thumb/d/d3/2019summer_13.png/900px-2019summer_13.png?20200303155103", import.meta.url).href,
-  Us = "" + new URL("https://www.gfwiki.org/images/thumb/3/30/19winter_inbg_2.png/900px-19winter_inbg_2.png?20200303155558", import.meta.url).href,
+  Us = "" + new URL("https://pic2.zhimg.com/80/v2-4da644b8842e82b3c992db7267e326b5_720w.webp", import.meta.url).href,
   Gs = "" + new URL("https://www.gfwiki.org/images/thumb/b/bd/2019summer_4_1.png/900px-2019summer_4_1.png?20220916222805", import.meta.url).href,
   Ws = "" + new URL("https://www.gfwiki.org/images/thumb/7/73/2020summer94%26K.png/900px-2020summer94%26K.png?20220916222810", import.meta.url).href,
   Xs = "" + new URL("https://www.gfwiki.org/images/thumb/a/ad/2021summer_MRL1.png/900px-2021summer_MRL1.png?20210828041427", import.meta.url).href,
@@ -7928,7 +7928,7 @@ var In = mi(l1, [
 ]);
 const u1 = Ln(s1, { CarouselItem: In }),
   c1 = $c(In);
-const d1 = "" + new URL("banner_1.705fe11a.jpg", import.meta.url).href,
+const d1 = "" + new URL("https://pic4.zhimg.com/80/v2-e5cc625ebde4177fccedc126bbb4f4b7_720w.webp", import.meta.url).href,
   f1 = Object.freeze(
     Object.defineProperty(
       { __proto__: null, default: d1 },
@@ -7936,7 +7936,7 @@ const d1 = "" + new URL("banner_1.705fe11a.jpg", import.meta.url).href,
       { value: "Module" }
     )
   ),
-  h1 = "" + new URL("banner_2.30ced152.jpg", import.meta.url).href,
+  h1 = "" + new URL("https://pic2.zhimg.com/80/v2-84f5259fb68d09069b8a28335c3328f9_720w.webp", import.meta.url).href,
   p1 = Object.freeze(
     Object.defineProperty(
       { __proto__: null, default: h1 },
@@ -7944,7 +7944,7 @@ const d1 = "" + new URL("banner_1.705fe11a.jpg", import.meta.url).href,
       { value: "Module" }
     )
   ),
-  v1 = "" + new URL("https://pic4.zhimg.com/80/v2-89b877983fadf84a364895262fb21dab_720w.webp", import.meta.url).href,
+  v1 = "" + new URL("https://pic4.zhimg.com/80/v2-0cb992843930dc6ad63d0df43d4ddf03_720w.webp", import.meta.url).href,
   m1 = Object.freeze(
     Object.defineProperty(
       { __proto__: null, default: v1 },
@@ -7952,7 +7952,7 @@ const d1 = "" + new URL("banner_1.705fe11a.jpg", import.meta.url).href,
       { value: "Module" }
     )
   ),
-  g1 = "" + new URL("banner_4.ee2d5199.jpg", import.meta.url).href,
+  g1 = "" + new URL("https://pic1.zhimg.com/80/v2-60c39740fcaf82f5abb1a37fdce6f2ac_720w.webp", import.meta.url).href,
   y1 = Object.freeze(
     Object.defineProperty(
       { __proto__: null, default: g1 },
@@ -7960,7 +7960,7 @@ const d1 = "" + new URL("banner_1.705fe11a.jpg", import.meta.url).href,
       { value: "Module" }
     )
   ),
-  C1 = "" + new URL("https://pic1.zhimg.com/80/v2-3757a7c4503f145c547bf5136f4d4d8c_720w.webp", import.meta.url).href,
+  C1 = "" + new URL("https://pic3.zhimg.com/80/v2-fa0846725c7af84ada3c8c7ce42bda7a_720w.webp", import.meta.url).href,
   b1 = Object.freeze(
     Object.defineProperty(
       { __proto__: null, default: C1 },

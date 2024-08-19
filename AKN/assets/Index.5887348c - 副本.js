@@ -18,10 +18,10 @@ import {
   g as v,
   n as $e,
   T as et,
-  h as fe,
+  h as ce,
   t as Y,
   v as he,
-  F as ce,
+  F as de,
   i as Ee,
   _ as Ce,
   p as Ue,
@@ -45,101 +45,103 @@ import {
   J as Bt,
   K as li,
   L as un,
-  M as Si,
+  M as Fi,
   N as xs,
-  O as Ss,
+  O as Fs,
   P as Mt,
   Q as ti,
   R as cn,
   S as dn,
   U as ui,
-  V as Fs,
+  V as Ss,
   W as Ts,
   X as rt,
   Y as Bs,
   Z as ks,
   $ as Ds,
-} from "./index.57e3def5.js";
-const As = "" + new URL("carousel_1.78859d4f.png", import.meta.url).href,
-  Ms = "" + new URL("carousel_10.515095af.png", import.meta.url).href,
-  Ps = "" + new URL("carousel_11.60759b34.png", import.meta.url).href,
-  Os = "" + new URL("carousel_12.66d2f009.png", import.meta.url).href,
-  Ls = "" + new URL("carousel_13.35d78706.png", import.meta.url).href,
-  zs = "" + new URL("carousel_14.8a66797f.png", import.meta.url).href,
-  Is = "" + new URL("carousel_15.1e37810b.png", import.meta.url).href,
-  Rs = "" + new URL("carousel_16.75b0ee33.png", import.meta.url).href,
-  $s = "" + new URL("carousel_17.7f6d6a99.png", import.meta.url).href,
-  Ns = "" + new URL("carousel_18.2523f7b3.png", import.meta.url).href,
-  Hs = "" + new URL("carousel_2.53aa045f.png", import.meta.url).href,
-  Vs = "" + new URL("carousel_3.d4479305.png", import.meta.url).href,
-  js = "" + new URL("carousel_4.91113d91.png", import.meta.url).href,
-  qs = "" + new URL("carousel_5.105ddefd.png", import.meta.url).href,
-  Us = "" + new URL("carousel_6.74208897.png", import.meta.url).href,
-  Gs = "" + new URL("carousel_7.32c5fdfa.png", import.meta.url).href,
-  Ws = "" + new URL("carousel_8.5b206a00.png", import.meta.url).href,
-  Xs = "" + new URL("carousel_9.1fa01571.png", import.meta.url).href;
-const Ys = { class: "media-current" },
-  Zs = { class: "media-main-pic" },
-  Ks = { class: "media-current-info" },
-  Js = { class: "media-info-wrapper" },
-  Qs = { class: "media-info-detail", ref: "MediaInfoDetail", key: "3" },
-  eo = { class: "media-detail-desc" },
-  to = { class: "media-nav-wrapper" },
-  io = ["data-index", "onClick", "active"],
-  no = { class: "media-list-wrapper", id: "media-list" },
-  so = ["data-index", "onClick"],
-  oo = ["data-title"],
-  ro = ae({
+  a0 as As,
+  a1 as Ms,
+} from "./index.78484553.js";
+const Ps = "" + new URL("https://www.gfwiki.org/images/thumb/1/1a/13CG3v2.png/900px-13CG3v2.png?20200507144956", import.meta.url).href,
+  Os = "" + new URL("https://www.gfwiki.org/images/thumb/1/17/17xh-ShootingRange.png/900px-17xh-ShootingRange.png?20200303162640", import.meta.url).href,
+  Ls = "" + new URL("https://www.gfwiki.org/images/thumb/5/58/17xhCG1-1.png/900px-17xhCG1-1.png?20200303162646", import.meta.url).href,
+  zs = "" + new URL("https://www.gfwiki.org/images/thumb/2/2c/CG10-6-2.png/900px-CG10-6-2.png?20200427105546", import.meta.url).href,
+  Is = "" + new URL("https://www.gfwiki.org/images/thumb/2/2b/CG4N.png/900px-CG4N.png?20200427102229", import.meta.url).href,
+  Rs = "" + new URL("https://www.gfwiki.org/images/thumb/9/94/CG.5.png/900px-CG.5.png?20200427102453", import.meta.url).href,
+  $s = "" + new URL("https://www.gfwiki.org/images/0/0a/CG.5-6.png", import.meta.url).href,
+  Ns = "" + new URL("https://www.gfwiki.org/images/thumb/5/55/6CG-AR15b.png/900px-6CG-AR15b.png?20200427102708", import.meta.url).href,
+  Hs = "" + new URL("https://www.gfwiki.org/images/thumb/a/ac/CG-Cannon.png/900px-CG-Cannon.png?20200427025826", import.meta.url).href,
+  Vs = "" + new URL("https://www.gfwiki.org/images/thumb/c/c0/2018Winter9-1.png/900px-2018Winter9-1.png?20180316030720", import.meta.url).href,
+  js = "" + new URL("https://www.gfwiki.org/images/thumb/3/35/2018SummerCG7.png/900px-2018SummerCG7.png?20200303160935", import.meta.url).href,
+  qs = "" + new URL("https://www.gfwiki.org/images/thumb/d/d3/2019summer_13.png/900px-2019summer_13.png?20200303155103", import.meta.url).href,
+  Us = "" + new URL("https://pic2.zhimg.com/80/v2-4da644b8842e82b3c992db7267e326b5_720w.webp", import.meta.url).href,
+  Gs = "" + new URL("https://www.gfwiki.org/images/thumb/b/bd/2019summer_4_1.png/900px-2019summer_4_1.png?20220916222805", import.meta.url).href,
+  Ws = "" + new URL("https://www.gfwiki.org/images/thumb/7/73/2020summer94%26K.png/900px-2020summer94%26K.png?20220916222810", import.meta.url).href,
+  Xs = "" + new URL("https://www.gfwiki.org/images/thumb/a/ad/2021summer_MRL1.png/900px-2021summer_MRL1.png?20210828041427", import.meta.url).href,
+  Ys = "" + new URL("https://www.gfwiki.org/images/thumb/a/ad/2021summer_Research.png/900px-2021summer_Research.png?20210828041530", import.meta.url).href,
+  Zs = "" + new URL("https://www.gfwiki.org/images/thumb/5/51/2021summer_SecurityBureau.png/900px-2021summer_SecurityBureau.png?20210828041745", import.meta.url).href;
+const Ks = { class: "media-current" },
+  Js = { class: "media-main-pic" },
+  Qs = { class: "media-current-info" },
+  eo = { class: "media-info-wrapper" },
+  to = { class: "media-info-detail", ref: "MediaInfoDetail", key: "3" },
+  io = { class: "media-detail-desc" },
+  no = { class: "media-nav-wrapper" },
+  so = ["data-index", "onClick", "active"],
+  oo = { class: "media-list-wrapper", id: "media-list" },
+  ro = ["data-index", "onClick"],
+  ao = ["data-title"],
+  lo = ae({
     __name: "Section5_swiper",
     setup(i, { expose: e }) {
-      ht((F) => ({ "499c4690": v(x), "4db7efee": v(w), "4db7efef": v(S) }));
+      ht((S) => ({ "499c4690": v(E), "4db7efee": v(w), "4db7efef": v(F) }));
       let t = L([]),
-        n = (F) => {
-          t.value.push(F);
+        n = (S) => {
+          t.value.push(S);
         },
         s = L(),
         o = L(),
         r = G([
           {
             serial: "01",
-            title: "\u7B2C\u4E8C\u628A\u8D64\u9704",
-            desc: "#\u51B3\u6218#",
+            title: "开端",
+            desc: "#DEC#",
             active: !0,
           },
           {
             serial: "02",
-            title: "\u7B14\u8BB0",
-            desc: "#\u4F01\u9E45\u7269\u6D41\u7684\u79D8\u5BC6#",
+            title: "相见",
+            desc: "#安洁#",
             active: !1,
           },
           {
             serial: "03",
-            title: "\u5B89\u6D01\u8389\u5A1C",
+            title: "RAC",
             desc: "#\u4FE1\u4F7F#",
             active: !1,
           },
           {
             serial: "04",
-            title: "\u83B1\u8335\u751F\u547D",
-            desc: "#\u79D1\u7814#",
+            title: "偏振光",
+            desc: "#事发#",
             active: !1,
           },
           {
             serial: "05",
-            title: "\u7AEF\u5348",
-            desc: "#\u708E\u56FD\u5C71\u6C34#",
+            title: "REV",
+            desc: "#戌晋#",
             active: !1,
           },
           {
             serial: "06",
-            title: "\u9F99\u95E8",
-            desc: "#\u90BB\u8857\u4E00\u89D2#",
+            title: "ERA",
+            desc: "#BOL-P#",
             active: !1,
           },
           {
             serial: "07",
-            title: "\u8C1C\u56E2",
-            desc: "#\u6E90\u77F3#",
+            title: "武装",
+            desc: "#BM-23#",
             active: !1,
           },
           {
@@ -150,8 +152,8 @@ const Ys = { class: "media-current" },
           },
           {
             serial: "09",
-            title: "\u4F01\u9E45\u7269\u6D41",
-            desc: "#\u529E\u516C\u5BA4#",
+            title: "SITE-CN-02",
+            desc: "#监控室#",
             active: !1,
           },
           {
@@ -162,50 +164,50 @@ const Ys = { class: "media-current" },
           },
           {
             serial: "11",
-            title: "\u6B7B\u7070\u590D\u71C3",
-            desc: "#\u4E0D\u6B7B\u7684\u9ED1\u86C7#",
+            title: "U-M-P",
+            desc: "#4045#",
             active: !1,
           },
           {
             serial: "12",
-            title: "\u82CF\u9192",
+            title: "决裂",
             desc: "#\u77F3\u68FA\u4E4B\u95F4#",
             active: !1,
           },
           {
             serial: "13",
-            title: "\u4E4C\u8428\u65AF\u5B66\u751F\u81EA\u6CBB\u56E2",
-            desc: "#\u56DE\u5FC6\u4E2D\u7684\u6559\u5BA4#",
+            title: "第聂伯",
+            desc: "#RVC-D#",
             active: !1,
           },
           {
             serial: "14",
             title: "\u971E\u5149",
-            desc: "#\u80DC\u5229\u7684\u8363\u5149#",
+            desc: "#SDEPC.#",
             active: !1,
           },
           {
             serial: "15",
-            title: "\u8C22\u62C9\u683C",
-            desc: "#\u5580\u5170\u8D38\u6613#",
+            title: "15",
+            desc: "#\u5580\u5170\#",
             active: !1,
           },
           {
             serial: "16",
-            title: "\u9884\u5907\u7EC4",
+            title: "石菖蒲",
             desc: "#\u884C\u52A8\u9884\u5907\u7EC4A4#",
             active: !1,
           },
           {
             serial: "17",
-            title: "\u6574\u88C5\u51FA\u53D1",
+            title: "SF.",
             desc: "#\u5370\u8C61\u56FE#",
             active: !1,
           },
           {
             serial: "18",
-            title: "\u8FFD\u5FC6",
-            desc: "#\u8FC7\u53BB\u7684\u6751\u5E84#",
+            title: "GRU-P",
+            desc: "#莫斯科#",
             active: !1,
           },
         ]),
@@ -215,44 +217,44 @@ const Ys = { class: "media-current" },
           opacity: [],
           PointerEvent: [],
         });
-      for (let F = 0; F < r.length; F++) {
+      for (let S = 0; S < r.length; S++) {
         let A = new URL(
           Object.assign({
-            "../../assets/img/Five/carousel_1.png": As,
-            "../../assets/img/Five/carousel_10.png": Ms,
-            "../../assets/img/Five/carousel_11.png": Ps,
-            "../../assets/img/Five/carousel_12.png": Os,
-            "../../assets/img/Five/carousel_13.png": Ls,
-            "../../assets/img/Five/carousel_14.png": zs,
-            "../../assets/img/Five/carousel_15.png": Is,
-            "../../assets/img/Five/carousel_16.png": Rs,
-            "../../assets/img/Five/carousel_17.png": $s,
-            "../../assets/img/Five/carousel_18.png": Ns,
-            "../../assets/img/Five/carousel_2.png": Hs,
-            "../../assets/img/Five/carousel_3.png": Vs,
-            "../../assets/img/Five/carousel_4.png": js,
-            "../../assets/img/Five/carousel_5.png": qs,
-            "../../assets/img/Five/carousel_6.png": Us,
-            "../../assets/img/Five/carousel_7.png": Gs,
-            "../../assets/img/Five/carousel_8.png": Ws,
-            "../../assets/img/Five/carousel_9.png": Xs,
-          })[`../../assets/img/Five/carousel_${F + 1}.png`],
+            "../../assets/img/Five/carousel_1.png": Ps,
+            "../../assets/img/Five/carousel_10.png": Os,
+            "../../assets/img/Five/carousel_11.png": Ls,
+            "../../assets/img/Five/carousel_12.png": zs,
+            "../../assets/img/Five/carousel_13.png": Is,
+            "../../assets/img/Five/carousel_14.png": Rs,
+            "../../assets/img/Five/carousel_15.png": $s,
+            "../../assets/img/Five/carousel_16.png": Ns,
+            "../../assets/img/Five/carousel_17.png": Hs,
+            "../../assets/img/Five/carousel_18.png": Vs,
+            "../../assets/img/Five/carousel_2.png": js,
+            "../../assets/img/Five/carousel_3.png": qs,
+            "../../assets/img/Five/carousel_4.png": Us,
+            "../../assets/img/Five/carousel_5.png": Gs,
+            "../../assets/img/Five/carousel_6.png": Ws,
+            "../../assets/img/Five/carousel_7.png": Xs,
+            "../../assets/img/Five/carousel_8.png": Ys,
+            "../../assets/img/Five/carousel_9.png": Zs,
+          })[`../../assets/img/Five/carousel_${S + 1}.png`],
           self.location
         ).href;
-        a.backgroundImage[F] = `url(${A})`;
+        a.backgroundImage[S] = `url(${A})`;
       }
       function l() {
         (s.value.style.backgroundImage = a.backgroundImage[0]), u();
       }
       ke(() => {
-        var F;
-        l(), (F = T.value) == null || F.addEventListener("mousemove", U);
+        var S;
+        l(), (S = T.value) == null || S.addEventListener("mousemove", U);
       });
       function u() {
-        const F = t.value[0];
+        const S = t.value[0];
         let A = Math.floor(
-          Number(getComputedStyle(F).width.replace("px", "")) +
-            Number(getComputedStyle(F).paddingRight.replace("px", "")) * 2
+          Number(getComputedStyle(S).width.replace("px", "")) +
+            Number(getComputedStyle(S).paddingRight.replace("px", "")) * 2
         );
         for (let M = 0; M < r.length; M++)
           (a.transform[M] = `translateX(${A * M}px)`),
@@ -265,23 +267,23 @@ const Ys = { class: "media-current" },
       }
       let c = L(!0),
         d = L(0);
-      const f = (F, A, M) => {
+      const f = (S, A, M) => {
           M.forEach((O) => {
             O.active = !1;
           }),
             (A.active = !0),
-            F > d.value && c.value
-              ? ((c.value = !1), g(F, "left"))
-              : F < d.value && c.value && ((c.value = !1), g(F, "right")),
-            (d.value = F);
+            S > d.value && c.value
+              ? ((c.value = !1), g(S, "left"))
+              : S < d.value && c.value && ((c.value = !1), g(S, "right")),
+            (d.value = S);
         },
         p = () => {
           c.value &&
             ((c.value = !1),
             d.value > 0 ? d.value-- : (d.value = r.length - 1),
             g(d.value, "left"),
-            r.forEach((F) => {
-              F.active = !1;
+            r.forEach((S) => {
+              S.active = !1;
             }),
             (r[d.value].active = !0));
         },
@@ -290,25 +292,25 @@ const Ys = { class: "media-current" },
             ((c.value = !1),
             d.value < r.length - 1 ? d.value++ : (d.value = 0),
             g(d.value, "right"),
-            r.forEach((F) => {
-              F.active = !1;
+            r.forEach((S) => {
+              S.active = !1;
             }),
             (r[d.value].active = !0));
         },
-        g = (F, A) => {
-          k(0.45, A, F), b(A, 0.2, 0.45, F), E(F);
+        g = (S, A) => {
+          k(0.45, A, S), b(A, 0.2, 0.45, S), x(S);
         };
-      function y(F) {
-        return new Promise((A) => setTimeout(A, F));
+      function y(S) {
+        return new Promise((A) => setTimeout(A, S));
       }
-      const E = async (F) => {
+      const x = async (S) => {
         const A = t.value[0];
         let M = Math.floor(
           Number(getComputedStyle(A).width.replace("px", "")) +
             Number(getComputedStyle(A).paddingRight.replace("px", "")) * 2
         );
         for (let O = 0; O < r.length; O++) {
-          let W = M * O - M * (F - 1);
+          let W = M * O - M * (S - 1);
           W <= -M
             ? ((a.transform[O] = `translateX(${-M}px)`),
               (a.opacity[O] = 0),
@@ -317,34 +319,34 @@ const Ys = { class: "media-current" },
             ? ((a.transform[O] = `translateX(${M * 4}px)`),
               (a.opacity[O] = 0),
               (a.PointerEvent[O] = "none"))
-            : ((a.transform[O] = `translateX(${M * O - M * (F - 1)}px)`),
+            : ((a.transform[O] = `translateX(${M * O - M * (S - 1)}px)`),
               (a.opacity[O] = 1),
               (a.PointerEvent[O] = "auto"));
         }
-        if (F === 0)
+        if (S === 0)
           for (let O = 1; O < 2; O++)
             (a.transform[r.length - O] = `translateX(${M * (O - 1)}px)`),
               (a.opacity[r.length - O] = 1),
               (a.PointerEvent[r.length - O] = "auto");
-        if (F === r.length - 3)
+        if (S === r.length - 3)
           for (let O = 0; O < 2; O++)
             (a.transform[O] = `translateX(${M * 4}px)`),
               (a.opacity[O] = 0),
               (a.PointerEvent[O] = "none");
-        if (F >= r.length - 2) {
-          let O = F % 3;
+        if (S >= r.length - 2) {
+          let O = S % 3;
           for (let W = 0; W < 2; W++)
             (a.transform[W] = `translateX(${M * (4 - O + W)}px)`),
               (a.opacity[W] = 0),
-              F === r.length - 2 &&
+              S === r.length - 2 &&
                 ((a.opacity[0] = 1), (a.PointerEvent[0] = "auto")),
-              F === r.length - 1 &&
+              S === r.length - 1 &&
                 ((a.opacity[W] = 1), (a.PointerEvent[W] = "auto"));
         }
       };
       let C = G({ TextAnimate: [!0, !0, !0], TextNum: 0, TextDire: !0 });
-      const b = async (F, A, M, O) => {
-        F == "left" ? (C.TextDire = !0) : F == "right" && (C.TextDire = !1),
+      const b = async (S, A, M, O) => {
+        S == "left" ? (C.TextDire = !0) : S == "right" && (C.TextDire = !1),
           (C.TextAnimate[0] = !C.TextAnimate[0]),
           await y(A * 100),
           (C.TextAnimate[1] = !C.TextAnimate[1]),
@@ -360,18 +362,18 @@ const Ys = { class: "media-current" },
           (C.TextAnimate[2] = !C.TextAnimate[2]);
       };
       let _ = G({ MediaImgStyle: {}, imgAnimate: !0 }),
-        x = L(""),
+        E = L(""),
         w = L(""),
-        S = L("");
-      const k = async (F, A, M) => {
+        F = L("");
+      const k = async (S, A, M) => {
           (_.imgAnimate = !_.imgAnimate),
             A == "left"
-              ? ((w.value = "left top"), (S.value = "right bottom"))
+              ? ((w.value = "left top"), (F.value = "right bottom"))
               : A == "right" &&
-                ((w.value = "right bottom"), (S.value = "left top")),
+                ((w.value = "right bottom"), (F.value = "left top")),
             (_.MediaImgStyle = { backgroundImage: a.backgroundImage[M] }),
-            (x.value = F + "s"),
-            await y(F * 1e3),
+            (E.value = S + "s"),
+            await y(S * 1e3),
             (c.value = !0);
         },
         T = L(),
@@ -379,11 +381,11 @@ const Ys = { class: "media-current" },
         D = L(),
         z = G({ x: 0, y: 0 }),
         V = G({ x: 0, y: 0 }),
-        U = (F) => {
-          (z.x = F.clientX), (z.y = F.clientY);
+        U = (S) => {
+          (z.x = S.clientX), (z.y = S.clientY);
         };
       return (
-        requestAnimationFrame(function F() {
+        requestAnimationFrame(function S() {
           (V.x += (z.x - V.x) / 10), (V.y += (z.y - V.y) / 10);
           const O = (V.x / window.innerWidth) * 20 - 20 / 2,
             W = (V.y / window.innerHeight) * 20 - 20 / 2;
@@ -391,10 +393,10 @@ const Ys = { class: "media-current" },
             (D.value.style.transform = `translate3d(${O * 7.7}px,${
               W * 3
             }px,50px) rotateX(${-W}deg) rotateY(${-O}deg)`),
-            requestAnimationFrame(F);
+            requestAnimationFrame(S);
         }),
         e({ arrowBtnPrev: p, arrowBtnNext: h }),
-        (F, A) => (
+        (S, A) => (
           P(),
           I(
             "div",
@@ -414,8 +416,8 @@ const Ys = { class: "media-current" },
                   ref: B,
                 },
                 [
-                  m("div", Ys, [
-                    m("div", Zs, [
+                  m("div", Ks, [
+                    m("div", Js, [
                       N(
                         et,
                         { name: "imgAnimate" },
@@ -462,8 +464,8 @@ const Ys = { class: "media-current" },
                         ref: D,
                       },
                       [
-                        m("div", Ks, [
-                          m("div", Js, [
+                        m("div", Qs, [
+                          m("div", eo, [
                             N(
                               et,
                               {
@@ -477,7 +479,7 @@ const Ys = { class: "media-current" },
                               },
                               {
                                 default: q(() => [
-                                  fe(
+                                  ce(
                                     m(
                                       "div",
                                       {
@@ -490,7 +492,7 @@ const Ys = { class: "media-current" },
                                     ),
                                     [[he, v(C).TextAnimate[0]]]
                                   ),
-                                  fe(
+                                  ce(
                                     m(
                                       "div",
                                       {
@@ -503,14 +505,14 @@ const Ys = { class: "media-current" },
                                     ),
                                     [[he, v(C).TextAnimate[1]]]
                                   ),
-                                  fe(
+                                  ce(
                                     m(
                                       "div",
-                                      Qs,
+                                      to,
                                       [
                                         m(
                                           "div",
-                                          eo,
+                                          io,
                                           Y(v(r)[v(C).TextNum].desc),
                                           1
                                         ),
@@ -526,10 +528,10 @@ const Ys = { class: "media-current" },
                               ["enter-active-class", "leave-active-class"]
                             ),
                           ]),
-                          m("div", to, [
+                          m("div", no, [
                             (P(!0),
                             I(
-                              ce,
+                              de,
                               null,
                               Ee(
                                 v(r),
@@ -546,7 +548,7 @@ const Ys = { class: "media-current" },
                                     },
                                     null,
                                     8,
-                                    io
+                                    so
                                   )
                                 )
                               ),
@@ -558,10 +560,10 @@ const Ys = { class: "media-current" },
                       512
                     ),
                   ]),
-                  m("div", no, [
+                  m("div", oo, [
                     (P(!0),
                     I(
-                      ce,
+                      de,
                       null,
                       Ee(
                         v(r),
@@ -594,11 +596,11 @@ const Ys = { class: "media-current" },
                                 },
                                 null,
                                 12,
-                                oo
+                                ao
                               ),
                             ],
                             12,
-                            so
+                            ro
                           )
                         )
                       ),
@@ -615,9 +617,9 @@ const Ys = { class: "media-current" },
       );
     },
   });
-const ao = Ce(ro, [["__scopeId", "data-v-d5bbf8f8"]]),
-  lo = (i) => (Ue("data-v-1a707a3b"), (i = i()), Ge(), i),
-  uo = lo(() =>
+const uo = Ce(lo, [["__scopeId", "data-v-d5bbf8f8"]]),
+  co = (i) => (Ue("data-v-1a707a3b"), (i = i()), Ge(), i),
+  fo = co(() =>
     m(
       "svg",
       {
@@ -672,8 +674,8 @@ const ao = Ce(ro, [["__scopeId", "data-v-d5bbf8f8"]]),
       -1
     )
   ),
-  co = [uo],
-  fo = ae({
+  ho = [fo],
+  po = ae({
     __name: "LeftArrow",
     props: { btnprev: null },
     setup(i) {
@@ -686,14 +688,14 @@ const ao = Ce(ro, [["__scopeId", "data-v-d5bbf8f8"]]),
         I(
           "div",
           { class: "arrowBtn", "data-cursor": "pointer", onClick: t },
-          co
+          ho
         )
       );
     },
   });
-const fn = Ce(fo, [["__scopeId", "data-v-1a707a3b"]]),
-  ho = (i) => (Ue("data-v-9c3b3a5b"), (i = i()), Ge(), i),
-  po = ho(() =>
+const fn = Ce(po, [["__scopeId", "data-v-1a707a3b"]]),
+  vo = (i) => (Ue("data-v-9c3b3a5b"), (i = i()), Ge(), i),
+  mo = vo(() =>
     m(
       "svg",
       {
@@ -747,8 +749,8 @@ const fn = Ce(fo, [["__scopeId", "data-v-1a707a3b"]]),
       -1
     )
   ),
-  vo = [po],
-  mo = ae({
+  go = [mo],
+  yo = ae({
     __name: "RightArrow",
     props: { btnnext: null },
     setup(i) {
@@ -761,14 +763,14 @@ const fn = Ce(fo, [["__scopeId", "data-v-1a707a3b"]]),
         I(
           "div",
           { class: "arrowBtn", "data-cursor": "pointer", onClick: t },
-          vo
+          go
         )
       );
     },
   });
-const hn = Ce(mo, [["__scopeId", "data-v-9c3b3a5b"]]),
-  go = { id: "section-media" },
-  yo = ae({
+const hn = Ce(yo, [["__scopeId", "data-v-9c3b3a5b"]]),
+  Co = { id: "section-media" },
+  bo = ae({
     __name: "Section5_Fifth",
     setup(i) {
       const e = L(),
@@ -780,10 +782,10 @@ const hn = Ce(mo, [["__scopeId", "data-v-9c3b3a5b"]]),
         };
       return (s, o) => {
         const r = fn,
-          a = ao;
+          a = uo;
         return (
           P(),
-          I("section", go, [
+          I("section", Co, [
             N(r, { id: "arrow-btn-prev", btnprev: t }),
             N(a, { ref_key: "Swiper", ref: e }, null, 512),
             N(hn, { id: "arrow-btn-next", btnnext: n }),
@@ -792,10 +794,10 @@ const hn = Ce(mo, [["__scopeId", "data-v-9c3b3a5b"]]),
       };
     },
   });
-const Co = Ce(yo, [["__scopeId", "data-v-66581bc2"]]),
-  bo = { class: "canvas-container" },
-  _o = ["width", "height"],
-  wo = ae({
+const _o = Ce(bo, [["__scopeId", "data-v-66581bc2"]]),
+  wo = { class: "canvas-container" },
+  Eo = ["width", "height"],
+  xo = ae({
     __name: "Lizi",
     props: {
       canvasRect: null,
@@ -858,9 +860,9 @@ const Co = Ce(yo, [["__scopeId", "data-v-66581bc2"]]),
               V = Math.sqrt(D ** 2 + z ** 2),
               U = h / V;
             U = U > 7 ? 7 : U;
-            let F = Math.atan2(z, D),
-              A = Math.cos(F),
-              M = Math.sin(F),
+            let S = Math.atan2(z, D),
+              A = Math.cos(S),
+              M = Math.sin(S),
               O = A * U * -g,
               W = M * U * -g;
             (this.vx += O), (this.vy += W);
@@ -873,7 +875,7 @@ const Co = Ce(yo, [["__scopeId", "data-v-66581bc2"]]),
           (this.totalX = T), (this.totalY = B), (this.color = [...D]);
         }
       }
-      class E {
+      class x {
         constructor(T, B) {
           Q(this, "src");
           Q(this, "name");
@@ -886,13 +888,13 @@ const Co = Ce(yo, [["__scopeId", "data-v-66581bc2"]]),
               const z = document.createElement("canvas"),
                 V = z.getContext("2d"),
                 U = c,
-                F = ~~(c * (D.height / D.width));
+                S = ~~(c * (D.height / D.width));
               (z.width = U),
-                (z.height = F),
-                V == null || V.drawImage(D, 0, 0, U, F);
-              const A = V == null ? void 0 : V.getImageData(0, 0, U, F).data;
+                (z.height = S),
+                V == null || V.drawImage(D, 0, 0, U, S);
+              const A = V == null ? void 0 : V.getImageData(0, 0, U, S).data;
               V == null || V.clearRect(0, 0, c, d);
-              for (let M = 0; M < F; M += 5)
+              for (let M = 0; M < S; M += 5)
                 for (let O = 0; O < U; O += 5) {
                   const W = (O + M * U) * 4,
                     Me = A[W],
@@ -904,7 +906,7 @@ const Co = Ce(yo, [["__scopeId", "data-v-66581bc2"]]),
                     this.particleData.push(At);
                   }
                 }
-              B === "rhodes" && x(u.value, this);
+              B === "rhodes" && E(u.value, this);
             });
         }
       }
@@ -939,16 +941,16 @@ const Co = Ce(yo, [["__scopeId", "data-v-66581bc2"]]),
               D = B.length,
               z = this.ParticleArr,
               V = z.length;
-            for (let F = 0; F < D; F++) {
-              const { totalX: A, totalY: M, color: O } = B[F];
-              z[F] ? z[F].change(A, M, O) : (z[F] = new y(A, M, f, O));
+            for (let S = 0; S < D; S++) {
+              const { totalX: A, totalY: M, color: O } = B[S];
+              z[S] ? z[S].change(A, M, O) : (z[S] = new y(A, M, f, O));
             }
             D < V && (this.ParticleArr = z.splice(0, D)),
               (z = this.ParticleArr);
             let U = z.length;
             for (; U; ) {
-              let F = ~~(Math.random() * U--),
-                A = z[F],
+              let S = ~~(Math.random() * U--),
+                A = z[S],
                 { totalX: M, totalY: O, color: W } = A;
               (A.totalX = z[U].totalX),
                 (A.totalY = z[U].totalY),
@@ -972,7 +974,7 @@ const Co = Ce(yo, [["__scopeId", "data-v-66581bc2"]]),
       }
       let b = L(),
         _ = L();
-      function x(k, T) {
+      function E(k, T) {
         k.changeImg(T),
           (_.value = k),
           t.ParticlesBoolean
@@ -985,11 +987,11 @@ const Co = Ce(yo, [["__scopeId", "data-v-66581bc2"]]),
             : k.changeImg(o[n.value]),
           (r.value = T);
       }
-      for (let k of s) o.push(new E(k.url, k.label));
+      for (let k of s) o.push(new x(k.url, k.label));
       const w = (k) => {
           _.value.changeImg(o[k]);
         },
-        S = () => {
+        F = () => {
           (_.value.ParticleArr = []),
             t.ParticlesBoolean && clearInterval(b.value);
         };
@@ -1003,33 +1005,33 @@ const Co = Ce(yo, [["__scopeId", "data-v-66581bc2"]]),
         we(
           () => t.logos,
           (k, T) => {
-            for (let B of k) o.push(new E(B.url, B.label));
+            for (let B of k) o.push(new x(B.url, B.label));
           },
           { deep: !0 }
         ),
         Tt(() => {
           clearInterval(b.value);
         }),
-        e({ ChoiceImg: w, clearCanvas: S }),
+        e({ ChoiceImg: w, clearCanvas: F }),
         (k, T) => (
           P(),
-          I("div", bo, [
+          I("div", wo, [
             m(
               "canvas",
               { ref_key: "canvas", ref: a, width: v(c), height: v(d) },
               null,
               8,
-              _o
+              Eo
             ),
           ])
         )
       );
     },
   });
-const ci = Ce(wo, [["__scopeId", "data-v-2fac201b"]]),
+const ci = Ce(xo, [["__scopeId", "data-v-2fac201b"]]),
   di = (i) => (Ue("data-v-9cfbcc6d"), (i = i()), Ge(), i),
-  Eo = { class: "storyDetailView" },
-  xo = di(() =>
+  Fo = { class: "storyDetailView" },
+  So = di(() =>
     m(
       "svg",
       {
@@ -1061,37 +1063,37 @@ const ci = Ce(wo, [["__scopeId", "data-v-2fac201b"]]),
       -1
     )
   ),
-  So = { class: "storyDetailWapper" },
-  Fo = { class: "storyClose" },
-  To = di(() => m("div", { class: "vertical" }, null, -1)),
-  Bo = di(() => m("div", { class: "horizontal" }, null, -1)),
-  ko = {
+  To = { class: "storyDetailWapper" },
+  Bo = { class: "storyClose" },
+  ko = di(() => m("div", { class: "vertical" }, null, -1)),
+  Do = di(() => m("div", { class: "horizontal" }, null, -1)),
+  Ao = {
     xmlns: "http://www.w3.org/2000/svg",
     "xmlns:xlink": "http://www.w3.org/1999/xlink",
     viewBox: "-10 -10 90 90",
     "data-cursor": "pointer",
   },
-  Do = { class: "storyInfo" },
-  Ao = { key: 0, class: "storyInfoNameWapper" },
-  Mo = { key: 0, class: "storyInfoName" },
-  Po = { class: "TextContent" },
-  Oo = {
+  Mo = { class: "storyInfo" },
+  Po = { key: 0, class: "storyInfoNameWapper" },
+  Oo = { key: 0, class: "storyInfoName" },
+  Lo = { class: "TextContent" },
+  zo = {
     xmlns: "http://www.w3.org/2000/svg",
     "xmlns:xlink": "http://www.w3.org/1999/xlink",
     viewBox: "0 0 534 70",
   },
-  Lo = { class: "storyDetailInfoNameText", x: "0", y: "60", "font-size": "68" },
-  zo = { key: 0, class: "storyInfoNameEN" },
-  Io = {
+  Io = { class: "storyDetailInfoNameText", x: "0", y: "60", "font-size": "68" },
+  Ro = { key: 0, class: "storyInfoNameEN" },
+  $o = {
     xmlns: "http://www.w3.org/2000/svg",
     "xmlns:xlink": "http://www.w3.org/1999/xlink",
     viewBox: "0 0 495 30",
   },
-  Ro = { x: "0", y: "27", "font-size": "30", class: "storyEnText" },
-  $o = { class: "storyInfoDesc" },
-  No = { key: 0, class: "wrapperDown" },
-  Ho = { key: 0, class: "storyDetaInfoDesc" },
-  Vo = ae({
+  No = { x: "0", y: "27", "font-size": "30", class: "storyEnText" },
+  Ho = { class: "storyInfoDesc" },
+  Vo = { key: 0, class: "wrapperDown" },
+  jo = { key: 0, class: "storyDetaInfoDesc" },
+  qo = ae({
     __name: "Section4_View",
     props: {
       ListAppear: { type: Boolean },
@@ -1115,39 +1117,39 @@ const ci = Ce(wo, [["__scopeId", "data-v-2fac201b"]]),
       const s = G([
           {
             id: 0,
-            name: "\u6E90\u77F3",
-            en: "ORIGINIYMS",
-            desc: "\u5927\u5730\u88AB\u8D77\u56E0\u4E0D\u660E\u7684\u5929\u707E\u56DB\u5904\u8086\u8650\uFF0C\u7ECF\u7531\u5929\u707E\u5E2D\u5377\u8FC7\u7684\u571F\u5730\u4E0A\u51FA\u73B0\u4E86\u5927\u91CF\u7684\u795E\u79D8\u77FF\u7269\u2014\u2014\u201C\u6E90\u77F3\u201D\u3002\u4F9D\u8D56\u4E8E\u6280\u672F\u7684\u8FDB\u6B65\uFF0C\u6E90\u77F3\u8574\u542B\u7684\u80FD\u91CF\u6295\u5165\u5DE5\u4E1A\u540E\u4F7F\u5F97\u6587\u660E\u987A\u5229\u8FC8\u5165\u73B0\u4EE3\uFF0C\u4E0E\u6B64\u540C\u65F6\uFF0C\u6E90\u77F3\u672C\u8EAB\u4E5F\u50AC\u751F\u51FA\u201C\u611F\u67D3\u8005\u201D\u7684\u5B58\u5728\u3002",
+            name: "SITE-CN-02",
+            en: "RASIA.",
+            desc: "作为继01号之后的新站点，设施均散状分布于华南，拥有涵盖华南的监测力量，负责该范围内相关监测以及活动，提供异常监控以及研究协助，安保以及部分文书工作。",
           },
           {
             id: 1,
-            name: "\u6E90\u77F3\u6280\u827A",
-            en: "ORIGINIYM ARTS",
-            desc: "\u6E90\u77F3\u88AB\u53D1\u73B0\u4E4B\u540E\uFF0C\u4EBA\u4EEC\u53D1\u6398\u51FA\u4E00\u79CD\u901A\u8FC7\u5B83\u6765\u65BD\u653E\u4E00\u7CFB\u5217\u4EE4\u7269\u8D28\u6539\u53D8\u539F\u6709\u6027\u72B6\u7684\u6280\u672F\uFF0C\u8FD9\u79CD\u6280\u672F\u88AB\u79F0\u4E3A\u6E90\u77F3\u6280\u827A\uFF0C\u5E38\u88AB\u4FD7\u79F0\u4E3A\u201C\u6CD5\u672F\u201D\u3002\u6E90\u77F3\u6280\u827A\u6240\u8FD0\u7528\u7684\u80FD\u6E90\uFF0C\u4E00\u822C\u88AB\u8BA4\u4E3A\u6765\u81EA\u4E8E\u6E90\u77F3\u672C\u8EAB\u3002\u800C\u4EBA\u662F\u5426\u80FD\u65BD\u653E\u6CD5\u672F\uFF0C\u4EE5\u53CA\u6240\u80FD\u65BD\u653E\u6CD5\u672F\u7684\u5F62\u5F0F\u3001\u5F3A\u5EA6\u3001\u6548\u679C\u7B49\uFF0C\u901A\u5E38\u53D7\u5230\u5148\u5929\u5177\u5907\u7684\u7D20\u8D28\u3001\u540E\u5929\u5BF9\u6E90\u77F3\u6280\u827A\u7684\u5B66\u4E60\u80FD\u529B\u8FD9\u4E24\u65B9\u9762\u56E0\u7D20\u7684\u5236\u7EA6\u3002",
+            name: "1-6-9号前哨站点",
+            en: "Outpost 163.",
+            desc: "前哨站点，负责侦察工作，同时响应并处理特殊情况",
           },
           {
             id: 2,
-            name: "\u6574\u5408\u8FD0\u52A8",
-            en: "REUNION",
-            desc: "\u65E0\u79CD\u65CF\u7ACB\u573A\uFF0C\u6781\u7AEF\u6392\u5916\u7684\u611F\u67D3\u8005\u7EC4\u7EC7\u3002\u4ED6\u4EEC\u5BA3\u79F0\u201C\u611F\u67D3\u8005\u5E94\u5BF9\u81EA\u5DF1\u7684\u8EAB\u4EFD\u611F\u5230\u9A84\u50B2\uFF0C\u79EF\u6781\u53BB\u83B7\u53D6\u5E76\u4F7F\u7528\u5C5E\u4E8E\u81EA\u5DF1\u7684\u529B\u91CF\u201D\u3002\u8BD5\u56FE\u7528\u6700\u539F\u59CB\u7684\u624B\u6BB5\u53BB\u4E89\u593A\u4E16\u754C\u7684\u516C\u6B63\u3002\u4EE5\u67D0\u5EA7\u88AB\u6467\u6BC1\u7684\u4F1F\u5927\u57CE\u5E02\u4E3A\u5F00\u7AEF\uFF0C\u533B\u7597\u673A\u6784\u201C\u7F57\u5FB7\u5C9B\u201D\u7684\u7A81\u7136\u4ECB\u5165\uFF0C\u4EE4\u6574\u4E2A\u4E8B\u6001\u5411\u7740\u672A\u77E5\u53D1\u5C55\u3002",
+            name: "保卫科",
+            en: "REUNION.",
+            desc: "  安全保卫是安全部门进行实际安保工作的主要部门。包括各研究区域、各单位以及站点内隔离门的保护，警卫工作均是由安全保卫部门的人员来完成的，目前，安全保卫部门的主要职责是对站点内部进行秩序维护，管理，保证站点内安全；同时对出入站点以及站点内部人员，单位，物品进行安全检查。",
           },
           {
             id: 3,
-            name: "\u611F\u67D3\u8005",
+            name: "1-9-3号前哨站点",
             en: "INFECTED",
-            desc: "\u88AB\u6E90\u77F3\u6240\u611F\u67D3\u7684\u4EBA\u3002\u7406\u8BBA\u81F4\u6B7B\u7387100% \uFF0C\u6B7B\u4EA1\u65F6\u5B58\u5728\u6269\u6563\u4F20\u67D3\u6027\u4EE5\u53CA\u6F5C\u5728\u5371\u9669\u80FD\u529B\uFF0C\u662F\u5404\u56FD\u9694\u79BB\u9A71\u9010\u7684\u76EE\u6807\u3002\u957F\u4E45\u4EE5\u6765\uFF0C\u6CA1\u4EBA\u544A\u8BC9\u4ED6\u4EEC\u8BE5\u5982\u4F55\u6E21\u8FC7\u4F59\u751F\uFF0C\u5982\u4ECA\u4F34\u968F\u7740\u4E00\u4F4D\u98A0\u8986\u8005\u7684\u51FA\u73B0\uFF0C\u8D8A\u6765\u8D8A\u591A\u7684\u611F\u67D3\u8005\u88AB\u7EB3\u5165\u4E00\u573A\u540D\u4E3A\u201C\u6574\u5408\u8FD0\u52A8\u201D\u7684\u53CD\u6297\u6D6A\u6F6E\u3002",
+            desc: "前哨站点，[多余信息已编辑]",
           },
           {
             id: 4,
-            name: "\u79FB\u52A8\u57CE\u90A6",
+            name: "研究部",
             en: "NOMADIC CITY",
-            desc: "\u5EFA\u9020\u5728\u53EF\u79FB\u52A8\u8BBE\u5907\u4E0A\u7684\u57CE\u5E02\u3002\u9891\u7E41\u53D1\u751F\u4E14\u7834\u574F\u529B\u5DE8\u5927\u7684\u5929\u707E\uFF0C\u8FEB\u4F7F\u51E0\u4E4E\u6240\u6709\u7684\u56FD\u5BB6\uFF0C\u90FD\u9700\u8981\u91C7\u7528\u5B9A\u671F\u8FC1\u79FB\u5BB6\u56ED\u4E0E\u805A\u843D\u7684\u65B9\u5F0F\u8FDB\u884C\u8EB2\u907F\u3002\u800C\u79FB\u52A8\u57CE\u5E02\uFF0C\u6B63\u662F\u5728\u8FD9\u79CD\u9700\u6C42\u4E0B\u6162\u6162\u8BDE\u751F\u7684\u3002\u4EBA\u4EEC\u5728\u8FC1\u5F99\u7684\u8FC7\u7A0B\u4E2D\uFF0C\u5C1D\u8BD5\u5C06\u5EFA\u7B51\u548C\u79CD\u79CD\u88C5\u7F6E\u5B89\u8BBE\u5728\u79FB\u52A8\u8BBE\u5907\u4E4B\u4E0A\uFF0C\u5E76\u4E0D\u65AD\u5730\u6269\u5927\u8F7D\u5177\u7684\u89C4\u6A21\u3002\u5728\u6587\u660E\u4E0E\u6280\u672F\u7684\u6F14\u53D8\u4E4B\u4E0B\uFF0C\u4EBA\u4EEC\u6700\u7EC8\u521B\u9020\u51FA\u4E86\u5341\u5206\u5E9E\u5927\u7684\u79FB\u52A8\u57CE\u5E02",
+            desc: "负责研究，文书工作与文件归档",
           },
           {
             id: 5,
-            name: "\u7F57\u5FB7\u5C9B",
+            name: "逆模因部",
             en: "RHODES ISLAND",
-            desc: "\u7F57\u5FB7\u5C9B\u5236\u836F\u516C\u53F8\u4F5C\u4E3A\u611F\u67D3\u8005\u95EE\u9898\u4E13\u5BB6\uFF0C\u8058\u7528\u611F\u67D3\u8005\uFF0C\u6DF1\u5165\u5371\u9669\u5730\u533A\uFF0C\u901A\u8FC7\u79CD\u79CD\u624B\u6BB5\uFF0C\u5DF2\u7ECF\u6210\u529F\u89E3\u51B3\u4E86\u6570\u8D77\u611F\u67D3\u8005\u5F15\u53D1\u7684\u4E8B\u4EF6\u3002\u800C\u4ECA\uFF0C\u4ED6\u4EEC\u5C06\u9762\u5BF9\u53F2\u65E0\u524D\u4F8B\u7684\u611F\u67D3\u8005\u66B4\u4E71\u3002\u5728\u5404\u4E2A\u52BF\u529B\u95F4\u6E38\u8D70\uFF0C\u53D1\u6398\u4E0D\u4E3A\u4EBA\u77E5\u7684\u5185\u5E55\uFF0C\u62B5\u6321\u611F\u67D3\u8005\u7684\u75AF\u72C2\u8FDB\u653B\uFF0C\u4F60\u7684\u51B3\u7B56\u5C06\u51B3\u5B9A\u7F57\u5FB7\u5C9B\u7684\u65B9\u5411\u3002",
+            desc: "原属于研究部的一部分，后因事故██████后████████，而██████████████。█████████████████████████████████████████████████████████",
           },
         ]),
         o = G([!0, !0]),
@@ -1206,20 +1208,20 @@ const ci = Ce(wo, [["__scopeId", "data-v-2fac201b"]]),
       let h = L("KF_horizotal_show"),
         g = L("KF_vertical_show_2"),
         y = L("0.6s"),
-        E = L(!1),
+        x = L(!1),
         C = L("storyInfoDis"),
         b = L(!1),
         _ = L(!1),
-        x = L(!1),
+        E = L(!1),
         w = L(!1),
-        S = L(!1);
+        F = L(!1);
       const k = async () => {
         localStorage.setItem("ListAppear", "true"),
-          S.value &&
-            ((E.value = !1),
+          F.value &&
+            ((x.value = !1),
             (b.value = !1),
             (_.value = !1),
-            (x.value = !1),
+            (E.value = !1),
             (h.value = "KF_horizotal_hide"),
             (g.value = "KF_vertical_hide"),
             (y.value = "0s"),
@@ -1238,7 +1240,7 @@ const ci = Ce(wo, [["__scopeId", "data-v-2fac201b"]]),
             (h.value = "KF_horizotal_show"),
             (g.value = "KF_vertical_show_2"),
             await n(800),
-            (E.value = !0),
+            (x.value = !0),
             (y.value = "0.6s"),
             (C.value = "storyInfoDis"),
             (w.value = !0),
@@ -1246,17 +1248,17 @@ const ci = Ce(wo, [["__scopeId", "data-v-2fac201b"]]),
             (b.value = !0),
             (_.value = !0),
             await n(400),
-            (x.value = !0),
+            (E.value = !0),
             await n(500),
-            (S.value = !0);
+            (F.value = !0);
         }),
         (T, B) => {
           const D = fn,
             z = hn;
           return (
             P(),
-            I("div", Eo, [
-              xo,
+            I("div", Fo, [
+              So,
               N(
                 te,
                 { name: "Arrow" },
@@ -1269,16 +1271,16 @@ const ci = Ce(wo, [["__scopeId", "data-v-2fac201b"]]),
                   _: 1,
                 }
               ),
-              m("div", So, [
-                m("div", Fo, [
-                  To,
-                  Bo,
+              m("div", To, [
+                m("div", Bo, [
+                  ko,
+                  Do,
                   N(
                     te,
                     { name: "CloseBtn" },
                     {
                       default: q(() => [
-                        v(E)
+                        v(x)
                           ? (P(),
                             I(
                               "div",
@@ -1291,7 +1293,7 @@ const ci = Ce(wo, [["__scopeId", "data-v-2fac201b"]]),
                               },
                               [
                                 (P(),
-                                I("svg", ko, [
+                                I("svg", Ao, [
                                   m(
                                     "use",
                                     {
@@ -1347,7 +1349,7 @@ const ci = Ce(wo, [["__scopeId", "data-v-2fac201b"]]),
                   { name: v(C) },
                   {
                     default: q(() => [
-                      m("div", Do, [
+                      m("div", Mo, [
                         N(
                           te,
                           { name: v(r) },
@@ -1355,7 +1357,7 @@ const ci = Ce(wo, [["__scopeId", "data-v-2fac201b"]]),
                             default: q(() => [
                               v(o)[0]
                                 ? (P(),
-                                  I("div", Ao, [
+                                  I("div", Po, [
                                     N(
                                       te,
                                       { name: "InfoName" },
@@ -1363,13 +1365,13 @@ const ci = Ce(wo, [["__scopeId", "data-v-2fac201b"]]),
                                         default: q(() => [
                                           v(b)
                                             ? (P(),
-                                              I("div", Mo, [
-                                                m("div", Po, [
+                                              I("div", Oo, [
+                                                m("div", Lo, [
                                                   (P(),
-                                                  I("svg", Oo, [
+                                                  I("svg", zo, [
                                                     m(
                                                       "text",
-                                                      Lo,
+                                                      Io,
                                                       Y(v(s)[v(a)].name),
                                                       1
                                                     ),
@@ -1388,12 +1390,12 @@ const ci = Ce(wo, [["__scopeId", "data-v-2fac201b"]]),
                                         default: q(() => [
                                           v(_)
                                             ? (P(),
-                                              I("div", zo, [
+                                              I("div", Ro, [
                                                 (P(),
-                                                I("svg", Io, [
+                                                I("svg", $o, [
                                                   m(
                                                     "text",
-                                                    Ro,
+                                                    No,
                                                     Y(v(s)[0].en),
                                                     1
                                                   ),
@@ -1412,7 +1414,7 @@ const ci = Ce(wo, [["__scopeId", "data-v-2fac201b"]]),
                           8,
                           ["name"]
                         ),
-                        m("div", $o, [
+                        m("div", Ho, [
                           N(
                             te,
                             { name: v(r) },
@@ -1420,17 +1422,17 @@ const ci = Ce(wo, [["__scopeId", "data-v-2fac201b"]]),
                               default: q(() => [
                                 v(o)[1]
                                   ? (P(),
-                                    I("div", No, [
+                                    I("div", Vo, [
                                       N(
                                         te,
                                         { name: "DescHide" },
                                         {
                                           default: q(() => [
-                                            v(x)
+                                            v(E)
                                               ? (P(),
                                                 I(
                                                   "div",
-                                                  Ho,
+                                                  jo,
                                                   Y(v(s)[v(a)].desc),
                                                   1
                                                 ))
@@ -1474,17 +1476,17 @@ const ci = Ce(wo, [["__scopeId", "data-v-2fac201b"]]),
       );
     },
   });
-const jo = Ce(Vo, [["__scopeId", "data-v-9cfbcc6d"]]),
-  qo = "" + new URL("https://pic3.zhimg.com/80/v2-4947430e910af6440d6edbdd19874752_720w.webp", import.meta.url).href,
-  Uo = "" + new URL("https://pic1.zhimg.com/80/v2-1b953078f2e7ca3994328fb7a4fd9670_720w.webp", import.meta.url).href,
-  Go = "" + new URL("https://pic3.zhimg.com/v2-ed844c59edf65184004363ea6766c7de_r.jpg", import.meta.url).href,
-  Wo = "" + new URL("https://free-img.400040.xyz/4/2024/08/07/66b370a7dd23a.png", import.meta.url).href,
-  Xo = "" + new URL("https://free-img.400040.xyz/4/2024/08/07/66b370b2d1a39.png", import.meta.url).href,
-  Yo = "" + new URL("https://pic3.zhimg.com/v2-ed844c59edf65184004363ea6766c7de_r.jpg", import.meta.url).href,
-  Zo = "" + new URL("https://pic4.zhimg.com/80/v2-d9884f32711e19e80979eac58e943897_720w.webp.png", import.meta.url).href,
-  Ko = "" + new URL("https://pic3.zhimg.com/80/v2-d25c4f0b472b19779783fcb6312b6ebe_720w.webp", import.meta.url).href,
-  Jo = "" + new URL("https://pic4.zhimg.com/80/v2-18a40e601d3ebb1e852e812ed663bf6f_720w.webp", import.meta.url).href,
-  Qo = "" + new URL("https://pic2.zhimg.com/80/v2-ebd7145b6cfd3291169b1c834e6f89cd_720w.webp", import.meta.url).href,
+const Uo = Ce(qo, [["__scopeId", "data-v-9cfbcc6d"]]),
+  Go = "" + new URL("https://pic3.zhimg.com/80/v2-4947430e910af6440d6edbdd19874752_720w.webp", import.meta.url).href,
+  Wo = "" + new URL("https://pic1.zhimg.com/80/v2-1b953078f2e7ca3994328fb7a4fd9670_720w.webp", import.meta.url).href,
+  Xo = "" + new URL("https://pic3.zhimg.com/v2-ed844c59edf65184004363ea6766c7de_r.jpg", import.meta.url).href,
+  Yo = "" + new URL("https://free-img.400040.xyz/4/2024/08/07/66b370a7dd23a.png", import.meta.url).href,
+  Zo = "" + new URL("https://free-img.400040.xyz/4/2024/08/07/66b370b2d1a39.png", import.meta.url).href,
+  Ko = "" + new URL("https://pic3.zhimg.com/v2-ed844c59edf65184004363ea6766c7de_r.jpg", import.meta.url).href,
+  Jo = "" + new URL("https://pic4.zhimg.com/80/v2-d9884f32711e19e80979eac58e943897_720w.webp", import.meta.url).href,
+  Qo = "" + new URL("https://pic3.zhimg.com/80/v2-d25c4f0b472b19779783fcb6312b6ebe_720w.webp", import.meta.url).href,
+  er = "" + new URL("https://pic4.zhimg.com/80/v2-18a40e601d3ebb1e852e812ed663bf6f_720w.webp", import.meta.url).href,
+  tr = "" + new URL("https://pic2.zhimg.com/80/v2-ebd7145b6cfd3291169b1c834e6f89cd_720w.webp", import.meta.url).href,
   tt = (i, e, t) => (
     (e.length = 0),
     t
@@ -1492,16 +1494,16 @@ const jo = Ce(Vo, [["__scopeId", "data-v-9cfbcc6d"]]),
       : (i.forEach((n) => {
           let s = new URL(
             Object.assign({
-              "../assets/img/Two/lizi/logo_rhine.png": Zo,
-              "../assets/img/Two/lizi/logo_rhodes.png": Ko,
-              "../assets/img/Two/lizi/logo_yan.png": Jo,
+              "../assets/img/Two/lizi/logo_rhine.png": Jo,
+              "../assets/img/Two/lizi/logo_rhodes.png": Qo,
+              "../assets/img/Two/lizi/logo_yan.png": er,
             })[`../assets/img/Two/lizi/logo_${n.label}.png`],
             self.location
           ).href;
           n.label == "penguin"
             ? (n.url = new URL(
                 Object.assign({
-                  "../assets/img/Two/lizi/logo_penguin.webp": Qo,
+                  "../assets/img/Two/lizi/logo_penguin.webp": tr,
                 })[`../assets/img/Two/lizi/logo_${n.label}.webp`],
                 self.location
               ).href)
@@ -1519,22 +1521,22 @@ const jo = Ce(Vo, [["__scopeId", "data-v-9cfbcc6d"]]),
     getters: {},
     actions: {},
   }),
-  er = { key: 0, class: "storyListWapper" },
-  tr = { class: "storyList" },
-  ir = ["onMousemove", "onClick"],
-  nr = { class: "storyItemName" },
-  sr = { class: "storyItemEn" },
-  or = {
+  ir = { key: 0, class: "storyListWapper" },
+  nr = { class: "storyList" },
+  sr = ["onMousemove", "onClick"],
+  or = { class: "storyItemName" },
+  rr = { class: "storyItemEn" },
+  ar = {
     class: "storyItemNameBack",
     xmlns: "http://www.w3.org/2000/svg",
     "xmlns:xlink": "http://www.w3.org/1999/xlink",
     viewBox: "0 0 800 125",
     "data-cursor": "pointer",
   },
-  rr = { x: "800", y: "95", "text-anchor": "end", "data-cursor": "pointer" },
-  ar = ["src"],
-  lr = { class: "particle" },
-  ur = ae({
+  lr = { x: "800", y: "95", "text-anchor": "end", "data-cursor": "pointer" },
+  ur = ["src"],
+  cr = { class: "particle" },
+  dr = ae({
     __name: "Section4_Four",
     setup(i) {
       ht((C) => ({ "7fe18b17": v(o) }));
@@ -1562,43 +1564,43 @@ const jo = Ce(Vo, [["__scopeId", "data-v-9cfbcc6d"]]),
         a = G([
           {
             id: 0,
-            name: "\u6E90\u77F3",
-            en: "ORIGINIYMS",
+            name: "二号站点",
+            en: "SITE-O2.",
             imgURL: "",
             hover: !1,
           },
           {
             id: 1,
-            name: "\u6E90\u77F3\u6280\u827A",
-            en: "ORIGINIYM ARTS",
+            name: "1-6-9号前哨",
+            en: "OUTPOST 1-6-9.",
             imgURL: "",
             hover: !1,
           },
           {
             id: 2,
-            name: "\u6574\u5408\u8FD0\u52A8",
-            en: "REUNION",
+            name: "保卫科",
+            en: "SDA.",
             imgURL: "",
             hover: !1,
           },
           {
             id: 3,
-            name: "\u611F\u67D3\u8005",
-            en: "INFECTED",
+            name: "1-9-3号前哨",
+            en: "OUTPOST 1-9-3.",
             imgURL: "",
             hover: !1,
           },
           {
             id: 4,
-            name: "\u79FB\u52A8\u57CE\u90A6",
-            en: "NOMADIC CITY",
+            name: "研究部",
+            en: "RESA.",
             imgURL: "",
             hover: !1,
           },
           {
             id: 5,
-            name: "\u7F57\u5FB7\u5C9B",
-            en: "RHODES ISLAND",
+            name: "逆模因部",
+            en: "████",
             imgURL: "",
             hover: !1,
           },
@@ -1606,12 +1608,12 @@ const jo = Ce(Vo, [["__scopeId", "data-v-9cfbcc6d"]]),
       for (let C = 0; C < a.length; C++) {
         let b = new URL(
           Object.assign({
-            "../../assets/img/Four/list_1.png": qo,
-            "../../assets/img/Four/list_2.png": Uo,
-            "../../assets/img/Four/list_3.png": Go,
-            "../../assets/img/Four/list_4.png": Wo,
-            "../../assets/img/Four/list_5.png": Xo,
-            "../../assets/img/Four/list_6.png": Yo,
+            "../../assets/img/Four/list_1.png": Go,
+            "../../assets/img/Four/list_2.png": Wo,
+            "../../assets/img/Four/list_3.png": Xo,
+            "../../assets/img/Four/list_4.png": Yo,
+            "../../assets/img/Four/list_5.png": Zo,
+            "../../assets/img/Four/list_6.png": Ko,
           })[`../../assets/img/Four/list_${C + 1}.png`],
           self.location
         ).href;
@@ -1620,11 +1622,11 @@ const jo = Ce(Vo, [["__scopeId", "data-v-9cfbcc6d"]]),
       const l = L([]);
       let u = 50;
       const c = (C, b, _) => {
-          _.forEach((S) => {
-            S.hover = !1;
+          _.forEach((F) => {
+            F.hover = !1;
           }),
             (_[b].hover = !0);
-          let x = C.clientX,
+          let E = C.clientX,
             w = C.clientY;
           switch (b) {
             case 0:
@@ -1647,7 +1649,7 @@ const jo = Ce(Vo, [["__scopeId", "data-v-9cfbcc6d"]]),
               break;
           }
           window.requestAnimationFrame(() => {
-            (l.value[b].style.left = x + "px"),
+            (l.value[b].style.left = E + "px"),
               (l.value[b].style.top = w + "px"),
               (l.value[b].style.transform = `translate(-50%,-${u}%)`);
           });
@@ -1692,7 +1694,7 @@ const jo = Ce(Vo, [["__scopeId", "data-v-9cfbcc6d"]]),
                 }, 500));
           }, 100);
         },
-        E = () => {
+        x = () => {
           localStorage.getItem("ListAppear") == null &&
             localStorage.setItem("ListAppear", "true"),
             (f.ListAppear = localStorage.getItem("ListAppear") == "true"),
@@ -1700,21 +1702,21 @@ const jo = Ce(Vo, [["__scopeId", "data-v-9cfbcc6d"]]),
         };
       return (
         ke(() => {
-          E();
+          x();
         }),
         (C, b) => {
-          const _ = jo,
-            x = ci;
+          const _ = Uo,
+            E = ci;
           return (
             P(),
             I(
-              ce,
+              de,
               null,
               [
                 v(f).ListAppear
                   ? (P(),
-                    I("div", er, [
-                      m("ol", tr, [
+                    I("div", ir, [
+                      m("ol", nr, [
                         N(
                           et,
                           { name: "storyitem", appear: "" },
@@ -1722,10 +1724,10 @@ const jo = Ce(Vo, [["__scopeId", "data-v-9cfbcc6d"]]),
                             default: q(() => [
                               (P(!0),
                               I(
-                                ce,
+                                de,
                                 null,
                                 Ee(v(a), (w) =>
-                                  fe(
+                                  ce(
                                     (P(),
                                     I(
                                       "li",
@@ -1735,17 +1737,17 @@ const jo = Ce(Vo, [["__scopeId", "data-v-9cfbcc6d"]]),
                                         ref_for: !0,
                                         ref_key: "StoryLi",
                                         ref: h,
-                                        onMousemove: (S) => c(S, w.id, v(a)),
+                                        onMousemove: (F) => c(F, w.id, v(a)),
                                         onMouseout:
-                                          b[0] || (b[0] = (S) => d(v(a))),
-                                        onClick: (S) => p(w.id),
+                                          b[0] || (b[0] = (F) => d(v(a))),
+                                        onClick: (F) => p(w.id),
                                       },
                                       [
-                                        m("span", nr, Y(w.name), 1),
-                                        m("span", sr, Y(w.en), 1),
+                                        m("span", or, Y(w.name), 1),
+                                        m("span", rr, Y(w.en), 1),
                                         (P(),
-                                        I("svg", or, [
-                                          m("text", rr, Y(w.en), 1),
+                                        I("svg", ar, [
+                                          m("text", lr, Y(w.en), 1),
                                         ])),
                                         m(
                                           "div",
@@ -1763,7 +1765,7 @@ const jo = Ce(Vo, [["__scopeId", "data-v-9cfbcc6d"]]),
                                                   { key: 0, src: w.imgURL },
                                                   null,
                                                   8,
-                                                  ar
+                                                  ur
                                                 ))
                                               : X("", !0),
                                           ],
@@ -1771,7 +1773,7 @@ const jo = Ce(Vo, [["__scopeId", "data-v-9cfbcc6d"]]),
                                         ),
                                       ],
                                       40,
-                                      ir
+                                      sr
                                     )),
                                     [[he, v(f).ListHide[w.id]]]
                                   )
@@ -1804,9 +1806,9 @@ const jo = Ce(Vo, [["__scopeId", "data-v-9cfbcc6d"]]),
                       8,
                       ["ListAppear", "ImgMove", "Rights", "LiziChild"]
                     )),
-                m("div", lr, [
+                m("div", cr, [
                   N(
-                    x,
+                    E,
                     {
                       canvasRect: v(t),
                       logos: v(s),
@@ -1826,16 +1828,8 @@ const jo = Ce(Vo, [["__scopeId", "data-v-9cfbcc6d"]]),
       );
     },
   });
-const cr = Ce(ur, [["__scopeId", "data-v-4df7816c"]]),
-  dr = "" + new URL("https://pic3.zhimg.com/80/v2-4ce2714c21f1e8974c07e0eb5c98b88a_720w.webp", import.meta.url).href,
-  fr = Object.freeze(
-    Object.defineProperty(
-      { __proto__: null, default: dr },
-      Symbol.toStringTag,
-      { value: "Module" }
-    )
-  ),
-  hr = "" + new URL("https://pic2.zhimg.com/80/v2-23b88c36fa2e00fe60772b89177c39f1_720w.webp", import.meta.url).href,
+const fr = Ce(dr, [["__scopeId", "data-v-4df7816c"]]),
+  hr = "" + new URL("https://pic3.zhimg.com/80/v2-4ce2714c21f1e8974c07e0eb5c98b88a_720w.webp", import.meta.url).href,
   pr = Object.freeze(
     Object.defineProperty(
       { __proto__: null, default: hr },
@@ -1843,7 +1837,7 @@ const cr = Ce(ur, [["__scopeId", "data-v-4df7816c"]]),
       { value: "Module" }
     )
   ),
-  vr = "" + new URL("https://pic4.zhimg.com/80/v2-f52bc0d9931b0680e0bd0f76570b032b_720w.webp", import.meta.url).href,
+  vr = "" + new URL("https://pic2.zhimg.com/80/v2-23b88c36fa2e00fe60772b89177c39f1_720w.webp", import.meta.url).href,
   mr = Object.freeze(
     Object.defineProperty(
       { __proto__: null, default: vr },
@@ -1851,7 +1845,7 @@ const cr = Ce(ur, [["__scopeId", "data-v-4df7816c"]]),
       { value: "Module" }
     )
   ),
-  gr = "" + new URL("https://pic2.zhimg.com/80/v2-32d9982c71765eb61a696d7c0c8bef55_720w.webp", import.meta.url).href,
+  gr = "" + new URL("https://pic4.zhimg.com/80/v2-f52bc0d9931b0680e0bd0f76570b032b_720w.webp", import.meta.url).href,
   yr = Object.freeze(
     Object.defineProperty(
       { __proto__: null, default: gr },
@@ -1859,7 +1853,7 @@ const cr = Ce(ur, [["__scopeId", "data-v-4df7816c"]]),
       { value: "Module" }
     )
   ),
-  Cr = "" + new URL("https://pic2.zhimg.com/80/v2-c5f7f03b9a3ee839639923383ebd5a59_720w.webp", import.meta.url).href,
+  Cr = "" + new URL("https://pic2.zhimg.com/80/v2-32d9982c71765eb61a696d7c0c8bef55_720w.webp", import.meta.url).href,
   br = Object.freeze(
     Object.defineProperty(
       { __proto__: null, default: Cr },
@@ -1867,7 +1861,7 @@ const cr = Ce(ur, [["__scopeId", "data-v-4df7816c"]]),
       { value: "Module" }
     )
   ),
-  _r = "" + new URL("https://pic4.zhimg.com/80/v2-e568f8e45850a81a73955ae5c8b7d9e3_720w.webp", import.meta.url).href,
+  _r = "" + new URL("https://pic2.zhimg.com/80/v2-c5f7f03b9a3ee839639923383ebd5a59_720w.webp", import.meta.url).href,
   wr = Object.freeze(
     Object.defineProperty(
       { __proto__: null, default: _r },
@@ -1875,7 +1869,7 @@ const cr = Ce(ur, [["__scopeId", "data-v-4df7816c"]]),
       { value: "Module" }
     )
   ),
-  Er = "" + new URL("https://pic2.zhimg.com/80/v2-29776cb05e3de56622fbb48529abc2a1_720w.webp", import.meta.url).href,
+  Er = "" + new URL("https://pic4.zhimg.com/80/v2-e568f8e45850a81a73955ae5c8b7d9e3_720w.webp", import.meta.url).href,
   xr = Object.freeze(
     Object.defineProperty(
       { __proto__: null, default: Er },
@@ -1883,15 +1877,15 @@ const cr = Ce(ur, [["__scopeId", "data-v-4df7816c"]]),
       { value: "Module" }
     )
   ),
-  Sr = "" + new URL("https://pic2.zhimg.com/80/v2-e1840e58c4dc017f27948e72d64d10dd_720w.webp", import.meta.url).href,
-  Fr = Object.freeze(
+  Fr = "" + new URL("https://pic2.zhimg.com/80/v2-29776cb05e3de56622fbb48529abc2a1_720w.webp", import.meta.url).href,
+  Sr = Object.freeze(
     Object.defineProperty(
-      { __proto__: null, default: Sr },
+      { __proto__: null, default: Fr },
       Symbol.toStringTag,
       { value: "Module" }
     )
   ),
-  Tr = "" + new URL("https://pic2.zhimg.com/80/v2-8394d938cb8961f950241117bcca470d_720w.webp", import.meta.url).href,
+  Tr = "" + new URL("https://pic2.zhimg.com/80/v2-e1840e58c4dc017f27948e72d64d10dd_720w.webp", import.meta.url).href,
   Br = Object.freeze(
     Object.defineProperty(
       { __proto__: null, default: Tr },
@@ -1899,7 +1893,7 @@ const cr = Ce(ur, [["__scopeId", "data-v-4df7816c"]]),
       { value: "Module" }
     )
   ),
-  kr = "" + new URL("https://pic4.zhimg.com/80/v2-ab0faf345980f569604c17ec68b68f47_720w.webp", import.meta.url).href,
+  kr = "" + new URL("https://pic2.zhimg.com/80/v2-8394d938cb8961f950241117bcca470d_720w.webp", import.meta.url).href,
   Dr = Object.freeze(
     Object.defineProperty(
       { __proto__: null, default: kr },
@@ -1907,7 +1901,7 @@ const cr = Ce(ur, [["__scopeId", "data-v-4df7816c"]]),
       { value: "Module" }
     )
   ),
-  Ar = "" + new URL("https://pic1.zhimg.com/80/v2-19657ca9d0d9c48a56b1a7b89ef1802c_720w.webp", import.meta.url).href,
+  Ar = "" + new URL("https://pic4.zhimg.com/80/v2-ab0faf345980f569604c17ec68b68f47_720w.webp", import.meta.url).href,
   Mr = Object.freeze(
     Object.defineProperty(
       { __proto__: null, default: Ar },
@@ -1915,7 +1909,7 @@ const cr = Ce(ur, [["__scopeId", "data-v-4df7816c"]]),
       { value: "Module" }
     )
   ),
-  Pr = "" + new URL("https://pic3.zhimg.com/80/v2-0517c3306fa3e634a1a4e3df1dbd2972_720w.webp", import.meta.url).href,
+  Pr = "" + new URL("https://pic1.zhimg.com/80/v2-19657ca9d0d9c48a56b1a7b89ef1802c_720w.webp", import.meta.url).href,
   Or = Object.freeze(
     Object.defineProperty(
       { __proto__: null, default: Pr },
@@ -1923,7 +1917,7 @@ const cr = Ce(ur, [["__scopeId", "data-v-4df7816c"]]),
       { value: "Module" }
     )
   ),
-  Lr = "" + new URL("https://free-img.400040.xyz/4/2024/08/07/66b3740e26f4b.webp", import.meta.url).href,
+  Lr = "" + new URL("https://pic3.zhimg.com/80/v2-0517c3306fa3e634a1a4e3df1dbd2972_720w.webp", import.meta.url).href,
   zr = Object.freeze(
     Object.defineProperty(
       { __proto__: null, default: Lr },
@@ -1931,8 +1925,16 @@ const cr = Ce(ur, [["__scopeId", "data-v-4df7816c"]]),
       { value: "Module" }
     )
   ),
+  Ir = "" + new URL("https://free-img.400040.xyz/4/2024/08/07/66b3740e26f4b.webp", import.meta.url).href,
+  Rr = Object.freeze(
+    Object.defineProperty(
+      { __proto__: null, default: Ir },
+      Symbol.toStringTag,
+      { value: "Module" }
+    )
+  ),
   ge = (i) => new Promise((e) => setTimeout(e, i));
-function Fi(i) {
+function Si(i) {
   return (
     i !== null &&
     typeof i == "object" &&
@@ -1944,7 +1946,7 @@ function fi(i = {}, e = {}) {
   Object.keys(e).forEach((t) => {
     typeof i[t] > "u"
       ? (i[t] = e[t])
-      : Fi(e[t]) && Fi(i[t]) && Object.keys(e[t]).length > 0 && fi(i[t], e[t]);
+      : Si(e[t]) && Si(i[t]) && Object.keys(e[t]).length > 0 && fi(i[t], e[t]);
   });
 }
 const pn = {
@@ -1996,7 +1998,7 @@ function be() {
   const i = typeof document < "u" ? document : {};
   return fi(i, pn), i;
 }
-const Ir = {
+const $r = {
   document: pn,
   navigator: { userAgent: "" },
   location: {
@@ -2039,9 +2041,9 @@ const Ir = {
 };
 function re() {
   const i = typeof window < "u" ? window : {};
-  return fi(i, Ir), i;
+  return fi(i, $r), i;
 }
-function Rr(i) {
+function Nr(i) {
   const e = i.__proto__;
   Object.defineProperty(i, "__proto__", {
     get() {
@@ -2054,7 +2056,7 @@ function Rr(i) {
 }
 class Ve extends Array {
   constructor(e) {
-    typeof e == "number" ? super(e) : (super(...(e || [])), Rr(this));
+    typeof e == "number" ? super(e) : (super(...(e || [])), Nr(this));
   }
 }
 function pt(i = []) {
@@ -2069,12 +2071,12 @@ function pt(i = []) {
 function vn(i, e) {
   return Array.prototype.filter.call(i, e);
 }
-function $r(i) {
+function Hr(i) {
   const e = [];
   for (let t = 0; t < i.length; t += 1) e.indexOf(i[t]) === -1 && e.push(i[t]);
   return e;
 }
-function Nr(i, e) {
+function Vr(i, e) {
   if (typeof i != "string") return [i];
   const t = [],
     n = e.querySelectorAll(i);
@@ -2099,16 +2101,16 @@ function $(i, e) {
       const a = n.createElement(r);
       a.innerHTML = o;
       for (let l = 0; l < a.childNodes.length; l += 1) s.push(a.childNodes[l]);
-    } else s = Nr(i.trim(), e || n);
+    } else s = Vr(i.trim(), e || n);
   } else if (i.nodeType || i === t || i === n) s.push(i);
   else if (Array.isArray(i)) {
     if (i instanceof Ve) return i;
     s = i;
   }
-  return new Ve($r(s));
+  return new Ve(Hr(s));
 }
 $.fn = Ve.prototype;
-function Hr(...i) {
+function jr(...i) {
   const e = pt(i.map((t) => t.split(" ")));
   return (
     this.forEach((t) => {
@@ -2117,7 +2119,7 @@ function Hr(...i) {
     this
   );
 }
-function Vr(...i) {
+function qr(...i) {
   const e = pt(i.map((t) => t.split(" ")));
   return (
     this.forEach((t) => {
@@ -2126,7 +2128,7 @@ function Vr(...i) {
     this
   );
 }
-function jr(...i) {
+function Ur(...i) {
   const e = pt(i.map((t) => t.split(" ")));
   this.forEach((t) => {
     e.forEach((n) => {
@@ -2134,14 +2136,14 @@ function jr(...i) {
     });
   });
 }
-function qr(...i) {
+function Gr(...i) {
   const e = pt(i.map((t) => t.split(" ")));
   return (
     vn(this, (t) => e.filter((n) => t.classList.contains(n)).length > 0)
       .length > 0
   );
 }
-function Ur(i, e) {
+function Wr(i, e) {
   if (arguments.length === 1 && typeof i == "string")
     return this[0] ? this[0].getAttribute(i) : void 0;
   for (let t = 0; t < this.length; t += 1)
@@ -2149,20 +2151,20 @@ function Ur(i, e) {
     else for (const n in i) (this[t][n] = i[n]), this[t].setAttribute(n, i[n]);
   return this;
 }
-function Gr(i) {
+function Xr(i) {
   for (let e = 0; e < this.length; e += 1) this[e].removeAttribute(i);
   return this;
 }
-function Wr(i) {
+function Yr(i) {
   for (let e = 0; e < this.length; e += 1) this[e].style.transform = i;
   return this;
 }
-function Xr(i) {
+function Zr(i) {
   for (let e = 0; e < this.length; e += 1)
     this[e].style.transitionDuration = typeof i != "string" ? `${i}ms` : i;
   return this;
 }
-function Yr(...i) {
+function Kr(...i) {
   let [e, t, n, s] = i;
   typeof i[1] == "function" && (([e, n, s] = i), (t = void 0)), s || (s = !1);
   function o(u) {
@@ -2202,7 +2204,7 @@ function Yr(...i) {
   }
   return this;
 }
-function Zr(...i) {
+function Jr(...i) {
   let [e, t, n, s] = i;
   typeof i[1] == "function" && (([e, n, s] = i), (t = void 0)), s || (s = !1);
   const o = e.split(" ");
@@ -2232,7 +2234,7 @@ function Zr(...i) {
   }
   return this;
 }
-function Kr(...i) {
+function Qr(...i) {
   const e = re(),
     t = i[0].split(" "),
     n = i[1];
@@ -2255,14 +2257,14 @@ function Kr(...i) {
   }
   return this;
 }
-function Jr(i) {
+function ea(i) {
   const e = this;
   function t(n) {
     n.target === this && (i.call(this, n), e.off("transitionend", t));
   }
   return i && e.on("transitionend", t), this;
 }
-function Qr(i) {
+function ta(i) {
   if (this.length > 0) {
     if (i) {
       const e = this.styles();
@@ -2276,7 +2278,7 @@ function Qr(i) {
   }
   return null;
 }
-function ea(i) {
+function ia(i) {
   if (this.length > 0) {
     if (i) {
       const e = this.styles();
@@ -2290,7 +2292,7 @@ function ea(i) {
   }
   return null;
 }
-function ta() {
+function na() {
   if (this.length > 0) {
     const i = re(),
       e = be(),
@@ -2305,11 +2307,11 @@ function ta() {
   }
   return null;
 }
-function ia() {
+function sa() {
   const i = re();
   return this[0] ? i.getComputedStyle(this[0], null) : {};
 }
-function na(i, e) {
+function oa(i, e) {
   const t = re();
   let n;
   if (arguments.length === 1)
@@ -2326,7 +2328,7 @@ function na(i, e) {
   }
   return this;
 }
-function sa(i) {
+function ra(i) {
   return i
     ? (this.forEach((e, t) => {
         i.apply(e, [e, t]);
@@ -2334,21 +2336,21 @@ function sa(i) {
       this)
     : this;
 }
-function oa(i) {
+function aa(i) {
   const e = vn(this, i);
   return $(e);
 }
-function ra(i) {
+function la(i) {
   if (typeof i > "u") return this[0] ? this[0].innerHTML : null;
   for (let e = 0; e < this.length; e += 1) this[e].innerHTML = i;
   return this;
 }
-function aa(i) {
+function ua(i) {
   if (typeof i > "u") return this[0] ? this[0].textContent.trim() : null;
   for (let e = 0; e < this.length; e += 1) this[e].textContent = i;
   return this;
 }
-function la(i) {
+function ca(i) {
   const e = re(),
     t = be(),
     n = this[0];
@@ -2370,7 +2372,7 @@ function la(i) {
   }
   return !1;
 }
-function ua() {
+function da() {
   let i = this[0],
     e;
   if (i) {
@@ -2379,7 +2381,7 @@ function ua() {
     return e;
   }
 }
-function ca(i) {
+function fa(i) {
   if (typeof i > "u") return this;
   const e = this.length;
   if (i > e - 1) return $([]);
@@ -2389,7 +2391,7 @@ function ca(i) {
   }
   return $([this[i]]);
 }
-function da(...i) {
+function ha(...i) {
   let e;
   const t = be();
   for (let n = 0; n < i.length; n += 1) {
@@ -2404,7 +2406,7 @@ function da(...i) {
   }
   return this;
 }
-function fa(i) {
+function pa(i) {
   const e = be();
   let t, n;
   for (t = 0; t < this.length; t += 1)
@@ -2418,7 +2420,7 @@ function fa(i) {
     else this[t].insertBefore(i, this[t].childNodes[0]);
   return this;
 }
-function ha(i) {
+function va(i) {
   return this.length > 0
     ? i
       ? this[0].nextElementSibling && $(this[0].nextElementSibling).is(i)
@@ -2429,7 +2431,7 @@ function ha(i) {
       : $([])
     : $([]);
 }
-function pa(i) {
+function ma(i) {
   const e = [];
   let t = this[0];
   if (!t) return $([]);
@@ -2439,7 +2441,7 @@ function pa(i) {
   }
   return $(e);
 }
-function va(i) {
+function ga(i) {
   if (this.length > 0) {
     const e = this[0];
     return i
@@ -2452,7 +2454,7 @@ function va(i) {
   }
   return $([]);
 }
-function ma(i) {
+function ya(i) {
   const e = [];
   let t = this[0];
   if (!t) return $([]);
@@ -2462,7 +2464,7 @@ function ma(i) {
   }
   return $(e);
 }
-function ga(i) {
+function Ca(i) {
   const e = [];
   for (let t = 0; t < this.length; t += 1)
     this[t].parentNode !== null &&
@@ -2471,7 +2473,7 @@ function ga(i) {
         : e.push(this[t].parentNode));
   return $(e);
 }
-function ya(i) {
+function ba(i) {
   const e = [];
   for (let t = 0; t < this.length; t += 1) {
     let n = this[t].parentNode;
@@ -2479,11 +2481,11 @@ function ya(i) {
   }
   return $(e);
 }
-function Ca(i) {
+function _a(i) {
   let e = this;
   return typeof i > "u" ? $([]) : (e.is(i) || (e = e.parents(i).eq(0)), e);
 }
-function ba(i) {
+function wa(i) {
   const e = [];
   for (let t = 0; t < this.length; t += 1) {
     const n = this[t].querySelectorAll(i);
@@ -2491,7 +2493,7 @@ function ba(i) {
   }
   return $(e);
 }
-function _a(i) {
+function Ea(i) {
   const e = [];
   for (let t = 0; t < this.length; t += 1) {
     const n = this[t].children;
@@ -2499,53 +2501,53 @@ function _a(i) {
   }
   return $(e);
 }
-function wa() {
+function xa() {
   for (let i = 0; i < this.length; i += 1)
     this[i].parentNode && this[i].parentNode.removeChild(this[i]);
   return this;
 }
 const Ti = {
-  addClass: Hr,
-  removeClass: Vr,
-  hasClass: qr,
-  toggleClass: jr,
-  attr: Ur,
-  removeAttr: Gr,
-  transform: Wr,
-  transition: Xr,
-  on: Yr,
-  off: Zr,
-  trigger: Kr,
-  transitionEnd: Jr,
-  outerWidth: Qr,
-  outerHeight: ea,
-  styles: ia,
-  offset: ta,
-  css: na,
-  each: sa,
-  html: ra,
-  text: aa,
-  is: la,
-  index: ua,
-  eq: ca,
-  append: da,
-  prepend: fa,
-  next: ha,
-  nextAll: pa,
-  prev: va,
-  prevAll: ma,
-  parent: ga,
-  parents: ya,
-  closest: Ca,
-  find: ba,
-  children: _a,
-  filter: oa,
-  remove: wa,
+  addClass: jr,
+  removeClass: qr,
+  hasClass: Gr,
+  toggleClass: Ur,
+  attr: Wr,
+  removeAttr: Xr,
+  transform: Yr,
+  transition: Zr,
+  on: Kr,
+  off: Jr,
+  trigger: Qr,
+  transitionEnd: ea,
+  outerWidth: ta,
+  outerHeight: ia,
+  styles: sa,
+  offset: na,
+  css: oa,
+  each: ra,
+  html: la,
+  text: ua,
+  is: ca,
+  index: da,
+  eq: fa,
+  append: ha,
+  prepend: pa,
+  next: va,
+  nextAll: ma,
+  prev: ga,
+  prevAll: ya,
+  parent: Ca,
+  parents: ba,
+  closest: _a,
+  find: wa,
+  children: Ea,
+  filter: aa,
+  remove: xa,
 };
 Object.keys(Ti).forEach((i) => {
   Object.defineProperty($.fn, i, { value: Ti[i], writable: !0 });
 });
-function Ea(i) {
+function Fa(i) {
   const e = i;
   Object.keys(e).forEach((t) => {
     try {
@@ -2562,7 +2564,7 @@ function dt(i, e = 0) {
 function Oe() {
   return Date.now();
 }
-function xa(i) {
+function Sa(i) {
   const e = re();
   let t;
   return (
@@ -2572,10 +2574,10 @@ function xa(i) {
     t
   );
 }
-function Sa(i, e = "x") {
+function Ta(i, e = "x") {
   const t = re();
   let n, s, o;
-  const r = xa(i);
+  const r = Sa(i);
   return (
     t.WebKitCSSMatrix
       ? ((s = r.transform || r.webkitTransform),
@@ -2618,7 +2620,7 @@ function yt(i) {
     Object.prototype.toString.call(i).slice(8, -1) === "Object"
   );
 }
-function Fa(i) {
+function Ba(i) {
   return typeof window < "u" && typeof window.HTMLElement < "u"
     ? i instanceof HTMLElement
     : i && (i.nodeType === 1 || i.nodeType === 11);
@@ -2628,7 +2630,7 @@ function ye(...i) {
     t = ["__proto__", "constructor", "prototype"];
   for (let n = 1; n < i.length; n += 1) {
     const s = i[n];
-    if (s != null && !Fa(s)) {
+    if (s != null && !Ba(s)) {
       const o = Object.keys(Object(s)).filter((r) => t.indexOf(r) < 0);
       for (let r = 0, a = o.length; r < a; r += 1) {
         const l = o[r],
@@ -2679,7 +2681,7 @@ function mn({ swiper: i, targetPosition: e, side: t }) {
   c();
 }
 let Pt;
-function Ta() {
+function ka() {
   const i = re(),
     e = be();
   return {
@@ -2707,10 +2709,10 @@ function Ta() {
   };
 }
 function gn() {
-  return Pt || (Pt = Ta()), Pt;
+  return Pt || (Pt = ka()), Pt;
 }
 let Ot;
-function Ba({ userAgent: i } = {}) {
+function Da({ userAgent: i } = {}) {
   const e = gn(),
     t = re(),
     n = t.navigator.platform,
@@ -2751,11 +2753,11 @@ function Ba({ userAgent: i } = {}) {
     o
   );
 }
-function ka(i = {}) {
-  return Ot || (Ot = Ba(i)), Ot;
+function Aa(i = {}) {
+  return Ot || (Ot = Da(i)), Ot;
 }
 let Lt;
-function Da() {
+function Ma() {
   const i = re();
   function e() {
     const t = i.navigator.userAgent.toLowerCase();
@@ -2772,10 +2774,10 @@ function Da() {
     ),
   };
 }
-function Aa() {
-  return Lt || (Lt = Da()), Lt;
+function Pa() {
+  return Lt || (Lt = Ma()), Lt;
 }
-function Ma({ swiper: i, on: e, emit: t }) {
+function Oa({ swiper: i, on: e, emit: t }) {
   const n = re();
   let s = null;
   const o = () => {
@@ -2817,7 +2819,7 @@ function Ma({ swiper: i, on: e, emit: t }) {
         n.removeEventListener("orientationchange", l);
     });
 }
-function Pa({ swiper: i, extendParams: e, on: t, emit: n }) {
+function La({ swiper: i, extendParams: e, on: t, emit: n }) {
   const s = [],
     o = re(),
     r = (u, c = {}) => {
@@ -2861,7 +2863,7 @@ function Pa({ swiper: i, extendParams: e, on: t, emit: n }) {
     t("init", a),
     t("destroy", l);
 }
-const Oa = {
+const za = {
   on(i, e, t) {
     const n = this;
     if (typeof e != "function") return n;
@@ -2935,7 +2937,7 @@ const Oa = {
     );
   },
 };
-function La() {
+function Ia() {
   const i = this;
   let e, t;
   const n = i.$el;
@@ -2962,7 +2964,7 @@ function La() {
         size: i.isHorizontal() ? e : t,
       }));
 }
-function za() {
+function Ra() {
   const i = this;
   function e(B) {
     return i.isHorizontal()
@@ -2994,11 +2996,11 @@ function za() {
   typeof g == "function" && (g = n.slidesOffsetBefore.call(i));
   let y = n.slidesOffsetAfter;
   typeof y == "function" && (y = n.slidesOffsetAfter.call(i));
-  const E = i.snapGrid.length,
+  const x = i.snapGrid.length,
     C = i.slidesGrid.length;
   let b = n.spaceBetween,
     _ = -g,
-    x = 0,
+    E = 0,
     w = 0;
   if (typeof o > "u") return;
   typeof b == "string" &&
@@ -3012,8 +3014,8 @@ function za() {
       n.cssMode &&
       (Ct(i.wrapperEl, "--swiper-centered-offset-before", ""),
       Ct(i.wrapperEl, "--swiper-centered-offset-after", ""));
-  const S = n.grid && n.grid.rows > 1 && i.grid;
-  S && i.grid.initSlides(d);
+  const F = n.grid && n.grid.rows > 1 && i.grid;
+  F && i.grid.initSlides(d);
   let k;
   const T =
     n.slidesPerView === "auto" &&
@@ -3024,7 +3026,7 @@ function za() {
   for (let B = 0; B < d; B += 1) {
     k = 0;
     const D = c.eq(B);
-    if ((S && i.grid.updateSlide(B, D, d, e), D.css("display") !== "none")) {
+    if ((F && i.grid.updateSlide(B, D, d, e), D.css("display") !== "none")) {
       if (n.slidesPerView === "auto") {
         T && (c[B].style[e("width")] = "");
         const z = getComputedStyle(D[0]),
@@ -3037,16 +3039,16 @@ function za() {
         )
           k = i.isHorizontal() ? D.outerWidth(!0) : D.outerHeight(!0);
         else {
-          const F = t(z, "width"),
+          const S = t(z, "width"),
             A = t(z, "padding-left"),
             M = t(z, "padding-right"),
             O = t(z, "margin-left"),
             W = t(z, "margin-right"),
             Me = z.getPropertyValue("box-sizing");
-          if (Me && Me === "border-box") k = F + O + W;
+          if (Me && Me === "border-box") k = S + O + W;
           else {
             const { clientWidth: We, offsetWidth: Pe } = D[0];
-            k = F + A + M + O + W + (Pe - We);
+            k = S + A + M + O + W + (Pe - We);
           }
         }
         V && (D[0].style.transform = V),
@@ -3059,8 +3061,8 @@ function za() {
       c[B] && (c[B].swiperSlideSize = k),
         h.push(k),
         n.centeredSlides
-          ? ((_ = _ + k / 2 + x / 2 + b),
-            x === 0 && B !== 0 && (_ = _ - o / 2 - b),
+          ? ((_ = _ + k / 2 + E / 2 + b),
+            E === 0 && B !== 0 && (_ = _ - o / 2 - b),
             B === 0 && (_ = _ - o / 2 - b),
             Math.abs(_) < 1 / 1e3 && (_ = 0),
             n.roundLengths && (_ = Math.floor(_)),
@@ -3073,7 +3075,7 @@ function za() {
             p.push(_),
             (_ = _ + k + b)),
         (i.virtualSize += k + b),
-        (x = k),
+        (E = k),
         (w += 1);
     }
   }
@@ -3085,7 +3087,7 @@ function za() {
       s.css({ width: `${i.virtualSize + n.spaceBetween}px` }),
     n.setWrapperSize &&
       s.css({ [e("width")]: `${i.virtualSize + n.spaceBetween}px` }),
-    S && i.grid.updateWrapperSize(k, f, e),
+    F && i.grid.updateWrapperSize(k, f, e),
     !n.centeredSlides)
   ) {
     const B = [];
@@ -3152,13 +3154,13 @@ function za() {
       (i.slidesGrid = i.slidesGrid.map((z) => z + D));
   }
   d !== u && i.emit("slidesLengthChange"),
-    f.length !== E &&
+    f.length !== x &&
       (i.params.watchOverflow && i.checkOverflow(),
       i.emit("snapGridLengthChange")),
     p.length !== C && i.emit("slidesGridLengthChange"),
     n.watchSlidesProgress && i.updateSlidesOffset();
 }
-function Ia(i) {
+function $a(i) {
   const e = this,
     t = [],
     n = e.virtual && e.params.virtual.enabled;
@@ -3192,7 +3194,7 @@ function Ia(i) {
     }
   (s || s === 0) && e.$wrapperEl.css("height", `${s}px`);
 }
-function Ra() {
+function Na() {
   const i = this,
     e = i.slides;
   for (let t = 0; t < e.length; t += 1)
@@ -3200,7 +3202,7 @@ function Ra() {
       ? e[t].offsetLeft
       : e[t].offsetTop;
 }
-function $a(i = (this && this.translate) || 0) {
+function Ha(i = (this && this.translate) || 0) {
   const e = this,
     t = e.params,
     { slides: n, rtlTranslate: s, snapGrid: o } = e;
@@ -3234,7 +3236,7 @@ function $a(i = (this && this.translate) || 0) {
   }
   e.visibleSlides = $(e.visibleSlides);
 }
-function Na(i) {
+function Va(i) {
   const e = this;
   if (typeof i > "u") {
     const u = e.rtlTranslate ? -1 : 1;
@@ -3256,7 +3258,7 @@ function Na(i) {
     ((a && !o) || (l && !r)) && e.emit("fromEdge"),
     e.emit("progress", s);
 }
-function Ha() {
+function ja() {
   const i = this,
     { slides: e, params: t, $wrapperEl: n, activeIndex: s, realIndex: o } = i,
     r = i.virtual && t.virtual.enabled;
@@ -3323,7 +3325,7 @@ function Ha() {
             .addClass(t.slideDuplicatePrevClass)),
     i.emitSlidesClasses();
 }
-function Va(i) {
+function qa(i) {
   const e = this,
     t = e.rtlTranslate ? e.translate : -e.translate,
     {
@@ -3366,7 +3368,7 @@ function Va(i) {
     a !== d && e.emit("realIndexChange"),
     (e.initialized || e.params.runCallbacksOnInit) && e.emit("slideChange");
 }
-function ja(i) {
+function Ua(i) {
   const e = this,
     t = e.params,
     n = $(i).closest(`.${t.slideClass}`)[0];
@@ -3393,26 +3395,26 @@ function ja(i) {
     e.clickedIndex !== e.activeIndex &&
     e.slideToClickedSlide();
 }
-const qa = {
-  updateSize: La,
-  updateSlides: za,
-  updateAutoHeight: Ia,
-  updateSlidesOffset: Ra,
-  updateSlidesProgress: $a,
-  updateProgress: Na,
-  updateSlidesClasses: Ha,
-  updateActiveIndex: Va,
-  updateClickedSlide: ja,
+const Ga = {
+  updateSize: Ia,
+  updateSlides: Ra,
+  updateAutoHeight: $a,
+  updateSlidesOffset: Na,
+  updateSlidesProgress: Ha,
+  updateProgress: Va,
+  updateSlidesClasses: ja,
+  updateActiveIndex: qa,
+  updateClickedSlide: Ua,
 };
-function Ua(i = this.isHorizontal() ? "x" : "y") {
+function Wa(i = this.isHorizontal() ? "x" : "y") {
   const e = this,
     { params: t, rtlTranslate: n, translate: s, $wrapperEl: o } = e;
   if (t.virtualTranslate) return n ? -s : s;
   if (t.cssMode) return s;
-  let r = Sa(o[0], i);
+  let r = Ta(o[0], i);
   return n && (r = -r), r || 0;
 }
-function Ga(i, e) {
+function Xa(i, e) {
   const t = this,
     {
       rtlTranslate: n,
@@ -3440,13 +3442,13 @@ function Ga(i, e) {
     d !== a && t.updateProgress(i),
     t.emit("setTranslate", t.translate, e);
 }
-function Wa() {
+function Ya() {
   return -this.snapGrid[0];
 }
-function Xa() {
+function Za() {
   return -this.snapGrid[this.snapGrid.length - 1];
 }
-function Ya(i = 0, e = this.params.speed, t = !0, n = !0, s) {
+function Ka(i = 0, e = this.params.speed, t = !0, n = !0, s) {
   const o = this,
     { params: r, wrapperEl: a } = o;
   if (o.animating && r.preventInteractionOnTransition) return !1;
@@ -3507,14 +3509,14 @@ function Ya(i = 0, e = this.params.speed, t = !0, n = !0, s) {
     !0
   );
 }
-const Za = {
-  getTranslate: Ua,
-  setTranslate: Ga,
-  minTranslate: Wa,
-  maxTranslate: Xa,
-  translateTo: Ya,
+const Ja = {
+  getTranslate: Wa,
+  setTranslate: Xa,
+  minTranslate: Ya,
+  maxTranslate: Za,
+  translateTo: Ka,
 };
-function Ka(i, e) {
+function Qa(i, e) {
   const t = this;
   t.params.cssMode || t.$wrapperEl.transition(i), t.emit("setTransition", i, e);
 }
@@ -3536,14 +3538,14 @@ function yn({ swiper: i, runCallbacks: e, direction: t, step: n }) {
         : i.emit(`slidePrevTransition${n}`);
   }
 }
-function Ja(i = !0, e) {
+function el(i = !0, e) {
   const t = this,
     { params: n } = t;
   n.cssMode ||
     (n.autoHeight && t.updateAutoHeight(),
     yn({ swiper: t, runCallbacks: i, direction: e, step: "Start" }));
 }
-function Qa(i = !0, e) {
+function tl(i = !0, e) {
   const t = this,
     { params: n } = t;
   (t.animating = !1),
@@ -3551,8 +3553,8 @@ function Qa(i = !0, e) {
       (t.setTransition(0),
       yn({ swiper: t, runCallbacks: i, direction: e, step: "End" }));
 }
-const el = { setTransition: Ka, transitionStart: Ja, transitionEnd: Qa };
-function tl(i = 0, e = this.params.speed, t = !0, n, s) {
+const il = { setTransition: Qa, transitionStart: el, transitionEnd: tl };
+function nl(i = 0, e = this.params.speed, t = !0, n, s) {
   if (typeof i != "number" && typeof i != "string")
     throw new Error(
       `The 'index' argument cannot have type other than 'number' or 'string'. [${typeof i}] given.`
@@ -3586,51 +3588,51 @@ function tl(i = 0, e = this.params.speed, t = !0, n, s) {
     (d || a.initialSlide || 0) === (c || 0) &&
       t &&
       o.emit("beforeSlideChangeStart");
-  const E = -l[y];
-  if ((o.updateProgress(E), a.normalizeSlideIndex))
+  const x = -l[y];
+  if ((o.updateProgress(x), a.normalizeSlideIndex))
     for (let b = 0; b < u.length; b += 1) {
-      const _ = -Math.floor(E * 100),
-        x = Math.floor(u[b] * 100),
+      const _ = -Math.floor(x * 100),
+        E = Math.floor(u[b] * 100),
         w = Math.floor(u[b + 1] * 100);
       typeof u[b + 1] < "u"
-        ? _ >= x && _ < w - (w - x) / 2
+        ? _ >= E && _ < w - (w - E) / 2
           ? (r = b)
-          : _ >= x && _ < w && (r = b + 1)
-        : _ >= x && (r = b);
+          : _ >= E && _ < w && (r = b + 1)
+        : _ >= E && (r = b);
     }
   if (
     o.initialized &&
     r !== d &&
-    ((!o.allowSlideNext && E < o.translate && E < o.minTranslate()) ||
+    ((!o.allowSlideNext && x < o.translate && x < o.minTranslate()) ||
       (!o.allowSlidePrev &&
-        E > o.translate &&
-        E > o.maxTranslate() &&
+        x > o.translate &&
+        x > o.maxTranslate() &&
         (d || 0) !== r))
   )
     return !1;
   let C;
   if (
     (r > d ? (C = "next") : r < d ? (C = "prev") : (C = "reset"),
-    (f && -E === o.translate) || (!f && E === o.translate))
+    (f && -x === o.translate) || (!f && x === o.translate))
   )
     return (
       o.updateActiveIndex(r),
       a.autoHeight && o.updateAutoHeight(),
       o.updateSlidesClasses(),
-      a.effect !== "slide" && o.setTranslate(E),
+      a.effect !== "slide" && o.setTranslate(x),
       C !== "reset" && (o.transitionStart(t, C), o.transitionEnd(t, C)),
       !1
     );
   if (a.cssMode) {
     const b = o.isHorizontal(),
-      _ = f ? E : -E;
+      _ = f ? x : -x;
     if (e === 0) {
-      const x = o.virtual && o.params.virtual.enabled;
-      x &&
+      const E = o.virtual && o.params.virtual.enabled;
+      E &&
         ((o.wrapperEl.style.scrollSnapType = "none"),
         (o._immediateVirtual = !0)),
         (p[b ? "scrollLeft" : "scrollTop"] = _),
-        x &&
+        E &&
           requestAnimationFrame(() => {
             (o.wrapperEl.style.scrollSnapType = ""),
               (o._swiperImmediateVirtual = !1);
@@ -3646,7 +3648,7 @@ function tl(i = 0, e = this.params.speed, t = !0, n, s) {
   }
   return (
     o.setTransition(e),
-    o.setTranslate(E),
+    o.setTranslate(x),
     o.updateActiveIndex(r),
     o.updateSlidesClasses(),
     o.emit("beforeTransitionStart", e, n),
@@ -3683,12 +3685,12 @@ function tl(i = 0, e = this.params.speed, t = !0, n, s) {
     !0
   );
 }
-function il(i = 0, e = this.params.speed, t = !0, n) {
+function sl(i = 0, e = this.params.speed, t = !0, n) {
   const s = this;
   let o = i;
   return s.params.loop && (o += s.loopedSlides), s.slideTo(o, e, t, n);
 }
-function nl(i = this.params.speed, e = !0, t) {
+function ol(i = this.params.speed, e = !0, t) {
   const n = this,
     { animating: s, enabled: o, params: r } = n;
   if (!o) return n;
@@ -3706,7 +3708,7 @@ function nl(i = this.params.speed, e = !0, t) {
     ? n.slideTo(0, i, e, t)
     : n.slideTo(n.activeIndex + l, i, e, t);
 }
-function sl(i = this.params.speed, e = !0, t) {
+function rl(i = this.params.speed, e = !0, t) {
   const n = this,
     {
       params: s,
@@ -3730,8 +3732,8 @@ function sl(i = this.params.speed, e = !0, t) {
   let h = r[p.indexOf(f) - 1];
   if (typeof h > "u" && s.cssMode) {
     let y;
-    r.forEach((E, C) => {
-      f >= E && (y = C);
+    r.forEach((x, C) => {
+      f >= x && (y = C);
     }),
       typeof y < "u" && (h = r[y > 0 ? y - 1 : y]);
   }
@@ -3750,11 +3752,11 @@ function sl(i = this.params.speed, e = !0, t) {
       : n.slideTo(g, i, e, t)
   );
 }
-function ol(i = this.params.speed, e = !0, t) {
+function al(i = this.params.speed, e = !0, t) {
   const n = this;
   return n.slideTo(n.activeIndex, i, e, t);
 }
-function rl(i = this.params.speed, e = !0, t, n = 0.5) {
+function ll(i = this.params.speed, e = !0, t, n = 0.5) {
   const s = this;
   let o = s.activeIndex;
   const r = Math.min(s.params.slidesPerGroupSkip, o),
@@ -3775,7 +3777,7 @@ function rl(i = this.params.speed, e = !0, t, n = 0.5) {
     s.slideTo(o, i, e, t)
   );
 }
-function al() {
+function ul() {
   const i = this,
     { params: e, $wrapperEl: t } = i,
     n = e.slidesPerView === "auto" ? i.slidesPerViewDynamic() : e.slidesPerView;
@@ -3812,16 +3814,16 @@ function al() {
         : i.slideTo(s);
   } else i.slideTo(s);
 }
-const ll = {
-  slideTo: tl,
-  slideToLoop: il,
-  slideNext: nl,
-  slidePrev: sl,
-  slideReset: ol,
-  slideToClosest: rl,
-  slideToClickedSlide: al,
+const cl = {
+  slideTo: nl,
+  slideToLoop: sl,
+  slideNext: ol,
+  slidePrev: rl,
+  slideReset: al,
+  slideToClosest: ll,
+  slideToClickedSlide: ul,
 };
-function ul() {
+function dl() {
   const i = this,
     e = be(),
     { params: t, $wrapperEl: n } = i,
@@ -3859,7 +3861,7 @@ function ul() {
   for (let l = r.length - 1; l >= 0; l -= 1)
     s.prepend($(r[l].cloneNode(!0)).addClass(t.slideDuplicateClass));
 }
-function cl() {
+function fl() {
   const i = this;
   i.emit("beforeLoopFix");
   const {
@@ -3890,7 +3892,7 @@ function cl() {
     (i.allowSlideNext = o),
     i.emit("loopFix");
 }
-function dl() {
+function hl() {
   const i = this,
     { $wrapperEl: e, params: t, slides: n } = i;
   e
@@ -3900,8 +3902,8 @@ function dl() {
     .remove(),
     n.removeAttr("data-swiper-slide-index");
 }
-const fl = { loopCreate: ul, loopFix: cl, loopDestroy: dl };
-function hl(i) {
+const pl = { loopCreate: dl, loopFix: fl, loopDestroy: hl };
+function vl(i) {
   const e = this;
   if (
     e.support.touch ||
@@ -3916,7 +3918,7 @@ function hl(i) {
     (t.style.cursor = i ? "-moz-grabbin" : "-moz-grab"),
     (t.style.cursor = i ? "grabbing" : "grab");
 }
-function pl() {
+function ml() {
   const i = this;
   i.support.touch ||
     (i.params.watchOverflow && i.isLocked) ||
@@ -3925,8 +3927,8 @@ function pl() {
       i.params.touchEventsTarget === "container" ? "el" : "wrapperEl"
     ].style.cursor = "");
 }
-const vl = { setGrabCursor: hl, unsetGrabCursor: pl };
-function ml(i, e = this) {
+const gl = { setGrabCursor: vl, unsetGrabCursor: ml };
+function yl(i, e = this) {
   function t(n) {
     return !n || n === be() || n === re()
       ? null
@@ -3935,7 +3937,7 @@ function ml(i, e = this) {
   }
   return t(e);
 }
-function gl(i) {
+function Cl(i) {
   const e = this,
     t = be(),
     n = re(),
@@ -3963,7 +3965,7 @@ function gl(i) {
     (u = $(i.path[0]));
   const d = o.noSwipingSelector ? o.noSwipingSelector : `.${o.noSwipingClass}`,
     f = !!(l.target && l.target.shadowRoot);
-  if (o.noSwiping && (f ? ml(d, l.target) : u.closest(d)[0])) {
+  if (o.noSwiping && (f ? yl(d, l.target) : u.closest(d)[0])) {
     e.allowClick = !0;
     return;
   }
@@ -3994,20 +3996,20 @@ function gl(i) {
     o.threshold > 0 && (s.allowThresholdMove = !1),
     l.type !== "touchstart")
   ) {
-    let E = !0;
-    u.is(s.focusableElements) && (E = !1),
+    let x = !0;
+    u.is(s.focusableElements) && (x = !1),
       t.activeElement &&
         $(t.activeElement).is(s.focusableElements) &&
         t.activeElement !== u[0] &&
         t.activeElement.blur();
-    const C = E && e.allowTouchMove && o.touchStartPreventDefault;
+    const C = x && e.allowTouchMove && o.touchStartPreventDefault;
     (o.touchStartForcePreventDefault || C) &&
       !u[0].isContentEditable &&
       l.preventDefault();
   }
   e.emit("touchStart", l);
 }
-function yl(i) {
+function bl(i) {
   const e = be(),
     t = this,
     n = t.touchEventsData,
@@ -4071,15 +4073,15 @@ function yl(i) {
   if (t.params.threshold && Math.sqrt(f ** 2 + p ** 2) < t.params.threshold)
     return;
   if (typeof n.isScrolling > "u") {
-    let E;
+    let x;
     (t.isHorizontal() && o.currentY === o.startY) ||
     (t.isVertical() && o.currentX === o.startX)
       ? (n.isScrolling = !1)
       : f * f + p * p >= 25 &&
-        ((E = (Math.atan2(Math.abs(p), Math.abs(f)) * 180) / Math.PI),
+        ((x = (Math.atan2(Math.abs(p), Math.abs(f)) * 180) / Math.PI),
         (n.isScrolling = t.isHorizontal()
-          ? E > s.touchAngle
-          : 90 - E > s.touchAngle));
+          ? x > s.touchAngle
+          : 90 - x > s.touchAngle));
   }
   if (
     (n.isScrolling && t.emit("touchMoveOpposite", l),
@@ -4173,7 +4175,7 @@ function yl(i) {
     t.updateProgress(n.currentTranslate),
     t.setTranslate(n.currentTranslate));
 }
-function Cl(i) {
+function _l(i) {
   const e = this,
     t = e.touchEventsData,
     { params: n, touches: s, rtlTranslate: o, slidesGrid: r, enabled: a } = e;
@@ -4239,9 +4241,9 @@ function Cl(i) {
     y < r.length;
     y += y < n.slidesPerGroupSkip ? 1 : n.slidesPerGroup
   ) {
-    const E = y < n.slidesPerGroupSkip - 1 ? 1 : n.slidesPerGroup;
-    typeof r[y + E] < "u"
-      ? d >= r[y] && d < r[y + E] && ((f = y), (p = r[y + E] - r[y]))
+    const x = y < n.slidesPerGroupSkip - 1 ? 1 : n.slidesPerGroup;
+    typeof r[y + x] < "u"
+      ? d >= r[y] && d < r[y + x] && ((f = y), (p = r[y + x] - r[y]))
       : d >= r[y] && ((f = y), (p = r[r.length - 1] - r[r.length - 2]));
   }
   const h = (d - r[f]) / p,
@@ -4291,7 +4293,7 @@ function Bi() {
     (i.allowSlideNext = n),
     i.params.watchOverflow && o !== i.snapGrid && i.checkOverflow();
 }
-function bl(i) {
+function wl(i) {
   const e = this;
   !e.enabled ||
     e.allowClick ||
@@ -4300,7 +4302,7 @@ function bl(i) {
       e.animating &&
       (i.stopPropagation(), i.stopImmediatePropagation()));
 }
-function _l() {
+function El() {
   const i = this,
     { wrapperEl: e, rtlTranslate: t, enabled: n } = i;
   if (!n) return;
@@ -4318,7 +4320,7 @@ function _l() {
     i.emit("setTranslate", i.translate, !1);
 }
 let ki = !1;
-function wl() {}
+function xl() {}
 const Cn = (i, e) => {
   const t = be(),
     {
@@ -4363,24 +4365,24 @@ const Cn = (i, e) => {
         )
       : i[d]("observerUpdate", Bi, !0);
 };
-function El() {
+function Fl() {
   const i = this,
     e = be(),
     { params: t, support: n } = i;
-  (i.onTouchStart = gl.bind(i)),
-    (i.onTouchMove = yl.bind(i)),
-    (i.onTouchEnd = Cl.bind(i)),
-    t.cssMode && (i.onScroll = _l.bind(i)),
-    (i.onClick = bl.bind(i)),
-    n.touch && !ki && (e.addEventListener("touchstart", wl), (ki = !0)),
+  (i.onTouchStart = Cl.bind(i)),
+    (i.onTouchMove = bl.bind(i)),
+    (i.onTouchEnd = _l.bind(i)),
+    t.cssMode && (i.onScroll = El.bind(i)),
+    (i.onClick = wl.bind(i)),
+    n.touch && !ki && (e.addEventListener("touchstart", xl), (ki = !0)),
     Cn(i, "on");
 }
-function xl() {
+function Sl() {
   Cn(this, "off");
 }
-const Sl = { attachEvents: El, detachEvents: xl },
+const Tl = { attachEvents: Fl, detachEvents: Sl },
   Di = (i, e) => i.grid && e.grid && e.grid.rows > 1;
-function Fl() {
+function Bl() {
   const i = this,
     {
       activeIndex: e,
@@ -4429,7 +4431,7 @@ function Fl() {
       i.slideTo(e - n + i.loopedSlides, 0, !1)),
     i.emit("breakpoint", u);
 }
-function Tl(i, e = "window", t) {
+function kl(i, e = "window", t) {
   if (!i || (e === "container" && !t)) return;
   let n = !1;
   const s = re(),
@@ -4450,8 +4452,8 @@ function Tl(i, e = "window", t) {
   }
   return n || "max";
 }
-const Bl = { setBreakpoint: Fl, getBreakpoint: Tl };
-function kl(i, e) {
+const Dl = { setBreakpoint: Bl, getBreakpoint: kl };
+function Al(i, e) {
   const t = [];
   return (
     i.forEach((n) => {
@@ -4464,10 +4466,10 @@ function kl(i, e) {
     t
   );
 }
-function Dl() {
+function Ml() {
   const i = this,
     { classNames: e, params: t, rtl: n, $el: s, device: o, support: r } = i,
-    a = kl(
+    a = Al(
       [
         "initialized",
         t.direction,
@@ -4488,13 +4490,13 @@ function Dl() {
     );
   e.push(...a), s.addClass([...e].join(" ")), i.emitContainerClasses();
 }
-function Al() {
+function Pl() {
   const i = this,
     { $el: e, classNames: t } = i;
   e.removeClass(t.join(" ")), i.emitContainerClasses();
 }
-const Ml = { addClasses: Dl, removeClasses: Al };
-function Pl(i, e, t, n, s, o) {
+const Ol = { addClasses: Ml, removeClasses: Pl };
+function Ll(i, e, t, n, s, o) {
   const r = re();
   let a;
   function l() {
@@ -4509,7 +4511,7 @@ function Pl(i, e, t, n, s, o) {
       e && (a.src = e))
     : l();
 }
-function Ol() {
+function zl() {
   const i = this;
   i.imagesToLoad = i.$el.find("img");
   function e() {
@@ -4533,8 +4535,8 @@ function Ol() {
     );
   }
 }
-const Ll = { loadImage: Pl, preloadImages: Ol };
-function zl() {
+const Il = { loadImage: Ll, preloadImages: zl };
+function Rl() {
   const i = this,
     { isLocked: e, params: t } = i,
     { slidesOffsetBefore: n } = t;
@@ -4548,7 +4550,7 @@ function zl() {
     e && e !== i.isLocked && (i.isEnd = !1),
     e !== i.isLocked && i.emit(i.isLocked ? "lock" : "unlock");
 }
-const Il = { checkOverflow: zl },
+const $l = { checkOverflow: Rl },
   Ai = {
     init: !0,
     direction: "horizontal",
@@ -4640,7 +4642,7 @@ const Il = { checkOverflow: zl },
     runCallbacksOnInit: !0,
     _emitClasses: !1,
   };
-function Rl(i, e) {
+function Nl(i, e) {
   return function (n = {}) {
     const s = Object.keys(n)[0],
       o = n[s];
@@ -4664,18 +4666,18 @@ function Rl(i, e) {
   };
 }
 const zt = {
-    eventsEmitter: Oa,
-    update: qa,
-    translate: Za,
-    transition: el,
-    slide: ll,
-    loop: fl,
-    grabCursor: vl,
-    events: Sl,
-    breakpoints: Bl,
-    checkOverflow: Il,
-    classes: Ml,
-    images: Ll,
+    eventsEmitter: za,
+    update: Ga,
+    translate: Ja,
+    transition: il,
+    slide: cl,
+    loop: pl,
+    grabCursor: gl,
+    events: Tl,
+    breakpoints: Dl,
+    checkOverflow: $l,
+    classes: Ol,
+    images: Il,
   },
   It = {};
 class ue {
@@ -4704,8 +4706,8 @@ class ue {
     const s = this;
     (s.__swiper__ = !0),
       (s.support = gn()),
-      (s.device = ka({ userAgent: n.userAgent })),
-      (s.browser = Aa()),
+      (s.device = Aa({ userAgent: n.userAgent })),
+      (s.browser = Pa()),
       (s.eventsListeners = {}),
       (s.eventsAnyListeners = []),
       (s.modules = [...s.__modules__]),
@@ -4714,7 +4716,7 @@ class ue {
     s.modules.forEach((a) => {
       a({
         swiper: s,
-        extendParams: Rl(n, o),
+        extendParams: Nl(n, o),
         on: s.on.bind(s),
         once: s.once.bind(s),
         off: s.off.bind(s),
@@ -5039,7 +5041,7 @@ class ue {
         Object.keys(n.eventsListeners).forEach((l) => {
           n.off(l);
         }),
-        e !== !1 && ((n.$el[0].swiper = null), Ea(n)),
+        e !== !1 && ((n.$el[0].swiper = null), Fa(n)),
         (n.destroyed = !0)),
       null
     );
@@ -5069,7 +5071,7 @@ Object.keys(zt).forEach((i) => {
     ue.prototype[e] = zt[i][e];
   });
 });
-ue.use([Ma, Pa]);
+ue.use([Oa, La]);
 function bn({ swiper: i, extendParams: e, on: t, emit: n }) {
   const s = re();
   e({
@@ -5091,17 +5093,17 @@ function bn({ swiper: i, extendParams: e, on: t, emit: n }) {
   const l = [];
   function u(C) {
     let w = 0,
-      S = 0,
+      F = 0,
       k = 0,
       T = 0;
     return (
-      "detail" in C && (S = C.detail),
-      "wheelDelta" in C && (S = -C.wheelDelta / 120),
-      "wheelDeltaY" in C && (S = -C.wheelDeltaY / 120),
+      "detail" in C && (F = C.detail),
+      "wheelDelta" in C && (F = -C.wheelDelta / 120),
+      "wheelDeltaY" in C && (F = -C.wheelDeltaY / 120),
       "wheelDeltaX" in C && (w = -C.wheelDeltaX / 120),
-      "axis" in C && C.axis === C.HORIZONTAL_AXIS && ((w = S), (S = 0)),
+      "axis" in C && C.axis === C.HORIZONTAL_AXIS && ((w = F), (F = 0)),
       (k = w * 10),
-      (T = S * 10),
+      (T = F * 10),
       "deltaY" in C && (T = C.deltaY),
       "deltaX" in C && (k = C.deltaX),
       C.shiftKey && !k && ((k = T), (T = 0)),
@@ -5109,8 +5111,8 @@ function bn({ swiper: i, extendParams: e, on: t, emit: n }) {
         C.deltaMode &&
         (C.deltaMode === 1 ? ((k *= 40), (T *= 40)) : ((k *= 800), (T *= 800))),
       k && !w && (w = k < 1 ? -1 : 1),
-      T && !S && (S = T < 1 ? -1 : 1),
-      { spinX: w, spinY: S, pixelX: k, pixelY: T }
+      T && !F && (F = T < 1 ? -1 : 1),
+      { spinX: w, spinY: F, pixelX: k, pixelY: T }
     );
   }
   function c() {
@@ -5148,30 +5150,30 @@ function bn({ swiper: i, extendParams: e, on: t, emit: n }) {
     let b = C,
       _ = !0;
     if (!i.enabled) return;
-    const x = i.params.mousewheel;
+    const E = i.params.mousewheel;
     i.params.cssMode && b.preventDefault();
     let w = i.$el;
     if (
       (i.params.mousewheel.eventsTarget !== "container" &&
         (w = $(i.params.mousewheel.eventsTarget)),
-      !i.mouseEntered && !w[0].contains(b.target) && !x.releaseOnEdges)
+      !i.mouseEntered && !w[0].contains(b.target) && !E.releaseOnEdges)
     )
       return !0;
     b.originalEvent && (b = b.originalEvent);
-    let S = 0;
+    let F = 0;
     const k = i.rtlTranslate ? -1 : 1,
       T = u(b);
-    if (x.forceToAxis)
+    if (E.forceToAxis)
       if (i.isHorizontal())
-        if (Math.abs(T.pixelX) > Math.abs(T.pixelY)) S = -T.pixelX * k;
+        if (Math.abs(T.pixelX) > Math.abs(T.pixelY)) F = -T.pixelX * k;
         else return !0;
-      else if (Math.abs(T.pixelY) > Math.abs(T.pixelX)) S = -T.pixelY;
+      else if (Math.abs(T.pixelY) > Math.abs(T.pixelX)) F = -T.pixelY;
       else return !0;
     else
-      S = Math.abs(T.pixelX) > Math.abs(T.pixelY) ? -T.pixelX * k : -T.pixelY;
-    if (S === 0) return !0;
-    x.invert && (S = -S);
-    let B = i.getTranslate() + S * x.sensitivity;
+      F = Math.abs(T.pixelX) > Math.abs(T.pixelY) ? -T.pixelX * k : -T.pixelY;
+    if (F === 0) return !0;
+    E.invert && (F = -F);
+    let B = i.getTranslate() + F * E.sensitivity;
     if (
       (B >= i.minTranslate() && (B = i.minTranslate()),
       B <= i.maxTranslate() && (B = i.maxTranslate()),
@@ -5183,8 +5185,8 @@ function bn({ swiper: i, extendParams: e, on: t, emit: n }) {
     ) {
       const D = {
         time: Oe(),
-        delta: Math.abs(S),
-        direction: Math.sign(S),
+        delta: Math.abs(F),
+        direction: Math.sign(F),
         raw: C,
       };
       l.length >= 2 && l.shift();
@@ -5201,7 +5203,7 @@ function bn({ swiper: i, extendParams: e, on: t, emit: n }) {
       )
         return !0;
     } else {
-      const D = { time: Oe(), delta: Math.abs(S), direction: Math.sign(S) },
+      const D = { time: Oe(), delta: Math.abs(F), direction: Math.sign(F) },
         z =
           a &&
           D.time < a.time + 500 &&
@@ -5209,9 +5211,9 @@ function bn({ swiper: i, extendParams: e, on: t, emit: n }) {
           D.direction === a.direction;
       if (!z) {
         (a = void 0), i.params.loop && i.loopFix();
-        let V = i.getTranslate() + S * x.sensitivity;
+        let V = i.getTranslate() + F * E.sensitivity;
         const U = i.isBeginning,
-          F = i.isEnd;
+          S = i.isEnd;
         if (
           (V >= i.minTranslate() && (V = i.minTranslate()),
           V <= i.maxTranslate() && (V = i.maxTranslate()),
@@ -5220,7 +5222,7 @@ function bn({ swiper: i, extendParams: e, on: t, emit: n }) {
           i.updateProgress(),
           i.updateActiveIndex(),
           i.updateSlidesClasses(),
-          ((!U && i.isBeginning) || (!F && i.isEnd)) && i.updateSlidesClasses(),
+          ((!U && i.isBeginning) || (!S && i.isEnd)) && i.updateSlidesClasses(),
           i.params.freeMode.sticky)
         ) {
           clearTimeout(o), (o = void 0), l.length >= 15 && l.shift();
@@ -5236,7 +5238,7 @@ function bn({ swiper: i, extendParams: e, on: t, emit: n }) {
             M.delta - D.delta >= 1 &&
             D.delta <= 6
           ) {
-            const O = S > 0 ? 0.8 : 0.2;
+            const O = F > 0 ? 0.8 : 0.2;
             (a = D),
               l.splice(0),
               (o = dt(() => {
@@ -5277,7 +5279,7 @@ function bn({ swiper: i, extendParams: e, on: t, emit: n }) {
       ? !1
       : (g("on"), (i.mousewheel.enabled = !0), !0);
   }
-  function E() {
+  function x() {
     return i.params.cssMode
       ? (i.wrapperEl.addEventListener(event, h), !0)
       : i.mousewheel.enabled
@@ -5285,13 +5287,13 @@ function bn({ swiper: i, extendParams: e, on: t, emit: n }) {
       : !1;
   }
   t("init", () => {
-    !i.params.mousewheel.enabled && i.params.cssMode && E(),
+    !i.params.mousewheel.enabled && i.params.cssMode && x(),
       i.params.mousewheel.enabled && y();
   }),
     t("destroy", () => {
-      i.params.cssMode && y(), i.mousewheel.enabled && E();
+      i.params.cssMode && y(), i.mousewheel.enabled && x();
     }),
-    Object.assign(i.mousewheel, { enable: y, disable: E });
+    Object.assign(i.mousewheel, { enable: y, disable: x });
 }
 function Ze(i) {
   return (
@@ -5341,7 +5343,7 @@ function xn(i = "") {
     t.join(" ")
   );
 }
-const Sn = [
+const Fn = [
   "modules",
   "init",
   "_direction",
@@ -5464,7 +5466,7 @@ function Mi(i = {}) {
     (e._emitClasses = !0),
     (e.init = !1);
   const n = {},
-    s = Sn.map((r) => r.replace(/_/, "")),
+    s = Fn.map((r) => r.replace(/_/, "")),
     o = Object.assign({}, i);
   return (
     Object.keys(o).forEach((r) => {
@@ -5483,10 +5485,10 @@ function Mi(i = {}) {
     { params: e, passedParams: t, rest: n }
   );
 }
-function $l(i) {
+function Hl(i) {
   return new ue(i);
 }
-function Nl(
+function Vl(
   { el: i, nextEl: e, prevEl: t, paginationEl: n, scrollbarEl: s, swiper: o },
   r
 ) {
@@ -5505,7 +5507,7 @@ function Nl(
       ((o.params.scrollbar.el = s), (o.originalParams.scrollbar.el = s)),
     o.init(i);
 }
-function Fn(i, e) {
+function Sn(i, e) {
   let t = e.slidesPerView;
   if (e.breakpoints) {
     const s = ue.prototype.getBreakpoint(e.breakpoints),
@@ -5515,7 +5517,7 @@ function Fn(i, e) {
   let n = Math.ceil(parseFloat(e.loopedSlides || t, 10));
   return (n += e.loopAdditionalSlides), n > i.length && (n = i.length), n;
 }
-function Hl(i, e, t) {
+function jl(i, e, t) {
   const n = e.map(
     (l, u) => (
       l.props || (l.props = {}),
@@ -5549,7 +5551,7 @@ function Hl(i, e, t) {
       }
   }
   t.slidesPerView === "auto" && !t.loopedSlides && (t.loopedSlides = n.length);
-  const o = Fn(n, t),
+  const o = Sn(n, t),
     r = [],
     a = [];
   return (
@@ -5561,7 +5563,7 @@ function Hl(i, e, t) {
     [...r, ...n, ...a]
   );
 }
-function Vl(i, e, t, n) {
+function ql(i, e, t, n) {
   const s = [];
   if (!e) return s;
   const o = (u) => {
@@ -5572,7 +5574,7 @@ function Vl(i, e, t, n) {
   return (
     r.join("") !== a.join("") && s.push("children"),
     n.length !== t.length && s.push("children"),
-    Sn.filter((u) => u[0] === "_")
+    Fn.filter((u) => u[0] === "_")
       .map((u) => u.replace(/_/, ""))
       .forEach((u) => {
         if (u in i && u in e)
@@ -5624,7 +5626,7 @@ function Rt(i = {}, e, t) {
     { slides: n, slots: s }
   );
 }
-function jl({
+function Ul({
   swiper: i,
   slides: e,
   passedParams: t,
@@ -5634,7 +5636,7 @@ function jl({
   paginationEl: r,
   scrollbarEl: a,
 }) {
-  const l = n.filter((x) => x !== "children" && x !== "direction"),
+  const l = n.filter((E) => E !== "children" && E !== "direction"),
     {
       params: u,
       pagination: c,
@@ -5643,7 +5645,7 @@ function jl({
       virtual: p,
       thumbs: h,
     } = i;
-  let g, y, E, C, b;
+  let g, y, x, C, b;
   n.includes("thumbs") &&
     t.thumbs &&
     t.thumbs.swiper &&
@@ -5662,7 +5664,7 @@ function jl({
       (u.pagination || u.pagination === !1) &&
       c &&
       !c.el &&
-      (E = !0),
+      (x = !0),
     n.includes("scrollbar") &&
       t.scrollbar &&
       (t.scrollbar.el || a) &&
@@ -5679,24 +5681,24 @@ function jl({
       !d.prevEl &&
       !d.nextEl &&
       (b = !0);
-  const _ = (x) => {
-    !i[x] ||
-      (i[x].destroy(),
-      x === "navigation"
-        ? ((u[x].prevEl = void 0),
-          (u[x].nextEl = void 0),
-          (i[x].prevEl = void 0),
-          (i[x].nextEl = void 0))
-        : ((u[x].el = void 0), (i[x].el = void 0)));
+  const _ = (E) => {
+    !i[E] ||
+      (i[E].destroy(),
+      E === "navigation"
+        ? ((u[E].prevEl = void 0),
+          (u[E].nextEl = void 0),
+          (i[E].prevEl = void 0),
+          (i[E].nextEl = void 0))
+        : ((u[E].el = void 0), (i[E].el = void 0)));
   };
-  l.forEach((x) => {
-    if (Ze(u[x]) && Ze(t[x])) je(u[x], t[x]);
+  l.forEach((E) => {
+    if (Ze(u[E]) && Ze(t[E])) je(u[E], t[E]);
     else {
-      const w = t[x];
+      const w = t[E];
       (w === !0 || w === !1) &&
-      (x === "navigation" || x === "pagination" || x === "scrollbar")
-        ? w === !1 && _(x)
-        : (u[x] = t[x]);
+      (E === "navigation" || E === "pagination" || E === "scrollbar")
+        ? w === !1 && _(E)
+        : (u[E] = t[E]);
     }
   }),
     n.includes("children") && p && u.virtual.enabled
@@ -5707,7 +5709,7 @@ function jl({
         i.lazy.load(),
     g && h.init() && h.update(!0),
     y && (i.controller.control = u.controller.control),
-    E && (r && (u.pagination.el = r), c.init(), c.render(), c.update()),
+    x && (r && (u.pagination.el = r), c.init(), c.render(), c.update()),
     C &&
       (a && (u.scrollbar.el = a), f.init(), f.updateSize(), f.setTranslate()),
     b &&
@@ -5720,7 +5722,7 @@ function jl({
     n.includes("direction") && i.changeDirection(t.direction, !1),
     i.update();
 }
-function ql(i) {
+function Gl(i) {
   !i ||
     i.destroyed ||
     !i.params.virtual ||
@@ -5734,7 +5736,7 @@ function ql(i) {
       i.params.parallax.enabled &&
       i.parallax.setTranslate());
 }
-function Ul(i, e, t) {
+function Wl(i, e, t) {
   if (!t) return null;
   const n = i.value.isHorizontal()
     ? { [i.value.rtlTranslate ? "right" : "left"]: `${t.offset}px` }
@@ -5966,34 +5968,34 @@ const Tn = {
         h = L(null),
         g = L(null),
         y = L(null),
-        E = L(null),
+        x = L(null),
         { params: C, passedParams: b } = Mi(i);
       Rt(e, f, p), (d.value = b), (p.value = f.value);
       const _ = () => {
         Rt(e, f, p), (a.value = !0);
       };
       if (
-        ((C.onAny = (w, ...S) => {
-          t(w, ...S);
+        ((C.onAny = (w, ...F) => {
+          t(w, ...F);
         }),
         Object.assign(C.on, {
           _beforeBreakpoint: _,
-          _containerClasses(w, S) {
-            o.value = S;
+          _containerClasses(w, F) {
+            o.value = F;
           },
         }),
-        (c.value = $l(C)),
+        (c.value = Hl(C)),
         (c.value.loopCreate = () => {}),
         (c.value.loopDestroy = () => {}),
-        C.loop && (c.value.loopedSlides = Fn(f.value, C)),
+        C.loop && (c.value.loopedSlides = Sn(f.value, C)),
         c.value.virtual && c.value.params.virtual.enabled)
       ) {
         c.value.virtual.slides = f.value;
         const w = {
           cache: !1,
           slides: f.value,
-          renderExternal: (S) => {
-            r.value = S;
+          renderExternal: (F) => {
+            r.value = F;
           },
           renderExternalUpdate: !1,
         };
@@ -6002,37 +6004,37 @@ const Tn = {
       an(() => {
         !l.value && c.value && (c.value.emitSlidesClasses(), (l.value = !0));
         const { passedParams: w } = Mi(i),
-          S = Vl(w, d.value, f.value, p.value);
+          F = ql(w, d.value, f.value, p.value);
         (d.value = w),
-          (S.length || a.value) &&
+          (F.length || a.value) &&
             c.value &&
             !c.value.destroyed &&
-            jl({
+            Ul({
               swiper: c.value,
               slides: f.value,
               passedParams: w,
-              changedParams: S,
+              changedParams: F,
               nextEl: h.value,
               prevEl: g.value,
-              scrollbarEl: E.value,
+              scrollbarEl: x.value,
               paginationEl: y.value,
             }),
           (a.value = !1);
       }),
         we(r, () => {
           ln(() => {
-            ql(c.value);
+            Gl(c.value);
           });
         }),
         ke(() => {
           !u.value ||
-            (Nl(
+            (Vl(
               {
                 el: u.value,
                 nextEl: h.value,
                 prevEl: g.value,
                 paginationEl: y.value,
-                scrollbarEl: E.value,
+                scrollbarEl: x.value,
                 swiper: c.value,
               },
               C
@@ -6042,32 +6044,32 @@ const Tn = {
         Tt(() => {
           c.value && !c.value.destroyed && c.value.destroy(!0, !1);
         });
-      function x(w) {
+      function E(w) {
         return C.virtual
-          ? Ul(c, w, r.value)
+          ? Wl(c, w, r.value)
           : !C.loop || (c.value && c.value.destroyed)
-          ? (w.forEach((S) => {
-              S.props || (S.props = {}), (S.props.swiperRef = c);
+          ? (w.forEach((F) => {
+              F.props || (F.props = {}), (F.props.swiperRef = c);
             }),
             w)
-          : Hl(c, w, C);
+          : jl(c, w, C);
       }
       return () => {
-        const { slides: w, slots: S } = Rt(e, f, p);
+        const { slides: w, slots: F } = Rt(e, f, p);
         return Te(n, { ref: u, class: xn(o.value) }, [
-          S["container-start"],
+          F["container-start"],
           _n(i) && [
             Te("div", { ref: g, class: "swiper-button-prev" }),
             Te("div", { ref: h, class: "swiper-button-next" }),
           ],
-          En(i) && Te("div", { ref: E, class: "swiper-scrollbar" }),
+          En(i) && Te("div", { ref: x, class: "swiper-scrollbar" }),
           wn(i) && Te("div", { ref: y, class: "swiper-pagination" }),
           Te(s, { class: "swiper-wrapper" }, [
-            S["wrapper-start"],
-            x(w),
-            S["wrapper-end"],
+            F["wrapper-start"],
+            E(w),
+            F["wrapper-end"],
           ]),
-          S["container-end"],
+          F["container-end"],
         ]);
       };
     },
@@ -6141,41 +6143,41 @@ const Tn = {
     },
   };
 const hi = (i) => (Ue("data-v-0b190a95"), (i = i()), Ge(), i),
-  Gl = { class: "sctionDisplay" },
-  Wl = { class: "staffDisplay" },
-  Xl = { class: "staffDisplayLeft" },
-  Yl = hi(() => m("div", { class: "staffHeader" }, "02 - STAFF", -1)),
-  Zl = { class: "ListContainer" },
-  Kl = { class: "staffIdex", "data-cursor": "pointer" },
-  Jl = { class: "staffCareer", "data-cursor": "pointer" },
-  Ql = {
+  Xl = { class: "sctionDisplay" },
+  Yl = { class: "staffDisplay" },
+  Zl = { class: "staffDisplayLeft" },
+  Kl = hi(() => m("div", { class: "staffHeader" }, "02 - STAFF", -1)),
+  Jl = { class: "ListContainer" },
+  Ql = { class: "staffIdex", "data-cursor": "pointer" },
+  eu = { class: "staffCareer", "data-cursor": "pointer" },
+  tu = {
     xmlns: "http://www.w3.org/2000/svg",
     "xmlns:xlink": "http://www.w3.org/1999/xlink",
     viewBox: "0 0 30 30",
   },
-  eu = ["xlink:href"],
-  tu = { class: "staffName", "data-cursor": "pointer" },
-  iu = { class: "staffFooter" },
-  nu = { class: "staffDetailRights" },
-  su = { class: "particle" },
-  ou = { class: "staffDetailWrapper" },
-  ru = { class: "staffContent" },
-  au = { class: "staffInfo" },
-  lu = { class: "staffBack" },
-  uu = {
+  iu = ["xlink:href"],
+  nu = { class: "staffName", "data-cursor": "pointer" },
+  su = { class: "staffFooter" },
+  ou = { class: "staffDetailRights" },
+  ru = { class: "particle" },
+  au = { class: "staffDetailWrapper" },
+  lu = { class: "staffContent" },
+  uu = { class: "staffInfo" },
+  cu = { class: "staffBack" },
+  du = {
     xmlns: "http://www.w3.org/2000/svg",
     "xmlns:xlink": "http://www.w3.org/1999/xlink",
     viewBox: "0 0 480 50",
   },
-  cu = { x: "0", y: "50", "font-size": "67", fill: "none", stroke: "#333333" },
-  du = { class: "staffTop" },
-  fu = { class: "staffName" },
-  hu = { class: "staffBottom" },
-  pu = { class: "staffNameEn" },
-  vu = { class: "staffNameCV" },
-  mu = hi(() => m("span", null, "CV:", -1)),
-  gu = { class: "staffCVName" },
-  yu = hi(() =>
+  fu = { x: "0", y: "50", "font-size": "67", fill: "none", stroke: "#333333" },
+  hu = { class: "staffTop" },
+  pu = { class: "staffName" },
+  vu = { class: "staffBottom" },
+  mu = { class: "staffNameEn" },
+  gu = { class: "staffNameCV" },
+  yu = hi(() => m("span", null, "CV:", -1)),
+  Cu = { class: "staffCVName" },
+  bu = hi(() =>
     m(
       "div",
       { class: "staffCVButton" },
@@ -6258,15 +6260,15 @@ const hi = (i) => (Ue("data-v-0b190a95"), (i = i()), Ge(), i),
       -1
     )
   ),
-  Cu = { class: "staffDesc" },
-  bu = { class: "staffimgWapper" },
-  _u = { class: "staffimg" },
-  wu = ["src"],
-  Eu = _s(
+  _u = { class: "staffDesc" },
+  wu = { class: "staffimgWapper" },
+  Eu = { class: "staffimg" },
+  xu = ["src"],
+  Fu = _s(
     '<svg data-v-0b190a95><g data-v-0b190a95><path id="staff-career-icon-special" d="M29.116,28.057 C28.428,27.707 27.740,27.356 27.049,27.010 C26.982,26.976 26.899,26.956 26.823,26.956 C19.138,26.953 11.452,26.953 3.767,26.956 C3.687,26.956 3.599,26.978 3.528,27.014 C2.687,27.437 1.849,27.864 1.010,28.290 C0.974,28.308 0.936,28.322 0.899,28.338 C0.895,28.329 0.890,28.320 0.885,28.311 C1.213,28.040 1.540,27.768 1.868,27.496 C2.320,27.123 2.773,26.752 3.220,26.374 C3.293,26.314 3.351,26.228 3.394,26.142 C4.493,23.978 5.590,21.813 6.682,19.646 C6.739,19.534 6.800,19.493 6.927,19.494 C7.658,19.501 8.388,19.498 9.119,19.498 C9.168,19.498 9.218,19.498 9.299,19.498 C8.461,21.152 7.637,22.780 6.803,24.428 C12.449,24.428 18.076,24.428 23.725,24.428 C23.394,23.771 23.068,23.126 22.730,22.458 C22.799,22.454 22.847,22.449 22.895,22.449 C23.635,22.448 24.375,22.451 25.115,22.446 C25.223,22.445 25.280,22.476 25.330,22.576 C25.913,23.736 26.499,24.894 27.089,26.049 C27.142,26.154 27.221,26.255 27.311,26.330 C28.069,26.965 28.833,27.593 29.594,28.223 C29.636,28.257 29.676,28.292 29.699,28.352 C29.505,28.254 29.311,28.155 29.116,28.057 ZM16.208,19.791 C16.588,19.038 16.971,18.286 17.348,17.532 C17.393,17.441 17.449,17.417 17.544,17.417 C18.359,17.421 19.174,17.419 19.989,17.419 C20.040,17.419 20.091,17.419 20.177,17.419 C18.538,14.184 16.911,10.970 15.265,7.719 C14.119,9.983 12.989,12.214 11.845,14.473 C13.176,14.473 14.479,14.473 15.811,14.473 C15.666,14.762 15.535,15.024 15.402,15.286 C15.135,15.813 14.866,16.338 14.603,16.866 C14.559,16.954 14.509,16.986 14.410,16.986 C12.335,16.983 10.261,16.984 8.186,16.983 C8.145,16.983 8.105,16.978 8.042,16.974 C8.158,16.743 8.266,16.527 8.375,16.311 C10.282,12.545 12.189,8.778 14.096,5.012 C14.314,4.581 14.518,4.142 14.756,3.723 C14.917,3.439 14.970,3.142 14.997,2.827 C15.072,1.944 15.157,1.062 15.238,0.180 C15.241,0.141 15.251,0.102 15.282,0.065 C15.310,0.370 15.338,0.674 15.367,0.979 C15.437,1.745 15.508,2.510 15.581,3.275 C15.586,3.325 15.604,3.376 15.627,3.420 C17.997,8.103 20.368,12.784 22.739,17.466 C23.131,18.239 23.522,19.013 23.913,19.787 C23.934,19.827 23.952,19.868 23.978,19.923 C21.364,19.923 18.771,19.923 16.155,19.923 C16.175,19.871 16.188,19.829 16.208,19.791 Z" data-v-0b190a95></path><path id="staff-career-icon-caster" d="M28.239,29.879 C27.943,29.646 27.624,29.395 27.305,29.143 C27.257,29.106 27.211,29.065 27.161,29.031 C27.034,28.946 26.940,28.853 26.984,28.676 C26.994,28.636 26.941,28.568 26.902,28.529 C25.817,27.440 24.731,26.353 23.645,25.265 C22.194,23.813 20.745,22.361 19.293,20.911 C19.224,20.842 19.145,20.782 19.062,20.731 C18.535,20.407 18.006,20.088 17.478,19.766 C17.427,19.735 17.376,19.700 17.333,19.658 C16.888,19.215 16.445,18.770 16.001,18.326 C15.985,18.310 15.971,18.291 15.932,18.244 C16.059,18.136 16.177,18.036 16.307,17.925 C16.239,17.855 16.193,17.805 16.145,17.757 C13.728,15.337 11.311,12.916 8.893,10.498 C8.822,10.427 8.789,10.357 8.789,10.254 C8.793,9.147 8.792,8.040 8.792,6.933 C8.792,6.884 8.792,6.836 8.792,6.755 C8.849,6.807 8.881,6.832 8.909,6.861 C9.353,7.305 9.796,7.750 10.242,8.192 C10.312,8.261 10.336,8.332 10.335,8.427 C10.331,8.887 10.330,9.346 10.337,9.806 C10.338,9.872 10.369,9.955 10.415,10.001 C12.683,12.278 14.955,14.552 17.227,16.825 C17.246,16.845 17.268,16.863 17.328,16.916 C17.424,16.784 17.520,16.653 17.620,16.517 C17.700,16.591 17.734,16.621 17.767,16.653 C18.184,17.070 18.602,17.487 19.018,17.907 C19.073,17.963 19.123,18.026 19.164,18.093 C19.491,18.629 19.815,19.168 20.142,19.703 C20.183,19.771 20.233,19.834 20.289,19.890 C22.821,22.427 25.355,24.962 27.886,27.500 C27.964,27.579 28.036,27.606 28.145,27.583 C28.202,27.572 28.295,27.588 28.328,27.628 C28.656,28.031 28.975,28.442 29.290,28.843 C28.940,29.188 28.595,29.528 28.239,29.879 ZM15.000,0.775 C13.957,0.865 12.913,0.951 11.870,1.042 C10.961,1.121 10.053,1.205 9.145,1.285 C8.824,1.313 8.503,1.338 8.155,1.366 C8.483,2.422 8.805,3.459 9.139,4.532 C9.085,4.494 9.059,4.481 9.040,4.462 C7.725,3.147 6.411,1.832 5.098,0.516 C5.078,0.497 5.064,0.472 5.047,0.450 C9.513,0.450 13.979,0.450 18.446,0.450 C18.387,0.463 18.330,0.483 18.271,0.488 C17.181,0.585 16.091,0.681 15.000,0.775 ZM4.617,7.946 C4.542,7.945 4.449,7.911 4.397,7.859 C3.869,7.341 3.347,6.816 2.827,6.289 C2.785,6.247 2.743,6.181 2.743,6.125 C2.738,5.230 2.739,4.334 2.740,3.439 C2.740,3.420 2.744,3.402 2.749,3.369 C2.799,3.366 2.848,3.361 2.898,3.361 C3.750,3.360 4.602,3.358 5.454,3.364 C5.527,3.365 5.619,3.403 5.671,3.455 C6.196,3.970 6.715,4.491 7.231,5.015 C7.279,5.063 7.322,5.141 7.322,5.205 C7.328,6.082 7.326,6.959 7.326,7.836 C7.326,7.867 7.319,7.899 7.314,7.942 C7.259,7.945 7.209,7.949 7.158,7.949 C6.311,7.950 5.464,7.952 4.617,7.946 ZM1.965,2.968 C1.914,3.021 1.874,3.111 1.873,3.184 C1.868,4.356 1.868,5.527 1.873,6.699 C1.874,6.773 1.911,6.865 1.962,6.917 C2.544,7.508 3.130,8.094 3.721,8.675 C3.773,8.727 3.866,8.762 3.940,8.763 C5.189,8.768 6.439,8.766 7.688,8.766 C7.748,8.766 7.808,8.766 7.876,8.766 C7.876,9.222 7.876,9.661 7.876,10.115 C7.826,10.117 7.776,10.122 7.727,10.122 C6.276,10.122 4.825,10.121 3.374,10.124 C3.276,10.124 3.210,10.092 3.142,10.025 C2.300,9.178 1.456,8.333 0.610,7.490 C0.541,7.421 0.515,7.352 0.515,7.255 C0.518,5.713 0.516,4.171 0.520,2.629 C0.520,2.561 0.543,2.475 0.587,2.430 C1.036,1.971 1.491,1.519 1.945,1.065 C1.958,1.052 1.973,1.042 1.993,1.026 C2.308,1.346 2.617,1.659 2.935,1.982 C2.916,2.003 2.888,2.038 2.856,2.070 C2.558,2.368 2.257,2.664 1.965,2.968 ZM4.350,13.304 C3.315,12.981 2.281,12.659 1.226,12.331 C1.211,12.455 1.194,12.564 1.184,12.673 C1.095,13.719 1.008,14.765 0.917,15.810 C0.838,16.716 0.754,17.621 0.675,18.526 C0.585,19.572 0.498,20.617 0.409,21.663 C0.385,21.943 0.361,22.223 0.335,22.503 C0.331,22.544 0.312,22.582 0.300,22.622 C0.300,18.157 0.300,13.693 0.300,9.229 C0.330,9.249 0.364,9.265 0.389,9.290 C1.697,10.598 3.004,11.907 4.312,13.216 C4.330,13.234 4.347,13.255 4.350,13.304 Z" data-v-0b190a95></path><path id="staff-career-icon-sniper" d="M28.348,1.103 C28.349,4.101 28.349,7.099 28.349,10.097 C28.349,10.137 28.346,10.177 28.317,10.219 C28.277,9.979 28.237,9.739 28.198,9.498 C28.056,8.630 27.913,7.763 27.772,6.895 C27.634,6.045 27.498,5.195 27.359,4.346 C27.254,3.699 27.144,3.054 27.041,2.407 C27.028,2.330 27.002,2.300 26.921,2.287 C26.040,2.144 25.160,1.998 24.280,1.851 C23.496,1.721 22.713,1.590 21.929,1.460 C21.040,1.313 20.150,1.168 19.260,1.021 C19.210,1.013 19.163,0.992 19.114,0.977 C22.194,0.977 25.274,0.977 28.354,0.977 C28.352,1.019 28.348,1.061 28.348,1.103 ZM8.297,8.072 C8.411,10.714 8.525,13.356 8.639,16.008 C8.397,16.008 8.175,16.008 7.929,16.008 C8.043,13.358 8.157,10.714 8.271,8.070 C8.280,8.070 8.288,8.071 8.297,8.072 ZM21.971,4.296 C22.328,4.641 22.679,4.992 23.027,5.346 C23.097,5.416 23.154,5.429 23.247,5.392 C23.708,5.212 24.172,5.039 24.636,4.863 C24.675,4.849 24.714,4.837 24.780,4.814 C24.758,4.884 24.745,4.935 24.727,4.984 C24.562,5.432 24.400,5.881 24.229,6.326 C24.184,6.443 24.198,6.518 24.290,6.607 C24.640,6.945 24.984,7.290 25.324,7.639 C25.386,7.702 25.437,7.790 25.458,7.875 C25.983,9.975 26.503,12.077 27.024,14.179 C27.262,15.142 27.500,16.104 27.734,17.068 C27.746,17.116 27.741,17.182 27.716,17.223 C26.825,18.653 25.931,20.082 25.036,21.511 C25.024,21.530 25.008,21.546 24.977,21.583 C24.772,21.374 24.573,21.171 24.374,20.969 C24.187,20.782 24.187,20.783 24.328,20.555 C24.486,20.302 24.643,20.049 24.816,19.770 C24.733,19.770 24.679,19.770 24.625,19.770 C20.647,19.787 16.669,19.811 12.691,19.812 C12.255,19.812 11.949,19.928 11.648,20.249 C10.901,21.044 10.114,21.801 9.343,22.573 C9.314,22.602 9.288,22.633 9.269,22.696 C10.126,22.628 10.984,22.561 11.863,22.491 C11.853,22.624 11.846,22.743 11.837,22.861 C11.796,23.384 11.752,23.907 11.716,24.430 C11.707,24.556 11.662,24.606 11.534,24.616 C10.881,24.663 10.228,24.717 9.575,24.769 C8.862,24.826 8.148,24.884 7.435,24.941 C7.076,24.970 6.717,25.003 6.358,25.023 C6.223,25.030 6.123,25.069 6.026,25.167 C4.665,26.535 3.301,27.899 1.939,29.265 C1.900,29.304 1.876,29.358 1.822,29.440 C1.269,28.877 0.756,28.353 0.242,27.829 C0.242,27.820 0.242,27.811 0.242,27.801 C0.282,27.771 0.326,27.746 0.361,27.711 C1.741,26.330 3.121,24.948 4.498,23.563 C4.551,23.509 4.595,23.422 4.601,23.346 C4.671,22.520 4.731,21.693 4.797,20.867 C4.863,20.036 4.933,19.205 5.001,18.375 C5.010,18.267 5.018,18.160 5.021,18.052 C5.023,17.960 5.064,17.920 5.157,17.913 C5.656,17.876 6.155,17.836 6.654,17.797 C6.807,17.785 6.960,17.773 7.140,17.759 C7.071,18.632 7.004,19.492 6.933,20.386 C6.989,20.339 7.020,20.315 7.048,20.287 C7.942,19.393 8.834,18.498 9.730,17.605 C9.803,17.533 9.831,17.459 9.833,17.359 C9.893,14.670 9.956,11.982 10.018,9.293 C10.053,7.794 10.088,6.295 10.122,4.796 C10.123,4.751 10.122,4.706 10.122,4.629 C9.685,4.902 9.271,5.161 8.866,5.414 C8.598,5.144 8.338,4.883 8.071,4.614 C8.098,4.594 8.130,4.568 8.164,4.547 C9.563,3.670 10.963,2.792 12.365,1.919 C12.419,1.885 12.506,1.871 12.569,1.887 C13.971,2.230 15.372,2.578 16.773,2.926 C18.423,3.335 20.074,3.743 21.723,4.157 C21.812,4.179 21.905,4.232 21.971,4.296 ZM20.794,10.707 C20.300,11.193 19.813,11.686 19.323,12.176 C19.290,12.209 19.256,12.239 19.191,12.299 C19.108,12.190 19.028,12.086 18.946,11.978 C18.884,12.036 18.849,12.067 18.817,12.099 C18.175,12.742 17.533,13.384 16.891,14.027 C15.395,15.525 13.899,17.023 12.401,18.518 C12.349,18.570 12.274,18.624 12.205,18.632 C11.898,18.668 11.590,18.688 11.282,18.711 C11.154,18.721 11.025,18.724 10.889,18.731 C10.889,18.679 10.886,18.642 10.889,18.605 C10.920,18.237 10.958,17.868 10.981,17.499 C10.989,17.377 11.035,17.293 11.119,17.209 C13.252,15.078 15.383,12.944 17.514,10.810 C17.550,10.774 17.583,10.737 17.652,10.664 C17.541,10.584 17.439,10.510 17.301,10.411 C17.381,10.353 17.427,10.328 17.464,10.292 C17.961,9.796 18.458,9.299 18.952,8.800 C19.006,8.746 19.054,8.677 19.083,8.605 C19.429,7.726 19.774,6.846 20.112,5.964 C20.139,5.893 20.139,5.799 20.119,5.725 C20.067,5.541 19.983,5.365 19.939,5.180 C19.899,5.013 19.806,4.953 19.648,4.915 C18.395,4.611 17.144,4.297 15.893,3.987 C14.800,3.715 13.708,3.442 12.614,3.176 C12.543,3.159 12.445,3.177 12.382,3.216 C11.796,3.576 11.215,3.944 10.631,4.307 C10.555,4.354 10.524,4.406 10.522,4.498 C10.475,7.027 10.425,9.557 10.374,12.086 C10.328,14.386 10.280,16.686 10.227,18.986 C10.226,19.055 10.182,19.138 10.132,19.188 C9.046,20.281 7.958,21.372 6.865,22.457 C6.733,22.588 6.738,22.732 6.738,22.895 C6.919,22.896 7.059,22.873 7.192,22.739 C8.261,21.656 9.340,20.583 10.413,19.504 C10.488,19.429 10.563,19.395 10.670,19.395 C11.321,19.399 11.971,19.397 12.622,19.395 C15.023,19.389 17.423,19.382 19.824,19.376 C21.514,19.372 23.203,19.369 24.892,19.371 C25.028,19.371 25.100,19.327 25.170,19.214 C25.569,18.564 25.974,17.917 26.384,17.273 C26.454,17.164 26.463,17.067 26.432,16.946 C26.034,15.354 25.640,13.761 25.245,12.168 C25.059,11.414 24.871,10.661 24.690,9.906 C24.664,9.796 24.611,9.740 24.505,9.708 C24.300,9.646 24.099,9.566 23.893,9.506 C23.824,9.486 23.734,9.484 23.668,9.509 C22.800,9.844 21.934,10.182 21.070,10.526 C20.970,10.566 20.871,10.631 20.794,10.707 ZM21.456,21.385 C18.852,21.497 16.247,21.610 13.633,21.723 C13.633,21.480 13.633,21.258 13.633,21.012 C16.242,21.125 18.848,21.237 21.455,21.349 C21.455,21.361 21.456,21.373 21.456,21.385 Z" data-v-0b190a95></path><path id="staff-career-icon-pioneer" d="M29.313,14.190 C29.182,14.196 29.051,14.193 28.920,14.197 C28.497,14.208 28.073,14.219 27.650,14.234 C27.367,14.243 27.083,14.256 26.800,14.272 C26.455,14.291 26.110,14.320 25.766,14.335 C25.518,14.346 25.269,14.337 25.021,14.344 C24.814,14.351 24.606,14.358 24.402,14.386 C24.334,14.396 24.259,14.460 24.216,14.520 C24.106,14.675 24.010,14.842 23.910,15.004 C23.876,15.060 23.846,15.119 23.814,15.177 C23.726,15.342 23.554,15.391 23.404,15.471 C23.237,15.560 23.071,15.650 22.902,15.737 C22.701,15.841 22.497,15.938 22.298,16.047 C22.058,16.178 21.823,16.319 21.584,16.453 C21.489,16.506 21.391,16.553 21.293,16.602 C21.065,16.714 20.834,16.819 20.610,16.938 C20.407,17.046 20.214,17.173 20.013,17.284 C19.866,17.365 19.712,17.433 19.562,17.511 C19.404,17.593 19.248,17.679 19.092,17.765 C18.943,17.848 18.800,17.938 18.649,18.016 C18.495,18.097 18.332,18.160 18.179,18.243 C17.976,18.352 17.783,18.481 17.578,18.587 C17.339,18.711 17.089,18.814 16.849,18.936 C16.708,19.008 16.581,19.104 16.442,19.179 C16.316,19.246 16.178,19.292 16.052,19.360 C15.940,19.421 15.823,19.487 15.737,19.577 C15.695,19.622 15.716,19.729 15.714,19.808 C15.703,20.184 15.703,20.561 15.680,20.936 C15.660,21.263 15.600,21.587 15.583,21.914 C15.564,22.280 15.597,22.650 15.565,23.014 C15.525,23.462 15.582,23.914 15.478,24.361 C15.425,24.590 15.470,24.840 15.461,25.080 C15.450,25.385 15.424,25.689 15.416,25.994 C15.406,26.352 15.411,26.710 15.405,27.068 C15.403,27.230 15.391,27.392 15.383,27.562 C15.315,27.562 15.253,27.562 15.168,27.562 C15.168,27.293 15.171,27.030 15.167,26.767 C15.161,26.362 15.147,25.958 15.140,25.554 C15.135,25.271 15.135,24.988 15.132,24.705 C15.132,24.696 15.133,24.687 15.132,24.678 C15.097,24.419 15.046,24.162 15.032,23.902 C15.007,23.454 15.006,23.004 14.991,22.556 C14.986,22.399 14.963,22.243 14.958,22.086 C14.951,21.896 14.958,21.705 14.952,21.514 C14.949,21.423 14.928,21.332 14.918,21.241 C14.905,21.134 14.887,21.028 14.884,20.921 C14.879,20.690 14.880,20.458 14.883,20.226 C14.885,20.076 14.821,20.024 14.686,20.091 C14.560,20.154 14.446,20.239 14.323,20.309 C14.204,20.376 14.081,20.437 13.959,20.499 C13.782,20.590 13.605,20.681 13.427,20.770 C13.216,20.875 13.002,20.973 12.794,21.085 C12.663,21.155 12.546,21.252 12.414,21.322 C12.273,21.398 12.120,21.451 11.978,21.526 C11.746,21.650 11.520,21.787 11.289,21.912 C11.057,22.037 10.820,22.152 10.588,22.274 C10.494,22.324 10.405,22.382 10.313,22.436 C10.294,22.428 10.275,22.419 10.255,22.410 C10.271,22.344 10.274,22.271 10.304,22.212 C10.369,22.085 10.448,21.964 10.523,21.841 C10.564,21.774 10.610,21.711 10.649,21.643 C10.717,21.524 10.778,21.401 10.846,21.281 C10.967,21.070 11.093,20.861 11.212,20.648 C11.331,20.437 11.440,20.220 11.560,20.009 C11.634,19.878 11.724,19.755 11.802,19.625 C11.844,19.556 11.869,19.475 11.914,19.408 C12.029,19.234 12.208,19.151 12.393,19.066 C12.627,18.959 12.842,18.810 13.070,18.688 C13.274,18.580 13.487,18.490 13.691,18.382 C13.832,18.308 13.964,18.217 14.102,18.137 C14.208,18.076 14.315,18.018 14.423,17.963 C14.690,17.826 14.959,17.693 15.226,17.557 C15.566,17.384 15.908,17.213 16.245,17.035 C16.459,16.921 16.664,16.790 16.877,16.675 C17.087,16.561 17.305,16.460 17.517,16.349 C17.715,16.245 17.910,16.135 18.107,16.030 C18.188,15.987 18.277,15.959 18.356,15.913 C18.481,15.842 18.600,15.759 18.725,15.687 C18.838,15.622 18.957,15.565 19.072,15.502 C19.241,15.409 19.436,15.367 19.586,15.229 C19.658,15.163 19.775,15.149 19.865,15.100 C20.127,14.958 20.385,14.808 20.647,14.667 C20.749,14.611 20.853,14.554 20.964,14.524 C21.105,14.485 21.161,14.394 21.163,14.264 C21.164,14.130 21.157,13.995 21.140,13.863 C21.117,13.680 21.156,13.622 21.333,13.636 C21.522,13.651 21.709,13.688 21.898,13.706 C22.063,13.723 22.230,13.737 22.396,13.732 C22.468,13.731 22.542,13.686 22.609,13.651 C22.852,13.521 23.091,13.384 23.335,13.255 C23.469,13.184 23.612,13.129 23.748,13.059 C23.870,12.997 23.985,12.921 24.106,12.857 C24.368,12.719 24.635,12.590 24.894,12.448 C25.079,12.347 25.256,12.232 25.442,12.120 C25.532,12.210 25.493,12.283 25.435,12.373 C25.343,12.514 25.270,12.667 25.189,12.815 C25.179,12.835 25.180,12.865 25.165,12.877 C25.028,12.998 24.977,13.168 24.899,13.323 C24.842,13.435 24.750,13.530 24.685,13.638 C24.656,13.687 24.637,13.754 24.645,13.808 C24.649,13.834 24.730,13.872 24.768,13.865 C24.932,13.836 25.087,13.856 25.242,13.906 C25.268,13.914 25.298,13.907 25.326,13.908 C25.902,13.918 26.479,13.922 27.054,13.941 C27.544,13.956 28.034,13.990 28.523,14.012 C28.691,14.020 28.859,14.008 29.026,14.022 C29.135,14.030 29.242,14.066 29.348,14.094 C29.363,14.098 29.384,14.139 29.379,14.144 C29.362,14.164 29.336,14.189 29.313,14.190 ZM28.940,6.203 C28.849,6.355 28.754,6.506 28.667,6.661 C28.559,6.855 28.460,7.055 28.350,7.249 C28.224,7.472 28.088,7.690 27.959,7.912 C27.913,7.990 27.871,8.071 27.829,8.152 C27.761,8.281 27.708,8.422 27.623,8.539 C27.556,8.631 27.455,8.703 27.360,8.771 C27.284,8.825 27.193,8.859 27.109,8.903 C26.841,9.043 26.571,9.179 26.306,9.325 C26.091,9.443 25.884,9.575 25.671,9.696 C25.552,9.764 25.426,9.820 25.305,9.883 C25.074,10.002 24.844,10.124 24.612,10.242 C24.362,10.370 24.109,10.492 23.861,10.622 C23.738,10.687 23.622,10.767 23.501,10.836 C23.394,10.896 23.285,10.951 23.176,11.007 C22.862,11.168 22.547,11.325 22.235,11.490 C21.922,11.656 21.615,11.833 21.302,11.998 C20.977,12.169 20.643,12.326 20.319,12.499 C20.030,12.654 19.749,12.827 19.461,12.985 C19.322,13.062 19.173,13.119 19.032,13.194 C18.893,13.267 18.761,13.353 18.623,13.429 C18.515,13.489 18.403,13.539 18.294,13.597 C18.047,13.730 17.804,13.870 17.554,13.997 C17.325,14.113 17.087,14.210 16.859,14.328 C16.715,14.402 16.585,14.501 16.446,14.584 C16.358,14.637 16.268,14.687 16.176,14.732 C15.954,14.842 15.729,14.944 15.509,15.057 C15.296,15.165 15.087,15.282 14.876,15.395 C14.736,15.470 14.596,15.545 14.457,15.622 C14.308,15.704 14.164,15.794 14.013,15.871 C13.881,15.939 13.741,15.992 13.606,16.056 C13.508,16.103 13.412,16.155 13.317,16.210 C13.105,16.333 12.898,16.463 12.684,16.581 C12.556,16.652 12.416,16.700 12.287,16.769 C12.051,16.895 11.820,17.031 11.583,17.158 C11.447,17.230 11.303,17.290 11.164,17.358 C11.048,17.416 10.934,17.475 10.820,17.537 C10.685,17.611 10.552,17.690 10.417,17.765 C10.170,17.901 9.924,18.038 9.674,18.171 C9.550,18.237 9.419,18.290 9.294,18.355 C9.159,18.424 9.028,18.502 8.893,18.572 C8.569,18.742 8.243,18.910 7.918,19.079 C7.841,19.119 7.766,19.163 7.690,19.206 C7.540,19.292 7.391,19.381 7.239,19.463 C7.125,19.525 7.006,19.575 6.891,19.636 C6.725,19.724 6.562,19.816 6.396,19.906 C6.309,19.953 6.221,20.000 6.133,20.045 C5.922,20.152 5.708,20.254 5.499,20.365 C5.269,20.488 5.044,20.621 4.814,20.745 C4.583,20.870 4.348,20.985 4.116,21.109 C3.900,21.225 3.688,21.352 3.470,21.465 C3.244,21.582 3.011,21.684 2.786,21.801 C2.633,21.881 2.489,21.977 2.339,22.061 C2.240,22.117 2.137,22.164 2.035,22.214 C1.814,22.323 1.589,22.425 1.373,22.542 C1.164,22.655 0.964,22.787 0.758,22.905 C0.633,22.977 0.504,23.039 0.365,23.111 C0.354,23.099 0.330,23.073 0.306,23.047 C0.306,23.000 0.306,22.954 0.306,22.907 C0.344,22.885 0.397,22.873 0.417,22.840 C0.494,22.714 0.556,22.579 0.632,22.453 C0.708,22.326 0.798,22.208 0.874,22.081 C0.929,21.991 0.968,21.891 1.018,21.798 C1.134,21.585 1.247,21.371 1.370,21.161 C1.533,20.881 1.705,20.606 1.872,20.327 C1.925,20.238 1.963,20.139 2.025,20.057 C2.082,19.982 2.153,19.910 2.233,19.861 C2.378,19.773 2.534,19.706 2.683,19.625 C2.893,19.511 3.098,19.389 3.309,19.279 C3.536,19.160 3.770,19.055 3.997,18.936 C4.206,18.826 4.409,18.703 4.618,18.593 C4.764,18.516 4.921,18.456 5.066,18.376 C5.205,18.300 5.332,18.204 5.469,18.125 C5.593,18.053 5.723,17.992 5.851,17.927 C5.995,17.854 6.139,17.784 6.282,17.709 C6.382,17.657 6.478,17.598 6.579,17.546 C6.791,17.438 7.008,17.336 7.218,17.223 C7.458,17.095 7.690,16.953 7.929,16.826 C8.145,16.711 8.368,16.607 8.587,16.497 C8.686,16.447 8.785,16.397 8.882,16.342 C9.107,16.216 9.326,16.081 9.554,15.961 C9.690,15.890 9.839,15.846 9.978,15.781 C10.064,15.742 10.143,15.687 10.225,15.638 C10.351,15.562 10.472,15.477 10.602,15.408 C10.741,15.334 10.888,15.276 11.029,15.206 C11.145,15.149 11.258,15.085 11.372,15.024 C11.617,14.894 11.863,14.766 12.108,14.634 C12.432,14.460 12.756,14.283 13.080,14.108 C13.294,13.994 13.511,13.885 13.724,13.770 C13.953,13.645 14.179,13.512 14.409,13.387 C14.532,13.321 14.661,13.266 14.787,13.203 C14.849,13.172 14.907,13.135 14.969,13.103 C15.108,13.033 15.249,12.966 15.388,12.894 C15.510,12.831 15.629,12.759 15.752,12.696 C15.897,12.623 16.047,12.559 16.190,12.483 C16.307,12.421 16.416,12.343 16.532,12.279 C16.682,12.198 16.837,12.125 16.989,12.047 C17.085,11.999 17.182,11.950 17.275,11.897 C17.491,11.773 17.702,11.639 17.920,11.521 C18.137,11.403 18.364,11.303 18.583,11.188 C18.727,11.113 18.865,11.024 19.007,10.944 C19.100,10.891 19.195,10.841 19.290,10.793 C19.516,10.680 19.744,10.574 19.967,10.456 C20.183,10.342 20.391,10.216 20.605,10.099 C20.740,10.025 20.881,9.962 21.017,9.889 C21.154,9.816 21.287,9.734 21.425,9.661 C21.535,9.602 21.652,9.553 21.763,9.494 C21.937,9.402 22.107,9.302 22.281,9.211 C22.510,9.091 22.742,8.976 22.973,8.860 C23.157,8.768 23.346,8.682 23.526,8.583 C23.663,8.508 23.786,8.411 23.922,8.335 C24.044,8.266 24.178,8.217 24.303,8.153 C24.523,8.040 24.741,7.922 24.961,7.807 C25.094,7.738 25.230,7.674 25.363,7.604 C25.487,7.539 25.609,7.469 25.733,7.403 C25.877,7.326 26.024,7.251 26.168,7.173 C26.301,7.100 26.431,7.024 26.562,6.950 C26.680,6.885 26.798,6.819 26.916,6.756 C27.080,6.668 27.245,6.582 27.409,6.495 C27.518,6.438 27.628,6.383 27.736,6.325 C27.891,6.242 28.044,6.154 28.199,6.072 C28.320,6.008 28.446,5.951 28.567,5.886 C28.748,5.787 28.927,5.684 29.108,5.583 C29.124,5.574 29.143,5.571 29.168,5.563 C29.251,5.656 29.258,5.732 29.167,5.837 C29.074,5.944 29.014,6.079 28.940,6.203 ZM18.870,7.160 C18.809,7.273 18.753,7.389 18.687,7.499 C18.514,7.789 18.330,8.074 18.161,8.367 C18.043,8.570 17.952,8.790 17.830,8.990 C17.712,9.183 17.624,9.391 17.359,9.475 C17.131,9.548 16.939,9.728 16.724,9.846 C16.584,9.923 16.426,9.968 16.282,10.039 C16.153,10.102 16.032,10.183 15.905,10.252 C15.678,10.376 15.451,10.497 15.224,10.620 C15.004,10.739 14.785,10.860 14.565,10.979 C14.450,11.041 14.333,11.099 14.218,11.160 C13.981,11.286 13.745,11.414 13.506,11.538 C13.277,11.657 13.044,11.769 12.815,11.890 C12.598,12.004 12.384,12.124 12.170,12.242 C12.043,12.312 11.917,12.384 11.790,12.453 C11.626,12.543 11.462,12.634 11.296,12.719 C11.165,12.785 11.030,12.839 10.898,12.903 C10.787,12.957 10.678,13.015 10.570,13.074 C10.431,13.152 10.297,13.237 10.156,13.311 C9.951,13.418 9.739,13.514 9.535,13.624 C9.433,13.678 9.399,13.775 9.403,13.894 C9.410,14.090 9.404,14.287 9.395,14.483 C9.393,14.508 9.341,14.553 9.315,14.551 C9.162,14.541 9.010,14.510 8.856,14.504 C8.551,14.491 8.245,14.477 7.941,14.490 C7.837,14.495 7.736,14.577 7.635,14.626 C7.542,14.672 7.447,14.714 7.358,14.767 C7.220,14.851 7.090,14.949 6.950,15.029 C6.837,15.094 6.712,15.138 6.594,15.196 C6.372,15.307 6.152,15.420 5.932,15.533 C5.792,15.605 5.650,15.675 5.513,15.753 C5.371,15.834 5.237,15.932 5.092,16.010 C4.960,16.081 4.815,16.129 4.683,16.200 C4.544,16.273 4.415,16.364 4.278,16.441 C4.223,16.471 4.131,16.519 4.105,16.498 C4.025,16.433 4.102,16.377 4.143,16.313 C4.229,16.181 4.297,16.038 4.375,15.901 C4.425,15.814 4.477,15.728 4.532,15.644 C4.614,15.521 4.705,15.404 4.783,15.279 C4.827,15.208 4.848,15.122 4.889,15.049 C4.985,14.880 5.091,14.718 5.184,14.548 C5.215,14.490 5.216,14.415 5.241,14.306 C4.848,14.306 4.488,14.317 4.128,14.303 C3.810,14.291 3.493,14.250 3.175,14.227 C3.058,14.219 2.939,14.226 2.822,14.224 C2.280,14.211 1.739,14.197 1.172,14.182 C1.192,14.144 1.199,14.106 1.221,14.094 C1.389,14.004 1.575,14.019 1.756,14.011 C2.219,13.989 2.683,13.971 3.146,13.954 C3.581,13.939 4.015,13.925 4.449,13.914 C4.756,13.907 5.064,13.906 5.372,13.902 C5.423,13.901 5.637,13.715 5.663,13.665 C5.753,13.492 5.855,13.324 6.035,13.232 C6.365,13.064 6.702,12.910 7.031,12.739 C7.239,12.630 7.436,12.498 7.640,12.382 C7.754,12.317 7.876,12.266 7.992,12.206 C8.304,12.042 8.613,11.876 8.925,11.713 C9.070,11.637 9.221,11.570 9.366,11.493 C9.516,11.412 9.661,11.321 9.811,11.238 C9.922,11.176 10.037,11.119 10.150,11.060 C10.214,11.026 10.279,10.990 10.344,10.958 C10.483,10.890 10.623,10.825 10.761,10.756 C10.871,10.701 10.978,10.639 11.087,10.581 C11.245,10.497 11.405,10.416 11.561,10.329 C11.788,10.202 12.011,10.068 12.237,9.940 C12.329,9.888 12.426,9.844 12.521,9.798 C12.662,9.730 12.805,9.668 12.944,9.597 C13.078,9.529 13.208,9.455 13.339,9.382 C13.434,9.329 13.527,9.271 13.623,9.221 C13.842,9.107 14.064,9.001 14.281,8.884 C14.451,8.792 14.619,8.696 14.778,8.587 C14.824,8.555 14.854,8.472 14.857,8.411 C14.876,7.996 14.883,7.581 14.901,7.166 C14.906,7.038 14.945,6.911 14.952,6.783 C14.971,6.434 14.983,6.085 14.994,5.736 C15.009,5.279 15.014,4.821 15.034,4.364 C15.041,4.194 15.086,4.027 15.099,3.858 C15.115,3.660 15.113,3.461 15.120,3.263 C15.132,2.889 15.147,2.514 15.156,2.139 C15.166,1.752 15.171,1.364 15.175,0.977 C15.177,0.878 15.171,0.779 15.168,0.680 C15.243,0.680 15.319,0.680 15.394,0.680 C15.392,0.878 15.388,1.076 15.391,1.273 C15.400,1.817 15.413,2.361 15.423,2.904 C15.427,3.109 15.401,3.320 15.435,3.519 C15.524,4.030 15.540,4.544 15.552,5.060 C15.560,5.361 15.561,5.662 15.572,5.963 C15.577,6.114 15.599,6.264 15.609,6.414 C15.636,6.800 15.662,7.186 15.686,7.571 C15.692,7.654 15.689,7.738 15.697,7.821 C15.703,7.895 15.719,7.969 15.730,8.043 C15.818,8.027 15.913,8.027 15.991,7.989 C16.149,7.913 16.296,7.815 16.450,7.728 C16.580,7.655 16.712,7.586 16.843,7.515 C17.048,7.405 17.255,7.298 17.459,7.187 C17.697,7.057 17.933,6.923 18.171,6.794 C18.276,6.737 18.385,6.689 18.491,6.633 C18.673,6.536 18.851,6.430 19.038,6.340 C19.121,6.300 19.220,6.292 19.311,6.269 C19.324,6.287 19.337,6.306 19.349,6.324 C19.251,6.486 19.149,6.647 19.054,6.810 C18.988,6.924 18.931,7.043 18.870,7.160 Z" data-v-0b190a95></path><path id="staff-career-icon-support" d="M15.170,0.031 C19.186,0.031 23.201,0.031 27.216,0.031 C27.224,0.091 27.240,0.151 27.240,0.211 C27.241,8.844 27.241,17.476 27.244,26.108 C27.244,26.244 27.207,26.279 27.073,26.279 C23.226,26.275 19.380,26.276 15.534,26.276 C15.484,26.276 15.434,26.276 15.376,26.276 C15.376,25.464 15.376,24.670 15.376,23.877 C15.399,23.871 15.412,23.864 15.425,23.864 C16.499,23.863 17.573,23.862 18.647,23.863 C18.677,23.863 18.707,23.879 18.737,23.889 C18.793,23.909 18.849,23.948 18.905,23.948 C20.856,23.952 22.807,23.950 24.759,23.954 C24.890,23.954 24.923,23.914 24.923,23.786 C24.921,16.701 24.921,9.616 24.923,2.531 C24.923,2.405 24.893,2.365 24.760,2.365 C22.536,2.370 20.313,2.368 18.090,2.368 C18.040,2.368 17.990,2.368 17.940,2.368 C17.940,3.047 17.940,3.705 17.940,4.378 C19.535,4.378 21.118,4.378 22.702,4.378 C22.702,9.525 22.702,14.656 22.702,19.787 C22.684,19.801 22.667,19.815 22.650,19.829 C22.625,19.784 22.609,19.730 22.574,19.695 C18.469,15.590 14.363,11.485 10.256,7.382 C10.177,7.303 10.142,7.225 10.142,7.112 C10.145,5.593 10.144,4.074 10.144,2.555 C10.144,2.496 10.138,2.438 10.133,2.368 C10.072,2.368 10.026,2.368 9.980,2.368 C9.389,2.368 8.798,2.373 8.207,2.365 C8.068,2.363 8.037,2.406 8.037,2.539 C8.042,3.997 8.040,5.456 8.045,6.914 C8.046,7.049 8.010,7.086 7.874,7.086 C6.420,7.081 4.966,7.083 3.512,7.083 C3.326,7.083 3.326,7.083 3.326,7.264 C3.326,12.740 3.326,18.217 3.326,23.694 C3.326,23.744 3.326,23.794 3.326,23.850 C3.374,23.855 3.405,23.861 3.437,23.861 C4.811,23.862 6.185,23.861 7.560,23.864 C7.664,23.864 7.684,23.825 7.684,23.732 C7.681,23.151 7.680,22.569 7.685,21.988 C7.686,21.879 7.647,21.855 7.546,21.856 C6.936,21.860 6.327,21.858 5.717,21.858 C5.662,21.858 5.607,21.858 5.538,21.858 C5.538,21.792 5.538,21.746 5.538,21.700 C5.538,17.579 5.539,13.457 5.536,9.336 C5.535,9.209 5.573,9.179 5.695,9.179 C6.497,9.184 7.299,9.180 8.101,9.186 C8.175,9.187 8.266,9.226 8.319,9.278 C12.484,13.436 16.646,17.597 20.808,21.759 C20.831,21.783 20.851,21.811 20.882,21.849 C19.035,21.849 17.208,21.849 15.367,21.849 C15.367,21.785 15.367,21.730 15.367,21.675 C15.367,20.428 15.368,19.180 15.364,17.933 C15.364,17.862 15.339,17.770 15.291,17.722 C14.662,17.084 14.028,16.452 13.394,15.819 C13.373,15.798 13.346,15.784 13.298,15.749 C13.298,19.270 13.298,22.765 13.298,26.276 C13.221,26.276 13.162,26.276 13.102,26.276 C9.143,26.276 5.184,26.276 1.226,26.276 C0.978,26.276 1.005,26.298 1.005,26.059 C1.005,20.522 1.005,14.984 1.005,9.446 C1.005,6.375 1.005,3.304 1.006,0.233 C1.006,0.165 1.030,0.098 1.042,0.031 C5.048,0.031 9.054,0.031 13.060,0.031 C13.070,0.099 13.090,0.167 13.090,0.235 C13.092,3.048 13.091,5.861 13.095,8.674 C13.095,8.754 13.123,8.856 13.176,8.910 C13.801,9.545 14.432,10.173 15.063,10.803 C15.083,10.823 15.110,10.837 15.150,10.865 C15.150,10.787 15.150,10.731 15.150,10.675 C15.150,7.192 15.150,3.709 15.151,0.225 C15.151,0.161 15.164,0.096 15.170,0.031 ZM3.326,2.373 C3.326,2.434 3.326,2.480 3.326,2.525 C3.326,3.660 3.328,4.794 3.322,5.929 C3.322,6.066 3.369,6.089 3.491,6.089 C4.621,6.085 5.751,6.086 6.882,6.086 C6.931,6.086 6.981,6.086 7.032,6.086 C7.032,4.837 7.032,3.608 7.032,2.373 C5.797,2.373 4.574,2.373 3.326,2.373 Z" data-v-0b190a95></path><path id="staff-career-icon-tank" d="M22.659,3.601 C24.067,2.484 25.481,1.362 26.895,0.241 C26.903,0.248 26.912,0.256 26.921,0.263 C25.799,1.676 24.678,3.089 23.559,4.500 C23.252,4.194 22.962,3.903 22.659,3.601 ZM24.174,6.594 C24.067,8.240 23.972,9.887 23.876,11.533 C23.786,13.076 23.700,14.620 23.610,16.164 C23.527,17.571 23.443,18.979 23.354,20.387 C23.351,20.440 23.304,20.505 23.259,20.541 C21.832,21.676 20.404,22.809 18.975,23.942 C17.223,25.331 15.470,26.719 13.721,28.110 C13.638,28.177 13.589,28.174 13.507,28.111 C10.279,25.589 7.048,23.071 3.820,20.548 C3.766,20.506 3.719,20.423 3.714,20.356 C3.637,19.249 3.568,18.141 3.496,17.033 C3.427,15.981 3.356,14.929 3.288,13.877 C3.234,13.040 3.185,12.203 3.131,11.366 C3.064,10.324 2.995,9.281 2.928,8.238 C2.889,7.654 2.855,7.069 2.812,6.485 C2.804,6.388 2.859,6.367 2.925,6.338 C4.051,5.842 5.177,5.342 6.306,4.850 C6.419,4.801 6.457,4.743 6.455,4.622 C6.448,4.144 6.452,3.666 6.452,3.188 C6.452,3.138 6.452,3.088 6.452,3.021 C6.525,3.021 6.580,3.021 6.635,3.021 C7.648,3.021 8.661,3.018 9.673,3.023 C9.812,3.024 9.924,2.987 10.038,2.912 C11.175,2.159 12.316,1.411 13.453,0.658 C13.548,0.595 13.613,0.591 13.711,0.656 C14.847,1.419 15.986,2.178 17.128,2.933 C17.207,2.985 17.317,3.016 17.412,3.017 C18.359,3.023 19.307,3.023 20.254,3.018 C20.376,3.017 20.414,3.048 20.412,3.174 C20.405,3.661 20.413,4.148 20.406,4.636 C20.405,4.749 20.443,4.799 20.545,4.842 C21.692,5.326 22.837,5.817 23.985,6.300 C24.127,6.360 24.185,6.423 24.174,6.594 ZM22.576,7.290 C21.530,6.868 20.487,6.438 19.441,6.015 C19.342,5.975 19.308,5.925 19.310,5.819 C19.317,5.463 19.313,5.107 19.313,4.751 C19.313,4.487 19.313,4.487 19.042,4.487 C18.338,4.487 17.635,4.489 16.932,4.484 C16.854,4.483 16.764,4.456 16.699,4.413 C15.702,3.755 14.707,3.092 13.715,2.427 C13.620,2.363 13.556,2.355 13.455,2.422 C12.456,3.086 11.454,3.745 10.448,4.399 C10.368,4.451 10.259,4.482 10.163,4.483 C9.352,4.490 8.541,4.490 7.730,4.484 C7.594,4.483 7.543,4.509 7.548,4.659 C7.560,5.043 7.547,5.428 7.554,5.812 C7.556,5.921 7.525,5.974 7.420,6.018 C6.418,6.439 5.421,6.868 4.419,7.289 C4.284,7.345 4.222,7.407 4.248,7.565 C4.277,7.749 4.272,7.939 4.282,8.126 C4.283,8.126 4.284,8.126 4.284,8.126 C4.333,9.010 4.382,9.894 4.432,10.778 C4.486,11.728 4.542,12.677 4.596,13.627 C4.654,14.665 4.712,15.704 4.770,16.742 C4.823,17.687 4.878,18.632 4.925,19.577 C4.930,19.688 4.969,19.755 5.053,19.821 C6.027,20.577 6.998,21.336 7.970,22.095 C9.817,23.537 11.664,24.978 13.511,26.421 C13.581,26.476 13.629,26.499 13.714,26.432 C16.520,24.223 19.327,22.015 22.137,19.810 C22.216,19.749 22.248,19.683 22.251,19.587 C22.263,19.189 22.279,18.791 22.296,18.393 C22.335,17.424 22.374,16.455 22.415,15.485 C22.472,14.142 22.532,12.798 22.588,11.455 C22.642,10.158 22.690,8.861 22.752,7.565 C22.759,7.408 22.713,7.345 22.576,7.290 ZM21.141,17.873 C21.123,18.200 21.115,18.528 21.090,18.855 C21.084,18.929 21.044,19.021 20.988,19.065 C18.574,20.970 16.156,22.869 13.740,24.771 C13.670,24.826 13.623,24.851 13.538,24.784 C11.109,22.875 8.679,20.970 6.246,19.067 C6.158,18.998 6.131,18.925 6.126,18.819 C6.072,17.860 6.012,16.901 5.955,15.942 C5.902,15.035 5.851,14.128 5.798,13.220 C5.745,12.299 5.689,11.378 5.634,10.456 C5.593,9.769 5.551,9.081 5.509,8.394 C5.504,8.316 5.506,8.256 5.598,8.215 C6.177,7.962 6.753,7.701 7.330,7.442 C7.346,7.435 7.365,7.433 7.400,7.424 C7.428,7.831 7.456,8.224 7.481,8.616 C7.539,9.518 7.595,10.421 7.652,11.323 C7.717,12.370 7.782,13.418 7.848,14.465 C7.908,15.419 7.967,16.373 8.033,17.326 C8.036,17.379 8.088,17.442 8.134,17.477 C8.916,18.075 9.700,18.670 10.484,19.265 C11.380,19.946 12.275,20.626 13.171,21.306 C13.336,21.431 13.696,21.439 13.853,21.319 C15.590,20.003 17.326,18.685 19.064,17.371 C19.139,17.314 19.174,17.255 19.180,17.163 C19.219,16.466 19.262,15.769 19.304,15.072 C19.346,14.371 19.388,13.669 19.430,12.968 C19.485,12.051 19.539,11.135 19.595,10.218 C19.649,9.315 19.705,8.413 19.760,7.510 C19.763,7.475 19.773,7.440 19.783,7.388 C20.042,7.514 20.289,7.634 20.536,7.754 C20.873,7.918 21.209,8.084 21.548,8.243 C21.634,8.283 21.658,8.332 21.653,8.427 C21.561,10.121 21.475,11.815 21.383,13.508 C21.305,14.963 21.221,16.418 21.141,17.873 ZM18.464,13.122 C18.385,14.422 18.301,15.721 18.223,17.021 C18.217,17.114 18.184,17.172 18.110,17.229 C16.633,18.345 15.158,19.463 13.685,20.583 C13.604,20.645 13.555,20.637 13.480,20.578 C11.969,19.406 10.456,18.237 8.945,17.066 C8.909,17.038 8.872,16.987 8.869,16.945 C8.803,16.118 8.743,15.292 8.682,14.465 C8.625,13.708 8.569,12.951 8.513,12.195 C8.447,11.298 8.382,10.401 8.316,9.504 C8.260,8.757 8.189,8.010 8.153,7.262 C8.128,6.716 8.148,6.168 8.148,5.598 C8.214,5.598 8.270,5.598 8.325,5.598 C9.075,5.598 9.825,5.596 10.575,5.600 C10.699,5.601 10.798,5.568 10.897,5.494 C11.560,4.996 12.227,4.503 12.893,4.008 C12.921,3.987 12.953,3.970 13.009,3.936 C13.009,4.015 13.009,4.069 13.009,4.123 C13.009,7.032 13.009,9.942 13.009,12.852 C13.009,13.048 13.009,13.048 13.206,13.048 C13.515,13.048 13.824,13.048 14.148,13.048 C14.148,10.012 14.148,6.988 14.148,3.925 C14.215,3.971 14.255,3.996 14.292,4.024 C14.947,4.518 15.600,5.015 16.259,5.503 C16.334,5.559 16.444,5.593 16.538,5.594 C17.242,5.602 17.945,5.601 18.648,5.595 C18.773,5.594 18.802,5.631 18.805,5.754 C18.830,7.104 18.755,8.451 18.664,9.797 C18.589,10.905 18.532,12.014 18.464,13.122 ZM0.400,0.273 C0.409,0.264 0.418,0.255 0.426,0.247 C1.837,1.365 3.247,2.484 4.647,3.594 C4.347,3.892 4.053,4.184 3.746,4.489 C2.638,3.092 1.519,1.682 0.400,0.273 ZM4.649,23.765 C3.245,24.879 1.831,26.001 0.416,27.124 C0.408,27.115 0.400,27.107 0.393,27.099 C1.515,25.685 2.637,24.271 3.753,22.864 C4.055,23.168 4.347,23.462 4.649,23.765 ZM26.923,27.101 C26.916,27.109 26.908,27.118 26.901,27.126 C25.485,26.002 24.069,24.879 22.660,23.761 C22.964,23.460 23.259,23.168 23.563,22.867 C24.677,24.271 25.800,25.686 26.923,27.101 Z" data-v-0b190a95></path><path id="staff-career-icon-medic" d="M21.821,13.422 C21.716,13.482 21.640,13.491 21.531,13.426 C20.971,13.094 20.407,12.768 19.839,12.450 C19.720,12.383 19.682,12.309 19.684,12.175 C19.691,11.524 19.690,10.874 19.684,10.223 C19.683,10.107 19.715,10.041 19.820,9.981 C21.993,8.733 24.164,7.481 26.335,6.229 C26.383,6.202 26.431,6.176 26.493,6.142 C27.157,7.289 27.815,8.426 28.480,9.576 C28.426,9.610 28.380,9.640 28.333,9.667 C26.162,10.918 23.990,12.168 21.821,13.422 ZM23.531,6.231 C23.119,6.224 22.706,6.223 22.294,6.232 C22.158,6.235 22.132,6.186 22.133,6.063 C22.138,5.268 22.136,4.472 22.136,3.677 C22.136,3.490 22.135,3.490 21.942,3.490 C21.140,3.490 20.339,3.488 19.537,3.492 C19.423,3.493 19.384,3.462 19.386,3.343 C19.393,2.922 19.392,2.501 19.386,2.080 C19.384,1.967 19.423,1.938 19.531,1.939 C20.201,1.943 20.872,1.941 21.542,1.941 C22.207,1.941 22.873,1.943 23.538,1.938 C23.654,1.938 23.691,1.969 23.690,2.088 C23.686,3.416 23.686,4.745 23.690,6.074 C23.691,6.199 23.653,6.233 23.531,6.231 ZM28.679,20.318 C28.016,21.463 27.357,22.603 26.691,23.754 C26.578,23.689 26.477,23.632 26.377,23.574 C22.733,21.474 19.088,19.375 15.445,17.272 C15.331,17.206 15.250,17.199 15.131,17.268 C11.297,19.481 7.462,21.689 3.626,23.898 C3.583,23.924 3.538,23.948 3.477,23.981 C2.814,22.835 2.157,21.699 1.492,20.550 C1.543,20.517 1.587,20.485 1.634,20.458 C5.478,18.244 9.321,16.030 13.166,13.820 C13.271,13.759 13.301,13.690 13.301,13.574 C13.298,9.343 13.298,5.112 13.298,0.881 C13.298,0.825 13.304,0.769 13.308,0.713 C14.630,0.713 15.952,0.713 17.274,0.713 C17.274,4.996 17.275,9.278 17.271,13.561 C17.271,13.695 17.310,13.768 17.428,13.836 C21.140,15.969 24.849,18.106 28.559,20.242 C28.595,20.263 28.629,20.287 28.679,20.318 ZM8.575,3.487 C8.442,3.486 8.413,3.528 8.413,3.653 C8.419,4.463 8.414,5.273 8.419,6.082 C8.419,6.201 8.384,6.232 8.268,6.231 C7.846,6.225 7.424,6.225 7.002,6.230 C6.894,6.232 6.857,6.201 6.857,6.088 C6.861,4.754 6.861,3.420 6.857,2.087 C6.857,1.967 6.897,1.938 7.010,1.939 C8.346,1.942 9.682,1.941 11.018,1.941 C11.059,1.941 11.100,1.946 11.149,1.949 C11.149,2.462 11.149,2.965 11.149,3.490 C11.088,3.490 11.034,3.490 10.980,3.490 C10.179,3.490 9.377,3.493 8.575,3.487 ZM10.883,10.260 C10.873,10.906 10.876,11.552 10.882,12.197 C10.883,12.314 10.850,12.382 10.745,12.441 C10.162,12.770 9.582,13.105 9.004,13.443 C8.917,13.495 8.857,13.484 8.776,13.438 C6.692,12.234 4.606,11.033 2.521,9.832 C2.286,9.696 2.050,9.561 1.815,9.425 C1.776,9.402 1.737,9.377 1.689,9.347 C2.352,8.201 3.010,7.064 3.674,5.917 C3.730,5.946 3.779,5.969 3.826,5.996 C6.119,7.317 8.410,8.639 10.705,9.955 C10.835,10.030 10.885,10.108 10.883,10.260 ZM3.951,12.079 C4.316,12.445 4.675,12.804 5.040,13.170 C4.421,13.787 3.779,14.427 3.131,15.074 C3.792,15.728 4.433,16.363 5.063,16.985 C4.683,17.363 4.323,17.721 3.950,18.092 C3.940,18.082 3.902,18.050 3.867,18.016 C2.942,17.093 2.017,16.170 1.092,15.248 C1.039,15.195 0.984,15.144 0.929,15.093 C0.929,15.083 0.929,15.074 0.929,15.064 C0.972,15.030 1.019,14.999 1.057,14.960 C1.993,14.028 2.928,13.095 3.863,12.162 C3.896,12.130 3.930,12.099 3.951,12.079 ZM6.859,23.960 C7.386,23.960 7.894,23.960 8.414,23.960 C8.414,24.866 8.414,25.763 8.414,26.686 C9.337,26.686 10.239,26.686 11.148,26.686 C11.148,27.209 11.148,27.717 11.148,28.241 C11.088,28.241 11.038,28.241 10.988,28.241 C9.670,28.241 8.353,28.239 7.036,28.244 C6.892,28.245 6.856,28.205 6.856,28.064 C6.861,26.749 6.859,25.434 6.859,24.119 C6.859,24.069 6.859,24.019 6.859,23.960 ZM13.445,20.980 C14.021,20.656 14.593,20.325 15.163,19.993 C15.251,19.941 15.317,19.939 15.406,19.992 C15.984,20.331 16.564,20.665 17.147,20.996 C17.240,21.049 17.277,21.106 17.277,21.215 C17.274,23.986 17.274,26.757 17.274,29.528 C15.952,29.528 14.630,29.528 13.308,29.528 C13.304,29.472 13.298,29.416 13.298,29.360 C13.298,26.655 13.299,23.949 13.295,21.244 C13.295,21.116 13.332,21.044 13.445,20.980 ZM19.396,26.686 C19.466,26.686 19.522,26.686 19.577,26.686 C20.379,26.686 21.180,26.683 21.981,26.689 C22.106,26.690 22.139,26.656 22.138,26.532 C22.133,25.727 22.136,24.922 22.136,24.118 C22.136,24.068 22.136,24.018 22.136,23.959 C22.657,23.959 23.161,23.959 23.680,23.959 C23.683,24.014 23.687,24.063 23.687,24.112 C23.688,25.432 23.686,26.751 23.691,28.071 C23.691,28.204 23.657,28.245 23.519,28.244 C22.198,28.239 20.876,28.240 19.554,28.243 C19.431,28.244 19.382,28.218 19.385,28.082 C19.394,27.666 19.388,27.249 19.389,26.833 C19.389,26.792 19.393,26.750 19.396,26.686 ZM26.316,12.096 C27.306,13.088 28.311,14.093 29.304,15.086 C28.314,16.076 27.309,17.081 26.304,18.086 C25.952,17.734 25.592,17.374 25.220,17.003 C25.854,16.372 26.495,15.733 27.139,15.091 C26.492,14.445 25.853,13.808 25.220,13.177 C25.595,12.807 25.959,12.448 26.316,12.096 Z" data-v-0b190a95></path><path id="staff-career-icon-warrior" d="M30.032,27.175 C28.608,23.640 27.184,20.106 25.759,16.572 C25.769,16.565 25.778,16.558 25.788,16.551 C26.864,17.719 27.940,18.886 29.046,20.087 C29.379,17.012 29.707,13.980 30.035,10.947 C30.044,10.948 30.053,10.948 30.062,10.949 C30.062,16.356 30.062,21.763 30.062,27.171 C30.052,27.172 30.042,27.173 30.032,27.175 ZM28.906,28.538 C28.922,28.570 28.936,28.603 28.968,28.672 C28.295,28.331 27.661,28.009 27.027,27.687 C25.621,26.973 24.214,26.261 22.810,25.544 C22.739,25.508 22.672,25.445 22.630,25.378 C22.224,24.743 21.826,24.104 21.421,23.469 C21.354,23.363 21.275,23.263 21.186,23.175 C17.670,19.673 14.152,16.172 10.634,12.672 C9.519,11.562 8.405,10.452 7.288,9.345 C7.216,9.273 7.184,9.202 7.185,9.099 C7.190,8.608 7.187,8.117 7.187,7.626 C7.187,7.585 7.187,7.544 7.187,7.504 C7.197,7.498 7.208,7.492 7.219,7.485 C11.416,11.663 15.613,15.840 19.807,20.014 C19.951,19.866 20.084,19.729 20.234,19.574 C16.051,15.410 11.852,11.231 7.639,7.038 C7.683,7.029 7.712,7.019 7.740,7.018 C8.269,7.017 8.799,7.015 9.328,7.022 C9.392,7.023 9.469,7.066 9.517,7.113 C10.979,8.564 12.438,10.019 13.898,11.472 C17.091,14.649 20.281,17.828 23.481,20.998 C23.669,21.185 23.924,21.307 24.154,21.451 C24.649,21.762 25.149,22.066 25.644,22.379 C25.711,22.421 25.774,22.487 25.810,22.557 C26.845,24.550 27.875,26.544 28.906,28.538 ZM10.712,6.093 C9.278,6.089 7.845,6.090 6.411,6.090 C6.352,6.090 6.292,6.090 6.217,6.090 C6.217,7.644 6.217,9.181 6.217,10.730 C5.573,10.730 4.944,10.730 4.297,10.730 C4.297,10.663 4.297,10.604 4.297,10.544 C4.297,8.986 4.297,7.428 4.299,5.871 C4.299,5.770 4.273,5.696 4.200,5.623 C3.053,4.486 1.908,3.346 0.763,2.208 C0.724,2.170 0.676,2.142 0.633,2.110 C0.633,2.100 0.633,2.091 0.633,2.082 C1.148,1.567 1.664,1.052 2.179,0.538 C2.189,0.538 2.198,0.538 2.208,0.538 C2.235,0.574 2.258,0.614 2.289,0.646 C3.430,1.783 4.572,2.918 5.710,4.057 C5.800,4.147 5.889,4.185 6.016,4.184 C7.577,4.180 9.137,4.182 10.697,4.182 C10.752,4.182 10.808,4.182 10.876,4.182 C10.880,4.232 10.885,4.272 10.885,4.313 C10.886,4.851 10.881,5.389 10.889,5.926 C10.892,6.069 10.841,6.093 10.712,6.093 ZM14.658,29.365 C15.504,29.274 16.351,29.185 17.198,29.094 C17.938,29.015 18.678,28.933 19.417,28.853 C19.678,28.825 19.938,28.799 20.199,28.771 C20.230,28.768 20.261,28.761 20.326,28.750 C19.133,27.661 17.960,26.591 16.787,25.521 C16.792,25.511 16.796,25.501 16.800,25.492 C16.844,25.506 16.888,25.519 16.930,25.536 C20.404,26.923 23.877,28.309 27.350,29.698 C27.399,29.717 27.439,29.760 27.483,29.791 C21.991,29.791 16.499,29.791 11.007,29.791 C11.470,29.730 11.933,29.662 12.397,29.609 C13.150,29.522 13.904,29.445 14.658,29.365 Z" data-v-0b190a95></path></g></svg>',
     1
   ),
-  xu = ae({
+  Su = ae({
     __name: "Section3_Three",
     setup(i) {
       ht((_) => ({ "13475fdc": v(g) }));
@@ -6283,7 +6285,7 @@ const hi = (i) => (Ue("data-v-0b190a95"), (i = i()), Ge(), i),
       o.push(...tt(s, o, e.ThreeParticlesLogo)),
         we(
           () => e.ThreeParticlesLogo,
-          (_, x) => {
+          (_, E) => {
             o.push(...tt(s, o, _)),
               e.ThreeParticlesLogo && n.value.clearCanvas();
           }
@@ -6291,16 +6293,16 @@ const hi = (i) => (Ue("data-v-0b190a95"), (i = i()), Ge(), i),
       const r = G([
           {
             id: 0,
-            name: "\u963F\u7C73\u5A05",
+            name: "安洁",
             idex: "01",
-            career: "#staff-career-icon-caster",
+            career: "#staff-career-icon-special",
             active: !0,
             footer: "BOO1 AMIYA",
             camp: "rhodes",
           },
           {
             id: 1,
-            name: "\u51EF\u5C14\u897F",
+            name: "94",
             idex: "02",
             career: "#staff-career-icon-medic",
             active: !1,
@@ -6309,7 +6311,7 @@ const hi = (i) => (Ue("data-v-0b190a95"), (i = i()), Ge(), i),
           },
           {
             id: 2,
-            name: "\u7EA2",
+            name: "夏朵",
             idex: "03",
             career: "#staff-career-icon-special",
             active: !1,
@@ -6318,7 +6320,7 @@ const hi = (i) => (Ue("data-v-0b190a95"), (i = i()), Ge(), i),
           },
           {
             id: 3,
-            name: "\u675C\u5BBE",
+            name: "40",
             idex: "04",
             career: "#staff-career-icon-warrior",
             active: !1,
@@ -6327,7 +6329,7 @@ const hi = (i) => (Ue("data-v-0b190a95"), (i = i()), Ge(), i),
           },
           {
             id: 4,
-            name: "\u4E34\u5149",
+            name: "帕斯卡",
             idex: "05",
             career: "#staff-career-icon-tank",
             active: !1,
@@ -6336,7 +6338,7 @@ const hi = (i) => (Ue("data-v-0b190a95"), (i = i()), Ge(), i),
           },
           {
             id: 5,
-            name: "\u8D6B\u9ED8",
+            name: "74M",
             idex: "06",
             career: "#staff-career-icon-medic",
             active: !1,
@@ -6345,7 +6347,7 @@ const hi = (i) => (Ue("data-v-0b190a95"), (i = i()), Ge(), i),
           },
           {
             id: 6,
-            name: "\u4F0A\u8299\u5229\u7279",
+            name: "S.I.Koksharov",
             idex: "07",
             career: "#staff-career-icon-caster",
             active: !1,
@@ -6354,7 +6356,7 @@ const hi = (i) => (Ue("data-v-0b190a95"), (i = i()), Ge(), i),
           },
           {
             id: 7,
-            name: "\u767D\u9762\u9E2E",
+            name: "苏金",
             idex: "08",
             career: "#staff-career-icon-medic",
             active: !1,
@@ -6363,7 +6365,7 @@ const hi = (i) => (Ue("data-v-0b190a95"), (i = i()), Ge(), i),
           },
           {
             id: 8,
-            name: "\u5FB7\u514B\u8428\u65AF",
+            name: "伊万",
             idex: "09",
             career: "#staff-career-icon-pioneer",
             active: !1,
@@ -6372,7 +6374,7 @@ const hi = (i) => (Ue("data-v-0b190a95"), (i = i()), Ge(), i),
           },
           {
             id: 9,
-            name: "\u80FD\u5929\u4F7F",
+            name: "外勤",
             idex: "10",
             career: "#staff-career-icon-sniper",
             active: !1,
@@ -6381,7 +6383,7 @@ const hi = (i) => (Ue("data-v-0b190a95"), (i = i()), Ge(), i),
           },
           {
             id: 10,
-            name: "\u53EF\u9882",
+            name: "45",
             idex: "11",
             career: "#staff-career-icon-tank",
             active: !1,
@@ -6390,7 +6392,7 @@ const hi = (i) => (Ue("data-v-0b190a95"), (i = i()), Ge(), i),
           },
           {
             id: 11,
-            name: "\u9648",
+            name: "站长",
             idex: "12",
             career: "#staff-career-icon-warrior",
             active: !1,
@@ -6399,7 +6401,7 @@ const hi = (i) => (Ue("data-v-0b190a95"), (i = i()), Ge(), i),
           },
           {
             id: 12,
-            name: "\u661F\u718A",
+            name: "[编辑中]",
             idex: "13",
             career: "#staff-career-icon-tank",
             active: !1,
@@ -6410,108 +6412,96 @@ const hi = (i) => (Ue("data-v-0b190a95"), (i = i()), Ge(), i),
         a = G([
           {
             id: 0,
-            name: "\u963F\u7C73\u5A05",
-            EN: "AMIYA",
-            CV: "\u9ED1\u6CFD\u670B\u4E16",
-            desc: "\u7F57\u5FB7\u5C9B\u7684\u516C\u5F00\u9886\u8896\uFF0C\u5728\u5185\u90E8\u62E5\u6709\u6700\u9AD8\u6267\u884C\u6743\u3002\u867D\u7136\uFF0C\u4ECE\u5916\u8868\u4E0A\u770B\u8D77\u6765\u4EC5\u4EC5\u662F\u4E2A\u4E0D\u6210\u719F\u7684\u5C11\u5973\uFF0C\u5B9E\u9645\u4E0A\uFF0C\u5979\u5374\u662F\u6DF1\u53D7\u5927\u5BB6\u4FE1\u4EFB\u7684\u5408\u683C\u7684\u9886\u8896\u3002\u73B0\u5728\uFF0C\u963F\u7C73\u5A05\u6B63\u5E26\u9886\u7740\u7F57\u5FB7\u5C9B\uFF0C\u4E3A\u4E86\u611F\u67D3\u8005\u7684\u672A\u6765\uFF0C\u4E3A\u4E86\u8BA9\u8FD9\u7247\u5927\u5730\u6323\u8131\u77FF\u77F3\u75C5\u7684\u9634\u973E\u800C\u4E0D\u61C8\u52AA\u529B\u3002",
+            name: "安洁",
+            EN: "Капитбн Цой,Анна викторовна",
+            CV: "████",
+            desc: "安娜·维克多洛夫纳·崔（Капитбн Цой, Анна викторовна），原苏联国安局二级特工。现为“忤逆”小队指挥官，同时也是404小队的直属上司。于████年进入SITE-CN-██任职。",
           },
           {
             id: 1,
-            name: "\u51EF\u5C14\u897F",
-            EN: "KAI`TSIL",
-            CV: "\u65E5\u7B20\u9633\u5B50",
-            desc: `\u7F57\u5FB7\u5C9B\u6700\u9AD8\u7BA1\u7406\u8005\u4E4B\u4E00\uFF0C\u963F\u7C73\u5A05\u7684\u76F4\u63A5\u8F85\u5BFC\u8005\u3002
-    \u7F57\u5FB7\u5C9B\u533B\u7597\u90E8\u95E8\u7684\u603B\u8D1F\u8D23\u4EBA\u3002
-    \u4F5C\u4E3A\u7F57\u5FB7\u5C9B\u7684\u8001\u6210\u5458\uFF0C\u51EF\u5C14\u5E0C\u533B\u751F\u662F\u5728\u963F\u7C73\u5A05\u80CC\u540E\u6700\u7A33\u56FA\u7684\u63F4\u62A4\u8005`,
+            name: "94",
+            EN: "ИЖМАШ(Izhmash)",
+            CV: "沼仓爱美",
+            desc: `服役于此站点，精通精准射击。
+            其自动步枪AN94自1998年始在伊热夫斯克机械制造厂生产，两连发模式拥有极高的准度。`,
           },
           {
             id: 2,
-            name: "\u7EA2",
-            EN: "AMIYA",
-            CV: "\u9ED1\u6CFD\u670B\u4E16",
-            desc: `\u7EA2\uFF0C\u8EAB\u4EFD\u4E0D\u660E\uFF0C\u5C65\u5386\u7F3A\u5931\uFF0C\u7531\u51EF\u5C14\u5E0C\u533B\u751F\u63A5\u6536\u3001\u76D1\u62A4\u5E76\u62C5\u4FDD\u3002
-    \u4E8E\u673A\u52A8\u4F5C\u6218\uFF0C\u7279\u79CD\u4F5C\u6218\u4E0E\u9690\u79D8\u4F5C\u6218\u4E2D\u8868\u73B0\u51FA\u6781\u9AD8\u5929\u8D4B\uFF0C\u6210\u7EE9\u6590\u7136\u3002
-    \u73B0\u4E8E\u51EF\u5C14\u5E0C\u533B\u751F\u7684\u6307\u5BFC\u4E0B\uFF0C\u4F5C\u4E3A\u7279\u79CD\u5E72\u5458\u4E3A\u7F57\u5FB7\u5C9B\u63D0\u4F9B\u670D\u52A1\u3002`,
+            name: "夏朵",
+            EN: "Shadowless",
+            CV: "████",
+            desc: `研究部部负责人，于19██年进入SITE-████████负责文书工作。`,
           },
           {
             id: 3,
-            name: "\u675C\u5BBE",
-            EN: "DOBERMANN",
-            CV: "\u79CDji",
-            desc: `\u524D\u73BB\u5229\u74E6\u5C14\u519B\u4EBA\uFF0C\u52A0\u5165\u7F57\u5FB7\u5C9B\u540E\u62C5\u4EFB\u6559\u5B98\uFF0C\u4E3B\u8981\u8D1F\u8D23\u57FA\u5C42\u548C\u65B0\u664B\u5E72\u5458\u57F9\u8BAD\uFF0C\u5FC5\u8981\u65F6\u523B\uFF0C\u4E5F\u4F1A\u8D1F\u8D23\u5BF9\u4FD8\u864F\u7684\u5BA1\u8BAF\u3002
-    \u719F\u6089\u5404\u79CD\u89C4\u6A21\u7684\u519B\u4E8B\u884C\u52A8\uFF0C\u81EA\u8EAB\u4F5C\u4E3A\u58EB\u5175\u7684\u7D20\u517B\u4E5F\u6781\u9AD8\uFF0C\u4F5C\u4E3A\u8FD1\u536B\u5E72\u5458\uFF0C\u5728\u7B2C\u4E00\u7EBF\u5E26\u9886\u961F\u4F0D\u51B2\u950B\u9677\u9635\u3002`,
+            name: "40",
+            EN: "U-M-P",
+            CV: "████",
+            desc: `站点特别督察组组长。基于一些特殊原因，暂时留在SITE-CN-02一段时间。已带往现场进行工作。`,
           },
           {
             id: 4,
-            name: "\u4E34\u5149",
-            EN: "NEARL",
-            CV: "\u4F50\u4ED3\u97F3",
-            desc: `\u4E34\u5149\uFF0C\u524D\u5361\u897F\u7C73\u5C14\u8000\u9A91\u58EB\uFF0C\u611F\u67D3\u8005\u63F4\u52A9\u56E2\u4F53\u201C\u4F7F\u5F92\u201D\u7684\u4E00\u5458\u3002\u5728\u63A9\u62A4\u5DF1\u65B9\u961F\u5458\u3001\u673A\u52A8\u4F5C\u6218\u3001\u6B7C\u706D\u6218\u4E0E\u5F00\u9614\u5730\u5E26\u4F5C\u6218\u4E2D\u4F53\u73B0\u51FA\u6781\u9AD8\u7684\u6218\u6597\u6280\u5DE7\u548C\u4E2A\u4EBA\u519B\u4E8B\u7D20\u517B\u3002
-    \u73B0\u4E8E\u7F57\u5FB7\u5C9B\u4F5C\u4E3A\u91CD\u88C5\u5E72\u5458\u884C\u52A8\uFF0C\u5E76\u4E8E\u73B0\u573A\u63D0\u4F9B\u6218\u672F\u6307\u6325\u652F\u63F4\u3002`,
+            name: "帕斯卡",
+            EN: "Persicaria",
+            CV: "█████",
+            desc: `技术宅，前█████成员，专攻█████研发和搭载的实用性技术，并与█████制造公司合作，为其提供技术支持，并在日后获得资金成立了16LAB。`,
           },
           {
             id: 5,
-            name: "\u8D6B\u9ED8",
-            EN: "SILENCE",
-            CV: "\u9F9F\u5934\u660E\u91CC",
-            desc: `\u8D6B\u9ED8\uFF0C\u83B1\u8335\u751F\u547D\u6709\u9650\u516C\u53F8\u6E90\u77F3\u6709\u5173\u9879\u76EE\u7814\u7A76\u5458\uFF0C\u66FE\u4E3B\u7BA1\u6570\u9879\u672A\u77E5\u5E94\u7528\u7814\u7A76\uFF0C\u540C\u671F\u4EA6\u4E3B\u6301\u6570\u4E2A\u77FF\u77F3\u75C5\u4E34\u5E8A\u8BD5\u9A8C\u9879\u76EE\u3002 
-    \u73B0\u4E8E\u7F57\u5FB7\u5C9B\u4E3A\u591A\u9879\u884C\u52A8\u63D0\u4F9B\u6218\u573A\u533B\u7597\u6551\u62A4\u670D\u52A1\u3002`,
+            name: "74M",
+            EN: "AK-74M",
+            CV: "Jenya",
+            desc: `站点安全部负责人，精通俄语，其武器是1987年苏联研制的一种AK-74的改进型AK-74M，由伊热夫斯克机械制造厂生产。。`,
           },
           {
             id: 6,
-            name: "\u4F0A\u8299\u5229\u7279",
-            EN: "IFRIT",
-            CV: "\u82B1\u5B88\u7531\u7F8E\u91CC",
-            desc: `\u4F0A\u8299\u5229\u7279\uFF0C\u524D\u83B1\u8335\u751F\u547D\u533B\u7597\u5BF9\u8C61\uFF0C\u91CD\u5EA6\u611F\u67D3\u8005\u3002\u62E5\u6709\u6781\u9AD8\u7684\u6E90\u77F3\u9002\u5E94\u6027\uFF0C\u4F34\u968F\u6709\u591A\u53D1\u6027\u70B9\u706B\u73B0\u8C61\u3002\u8FDB\u5165\u83B1\u8335\u751F\u547D\u524D\u7684\u5C65\u5386\u7F3A\u5931\u3002
-    \u73B0\u4E8E\u7F57\u5FB7\u5C9B\u63A5\u53D7\u6CBB\u7597\uFF0C\u7531\u533B\u7597\u5E72\u5458\u8D6B\u9ED8\u62C5\u4EFB\u76D1\u62A4\u4E0E\u62C5\u4FDD\u4EBA\u3002`,
+            name: "S.I.Koksharoa",
+            EN: "AEK971",
+            CV: "█████",
+            desc: `拥有出色的格斗和射击能力，服役于SITE-CN-02
+            其武器AEK-971于1980年代由科夫罗夫机械厂研制，采用平衡动作（balanced action）原理的回转式闭锁枪机系统，拥有极小的后座和较高的精度`,
           },
           {
             id: 7,
-            name: "\u767D\u9762\u9E2E",
-            EN: "PTILOPSIS",
+            name: "苏金",
+            EN: "POL-1012",
             CV: "\u91D1\u5143\u5BFF\u5B50",
-            desc: `\u767D\u9762\u9E2E\uFF0C\u524D\u83B1\u8335\u751F\u547D\u516C\u53F8\uFF0C\u6570\u636E\u7EF4\u62A4\u4E13\u5458\u3002\u5728\u533B\u7597\u7C7B\u6E90\u77F3\u6280\u827A\u9886\u57DF\u53D6\u5F97\u4E0D\u83F2\u6210\u5C31\uFF0C\u4E8E\u533B\u7597\u6570\u636E\u7EF4\u62A4\uFF0C\u5E38\u89C4\u533B\u7597\u65B9\u6848\u5E94\u7528\uFF0C\u591A\u9879\u76EE\u533B\u7597\u884C\u4E3A\u7B49\u76F8\u5173\u9886\u57DF\uFF0C\u62E5\u6709\u4E30\u5BCC\u7ECF\u9A8C\u3002
-    \u73B0\u4E8E\u7F57\u5FB7\u5C9B\u62C5\u4EFB\u533B\u7597\u5E72\u5458\uFF0C\u4EA6\u5C31\u804C\u4E8E\u533B\u7597\u90E8\u95E8\uFF0C\u67D0\u4E34\u5E8A\u5B9E\u9A8C\u5C0F\u7EC4\u3002\u540C\u65F6\uFF0C\u4E3A\u7F57\u5FB7\u5C9B\u63D0\u4F9B\u82E5\u5E72\u9879\u533B\u7597\u9879\u76EE\u7684\u76F8\u5173\u8F85\u52A9\u5DE5\u4F5C\u3002`,
+            desc: `站点火力支援队长，践行一切恐惧来源于火力不足的原则，以唯物主义的力量战斗在异常事务处理的前线`,
           },
           {
             id: 8,
-            name: "\u5FB7\u514B\u8428\u65AF",
-            EN: "TEXAS",
-            CV: "\u7530\u6240\u6893",
-            desc: `\u4F01\u9E45\u7269\u6D41\u5458\u5DE5\uFF0C\u5355\u5175\u4F5C\u6218\u80FD\u529B\u51FA\u7C7B\u62D4\u8403\u3002 
-    \u4E8E\u5408\u7EA6\u671F\u5185\u4EFB\u4F01\u9E45\u7269\u6D41\u9A7B\u7F57\u5FB7\u5C9B\u8054\u7EDC\u4EBA\u5458\uFF0C\u540C\u65F6\u4E3A\u7F57\u5FB7\u5C9B\u7684\u591A\u9879\u884C\u52A8\u63D0\u4F9B\u534F\u52A9\u3002`,
+            name: "伊万",
+            EN: "IVAN",
+            CV: "█████",
+            desc: `站点安保负责人，战地4俄军友情客串，擅长使用AEK971自动步枪和G18全自动手枪,GP25LVG和M84闪光弹进行近距离战斗,曾任职于极地监狱`,
           },
           {
             id: 9,
-            name: "\u80FD\u5929\u4F7F",
-            EN: "EXUSIAI",
-            CV: "\u77F3\u89C1\u4E94\u83DC\u9999",
-            desc: "\u80FD\u5929\u4F7F\uFF0C\u62C9\u7279\u5170\u516C\u6C11\uFF0C\u9002\u7528\u62C9\u7279\u5170\u4E00\u81F3\u5341\u4E09\u9879\u516C\u6C11\u6743\u76CA\u3002\u4F01\u9E45\u7269\u6D41\u516C\u53F8\u6210\u5458\u3002\u4ECE\u4E8B\u79D8\u5BC6\u8054\u7EDC\uFF0C\u6B66\u88C5\u62BC\u8FD0\u7B49\u975E\u516C\u5F00\u6D3B\u52A8\uFF0C\u63A8\u6D4B\u8EAB\u4EFD\uFF1A\u4FE1\u4F7F\u3002\u4E8E\u5408\u7EA6\u671F\u5185\u4EFB\u4F01\u9E45\u7269\u6D41\u9A7B\u7F57\u5FB7\u5C9B\u8054\u7EDC\u4EBA\u5458\uFF0C\u540C\u65F6\u4E3A\u7F57\u5FB7\u5C9B\u591A\u9879\u884C\u52A8\u63D0\u4F9B\u534F\u52A9\u3002",
+            name: "█████",
+            EN: "█████",
+            CV: "█████",
+            desc: "站点外勤特工█████。于██████进入站点工作，[多余信息已编辑]",
           },
           {
             id: 10,
-            name: "\u53EF\u9882",
-            EN: "CROISSANT",
-            CV: "\u4E45\u4FDD\u767E\u5408\u82B1",
-            desc: "\u4F01\u9E45\u7269\u6D41\u5458\u5DE5\uFF0C\u4E8E\u5408\u7EA6\u671F\u5185\u4EFB\u4F01\u9E45\u7269\u6D41\u9A7B\u7F57\u5FB7\u5C9B\u5916\u6D3E\u5E72\u5458\u3002 \u64C5\u957F\u9632\u5B88\uFF0C\u80FD\u540C\u65F6\u7275\u5236\u6570\u4E2A\u654C\u4EBA\uFF0C\u5E76\u62E5\u6709\u602A\u529B\uFF0C\u80FD\u7528\u5DE8\u9524\u8F7B\u677E\u51FB\u98DE\u7626\u5F31\u7684\u654C\u4EBA\u3002",
+            name: "45",
+            EN: "U-M-P",
+            CV: "█████",
+            desc: "404小队现任队长，[多余信息已编辑]",
           },
           {
             id: 11,
-            name: "\u9648",
-            EN: "CHEN",
-            CV: "\u77F3\u4E0A\u9759\u9999",
-            desc: `\u9648\uFF0C\u9F99\u95E8\u9AD8\u7EA7\u8B66\u53F8\uFF0C\u9F99\u95E8\u8FD1\u536B\u5C40\u7279\u522B\u7763\u67E5\u7EC4\u7EC4\u957F\uFF0C\u6BD5\u4E1A\u4E8E\u7EF4\u591A\u5229\u4E9A\u7687\u5BB6\u8FD1\u536B\u5B66\u6821\uFF0C\u6210\u7EE9\u4F18\u5F02\uFF0C\u8868\u73B0\u7A81\u51FA\u3002\u5728\u9F99\u95E8\u8FD1\u536B\u5C40\u4F9B\u804C\u671F\u95F4\uFF0C\u529B\u4E3B\u53D6\u7F14\u9F99\u95E8\u5883\u5185\u975E\u6CD5\u6D3B\u52A8\uFF0C\u5BF9\u6297\u66B4\u529B\u72AF\u7F6A\u548C\u6709\u7EC4\u7EC7\u72AF\u7F6A\uFF0C\u8FFD\u7F09\u6B66\u88C5\u9003\u72AF\u4E0E\u56FD\u9645\u91CD\u72AF\u7B49\u884C\u52A8\uFF0C\u5E76\u53D6\u5F97\u591A\u9879\u91CD\u5927\u6210\u679C\u3002
-    \u73B0\u4F5C\u4E3A\u7279\u522B\u4EBA\u5458\u534F\u52A9\u7F57\u5FB7\u5C9B\u884C\u52A8\uFF0C\u5E76\u4E3A\u73B0\u573A\u63D0\u4F9B\u6218\u672F\u6307\u6325\u652F\u63F4\u3002`,
+            name: "站长",
+            EN: "zhongye",
+            CV: "█████",
+            desc: `本站点站长，常年身着海魂衫，[多余信息已编辑]`,
           },
           {
             id: 12,
-            name: "\u661F\u718A",
-            EN: "HOSHIGUMA",
-            CV: "\u5B89\u91CE\u5E0C\u4E16\u4E43",
-            desc: `\u661F\u718A\uFF0C\u9F99\u95E8\u8FD1\u536B\u5C40\u7279\u522B\u4EFB\u52A1\u7EC4\u7CBE\u82F1\u5E72\u5458\u3002\u5B58\u5728\u6570\u9879\u6307\u63A7\u8BB0\u5F55\u3002
-    \u7ECF\u9F99\u95E8\u603B\u7763\u9B4F\u5F66\u543E\u4EA4\u6D89\uFF0C\u9F99\u95E8\u8FD1\u536B\u5C40\u4F9D\u661F\u718A\u7684\u4F18\u5F02\u80FD\u529B\u4E0E\u826F\u597D\u8868\u73B0\uFF0C\u7834\u683C\u5C06\u5176\u5438\u7EB3\u8FDB\u8FD1\u536B\u5C40\u7279\u522B\u7763\u5BDF\u7EC4\u3002
-    \u5728\u5904\u7406\u9AD8\u5371\u9669\u6027\u72AF\u7F6A\u4E8B\u4EF6\u3001\u8981\u5458\u4FDD\u62A4\u3001\u707E\u5BB3\u7D27\u6025\u6551\u63F4\u7B49\u9886\u57DF\u8868\u73B0\u51FA\u8F83\u9AD8\u4E13\u4E1A\u6027\u3002
-    \u73B0\u4F5C\u4E3A\u91CD\u88C5\u5E72\u5458\u534F\u52A9\u7F57\u5FB7\u5C9B\u884C\u52A8\uFF0C\u5E76\u4E3A\u73B0\u573A\u63D0\u4F9B\u6218\u672F\u6267\u884C\u4E0E\u6307\u6325\u652F\u63F4\u3002`,
+            name: "[待定]",
+            EN: "[null]",
+            CV: "█████",
+            desc: `如果你想加入自己的角色，可以联系站长。QQ 2760913192`,
           },
         ]),
         l = G({ width: 300, height: 300 });
@@ -6520,19 +6510,19 @@ const hi = (i) => (Ue("data-v-0b190a95"), (i = i()), Ge(), i),
           u = _;
         },
         d = Object.assign({
-          "../../assets/img/Three/0.webp": fr,
-          "../../assets/img/Three/1.webp": pr,
-          "../../assets/img/Three/10.webp": mr,
-          "../../assets/img/Three/11.webp": yr,
-          "../../assets/img/Three/12.webp": br,
-          "../../assets/img/Three/2.webp": wr,
-          "../../assets/img/Three/3.webp": xr,
-          "../../assets/img/Three/4.webp": Fr,
-          "../../assets/img/Three/5.webp": Br,
-          "../../assets/img/Three/6.webp": Dr,
-          "../../assets/img/Three/7.webp": Mr,
-          "../../assets/img/Three/8.webp": Or,
-          "../../assets/img/Three/9.webp": zr,
+          "../../assets/img/Three/0.webp": pr,
+          "../../assets/img/Three/1.webp": mr,
+          "../../assets/img/Three/10.webp": yr,
+          "../../assets/img/Three/11.webp": br,
+          "../../assets/img/Three/12.webp": wr,
+          "../../assets/img/Three/2.webp": xr,
+          "../../assets/img/Three/3.webp": Sr,
+          "../../assets/img/Three/4.webp": Br,
+          "../../assets/img/Three/5.webp": Dr,
+          "../../assets/img/Three/6.webp": Mr,
+          "../../assets/img/Three/7.webp": Or,
+          "../../assets/img/Three/8.webp": zr,
+          "../../assets/img/Three/9.webp": Rr,
         });
       let f = G([]);
       f.push(...Object.values(d).map((_) => _.default));
@@ -6544,30 +6534,30 @@ const hi = (i) => (Ue("data-v-0b190a95"), (i = i()), Ge(), i),
         h = L(0),
         g = L("100%"),
         y = L(!0),
-        E = L(""),
+        x = L(""),
         C = L(!0);
-      const b = async (_, x, w, S) => {
+      const b = async (_, E, w, F) => {
         if (y.value && !w.active) {
           switch (
             ((y.value = !1),
-            x.forEach((k) => {
+            E.forEach((k) => {
               k.active = !1;
             }),
-            (x[_].active = !0),
+            (E[_].active = !0),
             u.slideToLoop(_, 500),
-            S)
+            F)
           ) {
-            case (S = "rhodes"):
-              n.value.ChoiceImg(0), (E.value = S);
+            case (F = "rhodes"):
+              n.value.ChoiceImg(0), (x.value = F);
               break;
-            case (S = "rhine"):
-              n.value.ChoiceImg(1), (E.value = S);
+            case (F = "rhine"):
+              n.value.ChoiceImg(1), (x.value = F);
               break;
-            case (S = "yan"):
-              n.value.ChoiceImg(2), (E.value = S);
+            case (F = "yan"):
+              n.value.ChoiceImg(2), (x.value = F);
               break;
-            case (S = "penguin"):
-              n.value.ChoiceImg(3), (E.value = S);
+            case (F = "penguin"):
+              n.value.ChoiceImg(3), (x.value = F);
               break;
           }
           await ge(50),
@@ -6591,19 +6581,19 @@ const hi = (i) => (Ue("data-v-0b190a95"), (i = i()), Ge(), i),
             (y.value = !0);
         }
       };
-      return (_, x) => {
+      return (_, E) => {
         const w = ci;
         return (
           P(),
           I(
-            ce,
+            de,
             null,
             [
-              m("div", Gl, [
-                m("div", Wl, [
-                  m("div", Xl, [
-                    Yl,
-                    m("div", Zl, [
+              m("div", Xl, [
+                m("div", Yl, [
+                  m("div", Zl, [
+                    Kl,
+                    m("div", Jl, [
                       N(
                         v(Tn),
                         {
@@ -6618,36 +6608,36 @@ const hi = (i) => (Ue("data-v-0b190a95"), (i = i()), Ge(), i),
                           default: q(() => [
                             (P(!0),
                             I(
-                              ce,
+                              de,
                               null,
                               Ee(
                                 v(r),
-                                (S) => (
+                                (F) => (
                                   P(),
                                   Re(
                                     v(Qe),
                                     {
-                                      key: S.id,
-                                      onClick: (k) => b(S.id, v(r), S, S.camp),
-                                      class: le(S.active ? "slideAcive" : ""),
+                                      key: F.id,
+                                      onClick: (k) => b(F.id, v(r), F, F.camp),
+                                      class: le(F.active ? "slideAcive" : ""),
                                       "data-cursor": "pointer",
                                     },
                                     {
                                       default: q(() => [
-                                        m("span", Kl, Y(S.idex), 1),
-                                        m("span", Jl, [
+                                        m("span", Ql, Y(F.idex), 1),
+                                        m("span", eu, [
                                           (P(),
-                                          I("svg", Ql, [
+                                          I("svg", tu, [
                                             m(
                                               "use",
-                                              { "xlink:href": S.career },
+                                              { "xlink:href": F.career },
                                               null,
                                               8,
-                                              eu
+                                              iu
                                             ),
                                           ])),
                                         ]),
-                                        m("span", tu, Y(S.name), 1),
+                                        m("span", nu, Y(F.name), 1),
                                       ]),
                                       _: 2,
                                     },
@@ -6663,10 +6653,10 @@ const hi = (i) => (Ue("data-v-0b190a95"), (i = i()), Ge(), i),
                         }
                       ),
                     ]),
-                    m("div", iu, Y(v(r)[v(h)].footer), 1),
+                    m("div", su, Y(v(r)[v(h)].footer), 1),
                   ]),
-                  m("div", nu, [
-                    m("div", su, [
+                  m("div", ou, [
+                    m("div", ru, [
                       N(
                         w,
                         {
@@ -6680,22 +6670,22 @@ const hi = (i) => (Ue("data-v-0b190a95"), (i = i()), Ge(), i),
                         ["canvasRect", "logos"]
                       ),
                     ]),
-                    m("div", ou, [
-                      m("div", ru, [
-                        m("div", au, [
+                    m("div", au, [
+                      m("div", lu, [
+                        m("div", uu, [
                           N(
                             te,
                             { name: "StaffBottom" },
                             {
                               default: q(() => [
-                                fe(
+                                ce(
                                   m(
                                     "div",
-                                    lu,
+                                    cu,
                                     [
                                       (P(),
-                                      I("svg", uu, [
-                                        m("text", cu, Y(v(a)[v(h)].EN), 1),
+                                      I("svg", du, [
+                                        m("text", fu, Y(v(a)[v(h)].EN), 1),
                                       ])),
                                     ],
                                     512
@@ -6706,16 +6696,16 @@ const hi = (i) => (Ue("data-v-0b190a95"), (i = i()), Ge(), i),
                               _: 1,
                             }
                           ),
-                          m("div", du, [
+                          m("div", hu, [
                             N(
                               te,
                               { name: "StaffTop" },
                               {
                                 default: q(() => [
-                                  fe(
+                                  ce(
                                     m(
                                       "div",
-                                      fu,
+                                      pu,
                                       [m("span", null, Y(v(a)[v(h)].name), 1)],
                                       512
                                     ),
@@ -6731,18 +6721,18 @@ const hi = (i) => (Ue("data-v-0b190a95"), (i = i()), Ge(), i),
                             { name: "StaffBottom" },
                             {
                               default: q(() => [
-                                fe(
+                                ce(
                                   m(
                                     "div",
-                                    hu,
+                                    vu,
                                     [
-                                      m("div", pu, [
+                                      m("div", mu, [
                                         m("span", null, Y(v(a)[v(h)].EN), 1),
                                       ]),
-                                      m("div", vu, [
-                                        mu,
-                                        m("span", gu, Y(v(a)[v(h)].CV), 1),
+                                      m("div", gu, [
                                         yu,
+                                        m("span", Cu, Y(v(a)[v(h)].CV), 1),
+                                        bu,
                                       ]),
                                     ],
                                     512
@@ -6759,10 +6749,10 @@ const hi = (i) => (Ue("data-v-0b190a95"), (i = i()), Ge(), i),
                           { name: "Desc" },
                           {
                             default: q(() => [
-                              fe(
+                              ce(
                                 m(
                                   "div",
-                                  Cu,
+                                  _u,
                                   [m("span", null, Y(v(a)[v(h)].desc), 1)],
                                   512
                                 ),
@@ -6775,17 +6765,17 @@ const hi = (i) => (Ue("data-v-0b190a95"), (i = i()), Ge(), i),
                       ]),
                     ]),
                   ]),
-                  m("div", bu, [
+                  m("div", wu, [
                     N(
                       te,
                       { name: "staffimg" },
                       {
                         default: q(() => [
-                          fe(
+                          ce(
                             m(
                               "div",
-                              _u,
-                              [m("img", { src: v(f)[v(h)] }, null, 8, wu)],
+                              Eu,
+                              [m("img", { src: v(f)[v(h)] }, null, 8, xu)],
                               512
                             ),
                             [[he, v(C)]]
@@ -6797,7 +6787,7 @@ const hi = (i) => (Ue("data-v-0b190a95"), (i = i()), Ge(), i),
                   ]),
                 ]),
               ]),
-              Eu,
+              Fu,
             ],
             64
           )
@@ -6805,91 +6795,91 @@ const hi = (i) => (Ue("data-v-0b190a95"), (i = i()), Ge(), i),
       };
     },
   });
-const Su = Ce(xu, [["__scopeId", "data-v-0b190a95"]]);
-var Fu =
+const Tu = Ce(Su, [["__scopeId", "data-v-0b190a95"]]);
+var Bu =
   typeof global == "object" && global && global.Object === Object && global;
-const Tu = Fu;
-var Bu = typeof self == "object" && self && self.Object === Object && self,
-  ku = Tu || Bu || Function("return this")();
-const Bn = ku;
-var Du = Bn.Symbol;
-const Et = Du;
+const ku = Bu;
+var Du = typeof self == "object" && self && self.Object === Object && self,
+  Au = ku || Du || Function("return this")();
+const Bn = Au;
+var Mu = Bn.Symbol;
+const Et = Mu;
 var kn = Object.prototype,
-  Au = kn.hasOwnProperty,
-  Mu = kn.toString,
+  Pu = kn.hasOwnProperty,
+  Ou = kn.toString,
   at = Et ? Et.toStringTag : void 0;
-function Pu(i) {
-  var e = Au.call(i, at),
+function Lu(i) {
+  var e = Pu.call(i, at),
     t = i[at];
   try {
     i[at] = void 0;
     var n = !0;
   } catch {}
-  var s = Mu.call(i);
+  var s = Ou.call(i);
   return n && (e ? (i[at] = t) : delete i[at]), s;
 }
-var Ou = Object.prototype,
-  Lu = Ou.toString;
-function zu(i) {
-  return Lu.call(i);
+var zu = Object.prototype,
+  Iu = zu.toString;
+function Ru(i) {
+  return Iu.call(i);
 }
-var Iu = "[object Null]",
-  Ru = "[object Undefined]",
+var $u = "[object Null]",
+  Nu = "[object Undefined]",
   Pi = Et ? Et.toStringTag : void 0;
-function $u(i) {
+function Hu(i) {
   return i == null
     ? i === void 0
-      ? Ru
-      : Iu
+      ? Nu
+      : $u
     : Pi && Pi in Object(i)
-    ? Pu(i)
-    : zu(i);
+    ? Lu(i)
+    : Ru(i);
 }
-function Nu(i) {
+function Vu(i) {
   return i != null && typeof i == "object";
 }
-var Hu = "[object Symbol]";
-function Vu(i) {
-  return typeof i == "symbol" || (Nu(i) && $u(i) == Hu);
-}
-var ju = /\s/;
+var ju = "[object Symbol]";
 function qu(i) {
-  for (var e = i.length; e-- && ju.test(i.charAt(e)); );
+  return typeof i == "symbol" || (Vu(i) && Hu(i) == ju);
+}
+var Uu = /\s/;
+function Gu(i) {
+  for (var e = i.length; e-- && Uu.test(i.charAt(e)); );
   return e;
 }
-var Uu = /^\s+/;
-function Gu(i) {
-  return i && i.slice(0, qu(i) + 1).replace(Uu, "");
+var Wu = /^\s+/;
+function Xu(i) {
+  return i && i.slice(0, Gu(i) + 1).replace(Wu, "");
 }
 function xt(i) {
   var e = typeof i;
   return i != null && (e == "object" || e == "function");
 }
 var Oi = 0 / 0,
-  Wu = /^[-+]0x[0-9a-f]+$/i,
-  Xu = /^0b[01]+$/i,
-  Yu = /^0o[0-7]+$/i,
-  Zu = parseInt;
+  Yu = /^[-+]0x[0-9a-f]+$/i,
+  Zu = /^0b[01]+$/i,
+  Ku = /^0o[0-7]+$/i,
+  Ju = parseInt;
 function Li(i) {
   if (typeof i == "number") return i;
-  if (Vu(i)) return Oi;
+  if (qu(i)) return Oi;
   if (xt(i)) {
     var e = typeof i.valueOf == "function" ? i.valueOf() : i;
     i = xt(e) ? e + "" : e;
   }
   if (typeof i != "string") return i === 0 ? i : +i;
-  i = Gu(i);
-  var t = Xu.test(i);
-  return t || Yu.test(i) ? Zu(i.slice(2), t ? 2 : 8) : Wu.test(i) ? Oi : +i;
+  i = Xu(i);
+  var t = Zu.test(i);
+  return t || Ku.test(i) ? Ju(i.slice(2), t ? 2 : 8) : Yu.test(i) ? Oi : +i;
 }
-var Ku = function () {
+var Qu = function () {
   return Bn.Date.now();
 };
-const $t = Ku;
-var Ju = "Expected a function",
-  Qu = Math.max,
-  ec = Math.min;
-function tc(i, e, t) {
+const $t = Qu;
+var ec = "Expected a function",
+  tc = Math.max,
+  ic = Math.min;
+function nc(i, e, t) {
   var n,
     s,
     o,
@@ -6900,36 +6890,36 @@ function tc(i, e, t) {
     c = !1,
     d = !1,
     f = !0;
-  if (typeof i != "function") throw new TypeError(Ju);
+  if (typeof i != "function") throw new TypeError(ec);
   (e = Li(e) || 0),
     xt(t) &&
       ((c = !!t.leading),
       (d = "maxWait" in t),
-      (o = d ? Qu(Li(t.maxWait) || 0, e) : o),
+      (o = d ? tc(Li(t.maxWait) || 0, e) : o),
       (f = "trailing" in t ? !!t.trailing : f));
   function p(w) {
-    var S = n,
+    var F = n,
       k = s;
-    return (n = s = void 0), (u = w), (r = i.apply(k, S)), r;
+    return (n = s = void 0), (u = w), (r = i.apply(k, F)), r;
   }
   function h(w) {
-    return (u = w), (a = setTimeout(E, e)), c ? p(w) : r;
+    return (u = w), (a = setTimeout(x, e)), c ? p(w) : r;
   }
   function g(w) {
-    var S = w - l,
+    var F = w - l,
       k = w - u,
-      T = e - S;
-    return d ? ec(T, o - k) : T;
+      T = e - F;
+    return d ? ic(T, o - k) : T;
   }
   function y(w) {
-    var S = w - l,
+    var F = w - l,
       k = w - u;
-    return l === void 0 || S >= e || S < 0 || (d && k >= o);
+    return l === void 0 || F >= e || F < 0 || (d && k >= o);
   }
-  function E() {
+  function x() {
     var w = $t();
     if (y(w)) return C(w);
-    a = setTimeout(E, g(w));
+    a = setTimeout(x, g(w));
   }
   function C(w) {
     return (a = void 0), f && n ? p(w) : ((n = s = void 0), r);
@@ -6940,34 +6930,34 @@ function tc(i, e, t) {
   function _() {
     return a === void 0 ? r : C($t());
   }
-  function x() {
+  function E() {
     var w = $t(),
-      S = y(w);
-    if (((n = arguments), (s = this), (l = w), S)) {
+      F = y(w);
+    if (((n = arguments), (s = this), (l = w), F)) {
       if (a === void 0) return h(l);
-      if (d) return clearTimeout(a), (a = setTimeout(E, e)), p(l);
+      if (d) return clearTimeout(a), (a = setTimeout(x, e)), p(l);
     }
-    return a === void 0 && (a = setTimeout(E, e)), r;
+    return a === void 0 && (a = setTimeout(x, e)), r;
   }
-  return (x.cancel = b), (x.flush = _), x;
+  return (E.cancel = b), (E.flush = _), E;
 }
-function ic(i) {
+function sc(i) {
   for (var e = -1, t = i == null ? 0 : i.length, n = {}; ++e < t; ) {
     var s = i[e];
     n[s[0]] = s[1];
   }
   return n;
 }
-var nc = "Expected a function";
+var oc = "Expected a function";
 function zi(i, e, t) {
   var n = !0,
     s = !0;
-  if (typeof i != "function") throw new TypeError(nc);
+  if (typeof i != "function") throw new TypeError(oc);
   return (
     xt(t) &&
       ((n = "leading" in t ? !!t.leading : n),
       (s = "trailing" in t ? !!t.trailing : s)),
-    tc(i, e, { leading: n, maxWait: e, trailing: s })
+    nc(i, e, { leading: n, maxWait: e, trailing: s })
   );
 }
 var Ii;
@@ -6978,28 +6968,28 @@ Dn &&
     ? void 0
     : Ii.userAgent) &&
   /iP(ad|hone|od)/.test(window.navigator.userAgent);
-function sc(i) {
+function rc(i) {
   return typeof i == "function" ? i() : v(i);
 }
-function oc(i) {
+function ac(i) {
   return i;
 }
-function rc(i) {
+function lc(i) {
   return ws() ? (Es(i), !0) : !1;
 }
-function ac(i, e = !0) {
+function uc(i, e = !0) {
   Bt() ? ke(i) : e ? i() : ln(i);
 }
-function lc(i) {
+function cc(i) {
   var e;
-  const t = sc(i);
+  const t = rc(i);
   return (e = t == null ? void 0 : t.$el) != null ? e : t;
 }
-const uc = Dn ? window : void 0;
-function cc(i, e = !1) {
+const dc = Dn ? window : void 0;
+function fc(i, e = !1) {
   const t = L(),
     n = () => (t.value = Boolean(i()));
-  return n(), ac(n, e), t;
+  return n(), uc(n, e), t;
 }
 const ii =
     typeof globalThis < "u"
@@ -7015,26 +7005,26 @@ const ii =
 ii[ni] = ii[ni] || {};
 ii[ni];
 var Ri = Object.getOwnPropertySymbols,
-  dc = Object.prototype.hasOwnProperty,
-  fc = Object.prototype.propertyIsEnumerable,
-  hc = (i, e) => {
+  hc = Object.prototype.hasOwnProperty,
+  pc = Object.prototype.propertyIsEnumerable,
+  vc = (i, e) => {
     var t = {};
-    for (var n in i) dc.call(i, n) && e.indexOf(n) < 0 && (t[n] = i[n]);
+    for (var n in i) hc.call(i, n) && e.indexOf(n) < 0 && (t[n] = i[n]);
     if (i != null && Ri)
-      for (var n of Ri(i)) e.indexOf(n) < 0 && fc.call(i, n) && (t[n] = i[n]);
+      for (var n of Ri(i)) e.indexOf(n) < 0 && pc.call(i, n) && (t[n] = i[n]);
     return t;
   };
-function pc(i, e, t = {}) {
+function mc(i, e, t = {}) {
   const n = t,
-    { window: s = uc } = n,
-    o = hc(n, ["window"]);
+    { window: s = dc } = n,
+    o = vc(n, ["window"]);
   let r;
-  const a = cc(() => s && "ResizeObserver" in s),
+  const a = fc(() => s && "ResizeObserver" in s),
     l = () => {
       r && (r.disconnect(), (r = void 0));
     },
     u = we(
-      () => lc(i),
+      () => cc(i),
       (d) => {
         l(),
           a.value && s && d && ((r = new ResizeObserver(e)), r.observe(d, o));
@@ -7044,7 +7034,7 @@ function pc(i, e, t = {}) {
     c = () => {
       l(), u();
     };
-  return rc(c), { isSupported: a, stop: c };
+  return lc(c), { isSupported: a, stop: c };
 }
 var $i;
 (function (i) {
@@ -7054,20 +7044,20 @@ var $i;
     (i.LEFT = "LEFT"),
     (i.NONE = "NONE");
 })($i || ($i = {}));
-var vc = Object.defineProperty,
+var gc = Object.defineProperty,
   Ni = Object.getOwnPropertySymbols,
-  mc = Object.prototype.hasOwnProperty,
-  gc = Object.prototype.propertyIsEnumerable,
+  yc = Object.prototype.hasOwnProperty,
+  Cc = Object.prototype.propertyIsEnumerable,
   Hi = (i, e, t) =>
     e in i
-      ? vc(i, e, { enumerable: !0, configurable: !0, writable: !0, value: t })
+      ? gc(i, e, { enumerable: !0, configurable: !0, writable: !0, value: t })
       : (i[e] = t),
-  yc = (i, e) => {
-    for (var t in e || (e = {})) mc.call(e, t) && Hi(i, t, e[t]);
-    if (Ni) for (var t of Ni(e)) gc.call(e, t) && Hi(i, t, e[t]);
+  bc = (i, e) => {
+    for (var t in e || (e = {})) yc.call(e, t) && Hi(i, t, e[t]);
+    if (Ni) for (var t of Ni(e)) Cc.call(e, t) && Hi(i, t, e[t]);
     return i;
   };
-const Cc = {
+const _c = {
   easeInSine: [0.12, 0, 0.39, 0],
   easeOutSine: [0.61, 1, 0.88, 1],
   easeInOutSine: [0.37, 0, 0.63, 1],
@@ -7093,12 +7083,12 @@ const Cc = {
   easeOutBack: [0.34, 1.56, 0.64, 1],
   easeInOutBack: [0.68, -0.6, 0.32, 1.6],
 };
-yc({ linear: oc }, Cc);
+bc({ linear: ac }, _c);
 const Mn = (i) => i === void 0,
-  bc = (i) => (li(i) ? !Number.isNaN(Number(i)) : !1);
-function _c(i, e = "px") {
+  wc = (i) => (li(i) ? !Number.isNaN(Number(i)) : !1);
+function Ec(i, e = "px") {
   if (!i) return "";
-  if (An(i) || bc(i)) return `${i}${e}`;
+  if (An(i) || wc(i)) return `${i}${e}`;
   if (li(i)) return i;
 }
 /*! Element Plus Icons Vue v2.0.10 */ var Pn = (i, e) => {
@@ -7106,9 +7096,9 @@ function _c(i, e = "px") {
     for (let [n, s] of e) t[n] = s;
     return t;
   },
-  wc = { name: "ArrowLeft" },
-  Ec = { viewBox: "0 0 1024 1024", xmlns: "http://www.w3.org/2000/svg" },
-  xc = m(
+  xc = { name: "ArrowLeft" },
+  Fc = { viewBox: "0 0 1024 1024", xmlns: "http://www.w3.org/2000/svg" },
+  Sc = m(
     "path",
     {
       fill: "currentColor",
@@ -7117,17 +7107,17 @@ function _c(i, e = "px") {
     null,
     -1
   ),
-  Sc = [xc];
-function Fc(i, e, t, n, s, o) {
-  return P(), I("svg", Ec, Sc);
+  Tc = [Sc];
+function Bc(i, e, t, n, s, o) {
+  return P(), I("svg", Fc, Tc);
 }
-var Tc = Pn(wc, [
-    ["render", Fc],
+var kc = Pn(xc, [
+    ["render", Bc],
     ["__file", "arrow-left.vue"],
   ]),
-  Bc = { name: "ArrowRight" },
-  kc = { viewBox: "0 0 1024 1024", xmlns: "http://www.w3.org/2000/svg" },
-  Dc = m(
+  Dc = { name: "ArrowRight" },
+  Ac = { viewBox: "0 0 1024 1024", xmlns: "http://www.w3.org/2000/svg" },
+  Mc = m(
     "path",
     {
       fill: "currentColor",
@@ -7136,19 +7126,19 @@ var Tc = Pn(wc, [
     null,
     -1
   ),
-  Ac = [Dc];
-function Mc(i, e, t, n, s, o) {
-  return P(), I("svg", kc, Ac);
+  Pc = [Mc];
+function Oc(i, e, t, n, s, o) {
+  return P(), I("svg", Ac, Pc);
 }
-var Pc = Pn(Bc, [
-  ["render", Mc],
+var Lc = Pn(Dc, [
+  ["render", Oc],
   ["__file", "arrow-right.vue"],
 ]);
 const On = "__epPropKey",
-  Oc = (i) => i,
-  Lc = (i) => un(i) && !!i[On],
-  zc = (i, e) => {
-    if (!un(i) || Lc(i)) return i;
+  zc = (i) => i,
+  Ic = (i) => un(i) && !!i[On],
+  Rc = (i, e) => {
+    if (!un(i) || Ic(i)) return i;
     const { values: t, required: n, default: s, type: o, validator: r } = i,
       l = {
         type: o,
@@ -7161,7 +7151,7 @@ const On = "__epPropKey",
                 if (
                   (t &&
                     ((d = Array.from(t)),
-                    Si(i, "default") && d.push(s),
+                    Fi(i, "default") && d.push(s),
                     c || (c = d.includes(u))),
                   r && (c || (c = r(u))),
                   !c && d.length > 0)
@@ -7180,9 +7170,9 @@ const On = "__epPropKey",
             : void 0,
         [On]: !0,
       };
-    return Si(i, "default") && (l.default = s), l;
+    return Fi(i, "default") && (l.default = s), l;
   },
-  pi = (i) => ic(Object.entries(i).map(([e, t]) => [e, zc(t, e)])),
+  pi = (i) => sc(Object.entries(i).map(([e, t]) => [e, Rc(t, e)])),
   Ln = (i, e) => {
     if (
       ((i.install = (t) => {
@@ -7194,7 +7184,7 @@ const On = "__epPropKey",
       for (const [t, n] of Object.entries(e)) i[t] = n;
     return i;
   },
-  Ic = (i) => ((i.install = Ss), i),
+  $c = (i) => ((i.install = Fs), i),
   _t = (i) => {
     const e = Mt(i) ? i : [i],
       t = [];
@@ -7214,10 +7204,10 @@ const On = "__epPropKey",
     );
   },
   zn = Symbol("carouselContextKey"),
-  Rc = Symbol(),
+  Nc = Symbol(),
   Vi = L();
-function $c(i, e = void 0) {
-  const t = Bt() ? cn(Rc, Vi) : Vi;
+function Hc(i, e = void 0) {
+  const t = Bt() ? cn(Nc, Vi) : Vi;
   return i
     ? Le(() => {
         var n, s;
@@ -7225,14 +7215,14 @@ function $c(i, e = void 0) {
       })
     : t;
 }
-const Nc = "el",
-  Hc = "is-",
+const Vc = "el",
+  jc = "is-",
   Xe = (i, e, t, n, s) => {
     let o = `${i}-${e}`;
     return t && (o += `-${t}`), n && (o += `__${n}`), s && (o += `--${s}`), o;
   },
   vi = (i) => {
-    const e = $c("namespace", Nc);
+    const e = Hc("namespace", Vc);
     return {
       namespace: e,
       b: (h = "") => Xe(e.value, i, h, "", ""),
@@ -7244,7 +7234,7 @@ const Nc = "el",
       bem: (h, g, y) => (h && g && y ? Xe(e.value, i, h, g, y) : ""),
       is: (h, ...g) => {
         const y = g.length >= 1 ? g[0] : !0;
-        return h && y ? `${Hc}${h}` : "";
+        return h && y ? `${jc}${h}` : "";
       },
       cssVar: (h) => {
         const g = {};
@@ -7260,7 +7250,7 @@ const Nc = "el",
       cssVarBlockName: (h) => `--${e.value}-${i}-${h}`,
     };
   },
-  Vc = (i, e, t) =>
+  qc = (i, e, t) =>
     _t(i.subTree)
       .filter((o) => {
         var r;
@@ -7273,13 +7263,13 @@ const Nc = "el",
       .map((o) => o.component.uid)
       .map((o) => t[o])
       .filter((o) => !!o),
-  jc = (i, e) => {
+  Uc = (i, e) => {
     const t = {},
       n = dn([]);
     return {
       children: n,
       addChild: (r) => {
-        (t[r.uid] = r), (n.value = Vc(i, e, t));
+        (t[r.uid] = r), (n.value = qc(i, e, t));
       },
       removeChild: (r) => {
         delete t[r], (n.value = n.value.filter((a) => a.uid !== r));
@@ -7291,14 +7281,14 @@ var mi = (i, e) => {
   for (const [n, s] of e) t[n] = s;
   return t;
 };
-const qc = pi({
-    size: { type: Oc([Number, String]) },
+const Gc = pi({
+    size: { type: zc([Number, String]) },
     color: { type: String },
   }),
-  Uc = ae({ name: "ElIcon", inheritAttrs: !1 }),
-  Gc = ae({
-    ...Uc,
-    props: qc,
+  Wc = ae({ name: "ElIcon", inheritAttrs: !1 }),
+  Xc = ae({
+    ...Wc,
+    props: Gc,
     setup(i) {
       const e = i,
         t = vi("icon"),
@@ -7306,27 +7296,27 @@ const qc = pi({
           const { size: s, color: o } = e;
           return !s && !o
             ? {}
-            : { fontSize: Mn(s) ? void 0 : _c(s), "--color": o };
+            : { fontSize: Mn(s) ? void 0 : Ec(s), "--color": o };
         });
       return (s, o) => (
         P(),
         I(
           "i",
-          Fs({ class: v(t).b(), style: v(n) }, s.$attrs),
+          Ss({ class: v(t).b(), style: v(n) }, s.$attrs),
           [ui(s.$slots, "default")],
           16
         )
       );
     },
   });
-var Wc = mi(Gc, [
+var Yc = mi(Xc, [
   [
     "__file",
     "/home/runner/work/element-plus/element-plus/packages/components/icon/src/icon.vue",
   ],
 ]);
-const ji = Ln(Wc),
-  Xc = pi({
+const ji = Ln(Yc),
+  Zc = pi({
     initialIndex: { type: Number, default: 0 },
     height: { type: String, default: "" },
     trigger: { type: String, values: ["hover", "click"], default: "hover" },
@@ -7352,14 +7342,14 @@ const ji = Ln(Wc),
     },
     pauseOnHover: { type: Boolean, default: !0 },
   }),
-  Yc = { change: (i, e) => [i, e].every(An) },
+  Kc = { change: (i, e) => [i, e].every(An) },
   qi = 300,
-  Zc = (i, e, t) => {
+  Jc = (i, e, t) => {
     const {
         children: n,
         addChild: s,
         removeChild: o,
-      } = jc(Bt(), "ElCarouselItem"),
+      } = Uc(Bt(), "ElCarouselItem"),
       r = L(-1),
       a = L(null),
       l = L(!1),
@@ -7381,7 +7371,7 @@ const ji = Ln(Wc),
     function y() {
       a.value && (clearInterval(a.value), (a.value = null));
     }
-    function E() {
+    function x() {
       i.interval <= 0 ||
         !i.autoplay ||
         a.value ||
@@ -7413,7 +7403,7 @@ const ji = Ln(Wc),
         M.translateItem(O, r.value, A);
       });
     }
-    function x(A, M) {
+    function E(A, M) {
       var O, W, Me, We;
       const Pe = v(n),
         ot = Pe.length;
@@ -7440,13 +7430,13 @@ const ji = Ln(Wc),
     function w() {
       (l.value = !0), i.pauseOnHover && y();
     }
-    function S() {
-      (l.value = !1), E();
+    function F() {
+      (l.value = !1), x();
     }
     function k(A) {
       v(p) ||
         n.value.forEach((M, O) => {
-          A === x(M, O) && (M.states.hover = !0);
+          A === E(M, O) && (M.states.hover = !0);
         });
     }
     function T() {
@@ -7468,7 +7458,7 @@ const ji = Ln(Wc),
       b(r.value + 1);
     }
     function U() {
-      y(), E();
+      y(), x();
     }
     we(
       () => r.value,
@@ -7479,7 +7469,7 @@ const ji = Ln(Wc),
       we(
         () => i.autoplay,
         (A) => {
-          A ? E() : y();
+          A ? x() : y();
         }
       ),
       we(
@@ -7500,16 +7490,16 @@ const ji = Ln(Wc),
           n.value.length > 0 && b(i.initialIndex);
         }
       );
-    const F = dn();
+    const S = dn();
     return (
       ke(() => {
-        (F.value = pc(u.value, () => {
+        (S.value = mc(u.value, () => {
           _();
         })),
-          E();
+          x();
       }),
       Tt(() => {
-        y(), u.value && F.value && F.value.stop();
+        y(), u.value && S.value && S.value.stop();
       }),
       Ts(zn, {
         root: u,
@@ -7533,7 +7523,7 @@ const ji = Ln(Wc),
         handleButtonLeave: T,
         handleIndicatorClick: B,
         handleMouseEnter: w,
-        handleMouseLeave: S,
+        handleMouseLeave: F,
         setActiveItem: b,
         prev: z,
         next: V,
@@ -7542,14 +7532,14 @@ const ji = Ln(Wc),
       }
     );
   },
-  Kc = ["onMouseenter", "onClick"],
-  Jc = { key: 0 },
-  Qc = "ElCarousel",
-  e1 = ae({ name: Qc }),
-  t1 = ae({
-    ...e1,
-    props: Xc,
-    emits: Yc,
+  Qc = ["onMouseenter", "onClick"],
+  e1 = { key: 0 },
+  t1 = "ElCarousel",
+  i1 = ae({ name: t1 }),
+  n1 = ae({
+    ...i1,
+    props: Zc,
+    emits: Kc,
     setup(i, { expose: e, emit: t }) {
       const n = i,
         {
@@ -7566,27 +7556,27 @@ const ji = Ln(Wc),
           handleMouseEnter: h,
           handleMouseLeave: g,
           setActiveItem: y,
-          prev: E,
+          prev: x,
           next: C,
           throttledArrowClick: b,
           throttledIndicatorHover: _,
-        } = Zc(n, t),
-        x = vi("carousel"),
+        } = Jc(n, t),
+        E = vi("carousel"),
         w = Le(() => {
-          const k = [x.b(), x.m(n.direction)];
-          return v(u) && k.push(x.m("card")), k;
+          const k = [E.b(), E.m(n.direction)];
+          return v(u) && k.push(E.m("card")), k;
         }),
-        S = Le(() => {
-          const k = [x.e("indicators"), x.em("indicators", n.direction)];
+        F = Le(() => {
+          const k = [E.e("indicators"), E.em("indicators", n.direction)];
           return (
-            v(a) && k.push(x.em("indicators", "labels")),
+            v(a) && k.push(E.em("indicators", "labels")),
             (n.indicatorPosition === "outside" || v(u)) &&
-              k.push(x.em("indicators", "outside")),
+              k.push(E.em("indicators", "outside")),
             k
           );
         });
       return (
-        e({ setActiveItem: y, prev: E, next: C }),
+        e({ setActiveItem: y, prev: x, next: C }),
         (k, T) => (
           P(),
           I(
@@ -7604,7 +7594,7 @@ const ji = Ln(Wc),
               m(
                 "div",
                 {
-                  class: le(v(x).e("container")),
+                  class: le(v(E).e("container")),
                   style: $e({ height: k.height }),
                 },
                 [
@@ -7615,14 +7605,14 @@ const ji = Ln(Wc),
                         { key: 0, name: "carousel-arrow-left", persisted: "" },
                         {
                           default: q(() => [
-                            fe(
+                            ce(
                               m(
                                 "button",
                                 {
                                   type: "button",
                                   class: le([
-                                    v(x).e("arrow"),
-                                    v(x).em("arrow", "left"),
+                                    v(E).e("arrow"),
+                                    v(E).em("arrow", "left"),
                                   ]),
                                   onMouseenter:
                                     T[0] || (T[0] = (B) => v(d)("left")),
@@ -7638,7 +7628,7 @@ const ji = Ln(Wc),
                                 },
                                 [
                                   N(v(ji), null, {
-                                    default: q(() => [N(v(Tc))]),
+                                    default: q(() => [N(v(kc))]),
                                     _: 1,
                                   }),
                                 ],
@@ -7664,14 +7654,14 @@ const ji = Ln(Wc),
                         { key: 1, name: "carousel-arrow-right", persisted: "" },
                         {
                           default: q(() => [
-                            fe(
+                            ce(
                               m(
                                 "button",
                                 {
                                   type: "button",
                                   class: le([
-                                    v(x).e("arrow"),
-                                    v(x).em("arrow", "right"),
+                                    v(E).e("arrow"),
+                                    v(E).em("arrow", "right"),
                                   ]),
                                   onMouseenter:
                                     T[3] || (T[3] = (B) => v(d)("right")),
@@ -7687,7 +7677,7 @@ const ji = Ln(Wc),
                                 },
                                 [
                                   N(v(ji), null, {
-                                    default: q(() => [N(v(Pc))]),
+                                    default: q(() => [N(v(Lc))]),
                                     _: 1,
                                   }),
                                 ],
@@ -7714,11 +7704,11 @@ const ji = Ln(Wc),
                 ? (P(),
                   I(
                     "ul",
-                    { key: 0, class: le(v(S)) },
+                    { key: 0, class: le(v(F)) },
                     [
                       (P(!0),
                       I(
-                        ce,
+                        de,
                         null,
                         Ee(
                           v(c),
@@ -7729,9 +7719,9 @@ const ji = Ln(Wc),
                               {
                                 key: D,
                                 class: le([
-                                  v(x).e("indicator"),
-                                  v(x).em("indicator", k.direction),
-                                  v(x).is("active", D === v(o)),
+                                  v(E).e("indicator"),
+                                  v(E).em("indicator", k.direction),
+                                  v(E).is("active", D === v(o)),
                                 ]),
                                 onMouseenter: (z) => v(_)(D),
                                 onClick: rt((z) => v(p)(D), ["stop"]),
@@ -7739,18 +7729,18 @@ const ji = Ln(Wc),
                               [
                                 m(
                                   "button",
-                                  { class: le(v(x).e("button")) },
+                                  { class: le(v(E).e("button")) },
                                   [
                                     v(a)
                                       ? (P(),
-                                        I("span", Jc, Y(B.props.label), 1))
+                                        I("span", e1, Y(B.props.label), 1))
                                       : X("v-if", !0),
                                   ],
                                   2
                                 ),
                               ],
                               42,
-                              Kc
+                              Qc
                             )
                           )
                         ),
@@ -7767,17 +7757,17 @@ const ji = Ln(Wc),
       );
     },
   });
-var i1 = mi(t1, [
+var s1 = mi(n1, [
   [
     "__file",
     "/home/runner/work/element-plus/element-plus/packages/components/carousel/src/carousel.vue",
   ],
 ]);
-const n1 = pi({
+const o1 = pi({
     name: { type: String, default: "" },
     label: { type: [String, Number], default: "" },
   }),
-  s1 = (i, e) => {
+  r1 = (i, e) => {
     const t = cn(zn),
       n = Bt(),
       s = 0.83,
@@ -7789,44 +7779,44 @@ const n1 = pi({
       c = L(!1),
       d = L(!1),
       { isCardType: f, isVertical: p } = t;
-    function h(b, _, x) {
-      const w = x - 1,
-        S = _ - 1,
+    function h(b, _, E) {
+      const w = E - 1,
+        F = _ - 1,
         k = _ + 1,
-        T = x / 2;
+        T = E / 2;
       return _ === 0 && b === w
         ? -1
         : _ === w && b === 0
-        ? x
-        : b < S && _ - b >= T
-        ? x + 1
+        ? E
+        : b < F && _ - b >= T
+        ? E + 1
         : b > k && b - _ >= T
         ? -2
         : b;
     }
     function g(b, _) {
-      var x;
-      const w = ((x = t.root.value) == null ? void 0 : x.offsetWidth) || 0;
+      var E;
+      const w = ((E = t.root.value) == null ? void 0 : E.offsetWidth) || 0;
       return c.value
         ? (w * ((2 - s) * (b - _) + 1)) / 4
         : b < _
         ? (-(1 + s) * w) / 4
         : ((3 + s) * w) / 4;
     }
-    function y(b, _, x) {
+    function y(b, _, E) {
       const w = t.root.value;
-      return w ? ((x ? w.offsetHeight : w.offsetWidth) || 0) * (b - _) : 0;
+      return w ? ((E ? w.offsetHeight : w.offsetWidth) || 0) * (b - _) : 0;
     }
-    const E = (b, _, x) => {
+    const x = (b, _, E) => {
       var w;
-      const S = v(f),
+      const F = v(f),
         k = (w = t.items.value.length) != null ? w : Number.NaN,
         T = b === _;
-      !S && !Mn(x) && (d.value = T || b === x),
+      !F && !Mn(E) && (d.value = T || b === E),
         !T && k > 2 && t.loop && (b = h(b, _, k));
       const B = v(p);
       (l.value = T),
-        S
+        F
           ? ((c.value = Math.round(Math.abs(b - _)) <= 1),
             (r.value = g(b, _)),
             (a.value = v(l) ? 1 : s))
@@ -7853,7 +7843,7 @@ const n1 = pi({
             animating: d,
           }),
           uid: n.uid,
-          translateItem: E,
+          translateItem: x,
         });
       }),
       Bs(() => {
@@ -7873,10 +7863,10 @@ const n1 = pi({
       }
     );
   },
-  o1 = ae({ name: "ElCarouselItem" }),
-  r1 = ae({
-    ...o1,
-    props: n1,
+  a1 = ae({ name: "ElCarouselItem" }),
+  l1 = ae({
+    ...a1,
+    props: o1,
     setup(i) {
       const e = i,
         t = vi("carousel"),
@@ -7891,14 +7881,14 @@ const n1 = pi({
           scale: c,
           ready: d,
           handleItemClick: f,
-        } = s1(e),
+        } = r1(e),
         p = Le(() => {
           const g = `${`translate${v(a) ? "Y" : "X"}`}(${v(l)}px)`,
             y = `scale(${v(c)})`;
           return { transform: [g, y].join(" ") };
         });
       return (h, g) =>
-        fe(
+        ce(
           (P(),
           I(
             "div",
@@ -7916,7 +7906,7 @@ const n1 = pi({
             },
             [
               v(u)
-                ? fe(
+                ? ce(
                     (P(),
                     I("div", { key: 0, class: le(v(t).e("mask")) }, null, 2)),
                     [[he, !v(n)]]
@@ -7930,23 +7920,15 @@ const n1 = pi({
         );
     },
   });
-var In = mi(r1, [
+var In = mi(l1, [
   [
     "__file",
     "/home/runner/work/element-plus/element-plus/packages/components/carousel/src/carousel-item.vue",
   ],
 ]);
-const a1 = Ln(i1, { CarouselItem: In }),
-  l1 = Ic(In);
-const u1 = "" + new URL("https://pic4.zhimg.com/80/v2-e5cc625ebde4177fccedc126bbb4f4b7_720w.webp", import.meta.url).href,
-  c1 = Object.freeze(
-    Object.defineProperty(
-      { __proto__: null, default: u1 },
-      Symbol.toStringTag,
-      { value: "Module" }
-    )
-  ),
-  d1 = "" + new URL("https://pic2.zhimg.com/80/v2-84f5259fb68d09069b8a28335c3328f9_720w.webp", import.meta.url).href,
+const u1 = Ln(s1, { CarouselItem: In }),
+  c1 = $c(In);
+const d1 = "" + new URL("https://pic4.zhimg.com/80/v2-e5cc625ebde4177fccedc126bbb4f4b7_720w.webp", import.meta.url).href,
   f1 = Object.freeze(
     Object.defineProperty(
       { __proto__: null, default: d1 },
@@ -7954,7 +7936,7 @@ const u1 = "" + new URL("https://pic4.zhimg.com/80/v2-e5cc625ebde4177fccedc126bb
       { value: "Module" }
     )
   ),
-  h1 = "" + new URL("https://pic4.zhimg.com/80/v2-0cb992843930dc6ad63d0df43d4ddf03_720w.webp", import.meta.url).href,
+  h1 = "" + new URL("https://pic2.zhimg.com/80/v2-84f5259fb68d09069b8a28335c3328f9_720w.webp", import.meta.url).href,
   p1 = Object.freeze(
     Object.defineProperty(
       { __proto__: null, default: h1 },
@@ -7962,7 +7944,7 @@ const u1 = "" + new URL("https://pic4.zhimg.com/80/v2-e5cc625ebde4177fccedc126bb
       { value: "Module" }
     )
   ),
-  v1 = "" + new URL("https://pic1.zhimg.com/80/v2-60c39740fcaf82f5abb1a37fdce6f2ac_720w.webp", import.meta.url).href,
+  v1 = "" + new URL("https://pic4.zhimg.com/80/v2-0cb992843930dc6ad63d0df43d4ddf03_720w.webp", import.meta.url).href,
   m1 = Object.freeze(
     Object.defineProperty(
       { __proto__: null, default: v1 },
@@ -7970,7 +7952,7 @@ const u1 = "" + new URL("https://pic4.zhimg.com/80/v2-e5cc625ebde4177fccedc126bb
       { value: "Module" }
     )
   ),
-  g1 = "" + new URL("https://pic3.zhimg.com/80/v2-fa0846725c7af84ada3c8c7ce42bda7a_720w.webp", import.meta.url).href,
+  g1 = "" + new URL("https://pic1.zhimg.com/80/v2-60c39740fcaf82f5abb1a37fdce6f2ac_720w.webp", import.meta.url).href,
   y1 = Object.freeze(
     Object.defineProperty(
       { __proto__: null, default: g1 },
@@ -7978,26 +7960,33 @@ const u1 = "" + new URL("https://pic4.zhimg.com/80/v2-e5cc625ebde4177fccedc126bb
       { value: "Module" }
     )
   ),
-  C1 = (i) => (Ue("data-v-0816f68e"), (i = i()), Ge(), i),
-  b1 = { class: "sctionDisplay" },
-  _1 = { class: "sctionWapper" },
-  w1 = { class: "article" },
-  E1 = ["onClick"],
-  x1 = { class: "inforBanner" },
-  S1 = { class: "banner" },
-  F1 = ["src"],
-  T1 = { class: "articleConner" },
-  B1 = { class: "acticleWapper" },
-  k1 = { key: 0, class: "acticleList" },
-  D1 = {
+  C1 = "" + new URL("https://pic3.zhimg.com/80/v2-fa0846725c7af84ada3c8c7ce42bda7a_720w.webp", import.meta.url).href,
+  b1 = Object.freeze(
+    Object.defineProperty(
+      { __proto__: null, default: C1 },
+      Symbol.toStringTag,
+      { value: "Module" }
+    )
+  ),
+  _1 = (i) => (Ue("data-v-40681bb9"), (i = i()), Ge(), i),
+  w1 = { class: "sctionDisplay" },
+  E1 = { class: "sctionWapper" },
+  x1 = { class: "article" },
+  F1 = ["onClick"],
+  S1 = { class: "inforBanner" },
+  T1 = { class: "banner" },
+  B1 = { class: "articleConner" },
+  k1 = { class: "acticleWapper" },
+  D1 = { key: 0, class: "acticleList" },
+  A1 = {
     href: "javascript:void(0)",
     class: "acticleLink",
     "data-cursor": "pointer",
   },
-  A1 = { class: "acticleDate", "data-cursor": "pointer" },
-  M1 = { class: "acticleCate", "data-cursor": "pointer" },
-  P1 = { class: "acticleTitle", "data-cursor": "pointer" },
-  O1 = C1(() =>
+  M1 = { class: "acticleDate", "data-cursor": "pointer" },
+  P1 = { class: "acticleCate", "data-cursor": "pointer" },
+  O1 = { class: "acticleTitle", "data-cursor": "pointer" },
+  L1 = _1(() =>
     m(
       "div",
       { class: "acticleFooter" },
@@ -8011,7 +8000,7 @@ const u1 = "" + new URL("https://pic4.zhimg.com/80/v2-e5cc625ebde4177fccedc126bb
               "data-cursor": "pointer",
             },
             [
-              m("span", null, "\u66F4\u591A\u60C5\u62A5"),
+              m("span", null, ""),
               m(
                 "svg",
                 {
@@ -8028,8 +8017,8 @@ const u1 = "" + new URL("https://pic4.zhimg.com/80/v2-e5cc625ebde4177fccedc126bb
       -1
     )
   ),
-  L1 = { class: "particle" },
-  z1 = ae({
+  z1 = { class: "particle" },
+  I1 = ae({
     __name: "Section2_Two",
     setup(i) {
       const e = kt(),
@@ -8049,11 +8038,11 @@ const u1 = "" + new URL("https://pic4.zhimg.com/80/v2-e5cc625ebde4177fccedc126bb
           }
         );
       const o = Object.assign({
-        "../../assets/img/Two/banner_1.jpg": c1,
-        "../../assets/img/Two/banner_2.jpg": f1,
-        "../../assets/img/Two/banner_3.jpg": p1,
-        "../../assets/img/Two/banner_4.jpg": m1,
-        "../../assets/img/Two/banner_5.jpg": y1,
+        "../../assets/img/Two/banner_1.jpg": f1,
+        "../../assets/img/Two/banner_2.jpg": p1,
+        "../../assets/img/Two/banner_3.jpg": m1,
+        "../../assets/img/Two/banner_4.jpg": y1,
+        "../../assets/img/Two/banner_5.jpg": b1,
       });
       let r = G([]);
       r.push(...Object.values(o).map((h) => h.default));
@@ -8061,46 +8050,12 @@ const u1 = "" + new URL("https://pic4.zhimg.com/80/v2-e5cc625ebde4177fccedc126bb
         l = G([
           {
             id: 1,
-            Date: "2022 - 12 - 17",
+            Date: "2023 - 5 - 14",
             Cate: "\u6D3B\u52A8",
             Title:
-              "[\u6D3B\u52A8\u9884\u544A]\u8DE8\u5E74\u7EAA\u5FF5\u9650\u65F6\u6D3B\u52A8\u5373\u5C06\u5F00\u542F",
+              "[活动公告]USTC 小聚：基于大型语言模型（LLM）的聊天机器人",
           },
-          {
-            id: 2,
-            Date: "2022 - 12 - 17",
-            Cate: "\u6D3B\u52A8",
-            Title:
-              "[\u8DE8\u5E74\u6B22\u5E86\u5BFB\u8BBF]\u3010\u8DE8\u5E74\u6B22\u5E86\u76F8\u9022\u3011\u9650\u65F6\u5BFB\u8BBF\u5373\u5C06\u5F00\u542F",
-          },
-          {
-            id: 3,
-            Date: "2022 - 12 - 15",
-            Cate: "\u516C\u544A",
-            Title:
-              "[\u660E\u65E5\u65B9\u821F]\u5173\u4E8E\u5E72\u5458\u3010\u7130\u5F71\u82C7\u8349\u3011\u6280\u80FD\u5F02\u5E38\u8BF4\u660E",
-          },
-          {
-            id: 4,
-            Date: "2022 - 12 - 08",
-            Cate: "\u6D3B\u52A8",
-            Title:
-              "[\u6D3B\u52A8\u9884\u544A]SideStory\u3010\u7167\u6211\u4EE5\u706B\u3011\u9650\u65F6\u6D3B\u52A8\u5373\u5C06\u5F00\u542F",
-          },
-          {
-            id: 5,
-            Date: "2022 - 12 - 14",
-            Cate: "\u516C\u544A",
-            Title:
-              "[\u660E\u65E5\u65B9\u821F]12\u670815\u65E510:00\u7248\u672C\u66F4\u65B0\u505C\u670D\u7EF4\u62A4\u516C\u544A",
-          },
-          {
-            id: 6,
-            Date: "2022 - 12 - 14",
-            Cate: "\u516C\u544A",
-            Title:
-              "[\u660E\u65E5\u65B9\u821F]12\u670814\u65E5\u5C01\u7981\u5904\u7406\u516C\u793A",
-          },
+
         ]),
         u = G([
           {
@@ -8108,43 +8063,9 @@ const u1 = "" + new URL("https://pic4.zhimg.com/80/v2-e5cc625ebde4177fccedc126bb
             Date: "2022 - 12 - 15",
             Cate: "\u516C\u544A",
             Title:
-              "[\u660E\u65E5\u65B9\u821F]\u5173\u4E8E\u5E72\u5458\u3010\u7130\u5F71\u82C7\u8349\u3011\u6280\u80FD\u5F02\u5E38\u8BF4\u660E",
+              "[活动公告]金枪鱼之夜：支持多种 ISA 扩展的二进制背后的秘密",
           },
-          {
-            id: 2,
-            Date: "2022 - 12 - 14",
-            Cate: "\u516C\u544A",
-            Title:
-              "[\u660E\u65E5\u65B9\u821F]12\u670815\u65E510:00\u7248\u672C\u66F4\u65B0\u505C\u673A\u7EF4\u62A4\u516C\u544A",
-          },
-          {
-            id: 3,
-            Date: "2022 - 12 - 14",
-            Cate: "\u516C\u544A",
-            Title:
-              "[\u660E\u65E5\u65B9\u821F]12\u670814\u65E5\u5C01\u7981\u5904\u7406\u516C\u793A",
-          },
-          {
-            id: 4,
-            Date: "2022 - 12 - 07",
-            Cate: "\u516C\u544A",
-            Title:
-              "[\u660E\u65E5\u65B9\u821F]12\u670807\u65E5\u5C01\u7981\u5904\u7406\u516C\u793A",
-          },
-          {
-            id: 5,
-            Date: "2022 - 12 - 05",
-            Cate: "\u516C\u544A",
-            Title:
-              "[\u660E\u65E5\u65B9\u821F]12\u670806\u65E5\u505C\u670D\u516C\u544A",
-          },
-          {
-            id: 6,
-            Date: "2022 - 12 - 01",
-            Cate: "\u516C\u544A",
-            Title:
-              "[\u660E\u65E5\u65B9\u821F]12\u670801\u65E516:00\u95EA\u65AD\u66F4\u65B0\u516C\u544A",
-          },
+          
         ]),
         c = G([
           {
@@ -8152,43 +8073,9 @@ const u1 = "" + new URL("https://pic4.zhimg.com/80/v2-e5cc625ebde4177fccedc126bb
             Date: "2022 - 12 - 17",
             Cate: "\u6D3B\u52A8",
             Title:
-              "[\u6D3B\u52A8\u9884\u544A]\u8DE8\u5E74\u7EAA\u5FF5\u9650\u65F6\u6D3B\u52A8\u5373\u5C06\u5F00\u542F",
+              "[杂谈]关于最近",
           },
-          {
-            id: 2,
-            Date: "2022 - 12 - 17",
-            Cate: "\u6D3B\u52A8",
-            Title:
-              "[\u8DE8\u5E74\u6B22\u5E86\u5BFB\u8BBF]\u3010\u8DE8\u5E74\u6B22\u5E86\u76F8\u9022\u3011\u9650\u65F6\u5BFB\u8BBF\u5373\u5C06\u5F00\u542F",
-          },
-          {
-            id: 3,
-            Date: "2022 - 12 - 08",
-            Cate: "\u6D3B\u52A8",
-            Title:
-              "[\u6D3B\u52A8\u9884\u544A]SideStory\u3010\u7167\u6211\u4EE5\u706B\u3011\u9650\u65F6\u6D3B\u52A8\u5373\u5C06\u5F00\u542F",
-          },
-          {
-            id: 4,
-            Date: "2022 - 11 - 25",
-            Cate: "\u6D3B\u52A8",
-            Title:
-              "[\u6D3B\u52A8\u9884\u544A]SideStory\u3010\u98CE\u96EA\u8FC7\u5883\u3011\u590D\u523B\u5373\u5C06\u5F00\u542F",
-          },
-          {
-            id: 5,
-            Date: "2022 - 10 - 23",
-            Cate: "\u6D3B\u52A8",
-            Title:
-              "[\u6D3B\u52A8\u9884\u544A]\u4E3B\u7EBF\u52A8\u753B\u300A\u660E\u65E5\u65B9\u821F\uFF1A\u9ECE\u660E\u524D\u594F\u300B\u5F00\u64AD\u7EAA\u5FF5\u6D3B\u52A8\u5373\u5C06\u5F00\u542F",
-          },
-          {
-            id: 6,
-            Date: "2022 - 10 - 23",
-            Cate: "\u6D3B\u52A8",
-            Title:
-              "[\u9650\u5B9A\u5BFB\u8BBF-\u5E86\u5178]\u3010\u65A9\u8346\u8F9F\u8DEF\u3011\u9650\u65F6\u5BFB\u8BBF\u5373\u5C06\u5F00\u542F",
-          },
+          
         ]),
         d = G([
           {
@@ -8196,43 +8083,10 @@ const u1 = "" + new URL("https://pic4.zhimg.com/80/v2-e5cc625ebde4177fccedc126bb
             Date: "2022 - 12 - 01",
             Cate: "\u65B0\u95FB",
             Title:
-              "\u300A\u660E\u65E5\u65B9\u821F\u300B\u5236\u4F5C\u7EC4\u901A\u8BAF#25\u671F",
+              "金枪鱼之夜：关于CodeGeeX 自动代码生成插件",
           },
-          {
-            id: 2,
-            Date: "2022 - 10 - 05",
-            Cate: "\u65B0\u95FB",
-            Title:
-              "\u300A\u660E\u65E5\u65B9\u821F\u300B\u5236\u4F5C\u7EC4\u901A\u8BAF#24\u671F",
-          },
-          {
-            id: 3,
-            Date: "2022 - 09 - 13",
-            Cate: "\u65B0\u95FB",
-            Title:
-              "\u300A\u660E\u65E5\u65B9\u821F\u300B\u5236\u4F5C\u7EC4\u901A\u8BAF#23\u671F",
-          },
-          {
-            id: 4,
-            Date: "2022 - 08 - 26",
-            Cate: "\u65B0\u95FB",
-            Title:
-              "\u300A\u660E\u65E5\u65B9\u821F\u300B\u5236\u4F5C\u7EC4\u901A\u8BAF#22\u671F",
-          },
-          {
-            id: 5,
-            Date: "2022 - 07 - 28",
-            Cate: "\u65B0\u95FB",
-            Title:
-              "\u300A\u660E\u65E5\u65B9\u821F\u300B\u5236\u4F5C\u7EC4\u901A\u8BAF#21\u671F",
-          },
-          {
-            id: 6,
-            Date: "2022 - 06 - 22",
-            Cate: "\u65B0\u95FB",
-            Title:
-              "\u300A\u660E\u65E5\u65B9\u821F\u300B\u5236\u4F5C\u7EC4\u901A\u8BAF#20\u671F",
-          },
+          
+          
         ]),
         f = G([
           { id: 0, name: "\u6700\u65B0", active: !0, articleobj: l },
@@ -8247,27 +8101,28 @@ const u1 = "" + new URL("https://pic4.zhimg.com/80/v2-e5cc625ebde4177fccedc126bb
             (h.active = !0);
         };
       return (h, g) => {
-        const y = l1,
-          E = a1,
-          C = ci;
+        const y = c1,
+          x = u1,
+          C = ci,
+          b = ks("lazy");
         return (
           P(),
-          I("div", b1, [
-            m("div", _1, [
-              m("div", w1, [
+          I("div", w1, [
+            m("div", E1, [
+              m("div", x1, [
                 (P(!0),
                 I(
-                  ce,
+                  de,
                   null,
                   Ee(
                     v(f),
-                    (b) => (
+                    (_) => (
                       P(),
                       I(
                         "ol",
                         {
                           class: "articleList",
-                          key: b.id,
+                          key: _.id,
                           "data-cursor": "pointer",
                         },
                         [
@@ -8276,16 +8131,16 @@ const u1 = "" + new URL("https://pic4.zhimg.com/80/v2-e5cc625ebde4177fccedc126bb
                             {
                               class: le([
                                 "acticleItem",
-                                b.active ? "active" : "",
+                                _.active ? "active" : "",
                               ]),
-                              onClick: (_) => p(b, v(f)),
+                              onClick: (E) => p(_, v(f)),
                               "data-cursor": "pointer",
                               ref_for: !0,
                               ref: "articleOl",
                             },
-                            Y(b.name),
+                            Y(_.name),
                             11,
-                            E1
+                            F1
                           ),
                         ]
                       )
@@ -8294,10 +8149,10 @@ const u1 = "" + new URL("https://pic4.zhimg.com/80/v2-e5cc625ebde4177fccedc126bb
                   128
                 )),
               ]),
-              m("div", x1, [
-                m("div", S1, [
+              m("div", S1, [
+                m("div", T1, [
                   N(
-                    E,
+                    x,
                     {
                       trigger: "click",
                       height: "16rem",
@@ -8309,18 +8164,19 @@ const u1 = "" + new URL("https://pic4.zhimg.com/80/v2-e5cc625ebde4177fccedc126bb
                       default: q(() => [
                         (P(!0),
                         I(
-                          ce,
+                          de,
                           null,
                           Ee(
                             v(r),
-                            (b) => (
+                            (_) => (
                               P(),
                               Re(
                                 y,
-                                { key: b },
+                                { key: _ },
                                 {
                                   default: q(() => [
-                                    m("img", { src: b }, null, 8, F1),
+                                    ce(m("img", null, null, 512), [[b, _]]),
+                                    Ds(" \u61D2\u52A0\u8F7D\u56FE\u7247 "),
                                   ]),
                                   _: 2,
                                 },
@@ -8336,46 +8192,46 @@ const u1 = "" + new URL("https://pic4.zhimg.com/80/v2-e5cc625ebde4177fccedc126bb
                   ),
                 ]),
               ]),
-              m("div", T1, [
-                m("div", B1, [
+              m("div", B1, [
+                m("div", k1, [
                   (P(!0),
                   I(
-                    ce,
+                    de,
                     null,
                     Ee(
                       v(f),
-                      (b) => (
+                      (_) => (
                         P(),
                         I(
-                          ce,
-                          { key: b.id },
+                          de,
+                          { key: _.id },
                           [
-                            b.active
+                            _.active
                               ? (P(),
-                                I("ol", k1, [
+                                I("ol", D1, [
                                   (P(!0),
                                   I(
-                                    ce,
+                                    de,
                                     null,
                                     Ee(
-                                      b.articleobj,
-                                      (_) => (
+                                      _.articleobj,
+                                      (E) => (
                                         P(),
                                         I(
                                           "li",
                                           {
                                             class: le([
                                               "articleItem",
-                                              _.id === 6 ? "articleItemNo" : "",
+                                              E.id === 6 ? "articleItemNo" : "",
                                             ]),
-                                            key: _.id,
+                                            key: E.id,
                                             "data-cursor": "pointer",
                                           },
                                           [
-                                            m("a", D1, [
-                                              m("span", A1, Y(_.Date), 1),
-                                              m("span", M1, Y(_.Cate), 1),
-                                              m("h1", P1, Y(_.Title), 1),
+                                            m("a", A1, [
+                                              m("span", M1, Y(E.Date), 1),
+                                              m("span", P1, Y(E.Cate), 1),
+                                              m("h1", O1, Y(E.Title), 1),
                                             ]),
                                           ],
                                           2
@@ -8394,10 +8250,10 @@ const u1 = "" + new URL("https://pic4.zhimg.com/80/v2-e5cc625ebde4177fccedc126bb
                     128
                   )),
                 ]),
-                O1,
+                L1,
               ]),
             ]),
-            m("div", L1, [
+            m("div", z1, [
               N(
                 C,
                 {
@@ -8417,8 +8273,8 @@ const u1 = "" + new URL("https://pic4.zhimg.com/80/v2-e5cc625ebde4177fccedc126bb
       };
     },
   });
-const I1 = Ce(z1, [["__scopeId", "data-v-0816f68e"]]);
-function R1(i) {
+const R1 = Ce(I1, [["__scopeId", "data-v-40681bb9"]]);
+function $1(i) {
   return {
     all: (i = i || new Map()),
     on: function (e, t) {
@@ -8442,17 +8298,17 @@ function R1(i) {
     },
   };
 }
-const $1 = R1(),
-  Rn = $1,
+const N1 = $1(),
+  Rn = N1,
   De = (i) => (Ue("data-v-563ab70f"), (i = i()), Ge(), i),
-  N1 = { id: "section-home" },
-  H1 = { class: "homepage" },
-  V1 = { class: "homeLogo" },
-  j1 = ["src"],
-  q1 = { class: "homeDisplay" },
-  U1 = { class: "homeTitleGrid" },
-  G1 = { key: 0, class: "homeGridWapper" },
-  W1 = De(() =>
+  H1 = { id: "section-home" },
+  V1 = { class: "homepage" },
+  j1 = { class: "homeLogo" },
+  q1 = ["src"],
+  U1 = { class: "homeDisplay" },
+  G1 = { class: "homeTitleGrid" },
+  W1 = { key: 0, class: "homeGridWapper" },
+  X1 = De(() =>
     m(
       "span",
       { class: "homeSpan" },
@@ -8460,7 +8316,7 @@ const $1 = R1(),
       -1
     )
   ),
-  X1 = De(() =>
+  Y1 = De(() =>
     m(
       "span",
       { class: "homeSpan" },
@@ -8468,7 +8324,7 @@ const $1 = R1(),
       -1
     )
   ),
-  Y1 = De(() =>
+  Z1 = De(() =>
     m(
       "span",
       { class: "homeSpan" },
@@ -8476,11 +8332,11 @@ const $1 = R1(),
       -1
     )
   ),
-  Z1 = [W1, X1, Y1],
-  K1 = { class: "homeDesc" },
-  J1 = { class: "homeTitleWapper" },
-  Q1 = { key: 0, class: "homeTitle" },
-  ed = De(() =>
+  K1 = [X1, Y1, Z1],
+  J1 = { class: "homeDesc" },
+  Q1 = { class: "homeTitleWapper" },
+  ed = { key: 0, class: "homeTitle" },
+  td = De(() =>
     m(
       "svg",
       {
@@ -8490,19 +8346,19 @@ const $1 = R1(),
       },
       [
         m("path", {
-          d: "M 334.35 22.8 L 346.95 44.1 L 347.25 22.8 Q 347.389 3.391 348.04 1.408 A 0.464 0.464 0 0 1 348.15 1.2 A 2.522 2.522 0 0 1 348.689 1.019 Q 349.832 0.75 352.5 0.75 A 46.231 46.231 0 0 1 353.755 0.766 Q 356.269 0.834 357 1.2 A 0.739 0.739 0 0 1 357.176 1.617 Q 357.666 3.775 357.738 16.827 A 873.997 873.997 0 0 1 357.75 21.6 L 357.75 32.55 L 357.45 63.45 L 354.15 63.45 L 354 34.05 Q 353.872 15.471 353.744 9.917 A 103.594 103.594 0 0 0 353.7 8.4 A 26.571 26.571 0 0 0 353.635 7.276 Q 353.41 4.5 352.65 4.5 A 0.473 0.473 0 0 0 352.331 4.877 Q 351.438 7.126 351.21 22.772 A 705.316 705.316 0 0 0 351.15 28.65 L 351 52.95 L 349.35 53.1 L 349.2 53.1 A 1.285 1.285 0 0 1 348.547 52.874 Q 347.657 52.327 346.291 50.45 A 35.365 35.365 0 0 1 345.375 49.125 A 101.818 101.818 0 0 1 344.146 47.205 Q 340.95 42.113 333.15 28.95 L 318.75 4.5 L 313.8 4.5 L 313.8 32.25 A 4352.829 4352.829 0 0 0 313.805 39.309 Q 313.828 53.325 313.95 56.25 Q 314.1 59.85 315.15 59.85 Q 315.979 59.85 316.172 57.753 A 12.151 12.151 0 0 0 316.2 57.375 Q 316.328 55.261 316.456 44.774 A 2618.091 2618.091 0 0 0 316.5 40.95 L 316.65 22.05 L 318.6 21.75 L 320.4 21.6 L 320.25 42.6 L 319.95 63.45 L 310.2 63.45 L 309.9 32.55 L 309.9 21.6 A 877.546 877.546 0 0 1 309.912 16.917 Q 309.987 2.887 310.543 1.373 A 0.339 0.339 0 0 1 310.65 1.2 A 3.425 3.425 0 0 1 311.371 0.955 Q 312.603 0.66 315.125 0.61 A 54.579 54.579 0 0 1 316.2 0.6 A 42.602 42.602 0 0 1 317.404 0.616 Q 319.819 0.684 320.55 1.05 Q 321.75 1.35 334.35 22.8 Z M 167.25 4.35 L 149.25 4.35 L 149.25 29.4 L 184.8 29.4 L 184.65 31.2 L 184.35 33 Q 179.871 33.115 171.963 33.142 A 1521.353 1521.353 0 0 1 166.8 33.15 Q 157.842 33.15 152.314 33.238 A 317.444 317.444 0 0 0 149.25 33.3 L 149.25 59.7 L 182.7 59.7 L 182.7 56.4 L 152.4 56.4 L 152.4 35.25 L 154.05 35.25 A 3.947 3.947 0 0 1 154.707 35.3 Q 155.766 35.48 156 36.3 A 8.701 8.701 0 0 1 156.175 37.319 Q 156.385 39.036 156.435 42.515 A 163.697 163.697 0 0 1 156.45 44.85 L 156.45 52.35 L 170.7 52.35 A 376.186 376.186 0 0 1 174.054 52.364 Q 184.869 52.461 185.819 53.223 A 0.378 0.378 0 0 1 185.85 53.25 A 1.501 1.501 0 0 1 186.16 53.773 Q 186.6 54.912 186.6 57.9 Q 186.6 62.25 185.7 62.85 Q 185.132 63.418 175.017 63.448 A 390.734 390.734 0 0 1 173.85 63.45 L 165.3 63.45 L 145.5 63.3 L 145.35 32.7 Q 145.35 4.952 145.839 1.755 A 0.972 0.972 0 0 1 145.95 1.35 A 0.991 0.991 0 0 1 146.421 1.139 Q 149.063 0.45 165.6 0.45 A 919.872 919.872 0 0 1 170.164 0.461 Q 178.996 0.505 182.093 0.732 A 28.66 28.66 0 0 1 182.325 0.75 A 17.486 17.486 0 0 1 183.48 0.88 Q 186 1.256 186 2.25 A 0.475 0.475 0 0 1 185.99 2.333 Q 185.952 2.526 185.781 3.054 A 31.282 31.282 0 0 1 185.7 3.3 Q 185.4 4.35 167.25 4.35 Z M 3.6 21.3 L 3.6 25.35 Q 9.547 26.985 21.607 30.462 A 4051.511 4051.511 0 0 1 21.825 30.525 A 10406.316 10406.316 0 0 1 27.558 32.18 Q 33.078 33.775 36.984 34.912 A 2232.968 2232.968 0 0 1 40.2 35.85 L 40.2 41.85 Q 40.2 46.325 39.09 49.599 A 15.219 15.219 0 0 1 38.4 51.3 Q 33.616 61.665 22.947 62.848 A 25.832 25.832 0 0 1 20.1 63 L 18.75 63 Q 7.8 62.4 2.4 53.25 Q 1.363 51.521 1.122 50.412 A 2.909 2.909 0 0 1 1.05 49.8 A 2.054 2.054 0 0 1 1.421 48.676 Q 2.157 47.546 4.35 46.35 Q 7.65 44.7 9.3 44.7 Q 10.167 44.7 10.199 45.257 A 0.758 0.758 0 0 1 10.2 45.3 A 1.544 1.544 0 0 0 10.35 45.911 Q 10.78 46.891 12.45 48.45 A 23.304 23.304 0 0 0 14.062 49.83 Q 14.887 50.47 15.668 50.932 A 10.958 10.958 0 0 0 16.65 51.45 A 8.668 8.668 0 0 0 18.675 52.178 A 7.351 7.351 0 0 0 20.25 52.35 Q 25.006 52.35 28.458 47.392 A 19.851 19.851 0 0 0 28.95 46.65 A 12.574 12.574 0 0 1 29.658 45.656 Q 30.407 44.714 31.09 44.342 A 1.796 1.796 0 0 1 31.95 44.1 Q 32.709 44.1 32.935 44.74 A 1.547 1.547 0 0 1 33 45 Q 33.15 45.3 33.15 46.2 A 5.965 5.965 0 0 1 32.696 48.417 Q 32.357 49.268 31.764 50.152 A 13.787 13.787 0 0 1 30.9 51.3 A 14.597 14.597 0 0 1 26.109 54.974 A 14.027 14.027 0 0 1 20.1 56.25 Q 14.1 56.25 9.9 52.05 Q 7.2 49.35 6.3 49.95 Q 6.1 50.151 6.033 50.351 A 0.629 0.629 0 0 0 6 50.55 A 2.108 2.108 0 0 0 6.163 51.313 Q 6.562 52.33 7.936 53.76 A 18.618 18.618 0 0 0 7.95 53.775 Q 9.9 55.8 12.3 57.15 A 9.536 9.536 0 0 0 14.635 58.147 Q 16.857 58.79 20 58.8 A 31.335 31.335 0 0 0 20.1 58.8 A 23.949 23.949 0 0 0 22.549 58.683 Q 25.05 58.425 26.7 57.6 A 17.348 17.348 0 0 0 32.683 52.942 Q 35.864 48.987 36.3 43.05 L 36.6 39.15 Q 30.45 37.35 18.225 33.75 A 8383.867 8383.867 0 0 1 12.502 32.063 Q 4.547 29.714 0.053 28.366 A 1155.833 1155.833 0 0 1 0 28.35 L 0 21.6 A 48.521 48.521 0 0 1 0.094 18.469 Q 0.293 15.403 0.915 13.437 A 8.754 8.754 0 0 1 1.5 12 Q 4.95 5.55 11.25 2.4 Q 15.3 0.45 19.95 0.45 Q 30.185 0.45 36.244 8.398 A 25.342 25.342 0 0 1 36.9 9.3 Q 38.913 12.386 39.125 13.792 A 2.072 2.072 0 0 1 39.15 14.1 A 1.781 1.781 0 0 1 38.829 15.065 Q 38.12 16.162 35.85 17.4 A 26 26 0 0 1 34.558 18.039 Q 32.673 18.9 31.65 18.9 Q 30.094 18.9 28.671 16.765 A 10.791 10.791 0 0 1 28.5 16.5 A 12.615 12.615 0 0 0 25.737 13.713 A 15.382 15.382 0 0 0 24.525 12.9 Q 22.356 11.586 20.361 11.423 A 6.896 6.896 0 0 0 19.8 11.4 Q 19.655 11.4 19.301 11.47 A 9.63 9.63 0 0 0 19.275 11.475 A 7.872 7.872 0 0 1 19.107 11.507 Q 18.864 11.55 18.75 11.55 Q 16.666 11.997 14.433 13.404 A 18.98 18.98 0 0 0 14.4 13.425 A 15.513 15.513 0 0 0 13.253 14.221 Q 12.105 15.102 11.549 15.954 A 4.019 4.019 0 0 0 11.4 16.2 A 2.553 2.553 0 0 1 9.574 17.612 A 4.087 4.087 0 0 1 8.7 17.7 Q 7.65 17.7 7.2 16.8 A 0.382 0.382 0 0 1 7.121 16.677 Q 7.07 16.555 7.055 16.359 A 2.226 2.226 0 0 1 7.05 16.2 A 3.594 3.594 0 0 1 7.438 14.651 Q 8.231 12.99 10.65 11.025 A 19.773 19.773 0 0 1 13.575 9.032 Q 15.713 7.856 17.85 7.5 A 4.025 4.025 0 0 1 18.269 7.421 Q 18.707 7.36 19.301 7.351 A 13.805 13.805 0 0 1 19.5 7.35 A 15.798 15.798 0 0 1 24.816 8.211 A 13.683 13.683 0 0 1 30.3 11.85 A 18.365 18.365 0 0 0 31.078 12.683 Q 32.527 14.132 33.366 14.132 A 0.849 0.849 0 0 0 33.6 14.1 A 0.701 0.701 0 0 0 33.871 13.961 Q 34.408 13.496 33.415 11.882 A 11.055 11.055 0 0 0 33.3 11.7 A 12.396 12.396 0 0 0 29.011 7.329 Q 27.338 6.281 25.2 5.55 A 17.006 17.006 0 0 0 19.885 4.65 A 16.21 16.21 0 0 0 19.8 4.65 A 15.544 15.544 0 0 0 8.551 9.301 A 19.601 19.601 0 0 0 8.4 9.45 A 16.065 16.065 0 0 0 3.601 21.08 A 20.554 20.554 0 0 0 3.6 21.3 Z M 266.822 0.919 A 6.649 6.649 0 0 0 266.1 1.05 Q 254.55 3.15 247.2 11.85 Q 239.85 20.55 239.85 31.8 A 20.873 20.873 0 0 0 239.867 32.586 Q 239.903 33.54 240.019 34.894 A 100.06 100.06 0 0 0 240.15 36.3 Q 241.8 48.3 250.65 55.95 Q 259.5 63.6 271.2 63.6 A 35.186 35.186 0 0 0 274.47 63.452 A 28.147 28.147 0 0 0 279.45 62.55 A 27.592 27.592 0 0 0 284.091 60.964 A 34.909 34.909 0 0 0 289.35 58.05 A 37.458 37.458 0 0 0 290.476 57.271 Q 294.3 54.514 294.3 52.8 Q 294.3 51.844 292.538 49.84 A 29.448 29.448 0 0 0 291.525 48.75 A 33.387 33.387 0 0 0 290.577 47.812 Q 288.56 45.9 287.7 45.9 A 1.35 1.35 0 0 0 287.344 45.955 Q 286.62 46.156 285.346 47.088 A 23.671 23.671 0 0 0 284.55 47.7 A 26.607 26.607 0 0 1 281.11 50.009 A 19.736 19.736 0 0 1 271.35 52.65 Q 266.55 52.65 261.9 50.25 A 16.049 16.049 0 0 1 257.531 47.226 A 21.314 21.314 0 0 1 254.625 43.725 A 24.115 24.115 0 0 1 252.529 39.949 A 17.541 17.541 0 0 1 251.1 34.65 A 20.868 20.868 0 0 0 251.095 34.596 Q 250.638 30.15 248.7 30.15 Q 248.461 30.15 248.264 30.192 A 1.322 1.322 0 0 0 247.95 30.3 Q 247.138 30.648 246.954 31.893 A 5.543 5.543 0 0 0 246.9 32.7 A 2.773 2.773 0 0 0 246.901 32.75 Q 246.905 32.971 246.942 33.361 A 22.358 22.358 0 0 0 246.975 33.675 A 15.673 15.673 0 0 1 247.015 34.084 Q 247.032 34.277 247.04 34.448 A 6.987 6.987 0 0 1 247.05 34.8 Q 247.65 42.9 253.425 48.825 Q 259.2 54.75 268.05 56.4 A 49.712 49.712 0 0 0 268.448 56.455 Q 269.639 56.616 270.515 56.671 A 13.363 13.363 0 0 0 271.35 56.7 Q 275.002 56.7 278.865 55.378 A 33.367 33.367 0 0 0 284.25 52.95 A 46.616 46.616 0 0 1 285.278 52.424 Q 286.731 51.705 287.44 51.517 A 1.676 1.676 0 0 1 287.85 51.45 A 0.846 0.846 0 0 1 288.005 51.466 Q 288.197 51.502 288.469 51.619 A 5.308 5.308 0 0 1 288.75 51.75 Q 289.66 52.53 288.543 53.535 A 4.872 4.872 0 0 1 288.15 53.85 Q 286.5 55.2 282.15 57.15 Q 276.9 59.55 271.2 59.55 Q 261.6 59.55 253.875 53.025 A 27.858 27.858 0 0 1 248.221 46.555 A 29.849 29.849 0 0 1 244.2 36 Q 243.75 33.75 243.75 31.65 A 24.457 24.457 0 0 1 246.458 20.307 A 29.273 29.273 0 0 1 252.075 12.825 A 34.685 34.685 0 0 1 252.861 12.077 A 26.481 26.481 0 0 1 271.35 4.65 Q 273.15 4.65 276.45 5.25 Q 283.8 6.75 289.35 11.7 Q 290.279 12.558 291.209 13.007 A 4.657 4.657 0 0 0 293.25 13.5 A 2.902 2.902 0 0 0 293.331 13.499 Q 294.293 13.472 294.526 12.797 A 1.523 1.523 0 0 0 294.6 12.3 A 1.941 1.941 0 0 0 294.551 11.885 Q 294.374 11.077 293.55 9.9 A 10.547 10.547 0 0 0 293.067 9.369 Q 291.36 7.61 287.85 5.4 A 50.74 50.74 0 0 0 287.809 5.374 Q 283.786 2.846 280.95 2.1 A 26.377 26.377 0 0 0 280.148 1.873 Q 277.949 1.289 275.413 1.008 A 45.236 45.236 0 0 0 270.45 0.75 Q 268.087 0.75 266.822 0.919 Z M 469.65 61.95 L 469.65 64.2 L 485.7 64.2 A 314.121 314.121 0 0 0 489.462 64.179 Q 501.75 64.031 501.75 62.85 A 1.119 1.119 0 0 0 501.082 61.78 Q 500.584 61.53 499.716 61.503 A 6.963 6.963 0 0 0 499.5 61.5 A 22.93 22.93 0 0 1 498.467 61.478 Q 496.77 61.402 496.125 61.05 A 1.452 1.452 0 0 1 495.448 60.233 Q 495.351 59.963 495.318 59.624 A 3.818 3.818 0 0 1 495.3 59.25 Q 495.3 58.293 495.729 57.956 A 0.809 0.809 0 0 1 495.975 57.825 Q 496.61 57.613 499.965 57.601 A 116.066 116.066 0 0 1 500.4 57.6 L 505.8 57.6 L 505.65 62.7 L 505.35 67.8 Q 500.297 67.915 491.375 67.942 A 1936.447 1936.447 0 0 1 485.55 67.95 Q 475.444 67.95 469.206 68.038 A 404.003 404.003 0 0 0 465.75 68.1 L 465.75 57.9 L 480.3 41.55 Q 494.429 25.802 494.695 23.917 A 0.483 0.483 0 0 0 494.7 23.85 A 2.94 2.94 0 0 0 494.485 22.8 Q 494.04 21.641 492.675 20.175 Q 491.299 18.696 490.026 17.876 A 7.521 7.521 0 0 0 488.85 17.25 A 6.764 6.764 0 0 0 487.189 16.765 A 9.214 9.214 0 0 0 485.7 16.65 A 7.618 7.618 0 0 0 481.838 17.736 Q 480.752 18.364 479.702 19.356 A 14.916 14.916 0 0 0 479.4 19.65 A 11.257 11.257 0 0 0 477.685 21.816 A 8.557 8.557 0 0 0 476.55 24.9 Q 476.25 26.85 475.5 27.525 A 1.838 1.838 0 0 1 474.948 27.851 Q 474.084 28.196 472.385 28.2 A 17.06 17.06 0 0 1 472.35 28.2 A 4.313 4.313 0 0 1 472.19 28.196 Q 471.853 28.184 471.15 28.125 A 28.75 28.75 0 0 0 470.719 28.092 Q 470.141 28.053 469.711 28.05 A 9.965 9.965 0 0 0 469.65 28.05 L 466.05 27.75 L 465.9 25.05 Q 465.633 22.645 466.556 19.527 A 23.883 23.883 0 0 1 466.8 18.75 A 12.623 12.623 0 0 1 468.074 16.019 Q 468.809 14.813 469.862 13.569 A 28.198 28.198 0 0 1 471.45 11.85 A 30.678 30.678 0 0 1 473.818 9.702 Q 476.108 7.847 478.2 7.05 A 13.224 13.224 0 0 1 480.426 6.42 Q 482.552 6 485.4 6 Q 491.25 6 494.55 7.65 A 22.745 22.745 0 0 1 500.531 11.915 A 17.984 17.984 0 0 1 505.65 23.7 A 20.709 20.709 0 0 1 505.687 24.244 Q 505.86 27.484 504.75 27.9 A 0.382 0.382 0 0 1 504.627 27.979 Q 504.505 28.031 504.309 28.045 A 2.226 2.226 0 0 1 504.15 28.05 A 1.709 1.709 0 0 1 503.166 27.729 Q 502.912 27.553 502.672 27.283 A 3.863 3.863 0 0 1 502.5 27.075 A 3.527 3.527 0 0 1 501.849 25.621 A 5.006 5.006 0 0 1 501.75 24.6 A 7.469 7.469 0 0 0 501.581 23.093 Q 501.282 21.653 500.459 19.813 A 27.594 27.594 0 0 0 500.175 19.2 A 23.95 23.95 0 0 0 499.066 17.126 Q 498.473 16.145 497.851 15.377 A 10.416 10.416 0 0 0 496.8 14.25 A 19.176 19.176 0 0 0 492.251 11.214 A 15.284 15.284 0 0 0 485.7 9.75 A 14.059 14.059 0 0 0 479.845 11.072 A 19.671 19.671 0 0 0 476.475 13.05 A 19.041 19.041 0 0 0 473.162 16.048 A 14.2 14.2 0 0 0 470.4 20.85 Q 469.95 22.05 469.8 22.65 A 3.947 3.947 0 0 0 469.739 22.936 Q 469.682 23.27 469.709 23.519 A 1.216 1.216 0 0 0 469.725 23.625 A 1.096 1.096 0 0 0 469.771 23.791 Q 469.856 24.018 470.025 24.075 A 0.968 0.968 0 0 0 470.161 24.108 Q 470.389 24.148 470.809 24.15 A 9.288 9.288 0 0 0 470.85 24.15 Q 471.911 24.15 472.738 22.508 A 8.23 8.23 0 0 0 472.95 22.05 A 15.218 15.218 0 0 1 475.645 17.814 A 20.256 20.256 0 0 1 478.05 15.525 A 13.509 13.509 0 0 1 481.648 13.39 A 11.444 11.444 0 0 1 485.85 12.6 A 11.096 11.096 0 0 1 488.225 12.846 A 9.547 9.547 0 0 1 489.45 13.2 Q 493.2 14.4 495.75 17.4 Q 498.3 20.4 498.9 24.15 A 0.892 0.892 0 0 0 498.906 24.246 Q 498.921 24.384 498.975 24.6 A 4.277 4.277 0 0 1 499.008 24.741 Q 499.038 24.882 499.047 24.98 A 0.811 0.811 0 0 1 499.05 25.05 Q 499.05 26.4 496.575 29.55 Q 494.1 32.7 484.5 43.35 A 1827.397 1827.397 0 0 0 481.097 47.182 Q 474.527 54.603 472.362 57.252 A 53.612 53.612 0 0 0 472.2 57.45 A 30.13 30.13 0 0 0 471.222 58.72 Q 469.65 60.89 469.65 61.95 Z M 82.05 10.8 L 81.75 5.7 L 81.6 0.6 L 105.3 0.6 L 112.05 0.6 Q 124.24 0.6 127.011 1.103 A 6.548 6.548 0 0 1 127.125 1.125 Q 129.75 1.65 129.75 4.05 L 129.75 6.15 Q 129.75 10.95 127.8 10.95 L 127.35 10.95 A 1.191 1.191 0 0 1 126.472 10.365 Q 125.946 9.565 125.852 7.688 A 14.765 14.765 0 0 1 125.85 7.65 L 125.7 4.5 L 105.6 4.5 Q 92.508 4.5 88.994 4.619 A 31.926 31.926 0 0 0 88.275 4.65 Q 85.65 4.8 85.65 5.85 A 0.933 0.933 0 0 0 86.145 6.692 Q 86.468 6.886 87 6.975 Q 88.35 7.2 94.5 7.2 A 117.716 117.716 0 0 1 97.057 7.226 Q 102.154 7.337 103.317 7.931 A 0.591 0.591 0 0 1 103.65 8.25 A 5.895 5.895 0 0 1 103.756 9.049 Q 104.078 12.809 104.099 31.541 A 2393.534 2393.534 0 0 1 104.1 34.2 L 104.1 45.3 L 104.1 53.25 A 70.948 70.948 0 0 0 104.115 54.741 Q 104.142 56.054 104.223 57 A 19.744 19.744 0 0 0 104.25 57.3 A 17.628 17.628 0 0 0 104.309 57.818 Q 104.439 58.819 104.617 59.016 A 0.229 0.229 0 0 0 104.625 59.025 A 0.706 0.706 0 0 0 104.906 59.194 Q 105.017 59.231 105.152 59.243 A 1.583 1.583 0 0 0 105.3 59.25 Q 106.437 59.25 106.617 49.249 A 229.777 229.777 0 0 0 106.65 45.15 Q 106.65 31.349 107.678 30.321 A 0.395 0.395 0 0 1 107.7 30.3 A 4.469 4.469 0 0 1 108.123 30.017 Q 108.664 29.7 109.1 29.7 A 1.049 1.049 0 0 1 109.65 29.85 A 0.678 0.678 0 0 1 109.967 30.293 Q 110.44 31.58 110.53 36.516 A 138.389 138.389 0 0 1 110.55 39 L 110.55 46.5 L 110.25 62.85 L 100.35 62.85 Q 100.35 56.304 100.262 44.702 A 6580.119 6580.119 0 0 0 100.2 37.125 Q 100.085 23.975 100.058 15.794 A 1392.15 1392.15 0 0 1 100.05 11.25 L 91.05 10.95 L 82.05 10.8 Z M 429.192 6.012 A 18.781 18.781 0 0 0 424.5 6.75 A 18.601 18.601 0 0 0 418.735 9.855 A 24.443 24.443 0 0 0 414.675 13.95 A 27.521 27.521 0 0 0 413.912 14.96 Q 410.4 19.842 410.4 24.6 Q 410.4 24.9 410.475 25.35 A 13.924 13.924 0 0 1 410.5 25.505 Q 410.537 25.741 410.547 25.87 A 1.081 1.081 0 0 1 410.55 25.95 A 2.926 2.926 0 0 0 410.641 26.482 Q 410.89 27.39 411.736 27.648 A 2.621 2.621 0 0 0 412.5 27.75 A 4.761 4.761 0 0 0 412.597 27.749 Q 413.275 27.735 413.625 27.525 A 1.019 1.019 0 0 0 413.662 27.502 Q 413.877 27.36 414.013 27.114 A 1.612 1.612 0 0 0 414.15 26.775 Q 414.265 26.373 414.38 25.4 A 36.971 36.971 0 0 0 414.45 24.75 A 21.551 21.551 0 0 1 414.675 23.454 Q 416.409 15.027 424.5 11.4 Q 427.35 10.05 430.65 10.05 A 15.013 15.013 0 0 1 434.201 10.474 A 16.94 16.94 0 0 1 439.05 12.525 Q 443.1 15 445.35 19.35 Q 446.4 21.3 446.625 23.925 Q 446.808 26.058 446.842 33.389 A 786.37 786.37 0 0 1 446.85 37.05 A 1443.232 1443.232 0 0 1 446.85 38.404 Q 446.842 46.088 446.751 49.154 A 44.823 44.823 0 0 1 446.7 50.4 Q 446.55 52.95 445.5 54.75 Q 443.1 59.1 439.05 61.65 A 18.739 18.739 0 0 1 437.745 62.401 A 15.14 15.14 0 0 1 430.65 64.2 Q 428.7 64.2 426.15 63.45 A 16.256 16.256 0 0 1 423.207 62.135 A 17.446 17.446 0 0 1 418.425 58.05 Q 415.2 54.15 414.45 49.2 Q 414.215 47.555 413.98 46.923 A 1.353 1.353 0 0 0 413.85 46.65 A 0.731 0.731 0 0 0 413.666 46.462 Q 413.302 46.2 412.5 46.2 A 4.428 4.428 0 0 0 412.118 46.215 Q 411.649 46.256 411.381 46.405 A 0.67 0.67 0 0 0 411.075 46.725 Q 410.85 47.25 410.85 49.8 A 16.408 16.408 0 0 0 411.587 54.194 A 18.904 18.904 0 0 0 414.075 59.25 Q 417.15 63.75 422.1 66.3 A 13.083 13.083 0 0 0 424.038 67.075 Q 425.51 67.537 427.271 67.755 A 27.545 27.545 0 0 0 430.65 67.95 A 30.666 30.666 0 0 0 433.133 67.854 Q 434.858 67.714 436.322 67.368 A 13.88 13.88 0 0 0 439.35 66.3 Q 445.95 63 449.1 56.4 A 19.298 19.298 0 0 0 449.927 54.203 A 14.769 14.769 0 0 0 450.525 51.225 Q 450.75 48.75 450.75 37.05 Q 450.75 25.65 450.525 22.95 A 16.441 16.441 0 0 0 450.412 21.953 A 14.074 14.074 0 0 0 449.25 18 A 20.558 20.558 0 0 0 445.712 12.614 A 22.748 22.748 0 0 0 439.35 7.8 Q 437.056 6.548 433.383 6.167 A 33.831 33.831 0 0 0 429.9 6 A 21.245 21.245 0 0 0 429.192 6.012 Z M 55.65 0.75 L 57.6 0.3 A 4.52 4.52 0 0 1 58.196 0.183 Q 59.193 0.043 61.202 0.01 A 82.059 82.059 0 0 1 62.55 0 Q 64.65 0.15 65.1 0.45 A 0.864 0.864 0 0 1 65.349 0.721 Q 65.522 1 65.625 1.491 A 5.69 5.69 0 0 1 65.7 1.95 Q 65.824 3.061 65.592 3.41 A 0.369 0.369 0 0 1 65.475 3.525 A 0.839 0.839 0 0 1 65.242 3.606 Q 64.663 3.739 62.974 3.749 A 47.487 47.487 0 0 1 62.7 3.75 L 59.25 3.75 L 59.25 31.35 A 4352.829 4352.829 0 0 0 59.255 38.409 Q 59.278 52.425 59.4 55.35 Q 59.55 58.95 60.6 58.95 Q 61.65 58.95 61.8 56.625 A 36.983 36.983 0 0 0 61.851 55.376 Q 61.932 52.485 61.947 44.827 A 1884.709 1884.709 0 0 0 61.95 41.25 A 586.756 586.756 0 0 1 61.964 37.057 Q 62.063 23.325 62.85 22.8 Q 63.65 22.2 64.317 22.2 A 1.398 1.398 0 0 1 64.95 22.35 A 0.48 0.48 0 0 1 65.205 22.702 Q 65.603 23.828 65.681 28.539 A 152.395 152.395 0 0 1 65.7 31.05 L 65.7 42.75 L 65.55 62.55 L 61.95 62.85 L 60.3 62.85 A 27.196 27.196 0 0 1 59.057 62.824 Q 57.694 62.761 56.85 62.55 L 55.35 62.25 Q 55.35 54.326 55.438 40.466 A 9236.068 9236.068 0 0 1 55.5 31.425 Q 55.615 15.749 55.642 6.096 A 1933.394 1933.394 0 0 0 55.65 0.75 Z M 422.55 21.45 L 420.6 23.7 L 420.6 50.25 L 422.55 52.65 A 12.069 12.069 0 0 0 425.216 55.348 A 9.574 9.574 0 0 0 430.95 57.15 A 9.513 9.513 0 0 0 437.418 54.637 A 12.261 12.261 0 0 0 437.625 54.45 A 10.938 10.938 0 0 0 440.768 49.165 A 14.617 14.617 0 0 0 441.15 47.25 A 23.379 23.379 0 0 1 441.265 46.521 Q 441.52 45.066 441.825 44.7 Q 442.163 44.295 443.049 44.254 A 4.45 4.45 0 0 1 443.25 44.25 A 3.222 3.222 0 0 1 443.67 44.275 Q 444.128 44.336 444.357 44.542 A 0.661 0.661 0 0 1 444.525 44.775 Q 444.747 45.293 444.75 47.929 A 63.53 63.53 0 0 1 444.75 48 Q 444.6 52.65 441.6 56.1 Q 438.6 59.55 433.35 60.9 A 4.462 4.462 0 0 1 432.736 61.052 Q 431.916 61.2 430.65 61.2 A 13.25 13.25 0 0 1 424.705 59.764 A 16.382 16.382 0 0 1 423.375 59.025 Q 419.85 56.85 417.9 53.1 Q 416.85 51.15 416.625 48.975 Q 416.4 46.8 416.4 37.2 A 349.343 349.343 0 0 1 416.419 33.478 Q 416.479 27.841 416.736 25.104 A 18.339 18.339 0 0 1 416.925 23.625 Q 417.45 20.7 419.85 18 A 9.257 9.257 0 0 1 421.619 16.163 Q 422.487 15.469 423.596 14.862 A 17.98 17.98 0 0 1 424.5 14.4 A 12.914 12.914 0 0 1 429.458 13.085 A 15.468 15.468 0 0 1 430.5 13.05 Q 435.45 13.05 438.6 15.3 A 15.148 15.148 0 0 1 442.538 19.069 A 13.41 13.41 0 0 1 444.9 25.35 Q 445.132 27.901 444.557 28.749 A 0.941 0.941 0 0 1 444.15 29.1 A 2.195 2.195 0 0 1 443.698 29.181 Q 442.903 29.236 442.2 28.65 A 2.394 2.394 0 0 1 441.308 26.921 A 3.041 3.041 0 0 1 441.3 26.7 A 5.506 5.506 0 0 0 441.056 25.132 Q 440.851 24.441 440.473 23.696 A 12.624 12.624 0 0 0 439.875 22.65 Q 438.45 20.4 436.5 18.9 Q 433.95 16.95 430.8 16.95 A 9.515 9.515 0 0 0 423.566 20.213 A 14.079 14.079 0 0 0 422.55 21.45 Z 18 A 9.257 9.257 0 0 1 421.619 16.163 Q 422.487 15.469 423.596 14.862 A 17.98 17.98 0 0 1 424.5 14.4 A 12.914 12.914 0 0 1 429.458 13.085 A 15.468 15.468 0 0 1 430.5 13.05 Q 435.45 13.05 438.6 15.3 A 15.148 15.148 0 0 1 442.538 19.069 A 13.41 13.41 0 0 1 444.9 25.35 Q 445.132 27.901 444.557 28.749 A 0.941 0.941 0 0 1 444.15 29.1 A 2.195 2.195 0 0 1 443.698 29.181 Q 442.903 29.236 442.2 28.65 A 2.394 2.394 0 0 1 441.308 26.921 A 3.041 3.041 0 0 1 441.3 26.7 A 5.506 5.506 0 0 0 441.056 25.132 Q 440.851 24.441 440.473 23.696 A 12.624 12.624 0 0 0 439.875 22.65 Q 438.45 20.4 436.5 18.9 Q 433.95 16.95 430.8 16.95 A 9.515 9.515 0 0 0 423.566 20.213 A 14.079 14.079 0 0 0 422.55 21.45 Z",
+          d: "M 334.35 22.8 L 346.95 44.1 L 347.25 22.8 Q 347.389 3.391 348.04 1.408 A 0.464 0.464 0 0 1 348.15 1.2 A 2.522 2.522 0 0 1 348.689 1.019 Q 349.832 0.75 352.5 0.75 A 46.231 46.231 0 0 1 353.755 0.766 Q 356.269 0.834 357 1.2 A 0.739 0.739 0 0 1 357.176 1.617 Q 357.666 3.775 357.738 16.827 A 873.997 873.997 0 0 1 357.75 21.6 L 357.75 32.55 L 357.45 63.45 L 354.15 63.45 L 354 34.05 Q 353.872 15.471 353.744 9.917 A 103.594 103.594 0 0 0 353.7 8.4 A 26.571 26.571 0 0 0 353.635 7.276 Q 353.41 4.5 352.65 4.5 A 0.473 0.473 0 0 0 352.331 4.877 Q 351.438 7.126 351.21 22.772 A 705.316 705.316 0 0 0 351.15 28.65 L 351 52.95 L 349.35 53.1 L 349.2 53.1 A 1.285 1.285 0 0 1 348.547 52.874 Q 347.657 52.327 346.291 50.45 A 35.365 35.365 0 0 1 345.375 49.125 A 101.818 101.818 0 0 1 344.146 47.205 Q 340.95 42.113 333.15 28.95 L 318.75 4.5 L 313.8 4.5 L 313.8 32.25 A 4352.829 4352.829 0 0 0 313.805 39.309 Q 313.828 53.325 313.95 56.25 Q 314.1 59.85 315.15 59.85 Q 315.979 59.85 316.172 57.753 A 12.151 12.151 0 0 0 316.2 57.375 Q 316.328 55.261 316.456 44.774 A 2618.091 2618.091 0 0 0 316.5 40.95 L 316.65 22.05 L 318.6 21.75 L 320.4 21.6 L 320.25 42.6 L 319.95 63.45 L 310.2 63.45 L 309.9 32.55 L 309.9 21.6 A 877.546 877.546 0 0 1 309.912 16.917 Q 309.987 2.887 310.543 1.373 A 0.339 0.339 0 0 1 310.65 1.2 A 3.425 3.425 0 0 1 311.371 0.955 Q 312.603 0.66 315.125 0.61 A 54.579 54.579 0 0 1 316.2 0.6 A 42.602 42.602 0 0 1 317.404 0.616 Q 319.819 0.684 320.55 1.05 Q 321.75 1.35 334.35 22.8 Z M 167.25 4.35 L 149.25 4.35 L 149.25 29.4 L 184.8 29.4 L 184.65 31.2 L 184.35 33 Q 179.871 33.115 171.963 33.142 A 1521.353 1521.353 0 0 1 166.8 33.15 Q 157.842 33.15 152.314 33.238 A 317.444 317.444 0 0 0 149.25 33.3 L 149.25 59.7 L 182.7 59.7 L 182.7 56.4 L 152.4 56.4 L 152.4 35.25 L 154.05 35.25 A 3.947 3.947 0 0 1 154.707 35.3 Q 155.766 35.48 156 36.3 A 8.701 8.701 0 0 1 156.175 37.319 Q 156.385 39.036 156.435 42.515 A 163.697 163.697 0 0 1 156.45 44.85 L 156.45 52.35 L 170.7 52.35 A 376.186 376.186 0 0 1 174.054 52.364 Q 184.869 52.461 185.819 53.223 A 0.378 0.378 0 0 1 185.85 53.25 A 1.501 1.501 0 0 1 186.16 53.773 Q 186.6 54.912 186.6 57.9 Q 186.6 62.25 185.7 62.85 Q 185.132 63.418 175.017 63.448 A 390.734 390.734 0 0 1 173.85 63.45 L 165.3 63.45 L 145.5 63.3 L 145.35 32.7 Q 145.35 4.952 145.839 1.755 A 0.972 0.972 0 0 1 145.95 1.35 A 0.991 0.991 0 0 1 146.421 1.139 Q 149.063 0.45 165.6 0.45 A 919.872 919.872 0 0 1 170.164 0.461 Q 178.996 0.505 182.093 0.732 A 28.66 28.66 0 0 1 182.325 0.75 A 17.486 17.486 0 0 1 183.48 0.88 Q 186 1.256 186 2.25 A 0.475 0.475 0 0 1 185.99 2.333 Q 185.952 2.526 185.781 3.054 A 31.282 31.282 0 0 1 185.7 3.3 Q 185.4 4.35 167.25 4.35 Z M 3.6 21.3 L 3.6 25.35 Q 9.547 26.985 21.607 30.462 A 4051.511 4051.511 0 0 1 21.825 30.525 A 10406.316 10406.316 0 0 1 27.558 32.18 Q 33.078 33.775 36.984 34.912 A 2232.968 2232.968 0 0 1 40.2 35.85 L 40.2 41.85 Q 40.2 46.325 39.09 49.599 A 15.219 15.219 0 0 1 38.4 51.3 Q 33.616 61.665 22.947 62.848 A 25.832 25.832 0 0 1 20.1 63 L 18.75 63 Q 7.8 62.4 2.4 53.25 Q 1.363 51.521 1.122 50.412 A 2.909 2.909 0 0 1 1.05 49.8 A 2.054 2.054 0 0 1 1.421 48.676 Q 2.157 47.546 4.35 46.35 Q 7.65 44.7 9.3 44.7 Q 10.167 44.7 10.199 45.257 A 0.758 0.758 0 0 1 10.2 45.3 A 1.544 1.544 0 0 0 10.35 45.911 Q 10.78 46.891 12.45 48.45 A 23.304 23.304 0 0 0 14.062 49.83 Q 14.887 50.47 15.668 50.932 A 10.958 10.958 0 0 0 16.65 51.45 A 8.668 8.668 0 0 0 18.675 52.178 A 7.351 7.351 0 0 0 20.25 52.35 Q 25.006 52.35 28.458 47.392 A 19.851 19.851 0 0 0 28.95 46.65 A 12.574 12.574 0 0 1 29.658 45.656 Q 30.407 44.714 31.09 44.342 A 1.796 1.796 0 0 1 31.95 44.1 Q 32.709 44.1 32.935 44.74 A 1.547 1.547 0 0 1 33 45 Q 33.15 45.3 33.15 46.2 A 5.965 5.965 0 0 1 32.696 48.417 Q 32.357 49.268 31.764 50.152 A 13.787 13.787 0 0 1 30.9 51.3 A 14.597 14.597 0 0 1 26.109 54.974 A 14.027 14.027 0 0 1 20.1 56.25 Q 14.1 56.25 9.9 52.05 Q 7.2 49.35 6.3 49.95 Q 6.1 50.151 6.033 50.351 A 0.629 0.629 0 0 0 6 50.55 A 2.108 2.108 0 0 0 6.163 51.313 Q 6.562 52.33 7.936 53.76 A 18.618 18.618 0 0 0 7.95 53.775 Q 9.9 55.8 12.3 57.15 A 9.536 9.536 0 0 0 14.635 58.147 Q 16.857 58.79 20 58.8 A 31.335 31.335 0 0 0 20.1 58.8 A 23.949 23.949 0 0 0 22.549 58.683 Q 25.05 58.425 26.7 57.6 A 17.348 17.348 0 0 0 32.683 52.942 Q 35.864 48.987 36.3 43.05 L 36.6 39.15 Q 30.45 37.35 18.225 33.75 A 8383.867 8383.867 0 0 1 12.502 32.063 Q 4.547 29.714 0.053 28.366 A 1155.833 1155.833 0 0 1 0 28.35 L 0 21.6 A 48.521 48.521 0 0 1 0.094 18.469 Q 0.293 15.403 0.915 13.437 A 8.754 8.754 0 0 1 1.5 12 Q 4.95 5.55 11.25 2.4 Q 15.3 0.45 19.95 0.45 Q 30.185 0.45 36.244 8.398 A 25.342 25.342 0 0 1 36.9 9.3 Q 38.913 12.386 39.125 13.792 A 2.072 2.072 0 0 1 39.15 14.1 A 1.781 1.781 0 0 1 38.829 15.065 Q 38.12 16.162 35.85 17.4 A 26 26 0 0 1 34.558 18.039 Q 32.673 18.9 31.65 18.9 Q 30.094 18.9 28.671 16.765 A 10.791 10.791 0 0 1 28.5 16.5 A 12.615 12.615 0 0 0 25.737 13.713 A 15.382 15.382 0 0 0 24.525 12.9 Q 22.356 11.586 20.361 11.423 A 6.896 6.896 0 0 0 19.8 11.4 Q 19.655 11.4 19.301 11.47 A 9.63 9.63 0 0 0 19.275 11.475 A 7.872 7.872 0 0 1 19.107 11.507 Q 18.864 11.55 18.75 11.55 Q 16.666 11.997 14.433 13.404 A 18.98 18.98 0 0 0 14.4 13.425 A 15.513 15.513 0 0 0 13.253 14.221 Q 12.105 15.102 11.549 15.954 A 4.019 4.019 0 0 0 11.4 16.2 A 2.553 2.553 0 0 1 9.574 17.612 A 4.087 4.087 0 0 1 8.7 17.7 Q 7.65 17.7 7.2 16.8 A 0.382 0.382 0 0 1 7.121 16.677 Q 7.07 16.555 7.055 16.359 A 2.226 2.226 0 0 1 7.05 16.2 A 3.594 3.594 0 0 1 7.438 14.651 Q 8.231 12.99 10.65 11.025 A 19.773 19.773 0 0 1 13.575 9.032 Q 15.713 7.856 17.85 7.5 A 4.025 4.025 0 0 1 18.269 7.421 Q 18.707 7.36 19.301 7.351 A 13.805 13.805 0 0 1 19.5 7.35 A 15.798 15.798 0 0 1 24.816 8.211 A 13.683 13.683 0 0 1 30.3 11.85 A 18.365 18.365 0 0 0 31.078 12.683 Q 32.527 14.132 33.366 14.132 A 0.849 0.849 0 0 0 33.6 14.1 A 0.701 0.701 0 0 0 33.871 13.961 Q 34.408 13.496 33.415 11.882 A 11.055 11.055 0 0 0 33.3 11.7 A 12.396 12.396 0 0 0 29.011 7.329 Q 27.338 6.281 25.2 5.55 A 17.006 17.006 0 0 0 19.885 4.65 A 16.21 16.21 0 0 0 19.8 4.65 A 15.544 15.544 0 0 0 8.551 9.301 A 19.601 19.601 0 0 0 8.4 9.45 A 16.065 16.065 0 0 0 3.601 21.08 A 20.554 20.554 0 0 0 3.6 21.3 Z M 266.822 0.919 A 6.649 6.649 0 0 0 266.1 1.05 Q 254.55 3.15 247.2 11.85 Q 239.85 20.55 239.85 31.8 A 20.873 20.873 0 0 0 239.867 32.586 Q 239.903 33.54 240.019 34.894 A 100.06 100.06 0 0 0 240.15 36.3 Q 241.8 48.3 250.65 55.95 Q 259.5 63.6 271.2 63.6 A 35.186 35.186 0 0 0 274.47 63.452 A 28.147 28.147 0 0 0 279.45 62.55 A 27.592 27.592 0 0 0 284.091 60.964 A 34.909 34.909 0 0 0 289.35 58.05 A 37.458 37.458 0 0 0 290.476 57.271 Q 294.3 54.514 294.3 52.8 Q 294.3 51.844 292.538 49.84 A 29.448 29.448 0 0 0 291.525 48.75 A 33.387 33.387 0 0 0 290.577 47.812 Q 288.56 45.9 287.7 45.9 A 1.35 1.35 0 0 0 287.344 45.955 Q 286.62 46.156 285.346 47.088 A 23.671 23.671 0 0 0 284.55 47.7 A 26.607 26.607 0 0 1 281.11 50.009 A 19.736 19.736 0 0 1 271.35 52.65 Q 266.55 52.65 261.9 50.25 A 16.049 16.049 0 0 1 257.531 47.226 A 21.314 21.314 0 0 1 254.625 43.725 A 24.115 24.115 0 0 1 252.529 39.949 A 17.541 17.541 0 0 1 251.1 34.65 A 20.868 20.868 0 0 0 251.095 34.596 Q 250.638 30.15 248.7 30.15 Q 248.461 30.15 248.264 30.192 A 1.322 1.322 0 0 0 247.95 30.3 Q 247.138 30.648 246.954 31.893 A 5.543 5.543 0 0 0 246.9 32.7 A 2.773 2.773 0 0 0 246.901 32.75 Q 246.905 32.971 246.942 33.361 A 22.358 22.358 0 0 0 246.975 33.675 A 15.673 15.673 0 0 1 247.015 34.084 Q 247.032 34.277 247.04 34.448 A 6.987 6.987 0 0 1 247.05 34.8 Q 247.65 42.9 253.425 48.825 Q 259.2 54.75 268.05 56.4 A 49.712 49.712 0 0 0 268.448 56.455 Q 269.639 56.616 270.515 56.671 A 13.363 13.363 0 0 0 271.35 56.7 Q 275.002 56.7 278.865 55.378 A 33.367 33.367 0 0 0 284.25 52.95 A 46.616 46.616 0 0 1 285.278 52.424 Q 286.731 51.705 287.44 51.517 A 1.676 1.676 0 0 1 287.85 51.45 A 0.846 0.846 0 0 1 288.005 51.466 Q 288.197 51.502 288.469 51.619 A 5.308 5.308 0 0 1 288.75 51.75 Q 289.66 52.53 288.543 53.535 A 4.872 4.872 0 0 1 288.15 53.85 Q 286.5 55.2 282.15 57.15 Q 276.9 59.55 271.2 59.55 Q 261.6 59.55 253.875 53.025 A 27.858 27.858 0 0 1 248.221 46.555 A 29.849 29.849 0 0 1 244.2 36 Q 243.75 33.75 243.75 31.65 A 24.457 24.457 0 0 1 246.458 20.307 A 29.273 29.273 0 0 1 252.075 12.825 A 34.685 34.685 0 0 1 252.861 12.077 A 26.481 26.481 0 0 1 271.35 4.65 Q 273.15 4.65 276.45 5.25 Q 283.8 6.75 289.35 11.7 Q 290.279 12.558 291.209 13.007 A 4.657 4.657 0 0 0 293.25 13.5 A 2.902 2.902 0 0 0 293.331 13.499 Q 294.293 13.472 294.526 12.797 A 1.523 1.523 0 0 0 294.6 12.3 A 1.941 1.941 0 0 0 294.551 11.885 Q 294.374 11.077 293.55 9.9 A 10.547 10.547 0 0 0 293.067 9.369 Q 291.36 7.61 287.85 5.4 A 50.74 50.74 0 0 0 287.809 5.374 Q 283.786 2.846 280.95 2.1 A 26.377 26.377 0 0 0 280.148 1.873 Q 277.949 1.289 275.413 1.008 A 45.236 45.236 0 0 0 270.45 0.75 Q 268.087 0.75 266.822 0.919 Z M 469.65 61.95 L 469.65 64.2 L 485.7 64.2 A 314.121 314.121 0 0 0 489.462 64.179 Q 501.75 64.031 501.75 62.85 A 1.119 1.119 0 0 0 501.082 61.78 Q 500.584 61.53 499.716 61.503 A 6.963 6.963 0 0 0 499.5 61.5 A 22.93 22.93 0 0 1 498.467 61.478 Q 496.77 61.402 496.125 61.05 A 1.452 1.452 0 0 1 495.448 60.233 Q 495.351 59.963 495.318 59.624 A 3.818 3.818 0 0 1 495.3 59.25 Q 495.3 58.293 495.729 57.956 A 0.809 0.809 0 0 1 495.975 57.825 Q 496.61 57.613 499.965 57.601 A 116.066 116.066 0 0 1 500.4 57.6 L 505.8 57.6 L 505.65 62.7 L 505.35 67.8 Q 500.297 67.915 491.375 67.942 A 1936.447 1936.447 0 0 1 485.55 67.95 Q 475.444 67.95 469.206 68.038 A 404.003 404.003 0 0 0 465.75 68.1 L 465.75 57.9 L 480.3 41.55 Q 494.429 25.802 494.695 23.917 A 0.483 0.483 0 0 0 494.7 23.85 A 2.94 2.94 0 0 0 494.485 22.8 Q 494.04 21.641 492.675 20.175 Q 491.299 18.696 490.026 17.876 A 7.521 7.521 0 0 0 488.85 17.25 A 6.764 6.764 0 0 0 487.189 16.765 A 9.214 9.214 0 0 0 485.7 16.65 A 7.618 7.618 0 0 0 481.838 17.736 Q 480.752 18.364 479.702 19.356 A 14.916 14.916 0 0 0 479.4 19.65 A 11.257 11.257 0 0 0 477.685 21.816 A 8.557 8.557 0 0 0 476.55 24.9 Q 476.25 26.85 475.5 27.525 A 1.838 1.838 0 0 1 474.948 27.851 Q 474.084 28.196 472.385 28.2 A 17.06 17.06 0 0 1 472.35 28.2 A 4.313 4.313 0 0 1 472.19 28.196 Q 471.853 28.184 471.15 28.125 A 28.75 28.75 0 0 0 470.719 28.092 Q 470.141 28.053 469.711 28.05 A 9.965 9.965 0 0 0 469.65 28.05 L 466.05 27.75 L 465.9 25.05 Q 465.633 22.645 466.556 19.527 A 23.883 23.883 0 0 1 466.8 18.75 A 12.623 12.623 0 0 1 468.074 16.019 Q 468.809 14.813 469.862 13.569 A 28.198 28.198 0 0 1 471.45 11.85 A 30.678 30.678 0 0 1 473.818 9.702 Q 476.108 7.847 478.2 7.05 A 13.224 13.224 0 0 1 480.426 6.42 Q 482.552 6 485.4 6 Q 491.25 6 494.55 7.65 A 22.745 22.745 0 0 1 500.531 11.915 A 17.984 17.984 0 0 1 505.65 23.7 A 20.709 20.709 0 0 1 505.687 24.244 Q 505.86 27.484 504.75 27.9 A 0.382 0.382 0 0 1 504.627 27.979 Q 504.505 28.031 504.309 28.045 A 2.226 2.226 0 0 1 504.15 28.05 A 1.709 1.709 0 0 1 503.166 27.729 Q 502.912 27.553 502.672 27.283 A 3.863 3.863 0 0 1 502.5 27.075 A 3.527 3.527 0 0 1 501.849 25.621 A 5.006 5.006 0 0 1 501.75 24.6 A 7.469 7.469 0 0 0 501.581 23.093 Q 501.282 21.653 500.459 19.813 A 27.594 27.594 0 0 0 500.175 19.2 A 23.95 23.95 0 0 0 499.066 17.126 Q 498.473 16.145 497.851 15.377 A 10.416 10.416 0 0 0 496.8 14.25 A 19.176 19.176 0 0 0 492.251 11.214 A 15.284 15.284 0 0 0 485.7 9.75 A 14.059 14.059 0 0 0 479.845 11.072 A 19.671 19.671 0 0 0 476.475 13.05 A 19.041 19.041 0 0 0 473.162 16.048 A 14.2 14.2 0 0 0 470.4 20.85 Q 469.95 22.05 469.8 22.65 A 3.947 3.947 0 0 0 469.739 22.936 Q 469.682 23.27 469.709 23.519 A 1.216 1.216 0 0 0 469.725 23.625 A 1.096 1.096 0 0 0 469.771 23.791 Q 469.856 24.018 470.025 24.075 A 0.968 0.968 0 0 0 470.161 24.108 Q 470.389 24.148 470.809 24.15 A 9.288 9.288 0 0 0 470.85 24.15 Q 471.911 24.15 472.738 22.508 A 8.23 8.23 0 0 0 472.95 22.05 A 15.218 15.218 0 0 1 475.645 17.814 A 20.256 20.256 0 0 1 478.05 15.525 A 13.509 13.509 0 0 1 481.648 13.39 A 11.444 11.444 0 0 1 485.85 12.6 A 11.096 11.096 0 0 1 488.225 12.846 A 9.547 9.547 0 0 1 489.45 13.2 Q 493.2 14.4 495.75 17.4 Q 498.3 20.4 498.9 24.15 A 0.892 0.892 0 0 0 498.906 24.246 Q 498.921 24.384 498.975 24.6 A 4.277 4.277 0 0 1 499.008 24.741 Q 499.038 24.882 499.047 24.98 A 0.811 0.811 0 0 1 499.05 25.05 Q 499.05 26.4 496.575 29.55 Q 494.1 32.7 484.5 43.35 A 1827.397 1827.397 0 0 0 481.097 47.182 Q 474.527 54.603 472.362 57.252 A 53.612 53.612 0 0 0 472.2 57.45 A 30.13 30.13 0 0 0 471.222 58.72 Q 469.65 60.89 469.65 61.95 Z M 82.05 10.8 L 81.75 5.7 L 81.6 0.6 L 105.3 0.6 L 112.05 0.6 Q 124.24 0.6 127.011 1.103 A 6.548 6.548 0 0 1 127.125 1.125 Q 129.75 1.65 129.75 4.05 L 129.75 6.15 Q 129.75 10.95 127.8 10.95 L 127.35 10.95 A 1.191 1.191 0 0 1 126.472 10.365 Q 125.946 9.565 125.852 7.688 A 14.765 14.765 0 0 1 125.85 7.65 L 125.7 4.5 L 105.6 4.5 Q 92.508 4.5 88.994 4.619 A 31.926 31.926 0 0 0 88.275 4.65 Q 85.65 4.8 85.65 5.85 A 0.933 0.933 0 0 0 86.145 6.692 Q 86.468 6.886 87 6.975 Q 88.35 7.2 94.5 7.2 A 117.716 117.716 0 0 1 97.057 7.226 Q 102.154 7.337 103.317 7.931 A 0.591 0.591 0 0 1 103.65 8.25 A 5.895 5.895 0 0 1 103.756 9.049 Q 104.078 12.809 104.099 31.541 A 2393.534 2393.534 0 0 1 104.1 34.2 L 104.1 45.3 L 104.1 53.25 A 70.948 70.948 0 0 0 104.115 54.741 Q 104.142 56.054 104.223 57 A 19.744 19.744 0 0 0 104.25 57.3 A 17.628 17.628 0 0 0 104.309 57.818 Q 104.439 58.819 104.617 59.016 A 0.229 0.229 0 0 0 104.625 59.025 A 0.706 0.706 0 0 0 104.906 59.194 Q 105.017 59.231 105.152 59.243 A 1.583 1.583 0 0 0 105.3 59.25 Q 106.437 59.25 106.617 49.249 A 229.777 229.777 0 0 0 106.65 45.15 Q 106.65 31.349 107.678 30.321 A 0.395 0.395 0 0 1 107.7 30.3 A 4.469 4.469 0 0 1 108.123 30.017 Q 108.664 29.7 109.1 29.7 A 1.049 1.049 0 0 1 109.65 29.85 A 0.678 0.678 0 0 1 109.967 30.293 Q 110.44 31.58 110.53 36.516 A 138.389 138.389 0 0 1 110.55 39 L 110.55 46.5 L 110.25 62.85 L 100.35 62.85 Q 100.35 56.304 100.262 44.702 A 6580.119 6580.119 0 0 0 100.2 37.125 Q 100.085 23.975 100.058 15.794 A 1392.15 1392.15 0 0 1 100.05 11.25 L 91.05 10.95 L 82.05 10.8 Z M 429.192 6.012 A 18.781 18.781 0 0 0 424.5 6.75 A 18.601 18.601 0 0 0 418.735 9.855 A 24.443 24.443 0 0 0 414.675 13.95 A 27.521 27.521 0 0 0 413.912 14.96 Q 410.4 19.842 410.4 24.6 Q 410.4 24.9 410.475 25.35 A 13.924 13.924 0 0 1 410.5 25.505 Q 410.537 25.741 410.547 25.87 A 1.081 1.081 0 0 1 410.55 25.95 A 2.926 2.926 0 0 0 410.641 26.482 Q 410.89 27.39 411.736 27.648 A 2.621 2.621 0 0 0 412.5 27.75 A 4.761 4.761 0 0 0 412.597 27.749 Q 413.275 27.735 413.625 27.525 A 1.019 1.019 0 0 0 413.662 27.502 Q 413.877 27.36 414.013 27.114 A 1.612 1.612 0 0 0 414.15 26.775 Q 414.265 26.373 414.38 25.4 A 36.971 36.971 0 0 0 414.45 24.75 A 21.551 21.551 0 0 1 414.675 23.454 Q 416.409 15.027 424.5 11.4 Q 427.35 10.05 430.65 10.05 A 15.013 15.013 0 0 1 434.201 10.474 A 16.94 16.94 0 0 1 439.05 12.525 Q 443.1 15 445.35 19.35 Q 446.4 21.3 446.625 23.925 Q 446.808 26.058 446.842 33.389 A 786.37 786.37 0 0 1 446.85 37.05 A 1443.232 1443.232 0 0 1 446.85 38.404 Q 446.842 46.088 446.751 49.154 A 44.823 44.823 0 0 1 446.7 50.4 Q 446.55 52.95 445.5 54.75 Q 443.1 59.1 439.05 61.65 A 18.739 18.739 0 0 1 437.745 62.401 A 15.14 15.14 0 0 1 430.65 64.2 Q 428.7 64.2 426.15 63.45 A 16.256 16.256 0 0 1 423.207 62.135 A 17.446 17.446 0 0 1 418.425 58.05 Q 415.2 54.15 414.45 49.2 Q 414.215 47.555 413.98 46.923 A 1.353 1.353 0 0 0 413.85 46.65 A 0.731 0.731 0 0 0 413.666 46.462 Q 413.302 46.2 412.5 46.2 A 4.428 4.428 0 0 0 412.118 46.215 Q 411.649 46.256 411.381 46.405 A 0.67 0.67 0 0 0 411.075 46.725 Q 410.85 47.25 410.85 49.8 A 16.408 16.408 0 0 0 411.587 54.194 A 18.904 18.904 0 0 0 414.075 59.25 Q 417.15 63.75 422.1 66.3 A 13.083 13.083 0 0 0 424.038 67.075 Q 425.51 67.537 427.271 67.755 A 27.545 27.545 0 0 0 430.65 67.95 A 30.666 30.666 0 0 0 433.133 67.854 Q 434.858 67.714 436.322 67.368 A 13.88 13.88 0 0 0 439.35 66.3 Q 445.95 63 449.1 56.4 A 19.298 19.298 0 0 0 449.927 54.203 A 14.769 14.769 0 0 0 450.525 51.225 Q 450.75 48.75 450.75 37.05 Q 450.75 25.65 450.525 22.95 A 16.441 16.441 0 0 0 450.412 21.953 A 14.074 14.074 0 0 0 449.25 18 A 20.558 20.558 0 0 0 445.712 12.614 A 22.748 22.748 0 0 0 439.35 7.8 Q 437.056 6.548 433.383 6.167 A 33.831 33.831 0 0 0 429.9 6 A 21.245 21.245 0 0 0 429.192 6.012 Z M 55.65 0.75 L 57.6 0.3 A 4.52 4.52 0 0 1 58.196 0.183 Q 59.193 0.043 61.202 0.01 A 82.059 82.059 0 0 1 62.55 0 Q 64.65 0.15 65.1 0.45 A 0.864 0.864 0 0 1 65.349 0.721 Q 65.522 1 65.625 1.491 A 5.69 5.69 0 0 1 65.7 1.95 Q 65.824 3.061 65.592 3.41 A 0.369 0.369 0 0 1 65.475 3.525 A 0.839 0.839 0 0 1 65.242 3.606 Q 64.663 3.739 62.974 3.749 A 47.487 47.487 0 0 1 62.7 3.75 L 59.25 3.75 L 59.25 31.35 A 4352.829 4352.829 0 0 0 59.255 38.409 Q 59.278 52.425 59.4 55.35 Q 59.55 58.95 60.6 58.95 Q 61.65 58.95 61.8 56.625 A 36.983 36.983 0 0 0 61.851 55.376 Q 61.932 52.485 61.947 44.827 A 1884.709 1884.709 0 0 0 61.95 41.25 A 586.756 586.756 0 0 1 61.964 37.057 Q 62.063 23.325 62.85 22.8 Q 63.65 22.2 64.317 22.2 A 1.398 1.398 0 0 1 64.95 22.35 A 0.48 0.48 0 0 1 65.205 22.702 Q 65.603 23.828 65.681 28.539 A 152.395 152.395 0 0 1 65.7 31.05 L 65.7 42.75 L 65.55 62.55 L 61.95 62.85 L 60.3 62.85 A 27.196 27.196 0 0 1 59.057 62.824 Q 57.694 62.761 56.85 62.55 L 55.35 62.25 Q 55.35 54.326 55.438 40.466 A 9236.068 9236.068 0 0 1 55.5 31.425 Q 55.615 15.749 55.642 6.096 A 1933.394 1933.394 0 0 0 55.65 0.75 Z M 422.55 21.45 L 420.6 23.7 L 420.6 50.25 L 422.55 52.65 A 12.069 12.069 0 0 0 425.216 55.348 A 9.574 9.574 0 0 0 430.95 57.15 A 9.513 9.513 0 0 0 437.418 54.637 A 12.261 12.261 0 0 0 437.625 54.45 A 10.938 10.938 0 0 0 440.768 49.165 A 14.617 14.617 0 0 0 441.15 47.25 A 23.379 23.379 0 0 1 441.265 46.521 Q 441.52 45.066 441.825 44.7 Q 442.163 44.295 443.049 44.254 A 4.45 4.45 0 0 1 443.25 44.25 A 3.222 3.222 0 0 1 443.67 44.275 Q 444.128 44.336 444.357 44.542 A 0.661 0.661 0 0 1 444.525 44.775 Q 444.747 45.293 444.75 47.929 A 63.53 63.53 0 0 1 444.75 48 Q 444.6 52.65 441.6 56.1 Q 438.6 59.55 433.35 60.9 A 4.462 4.462 0 0 1 432.736 61.052 Q 431.916 61.2 430.65 61.2 A 13.25 13.25 0 0 1 424.705 59.764 A 16.382 16.382 0 0 1 423.375 59.025 Q 419.85 56.85 417.9 53.1 Q 416.85 51.15 416.625 48.975 Q 416.4 46.8 416.4 37.2 A 349.343 349.343 0 0 1 416.419 33.478 Q 416.479 27.841 416.736 25.104 A 18.339 18.339 0 0 1 416.925 23.625 Q 417.45 20.7 419.85 18 A 9.257 9.257 0 0 1 421.619 16.163 Q 422.487 15.469 423.596 14.862 A 17.98 17.98 0 0 1 424.5 14.4 A 12.914 12.914 0 0 1 429.458 13.085 A 15.468 15.468 0 0 1 430.5 13.05 Q 435.45 13.05 438.6 15.3 A 15.148 15.148 0 0 1 442.538 19.069 A 13.41 13.41 0 0 1 444.9 25.35 Q 445.132 27.901 444.557 28.749 A 0.941 0.941 0 0 1 444.15 29.1 A 2.195 2.195 0 0 1 443.698 29.181 Q 442.903 29.236 442.2 28.65 A 2.394 2.394 0 0 1 441.308 26.921 A 3.041 3.041 0 0 1 441.3 26.7 A 5.506 5.506 0 0 0 441.056 25.132 Q 440.851 24.441 440.473 23.696 A 12.624 12.624 0 0 0 439.875 22.65 Q 438.45 20.4 436.5 18.9 Q 433.95 16.95 430.8 16.95 A 9.515 9.515 0 0 0 423.566 20.213 A 14.079 14.079 0 0 0 422.55 21.45 Z",
         }),
       ],
       -1
     )
   ),
-  td = [ed],
-  id = { key: 0, class: "homeWapper" },
-  nd = { class: "homeWapperContainer" },
-  sd = { class: "homePV" },
-  od = ["data-active", "onClick"],
-  rd = { class: "homePVInfo" },
-  ad = De(() =>
+  id = [td],
+  nd = { key: 0, class: "homeWapper" },
+  sd = { class: "homeWapperContainer" },
+  od = { class: "homePV" },
+  rd = ["data-active", "onClick"],
+  ad = { class: "homePVInfo" },
+  ld = De(() =>
     m(
       "svg",
       {
@@ -8537,32 +8393,32 @@ const $1 = R1(),
       -1
     )
   ),
-  ld = [ad],
-  ud = { class: "homeDownBtn" },
-  cd = { key: 0, class: "homewapper" },
-  dd = De(() =>
-    m(
-      "div",
-      { class: "ImageText" },
-      [m("span", { "data-cursor": "pointer" }, "dev by zhongye")],
-      -1
-    )
-  ),
+  ud = [ld],
+  cd = { class: "homeDownBtn" },
+  dd = { key: 0, class: "homewapper" },
   fd = De(() =>
     m(
       "div",
       { class: "ImageText" },
-      [m("span", { "data-cursor": "pointer" }, "下载站点反诈app")],
+      [m("span", { "data-cursor": "pointer" }, "dev by  柊野")],
       -1
     )
   ),
-  hd = { class: "DownLinks" },
-  pd = {
+  hd = De(() =>
+    m(
+      "div",
+      { class: "ImageText" },
+      [m("span", { "data-cursor": "pointer" }, "下载站点安全应用")],
+      -1
+    )
+  ),
+  pd = { class: "DownLinks" },
+  vd = {
     key: 0,
-    href: "https://dl.coolapk.com/down?pn=com.hicorenational.antifraud&id=MjgzMTE4&h=13048949shsn38&from=click",
+    href: "http://wpa.qq.com/msgrd?v=3&uin=2760913192&site=qq&menu=yes",
     class: "ios",
   },
-  vd = De(() =>
+  md = De(() =>
     m(
       "svg",
       {
@@ -8575,12 +8431,12 @@ const $1 = R1(),
         m("g", null, [
           m("path", {
             id: "download-ios",
-            d: " ",
+            d: "M433.754 420.445c-11.526 1.393-44.86-52.741-44.86-52.741 0 31.345-16.136 72.247-51.051 101.786 16.842 5.192 54.843 19.167 45.803 34.421-7.316 12.343-125.51 7.881-159.632 4.037-34.122 3.844-152.316 8.306-159.632-4.037-9.045-15.25 28.918-29.214 45.783-34.415-34.92-29.539-51.059-70.445-51.059-101.792 0 0-33.334 54.134-44.859 52.741-5.37-.65-12.424-29.644 9.347-99.704 10.261-33.024 21.995-60.478 40.144-105.779C60.683 98.063 108.982.006 224 0c113.737.006 163.156 96.133 160.264 214.963 18.118 45.223 29.912 72.85 40.144 105.778 21.768 70.06 14.716 99.053 9.346 99.704z",
           }),
         ]),
         m("g", { transform: "translate(15, 8)" }, [
           m("use", {
-            transform: "scale(0.02734375, 0.02734375)",
+            transform: "scale(0.04734375, 0.04734375)",
             "xlink:href": "#download-ios",
             fill: "#fff",
             "data-cursor": "pointer",
@@ -8589,24 +8445,24 @@ const $1 = R1(),
         m(
           "text",
           { x: "50", y: "20", "font-size": "15", "data-cursor": "pointer" },
-          "App Store"
+          "QQ"
         ),
         m(
           "text",
           { x: "50", y: "34", "font-size": "10", "data-cursor": "pointer" },
-          "下载站点反诈app"
+          "2760913192"
         ),
       ],
       -1
     )
   ),
-  md = [vd],
-  gd = {
+  gd = [md],
+  yd = {
     key: 1,
     href: "https://dl.coolapk.com/down?pn=com.hicorenational.antifraud&id=MjgzMTE4&h=13048949shsn38&from=click",
     class: "android",
   },
-  yd = De(() =>
+  Cd = De(() =>
     m(
       "svg",
       {
@@ -8634,20 +8490,20 @@ const $1 = R1(),
         m(
           "text",
           { x: "50", y: "20", "font-size": "16", "data-cursor": "pointer" },
-          "App Store"
+          "21号安全部"
         ),
         m(
           "text",
           { x: "50", y: "34", "font-size": "10", "data-cursor": "pointer" },
-          "下载站点反诈app"
+          "下载站点安全程序"
         ),
       ],
       -1
     )
   ),
-  Cd = [yd],
-  bd = { key: 2, href: "https://ak.hypergryph.com/downloads/android_lastest", class: "taptap" },
-  _d = De(() =>
+  bd = [Cd],
+  _d = { key: 2, href: "https://ak.hypergryph.com/downloads/android_lastest", class: "taptap" },
+  wd = De(() =>
     m(
       "div",
       { style: { display: "none" } },
@@ -8678,7 +8534,7 @@ const $1 = R1(),
       -1
     )
   ),
-  wd = De(() =>
+  Ed = De(() =>
     m(
       "svg",
       {
@@ -8709,14 +8565,14 @@ const $1 = R1(),
         m(
           "text",
           { x: "50", y: "26", "font-size": "12", "data-cursor": "pointer" },
-          "  下载明日方舟（？（？"
+          "  下载明日方舟（？"
         ),
       ],
       -1
     )
   ),
-  Ed = [_d, wd],
-  xd = { key: 0, class: "DownImg" },
+  xd = [wd, Ed],
+  Fd = { key: 0, class: "DownImg" },
   Sd = ae({
     __name: "Section1_One",
     setup(i) {
@@ -8726,7 +8582,11 @@ const $1 = R1(),
           self.location
         ).href,
         t = new URL(
-          "" + new URL("https://pic1.zhimg.com/80/v2-88d2ec402c1018cec57110c295e85a30_720w.webp", import.meta.url).href,
+          "" +
+            new URL(
+              "https://pic1.zhimg.com/80/v2-88d2ec402c1018cec57110c295e85a30_720w.webp",
+              import.meta.url
+            ).href,
           self.location
         ).href,
         n = new URL(
@@ -8793,60 +8653,60 @@ const $1 = R1(),
         h = L(!1);
       let g = L("none"),
         y = L(0);
-      const E = async (C, b, _) => {
+      const x = async (C, b, _) => {
         await ge(_), (C.value = b);
       };
       return (
         ke(async () => {
-          E(f, !0, 0),
-            E(p, !0, 1e3),
+          x(f, !0, 0),
+            x(p, !0, 1e3),
             await ge(1500),
             Rn.emit("Nav", !0),
             await ge(500),
             (g.value = "block"),
             await ge(10),
             (y.value = 0.15),
-            E(h, !0, 200);
+            x(h, !0, 200);
         }),
         (C, b) => (
           P(),
-          I("div", N1, [
-            m("div", H1, [
-              m("div", V1, [
+          I("div", H1, [
+            m("div", V1, [
+              m("div", j1, [
                 N(
                   te,
                   { name: "homeDown" },
                   {
                     default: q(() => [
                       v(p)
-                        ? (P(), I("img", { key: 0, src: v(e) }, null, 8, j1))
+                        ? (P(), I("img", { key: 0, src: v(e) }, null, 8, q1))
                         : X("", !0),
                     ]),
                     _: 1,
                   }
                 ),
               ]),
-              m("div", q1, [
-                m("div", U1, [
+              m("div", U1, [
+                m("div", G1, [
                   N(
                     te,
                     { name: "homeDown" },
                     {
                       default: q(() => [
-                        v(h) ? (P(), I("div", G1, Z1)) : X("", !0),
+                        v(h) ? (P(), I("div", W1, K1)) : X("", !0),
                       ]),
                       _: 1,
                     }
                   ),
                 ]),
-                m("div", K1, [
-                  m("div", J1, [
+                m("div", J1, [
+                  m("div", Q1, [
                     N(
                       te,
                       { name: "homeTitle" },
                       {
                         default: q(() => [
-                          v(f) ? (P(), I("div", Q1, td)) : X("", !0),
+                          v(f) ? (P(), I("div", ed, id)) : X("", !0),
                         ]),
                         _: 1,
                       }
@@ -8859,16 +8719,16 @@ const $1 = R1(),
                       default: q(() => [
                         v(f)
                           ? (P(),
-                            I("div", id, [
-                              m("div", nd, [
-                                m("div", sd, [
+                            I("div", nd, [
+                              m("div", sd, [
+                                m("div", od, [
                                   (P(!0),
                                   I(
-                                    ce,
+                                    de,
                                     null,
                                     Ee(
                                       v(a),
-                                      (_, x) => (
+                                      (_, E) => (
                                         P(),
                                         I(
                                           "ul",
@@ -8878,12 +8738,12 @@ const $1 = R1(),
                                               "li",
                                               {
                                                 "data-active": _.isActive,
-                                                onClick: (w) => c(x),
+                                                onClick: (w) => c(E),
                                                 "data-cursor": "pointer",
                                               },
                                               Y(_.id),
                                               9,
-                                              od
+                                              rd
                                             ),
                                           ]
                                         )
@@ -8891,7 +8751,7 @@ const $1 = R1(),
                                     ),
                                     128
                                   )),
-                                  m("div", rd, [
+                                  m("div", ad, [
                                     m("span", null, Y(v(l).name), 1),
                                     m("span", null, Y(v(l).bgm), 1),
                                   ]),
@@ -8900,7 +8760,7 @@ const $1 = R1(),
                                   m(
                                     "a",
                                     { href: "javascript:void(0)", onClick: d },
-                                    ld
+                                    ud
                                   ),
                                 ]),
                               ]),
@@ -8912,7 +8772,7 @@ const $1 = R1(),
                   ),
                 ]),
               ]),
-              m("div", ud, [
+              m("div", cd, [
                 N(
                   te,
                   { name: "homeDown" },
@@ -8920,7 +8780,7 @@ const $1 = R1(),
                     default: q(() => [
                       v(p)
                         ? (P(),
-                          I("div", cd, [
+                          I("div", dd, [
                             N(
                               et,
                               { name: "DownBtnHide" },
@@ -8949,7 +8809,7 @@ const $1 = R1(),
                                             null,
                                             4
                                           ),
-                                          dd,
+                                          fd,
                                         ]
                                       ))
                                     : X("", !0),
@@ -8976,7 +8836,7 @@ const $1 = R1(),
                                             null,
                                             4
                                           ),
-                                          fd,
+                                          hd,
                                         ]
                                       ))
                                     : X("", !0),
@@ -8984,20 +8844,20 @@ const $1 = R1(),
                                 _: 1,
                               }
                             ),
-                            m("div", hd, [
+                            m("div", pd, [
                               N(
                                 et,
                                 { name: "DownHide" },
                                 {
                                   default: q(() => [
                                     v(o).Down
-                                      ? (P(), I("a", pd, md))
+                                      ? (P(), I("a", vd, gd))
                                       : X("", !0),
                                     v(o).Down
-                                      ? (P(), I("a", gd, Cd))
+                                      ? (P(), I("a", yd, bd))
                                       : X("", !0),
                                     v(o).Down
-                                      ? (P(), I("a", bd, Ed))
+                                      ? (P(), I("a", _d, xd))
                                       : X("", !0),
                                   ]),
                                   _: 1,
@@ -9011,11 +8871,11 @@ const $1 = R1(),
                                 default: q(() => [
                                   v(o).Down
                                     ? (P(),
-                                      I("div", xd, [
+                                      I("div", Fd, [
                                         m(
                                           "a",
                                           {
-                                            href: "https://ak.hypergryph.com/news/2021059770.html",
+                                            href: "https://scp-wiki-cn.wikidot.com/site-cn-21-security-dept", 
                                             style: $e({
                                               backgroundImage: `url(${v(n)})`,
                                             }),
@@ -9042,18 +8902,18 @@ const $1 = R1(),
       );
     },
   });
-const Fd = Ce(Sd, [["__scopeId", "data-v-563ab70f"]]),
-  $n = (i) => (Ue("data-v-606e3b0f"), (i = i()), Ge(), i),
-  Td = { id: "nav" },
-  Bd = { class: "navContent" },
-  kd = { class: "navMenu" },
-  Dd = ["onClick"],
-  Ad = { href: "javascript:void(0)" },
-  Md = { class: "navPagintion" },
-  Pd = { key: 0, class: "navPaginCurrent" },
-  Od = $n(() => m("span", { class: "navSpan" }, "/", -1)),
-  Ld = $n(() => m("span", { class: "navPaginTotal" }, "05", -1)),
-  zd = ae({
+const Td = Ce(Sd, [["__scopeId", "data-v-563ab70f"]]),
+  $n = (i) => (Ue("data-v-8748e9ba"), (i = i()), Ge(), i),
+  Bd = { id: "nav" },
+  kd = { class: "navContent" },
+  Dd = { class: "navMenu" },
+  Ad = ["onClick"],
+  Md = { href: "javascript:void(0)" },
+  Pd = { class: "navPagintion" },
+  Od = { key: 0, class: "navPaginCurrent" },
+  Ld = $n(() => m("span", { class: "navSpan" }, "/", -1)),
+  zd = $n(() => m("span", { class: "navPaginTotal" }, "05", -1)),
+  Id = ae({
     __name: "Nav",
     props: { swiper: null, PagintionNum: null },
     setup(i, { expose: e }) {
@@ -9084,12 +8944,12 @@ const Fd = Ce(Sd, [["__scopeId", "data-v-563ab70f"]]),
         e({ NavList: n }),
         (r, a) => (
           P(),
-          I("nav", Td, [
-            m("div", Bd, [
-              m("ol", kd, [
+          I("nav", Bd, [
+            m("div", kd, [
+              m("ol", Dd, [
                 (P(!0),
                 I(
-                  ce,
+                  de,
                   null,
                   Ee(
                     v(n),
@@ -9104,7 +8964,7 @@ const Fd = Ce(Sd, [["__scopeId", "data-v-563ab70f"]]),
                           "data-cursor": "pointer",
                         },
                         [
-                          m("a", Ad, [
+                          m("a", Md, [
                             m(
                               "span",
                               {
@@ -9117,7 +8977,7 @@ const Fd = Ce(Sd, [["__scopeId", "data-v-563ab70f"]]),
                           ]),
                         ],
                         8,
-                        Dd
+                        Ad
                       )
                     )
                   ),
@@ -9125,10 +8985,10 @@ const Fd = Ce(Sd, [["__scopeId", "data-v-563ab70f"]]),
                 )),
               ]),
             ]),
-            m("div", Md, [
+            m("div", Pd, [
               (P(!0),
               I(
-                ce,
+                de,
                 null,
                 Ee(
                   v(n),
@@ -9136,12 +8996,12 @@ const Fd = Ce(Sd, [["__scopeId", "data-v-563ab70f"]]),
                     P(),
                     Re(
                       te,
-                      { key: l.id, name: "sectiontext" },
+                      { key: l.id, name: "sectiontext", mode: "out-in" },
                       {
                         default: q(() => [
                           l.id == v(s)
                             ? (P(),
-                              I("span", Pd, [
+                              I("span", Od, [
                                 m("span", null, Y(l.sectiontext), 1),
                               ]))
                             : X("", !0),
@@ -9154,19 +9014,19 @@ const Fd = Ce(Sd, [["__scopeId", "data-v-563ab70f"]]),
                 ),
                 128
               )),
-              Od,
               Ld,
+              zd,
             ]),
           ])
         )
       );
     },
   });
-const Id = Ce(zd, [["__scopeId", "data-v-606e3b0f"]]);
-const Rd = {},
+const Rd = Ce(Id, [["__scopeId", "data-v-8748e9ba"]]);
+const $d = {},
   Nn = (i) => (Ue("data-v-5c9052ec"), (i = i()), Ge(), i),
-  $d = { class: "mainHeader" },
-  Nd = Nn(() =>
+  Nd = { class: "mainHeader" },
+  Hd = Nn(() =>
     m(
       "div",
       { class: "headerUser" },
@@ -9174,19 +9034,19 @@ const Rd = {},
         m(
           "a",
           { class: "headerUserBtn", href: "javascript:void(0)" },
-          "\u767B\u9646"
+          "Github Page"
         ),
         m("span", { class: "sep" }, "|"),
         m(
           "a",
           { class: "headerUserBtn", href: "javascript:void(0)" },
-          "\u6CE8\u518C"
+          "dev by 柊野"
         ),
       ],
       -1
     )
   ),
-  Hd = Nn(() =>
+  Vd = Nn(() =>
     m(
       "div",
       { class: "headerMedia" },
@@ -9225,15 +9085,15 @@ const Rd = {},
       -1
     )
   ),
-  Vd = [Nd, Hd];
-function jd(i, e) {
-  return P(), I("div", $d, Vd);
+  jd = [Hd, Vd];
+function qd(i, e) {
+  return P(), I("div", Nd, jd);
 }
-const qd = Ce(Rd, [
-  ["render", jd],
+const Ud = Ce($d, [
+  ["render", qd],
   ["__scopeId", "data-v-5c9052ec"],
 ]);
-class Ud {
+class Gd {
   constructor() {
     this._listeners = new Map();
   }
@@ -9360,15 +9220,15 @@ class Z extends me {
     return new Z(e, t);
   }
 }
-let Gd = Math.random;
-const Wd = new Map();
+let Wd = Math.random;
+const Xd = new Map();
 function Hn(i) {
   var e;
   const t = (n) => n;
-  return (e = Wd.get(i)) !== null && e !== void 0 ? e : t;
+  return (e = Xd.get(i)) !== null && e !== void 0 ? e : t;
 }
 function j() {
-  return Be(Gd(), 0, 1 - 1e-16);
+  return Be(Wd(), 0, 1 - 1e-16);
 }
 function Be(i, e, t) {
   return Math.min(Math.max(i, e), t);
@@ -9402,15 +9262,15 @@ function Ne(i) {
       typeof e == "boolean" ? { enable: e, minimumValue: 0 } : e;
   return R(t ? H(i.value, n) : i.value);
 }
-function de(i, e) {
+function fe(i, e) {
   const t = i.x - e.x,
     n = i.y - e.y;
   return { dx: t, dy: n, distance: Math.sqrt(t * t + n * n) };
 }
 function oe(i, e) {
-  return de(i, e).distance;
+  return fe(i, e).distance;
 }
-function Xd(i, e, t) {
+function Yd(i, e, t) {
   if (typeof i == "number") return (i * Math.PI) / 180;
   switch (i) {
     case "top":
@@ -9437,14 +9297,14 @@ function Xd(i, e, t) {
       return j() * Math.PI * 2;
   }
 }
-function Yd(i) {
+function Zd(i) {
   const e = Z.origin;
   return (e.length = 1), (e.angle = i), e;
 }
 function Ui(i, e, t, n) {
   return Z.create((i.x * (t - n)) / (t + n) + (e.x * 2 * n) / (t + n), i.y);
 }
-function Zd(i) {
+function Kd(i) {
   return i.position && i.position.x !== void 0 && i.position.y !== void 0
     ? {
         x: (i.position.x * i.size.width) / 100,
@@ -9485,7 +9345,7 @@ function jn(i) {
   };
   return Vn({ size: i.size, position: n });
 }
-function Kd(i) {
+function Jd(i) {
   var e, t, n, s;
   return {
     x:
@@ -9516,7 +9376,7 @@ function Gi(i, e, t, n, s, o) {
     r
   );
 }
-function Jd(i, e) {
+function Qd(i, e) {
   const t = J(e, (n) => i.matches(n));
   return t instanceof Array ? t.some((n) => n) : t;
 }
@@ -9528,18 +9388,18 @@ function Ke() {
     !window.document
   );
 }
-function Qd() {
+function e0() {
   return !Ke() && typeof matchMedia < "u";
 }
 function Un(i) {
-  if (!!Qd()) return matchMedia(i);
+  if (!!e0()) return matchMedia(i);
 }
-function e0() {
+function t0() {
   return Ke()
     ? (i) => setTimeout(i)
     : (i) => (requestAnimationFrame || setTimeout)(i);
 }
-function t0() {
+function i0() {
   return Ke()
     ? (i) => clearTimeout(i)
     : (i) => (cancelAnimationFrame || clearTimeout)(i);
@@ -9547,7 +9407,7 @@ function t0() {
 function K(i, e) {
   return i === e || (e instanceof Array && e.indexOf(i) > -1);
 }
-async function i0(i, e) {
+async function n0(i, e) {
   try {
     await document.fonts.load(
       `${e != null ? e : "400"} 36px '${i != null ? i : "Verdana"}'`
@@ -9561,9 +9421,9 @@ function vt(i, e, t = !0) {
   return i[e !== void 0 && t ? e % i.length : Gn(i)];
 }
 function mt(i, e, t, n, s) {
-  return n0(gt(i, n != null ? n : 0), e, t, s);
+  return s0(gt(i, n != null ? n : 0), e, t, s);
 }
-function n0(i, e, t, n) {
+function s0(i, e, t, n) {
   let s = !0;
   return (
     (!n || n === "bottom") && (s = i.top < e.height + t.x),
@@ -9604,17 +9464,17 @@ function gi(i, e) {
 function yi(i, e, t) {
   J(e, (n) => {
     const s = n.mode;
-    n.enable && K(i, s) && s0(n, t);
+    n.enable && K(i, s) && o0(n, t);
   });
 }
-function s0(i, e) {
+function o0(i, e) {
   const t = i.selectors;
   J(t, (n) => {
     e(n, i);
   });
 }
 function Wn(i, e) {
-  if (!(!e || !i)) return Yn(i, (t) => Jd(e, t.selectors));
+  if (!(!e || !i)) return Yn(i, (t) => Qd(e, t.selectors));
 }
 function si(i) {
   return {
@@ -9631,7 +9491,7 @@ function si(i) {
 function Xn(i, e) {
   const { x: t, y: n } = i.velocity.sub(e.velocity),
     [s, o] = [i.position, e.position],
-    { dx: r, dy: a } = de(o, s);
+    { dx: r, dy: a } = fe(o, s);
   if (t * r + n * a < 0) return;
   const l = -Math.atan2(a, r),
     u = i.mass,
@@ -9647,7 +9507,7 @@ function Xn(i, e) {
     (e.velocity.x = y.x * e.factor.x),
     (e.velocity.y = y.y * e.factor.y);
 }
-function o0(i, e) {
+function r0(i, e) {
   const t = i.getPosition(),
     n = i.getRadius(),
     s = gt(t, n),
@@ -9683,7 +9543,7 @@ function xe(i, e, t) {
 function Yn(i, e) {
   return i instanceof Array ? i.find((t) => e(t)) : e(i) ? i : void 0;
 }
-const St = "random",
+const Ft = "random",
   wt = "mid",
   Dt = new Map();
 function Zn(i) {
@@ -9702,7 +9562,7 @@ function Ht(i, e, t) {
       : i
   );
 }
-function r0(i) {
+function a0(i) {
   for (const [, o] of Dt)
     if (i.startsWith(o.stringPrefix)) return o.parseString(i);
   const e = /^#?([a-f\d])([a-f\d])([a-f\d])([a-f\d])?$/i,
@@ -9721,11 +9581,11 @@ function r0(i) {
       }
     : void 0;
 }
-function Se(i, e, t = !0) {
+function Fe(i, e, t = !0) {
   if (!i) return;
   const n = typeof i == "string" ? { value: i } : i;
   if (typeof n.value == "string") return Kn(n.value, e, t);
-  if (n.value instanceof Array) return Se({ value: vt(n.value, e, t) });
+  if (n.value instanceof Array) return Fe({ value: vt(n.value, e, t) });
   for (const [, s] of Dt) {
     const o = s.handleRangeColor(n);
     if (o) return o;
@@ -9734,7 +9594,7 @@ function Se(i, e, t = !0) {
 function Kn(i, e, t = !0) {
   if (!i) return;
   const n = typeof i == "string" ? { value: i } : i;
-  if (typeof n.value == "string") return n.value === St ? Qn() : a0(n.value);
+  if (typeof n.value == "string") return n.value === Ft ? Qn() : l0(n.value);
   if (n.value instanceof Array) return Kn({ value: vt(n.value, e, t) });
   for (const [, s] of Dt) {
     const o = s.handleColor(n);
@@ -9742,7 +9602,7 @@ function Kn(i, e, t = !0) {
   }
 }
 function qe(i, e, t = !0) {
-  const n = Se(i, e, t);
+  const n = Fe(i, e, t);
   return n ? Jn(n) : void 0;
 }
 function Jn(i) {
@@ -9767,8 +9627,8 @@ function Jn(i) {
     r
   );
 }
-function a0(i) {
-  return r0(i);
+function l0(i) {
+  return a0(i);
 }
 function it(i) {
   const e = { b: 0, g: 0, r: 0 },
@@ -9788,7 +9648,7 @@ function it(i) {
     e
   );
 }
-function l0(i) {
+function u0(i) {
   const e = it(i);
   return { a: i.a, b: e.b, g: e.g, r: e.r };
 }
@@ -9817,7 +9677,7 @@ function Ci(i, e, t, n) {
 }
 function oi(i, e, t) {
   var n, s;
-  if (t === St) return Qn();
+  if (t === Ft) return Qn();
   if (t === wt) {
     const o =
         (n = i.getFillColor()) !== null && n !== void 0
@@ -9838,15 +9698,15 @@ function oi(i, e, t) {
 }
 function es(i, e, t) {
   const n = typeof i == "string" ? i : i.value;
-  return n === St
+  return n === Ft
     ? t
-      ? Se({ value: n })
+      ? Fe({ value: n })
       : e
-      ? St
+      ? Ft
       : wt
     : n === wt
     ? wt
-    : Se({ value: n });
+    : Fe({ value: n });
 }
 function Wi(i) {
   return i !== void 0 ? { h: i.h.value, s: i.s.value, l: i.l.value } : void 0;
@@ -9871,21 +9731,21 @@ function Vt(i, e, t) {
 function ut(i, e, t) {
   i.beginPath(), i.moveTo(e.x, e.y), i.lineTo(t.x, t.y), i.closePath();
 }
-function u0(i, e, t, n) {
+function c0(i, e, t, n) {
   i.beginPath(),
     i.moveTo(e.x, e.y),
     i.lineTo(t.x, t.y),
     i.lineTo(n.x, n.y),
     i.closePath();
 }
-function c0(i, e, t) {
+function d0(i, e, t) {
   (i.fillStyle = t != null ? t : "rgba(0,0,0,0)"),
     i.fillRect(0, 0, e.width, e.height);
 }
 function jt(i, e) {
   i.clearRect(0, 0, e.width, e.height);
 }
-function d0(i) {
+function f0(i) {
   var e, t, n, s, o, r;
   const {
       container: a,
@@ -9898,18 +9758,18 @@ function d0(i) {
       radius: h,
       opacity: g,
       shadow: y,
-      transform: E,
+      transform: x,
     } = i,
     C = u.getPosition(),
     b = u.rotation + (u.pathRotation ? u.velocity.angle : 0),
     _ = { sin: Math.sin(b), cos: Math.cos(b) },
-    x = {
-      a: _.cos * ((e = E.a) !== null && e !== void 0 ? e : 1),
-      b: _.sin * ((t = E.b) !== null && t !== void 0 ? t : 1),
-      c: -_.sin * ((n = E.c) !== null && n !== void 0 ? n : 1),
-      d: _.cos * ((s = E.d) !== null && s !== void 0 ? s : 1),
+    E = {
+      a: _.cos * ((e = x.a) !== null && e !== void 0 ? e : 1),
+      b: _.sin * ((t = x.b) !== null && t !== void 0 ? t : 1),
+      c: -_.sin * ((n = x.c) !== null && n !== void 0 ? n : 1),
+      d: _.cos * ((s = x.d) !== null && s !== void 0 ? s : 1),
     };
-  l.setTransform(x.a, x.b, x.c, x.d, C.x, C.y),
+  l.setTransform(E.a, E.b, E.c, E.d, C.x, C.y),
     l.beginPath(),
     f && (l.globalCompositeOperation = p);
   const w = u.shadowColor;
@@ -9920,56 +9780,56 @@ function d0(i) {
     (l.shadowOffsetX = y.offset.x),
     (l.shadowOffsetY = y.offset.y)),
     d.fill && (l.fillStyle = d.fill);
-  const S = u.stroke;
+  const F = u.stroke;
   (l.lineWidth = (o = u.strokeWidth) !== null && o !== void 0 ? o : 0),
     d.stroke && (l.strokeStyle = d.stroke),
-    f0(a, l, u, h, g, c),
-    ((r = S == null ? void 0 : S.width) !== null && r !== void 0 ? r : 0) > 0 &&
+    h0(a, l, u, h, g, c),
+    ((r = F == null ? void 0 : F.width) !== null && r !== void 0 ? r : 0) > 0 &&
       l.stroke(),
     u.close && l.closePath(),
     u.fill && l.fill(),
-    h0(a, l, u, h, g, c),
+    p0(a, l, u, h, g, c),
     (l.globalCompositeOperation = "source-over"),
     l.setTransform(1, 0, 0, 1, 0, 0);
 }
-function f0(i, e, t, n, s, o) {
+function h0(i, e, t, n, s, o) {
   if (!t.shape) return;
   const r = i.drawers.get(t.shape);
   !r || r.draw(e, t, n, s, o, i.retina.pixelRatio);
 }
-function h0(i, e, t, n, s, o) {
+function p0(i, e, t, n, s, o) {
   if (!t.shape) return;
   const r = i.drawers.get(t.shape);
   !(r != null && r.afterEffect) ||
     r.afterEffect(e, t, n, s, o, i.retina.pixelRatio);
 }
-function p0(i, e, t) {
+function v0(i, e, t) {
   !e.draw || e.draw(i, t);
 }
-function v0(i, e, t, n) {
+function m0(i, e, t, n) {
   !e.drawParticle || e.drawParticle(i, t, n);
 }
-function m0(i, e, t) {
+function g0(i, e, t) {
   return { h: i.h, s: i.s, l: i.l + (e === "darken" ? -1 : 1) * t };
 }
 const ct = "generated",
   Xi = "touchend",
-  g0 = "pointerdown",
-  y0 = "pointerup",
+  y0 = "pointerdown",
+  C0 = "pointerup",
   Je = "pointermove",
-  C0 = "touchstart",
-  b0 = "touchmove",
+  b0 = "touchstart",
+  _0 = "touchmove",
   ri = "pointerleave",
-  _0 = "pointerout",
-  w0 = "touchcancel",
-  E0 = "resize",
-  x0 = "visibilitychange";
+  w0 = "pointerout",
+  E0 = "touchcancel",
+  x0 = "resize",
+  F0 = "visibilitychange";
 function S0(i, e, t) {
   var n;
   const s = e[t];
   s !== void 0 && (i[t] = ((n = i[t]) !== null && n !== void 0 ? n : 1) * s);
 }
-class F0 {
+class T0 {
   constructor(e) {
     (this.container = e),
       (this.size = { height: 0, width: 0 }),
@@ -10035,7 +9895,7 @@ class F0 {
           var c, d, f, p, h;
           const g = this.container.actualOptions,
             y = e.options.zIndex,
-            E = (1 - e.zIndexFactor) ** y.opacityRate,
+            x = (1 - e.zIndexFactor) ** y.opacityRate,
             C =
               (f =
                 (c = e.bubble.opacity) !== null && c !== void 0
@@ -10052,18 +9912,18 @@ class F0 {
                   : p.opacity) !== null && h !== void 0
                 ? h
                 : C,
-            _ = C * E,
-            x = b * E,
+            _ = C * x,
+            E = b * x,
             w = {},
-            S = { fill: a ? nt(a, _) : void 0 };
-          (S.stroke = l ? nt(l, x) : S.fill),
-            this._applyPreDrawUpdaters(u, e, s, _, S, w),
-            d0({
+            F = { fill: a ? nt(a, _) : void 0 };
+          (F.stroke = l ? nt(l, E) : F.fill),
+            this._applyPreDrawUpdaters(u, e, s, _, F, w),
+            f0({
               container: this.container,
               context: u,
               particle: e,
               delta: t,
-              colorStyles: S,
+              colorStyles: F,
               backgroundMask: g.backgroundMask.enable,
               composite: g.backgroundMask.composite,
               radius: s * (1 - e.zIndexFactor) ** y.sizeRate,
@@ -10076,12 +9936,12 @@ class F0 {
   }
   drawParticlePlugin(e, t, n) {
     this.draw((s) => {
-      v0(s, e, t, n);
+      m0(s, e, t, n);
     });
   }
   drawPlugin(e, t) {
     this.draw((n) => {
-      p0(n, e, t);
+      v0(n, e, t);
     });
   }
   init() {
@@ -10106,7 +9966,7 @@ class F0 {
       s = n == null ? void 0 : n.style;
     if (!!s) {
       if (t.color) {
-        const o = Se(t.color);
+        const o = Fe(t.color);
         s.backgroundColor = o ? Ie(o, t.opacity) : "";
       } else s.backgroundColor = "";
       (s.backgroundImage = t.image || ""),
@@ -10228,7 +10088,7 @@ class F0 {
     const e = this.container.actualOptions,
       t = e.backgroundMask.cover,
       n = t.color,
-      s = Se(n);
+      s = Fe(n);
     if (s) {
       const o = { r: s.r, g: s.g, b: s.b, a: t.opacity };
       this._coverColorStyle = Ie(o, o.a);
@@ -10251,7 +10111,7 @@ class F0 {
   _initTrail() {
     const e = this.container.actualOptions,
       t = e.particles.move.trail,
-      n = Se(t.fillColor);
+      n = Fe(t.fillColor);
     if (n) {
       const s = e.particles.move.trail;
       this._trailFillColor = Object.assign(Object.assign({}, n), {
@@ -10261,7 +10121,7 @@ class F0 {
   }
   _paintBase(e) {
     this.draw((t) => {
-      c0(t, this.size, e);
+      d0(t, this.size, e);
     });
   }
   _repairStyle() {
@@ -10312,7 +10172,7 @@ function _e(i, e, t, n, s) {
     i.removeEventListener(e, t, o);
   }
 }
-class T0 {
+class B0 {
   constructor(e) {
     (this.container = e),
       (this.canPush = !0),
@@ -10386,7 +10246,7 @@ class T0 {
       s = n.actualOptions,
       o = s.interactivity.detectsOn;
     let r = ri;
-    if (o === "window") (n.interactivity.element = window), (r = _0);
+    if (o === "window") (n.interactivity.element = window), (r = w0);
     else if (o === "parent" && n.canvas.element) {
       const c = n.canvas.element;
       n.interactivity.element =
@@ -10406,15 +10266,15 @@ class T0 {
     (s.interactivity.events.onHover.enable ||
       s.interactivity.events.onClick.enable) &&
       (_e(l, Je, this.mouseMoveHandler, e),
-      _e(l, C0, this.touchStartHandler, e),
-      _e(l, b0, this.touchMoveHandler, e),
+      _e(l, b0, this.touchStartHandler, e),
+      _e(l, _0, this.touchMoveHandler, e),
       s.interactivity.events.onClick.enable
         ? (_e(l, Xi, this.touchEndClickHandler, e),
-          _e(l, y0, this.mouseUpHandler, e),
-          _e(l, g0, this.mouseDownHandler, e))
+          _e(l, C0, this.mouseUpHandler, e),
+          _e(l, y0, this.mouseDownHandler, e))
         : _e(l, Xi, this.touchEndHandler, e),
       _e(l, r, this.mouseLeaveHandler, e),
-      _e(l, w0, this.touchCancelHandler, e)),
+      _e(l, E0, this.touchCancelHandler, e)),
       n.canvas.element &&
         (n.canvas.element.style.pointerEvents =
           u === n.canvas.element ? "initial" : "none"),
@@ -10433,8 +10293,8 @@ class T0 {
                   this.handleWindowResize();
               })),
               this.resizeObserver.observe(n.canvas.element))
-          : _e(window, E0, this.resizeHandler, e)),
-      document && _e(document, x0, this.visibilityChangeHandler, e, !1);
+          : _e(window, x0, this.resizeHandler, e)),
+      document && _e(document, F0, this.visibilityChangeHandler, e, !1);
   }
   mouseDown() {
     const e = this.container.interactivity;
@@ -10487,11 +10347,11 @@ class T0 {
       } else if (c.interactivity.detectsOn === "parent") {
         const g = h.target,
           y = h.currentTarget,
-          E = u.canvas.element;
-        if (g && y && E) {
+          x = u.canvas.element;
+        if (g && y && x) {
           const C = g.getBoundingClientRect(),
             b = y.getBoundingClientRect(),
-            _ = E.getBoundingClientRect();
+            _ = x.getBoundingClientRect();
           d = {
             x: h.offsetX + 2 * C.left - (b.left + _.left),
             y: h.offsetY + 2 * C.top - (b.top + _.top),
@@ -10527,10 +10387,10 @@ class T0 {
       (u.interactivity.status = Je);
   }
 }
-function B0(i, e = 60, t = !1) {
+function k0(i, e = 60, t = !1) {
   return { value: i, factor: t ? 60 / e : (60 * i) / 1e3 };
 }
-class k0 {
+class D0 {
   constructor(e) {
     this.container = e;
   }
@@ -10547,7 +10407,7 @@ class k0 {
         return;
       }
       ((t = n.lastFrameTime) !== null && t !== void 0) || (n.lastFrameTime = e);
-      const s = B0(e - n.lastFrameTime, n.fpsLimit, n.smooth);
+      const s = k0(e - n.lastFrameTime, n.fpsLimit, n.smooth);
       if (((n.lifeTime += s.value), (n.lastFrameTime = e), s.value > 1e3)) {
         n.draw(!1);
         return;
@@ -10583,7 +10443,7 @@ class ie {
     (e == null ? void 0 : e.value) !== void 0 && (this.value = e.value);
   }
 }
-class D0 {
+class A0 {
   constructor() {
     (this.color = new ie()),
       (this.color.value = ""),
@@ -10603,7 +10463,7 @@ class D0 {
       e.opacity !== void 0 && (this.opacity = e.opacity));
   }
 }
-class A0 {
+class M0 {
   constructor() {
     (this.color = new ie()), (this.color.value = "#fff"), (this.opacity = 1);
   }
@@ -10613,10 +10473,10 @@ class A0 {
       e.opacity !== void 0 && (this.opacity = e.opacity));
   }
 }
-class M0 {
+class P0 {
   constructor() {
     (this.composite = "destination-out"),
-      (this.cover = new A0()),
+      (this.cover = new M0()),
       (this.enable = !1);
   }
   load(e) {
@@ -10633,7 +10493,7 @@ class M0 {
     }
   }
 }
-class P0 {
+class O0 {
   constructor() {
     (this.enable = !0), (this.zIndex = 0);
   }
@@ -10643,7 +10503,7 @@ class P0 {
       e.zIndex !== void 0 && (this.zIndex = e.zIndex));
   }
 }
-class O0 {
+class L0 {
   constructor() {
     (this.enable = !1), (this.mode = []);
   }
@@ -10693,7 +10553,7 @@ class Yi {
       e.type !== void 0 && (this.type = e.type);
   }
 }
-class L0 {
+class z0 {
   constructor() {
     (this.enable = !1), (this.force = 2), (this.smooth = 10);
   }
@@ -10704,9 +10564,9 @@ class L0 {
       e.smooth !== void 0 && (this.smooth = e.smooth));
   }
 }
-class z0 {
+class I0 {
   constructor() {
-    (this.enable = !1), (this.mode = []), (this.parallax = new L0());
+    (this.enable = !1), (this.mode = []), (this.parallax = new z0());
   }
   load(e) {
     !e ||
@@ -10715,11 +10575,11 @@ class z0 {
       this.parallax.load(e.parallax));
   }
 }
-class I0 {
+class R0 {
   constructor() {
-    (this.onClick = new O0()),
+    (this.onClick = new L0()),
       (this.onDiv = new Yi()),
-      (this.onHover = new z0()),
+      (this.onHover = new I0()),
       (this.resize = !0);
   }
   get onclick() {
@@ -10756,7 +10616,7 @@ class I0 {
       e.resize !== void 0 && (this.resize = e.resize);
   }
 }
-class R0 {
+class $0 {
   constructor(e, t) {
     (this._engine = e), (this._container = t);
   }
@@ -10770,8 +10630,8 @@ class R0 {
 class is {
   constructor(e, t) {
     (this.detectsOn = "window"),
-      (this.events = new I0()),
-      (this.modes = new R0(e, t));
+      (this.events = new R0()),
+      (this.modes = new $0(e, t));
   }
   get detect_on() {
     return this.detectsOn;
@@ -10788,7 +10648,7 @@ class is {
       this.modes.load(e.modes);
   }
 }
-class $0 {
+class N0 {
   load(e) {
     var t, n;
     !e ||
@@ -10800,7 +10660,7 @@ class $0 {
       e.options !== void 0 && (this.options = ne({}, e.options)));
   }
 }
-class N0 {
+class H0 {
   constructor() {
     (this.maxWidth = 1 / 0), (this.options = {}), (this.mode = "canvas");
   }
@@ -10812,7 +10672,7 @@ class N0 {
       e.options !== void 0 && (this.options = ne({}, e.options)));
   }
 }
-class H0 {
+class V0 {
   constructor() {
     (this.auto = !1), (this.mode = "any"), (this.value = !1);
   }
@@ -10823,9 +10683,9 @@ class H0 {
       e.value !== void 0 && (this.value = e.value));
   }
 }
-class V0 {
+class j0 {
   constructor() {
-    (this.name = ""), (this.default = new H0());
+    (this.name = ""), (this.default = new V0());
   }
   load(e) {
     !e ||
@@ -10853,7 +10713,7 @@ class qt {
       e.sync !== void 0 && (this.sync = e.sync));
   }
 }
-class j0 {
+class q0 {
   constructor() {
     (this.h = new qt()), (this.s = new qt()), (this.l = new qt());
   }
@@ -10863,7 +10723,7 @@ class j0 {
 }
 class st extends ie {
   constructor() {
-    super(), (this.animation = new j0());
+    super(), (this.animation = new q0());
   }
   static create(e, t) {
     const n = new st();
@@ -10885,7 +10745,7 @@ class st extends ie {
         : this.animation.load(e.animation));
   }
 }
-class q0 {
+class U0 {
   constructor() {
     this.speed = 2;
   }
@@ -10893,7 +10753,7 @@ class q0 {
     !e || (e.speed !== void 0 && (this.speed = e.speed));
   }
 }
-class U0 {
+class G0 {
   constructor() {
     (this.enable = !0), (this.retries = 0);
   }
@@ -10903,7 +10763,7 @@ class U0 {
       e.retries !== void 0 && (this.retries = e.retries));
   }
 }
-class G0 {
+class W0 {
   constructor() {
     (this.enable = !1), (this.minimumValue = 0);
   }
@@ -10913,9 +10773,9 @@ class G0 {
       e.minimumValue !== void 0 && (this.minimumValue = e.minimumValue));
   }
 }
-class Fe {
+class Se {
   constructor() {
-    (this.random = new G0()), (this.value = 0);
+    (this.random = new W0()), (this.value = 0);
   }
   load(e) {
     !e ||
@@ -10929,7 +10789,7 @@ class Fe {
         )));
   }
 }
-class Zi extends Fe {
+class Zi extends Se {
   constructor() {
     super(), (this.random.minimumValue = 0.1), (this.value = 1);
   }
@@ -10942,13 +10802,13 @@ class ns {
     !e || (this.horizontal.load(e.horizontal), this.vertical.load(e.vertical));
   }
 }
-class W0 {
+class X0 {
   constructor() {
-    (this.absorb = new q0()),
+    (this.absorb = new U0()),
       (this.bounce = new ns()),
       (this.enable = !1),
       (this.mode = "bounce"),
-      (this.overlap = new U0());
+      (this.overlap = new G0());
   }
   load(e) {
     !e ||
@@ -10959,7 +10819,7 @@ class W0 {
       this.overlap.load(e.overlap));
   }
 }
-class X0 {
+class Y0 {
   constructor() {
     (this.offset = 0), (this.value = 90);
   }
@@ -10969,7 +10829,7 @@ class X0 {
       e.value !== void 0 && (this.value = H(e.value)));
   }
 }
-class Y0 {
+class Z0 {
   constructor() {
     (this.distance = 200),
       (this.enable = !1),
@@ -11006,7 +10866,7 @@ class Y0 {
     a !== void 0 && (this.rotate.y = a);
   }
 }
-class Z0 {
+class K0 {
   constructor() {
     (this.x = 50), (this.y = 50), (this.mode = "percent"), (this.radius = 0);
   }
@@ -11018,7 +10878,7 @@ class Z0 {
       e.radius !== void 0 && (this.radius = e.radius));
   }
 }
-class K0 {
+class J0 {
   constructor() {
     (this.acceleration = 9.81),
       (this.enable = !1),
@@ -11033,10 +10893,10 @@ class K0 {
       e.maxSpeed !== void 0 && (this.maxSpeed = H(e.maxSpeed)));
   }
 }
-class J0 {
+class Q0 {
   constructor() {
     (this.clamp = !0),
-      (this.delay = new Fe()),
+      (this.delay = new Se()),
       (this.enable = !1),
       (this.options = {});
   }
@@ -11049,7 +10909,7 @@ class J0 {
       e.options && (this.options = ne(this.options, e.options)));
   }
 }
-class Q0 {
+class e2 {
   constructor() {
     (this.enable = !1),
       (this.length = 10),
@@ -11063,7 +10923,7 @@ class Q0 {
       e.length !== void 0 && (this.length = e.length));
   }
 }
-class e2 {
+class t2 {
   constructor() {
     this.default = "out";
   }
@@ -11077,7 +10937,7 @@ class e2 {
       (this.top = (o = e.top) !== null && o !== void 0 ? o : e.default));
   }
 }
-class t2 {
+class i2 {
   constructor() {
     (this.acceleration = 0), (this.enable = !1);
   }
@@ -11088,25 +10948,25 @@ class t2 {
       (this.position = e.position ? ne({}, e.position) : void 0));
   }
 }
-class i2 {
+class n2 {
   constructor() {
-    (this.angle = new X0()),
-      (this.attract = new Y0()),
-      (this.center = new Z0()),
+    (this.angle = new Y0()),
+      (this.attract = new Z0()),
+      (this.center = new K0()),
       (this.decay = 0),
       (this.distance = {}),
       (this.direction = "none"),
       (this.drift = 0),
       (this.enable = !1),
-      (this.gravity = new K0()),
-      (this.path = new J0()),
-      (this.outModes = new e2()),
+      (this.gravity = new J0()),
+      (this.path = new Q0()),
+      (this.outModes = new t2()),
       (this.random = !1),
       (this.size = !1),
       (this.speed = 2),
-      (this.spin = new t2()),
+      (this.spin = new i2()),
       (this.straight = !1),
-      (this.trail = new Q0()),
+      (this.trail = new e2()),
       (this.vibrate = !1),
       (this.warp = !1);
   }
@@ -11191,7 +11051,7 @@ class ss {
       e.sync !== void 0 && (this.sync = e.sync));
   }
 }
-class n2 extends ss {
+class s2 extends ss {
   constructor() {
     super(),
       (this.destroy = "none"),
@@ -11219,10 +11079,10 @@ class n2 extends ss {
       e.sync !== void 0 && (this.sync = e.sync));
   }
 }
-class s2 extends Fe {
+class o2 extends Se {
   constructor() {
     super(),
-      (this.animation = new n2()),
+      (this.animation = new s2()),
       (this.random.minimumValue = 0.1),
       (this.value = 1);
   }
@@ -11245,7 +11105,7 @@ class s2 extends Fe {
       )));
   }
 }
-class o2 {
+class r2 {
   constructor() {
     (this.enable = !1), (this.area = 800), (this.factor = 1e3);
   }
@@ -11264,9 +11124,9 @@ class o2 {
       e.factor !== void 0 && (this.factor = e.factor);
   }
 }
-class r2 {
+class a2 {
   constructor() {
-    (this.density = new o2()), (this.limit = 0), (this.value = 100);
+    (this.density = new r2()), (this.limit = 0), (this.value = 100);
   }
   get max() {
     return this.limit;
@@ -11283,7 +11143,7 @@ class r2 {
       e.value !== void 0 && (this.value = e.value);
   }
 }
-class a2 {
+class l2 {
   constructor() {
     (this.blur = 0),
       (this.color = new ie()),
@@ -11307,7 +11167,7 @@ const Ut = "character",
   Xt = "images",
   Yt = "polygon",
   Zt = "star";
-class l2 {
+class u2 {
   constructor() {
     (this.options = {}), (this.type = "circle");
   }
@@ -11397,7 +11257,7 @@ class l2 {
         ));
   }
 }
-class u2 extends ss {
+class c2 extends ss {
   constructor() {
     super(),
       (this.destroy = "none"),
@@ -11425,10 +11285,10 @@ class u2 extends ss {
         e.sync !== void 0 && (this.sync = e.sync));
   }
 }
-class c2 extends Fe {
+class d2 extends Se {
   constructor() {
     super(),
-      (this.animation = new u2()),
+      (this.animation = new c2()),
       (this.random.minimumValue = 1),
       (this.value = 3);
   }
@@ -11461,7 +11321,7 @@ class Ki {
       e.opacity !== void 0 && (this.opacity = e.opacity));
   }
 }
-class d2 extends Fe {
+class f2 extends Se {
   constructor() {
     super(),
       (this.opacityRate = 1),
@@ -11476,24 +11336,24 @@ class d2 extends Fe {
         e.velocityRate !== void 0 && (this.velocityRate = e.velocityRate));
   }
 }
-class f2 {
+class h2 {
   constructor(e, t) {
     (this._engine = e),
       (this._container = t),
       (this.bounce = new ns()),
-      (this.collisions = new W0()),
+      (this.collisions = new X0()),
       (this.color = new st()),
       (this.color.value = "#fff"),
       (this.groups = {}),
-      (this.move = new i2()),
-      (this.number = new r2()),
-      (this.opacity = new s2()),
+      (this.move = new n2()),
+      (this.number = new a2()),
+      (this.opacity = new o2()),
       (this.reduceDuplicates = !1),
-      (this.shadow = new a2()),
-      (this.shape = new l2()),
-      (this.size = new c2()),
+      (this.shadow = new l2()),
+      (this.shape = new u2()),
+      (this.size = new d2()),
       (this.stroke = new Ki()),
-      (this.zIndex = new d2());
+      (this.zIndex = new f2());
   }
   load(e) {
     var t, n, s, o, r, a;
@@ -11558,19 +11418,19 @@ function os(i, ...e) {
   for (const t of e) i.load(t);
 }
 function bi(i, e, ...t) {
-  const n = new f2(i, e);
+  const n = new h2(i, e);
   return os(n, ...t), n;
 }
-class h2 {
+class p2 {
   constructor(e, t) {
     (this._engine = e),
       (this._container = t),
       (this.autoPlay = !0),
-      (this.background = new D0()),
-      (this.backgroundMask = new M0()),
+      (this.background = new A0()),
+      (this.backgroundMask = new P0()),
       (this.defaultThemes = {}),
       (this.delay = 0),
-      (this.fullScreen = new P0()),
+      (this.fullScreen = new O0()),
       (this.detectRetina = !0),
       (this.duration = 0),
       (this.fpsLimit = 120),
@@ -11629,7 +11489,7 @@ class h2 {
       this.interactivity.load(e.interactivity),
       e.manualParticles !== void 0 &&
         (this.manualParticles = e.manualParticles.map((d) => {
-          const f = new $0();
+          const f = new N0();
           return f.load(d), f;
         })),
       this.particles.load(e.particles),
@@ -11640,7 +11500,7 @@ class h2 {
     if (c) for (const d of c) d.loadOptions && d.loadOptions(this, e);
     if (e.responsive !== void 0)
       for (const d of e.responsive) {
-        const f = new N0();
+        const f = new H0();
         f.load(d), this.responsive.push(f);
       }
     if (
@@ -11648,7 +11508,7 @@ class h2 {
       e.themes !== void 0)
     )
       for (const d of e.themes) {
-        const f = new V0();
+        const f = new j0();
         f.load(d), this.themes.push(f);
       }
     (this.defaultThemes.dark =
@@ -11694,7 +11554,7 @@ class h2 {
     this.load(this._engine.plugins.getPreset(e));
   }
 }
-class p2 {
+class v2 {
   constructor(e, t) {
     (this.container = t),
       (this._engine = e),
@@ -11745,7 +11605,7 @@ const Ji = (i) => {
       ? i.setCb(-i.radius)
       : i.coord < i.radius * 2 && i.setCb(i.radius));
 };
-class v2 {
+class m2 {
   constructor(e, t, n, s, o, r) {
     (this.container = n), (this._engine = e), this.init(t, s, o, r);
   }
@@ -11780,7 +11640,7 @@ class v2 {
       ) {
         if (this.backColor) return this.backColor;
         if (this.roll.alter)
-          return m0(n, this.roll.alter.type, this.roll.alter.value);
+          return g0(n, this.roll.alter.type, this.roll.alter.value);
       }
     }
     return n;
@@ -11828,18 +11688,18 @@ class v2 {
       (this.outType = "normal"),
       (this.ignoresResizeRatio = !0);
     const y = h.retina.pixelRatio,
-      E = h.actualOptions,
-      C = bi(this._engine, h, E.particles),
+      x = h.actualOptions,
+      C = bi(this._engine, h, x.particles),
       b = C.shape.type,
       { reduceDuplicates: _ } = C;
     this.shape = xe(b, this.id, _);
-    const x = C.shape;
+    const E = C.shape;
     if (n && n.shape && n.shape.type) {
       const M = n.shape.type,
         O = xe(M, this.id, _);
-      O && ((this.shape = O), x.load(n.shape));
+      O && ((this.shape = O), E.load(n.shape));
     }
-    (this.shapeData = this._loadShapeData(x, _)),
+    (this.shapeData = this._loadShapeData(E, _)),
       C.load(n),
       C.load(
         (o = this.shapeData) === null || o === void 0 ? void 0 : o.particles
@@ -11869,7 +11729,7 @@ class v2 {
         this.pathGenerator &&
           h.addPath(w.generator, this.pathGenerator) &&
           this.pathGenerator.init(h));
-    const S = R(this.options.zIndex.value);
+    const F = R(this.options.zIndex.value);
     h.retina.initParticle(this);
     const k = this.options.size,
       T = k.value,
@@ -11904,7 +11764,7 @@ class v2 {
       }
     (this.bubble = { inRange: !1 }),
       (this.slow = { inRange: !1, factor: 1 }),
-      (this.position = this._calcPosition(h, t, Be(S, 0, h.zLayers))),
+      (this.position = this._calcPosition(h, t, Be(F, 0, h.zLayers))),
       (this.initialPosition = this.position.copy());
     const D = h.canvas.size,
       z = Object.assign({}, this.options.move.center),
@@ -11922,7 +11782,7 @@ class v2 {
             ? d
             : "percent",
       }),
-      (this.direction = Xd(
+      (this.direction = Yd(
         this.options.move.direction,
         this.position,
         this.moveCenter
@@ -11945,19 +11805,19 @@ class v2 {
       (U.lastZIndex = this.position.z),
       (this.zIndexFactor = this.position.z / h.zLayers),
       (this.sides = 24);
-    let F = h.drawers.get(this.shape);
-    F ||
-      ((F = this._engine.plugins.getShapeDrawer(this.shape)),
-      F && h.drawers.set(this.shape, F)),
-      F != null && F.loadShape && (F == null || F.loadShape(this));
-    const A = F == null ? void 0 : F.getSidesCount;
+    let S = h.drawers.get(this.shape);
+    S ||
+      ((S = this._engine.plugins.getShapeDrawer(this.shape)),
+      S && h.drawers.set(this.shape, S)),
+      S != null && S.loadShape && (S == null || S.loadShape(this));
+    const A = S == null ? void 0 : S.getSidesCount;
     A && (this.sides = A(this)),
       (this.spawning = !1),
-      (this.shadowColor = Se(this.options.shadow.color));
+      (this.shadowColor = Fe(this.options.shadow.color));
     for (const M of h.particles.updaters) M.init(this);
     for (const M of h.particles.movers)
       (f = M.init) === null || f === void 0 || f.call(M, this);
-    F != null && F.particleInit && F.particleInit(h, this);
+    S != null && S.particleInit && S.particleInit(h, this);
     for (const [, M] of h.plugins)
       (p = M.particleCreated) === null || p === void 0 || p.call(M, this);
   }
@@ -11982,12 +11842,12 @@ class v2 {
   _calcPosition(e, t, n, s = 0) {
     var o, r, a, l;
     for (const [, y] of e.plugins) {
-      const E =
+      const x =
         y.particlePosition !== void 0 ? y.particlePosition(t, this) : void 0;
-      if (E !== void 0) return me.create(E.x, E.y, n);
+      if (x !== void 0) return me.create(x.x, x.y, n);
     }
     const u = e.canvas.size,
-      c = Kd({ size: u, position: t }),
+      c = Jd({ size: u, position: t }),
       d = me.create(c.x, c.y, n),
       f = this.getRadius(),
       p = this.options.move.outModes,
@@ -11997,7 +11857,7 @@ class v2 {
           checkModes: ["bounce", "bounce-horizontal"],
           coord: d.x,
           maxCoord: e.canvas.size.width,
-          setCb: (E) => (d.x += E),
+          setCb: (x) => (d.x += x),
           radius: f,
         });
       },
@@ -12007,7 +11867,7 @@ class v2 {
           checkModes: ["bounce", "bounce-vertical"],
           coord: d.y,
           maxCoord: e.canvas.size.height,
-          setCb: (E) => (d.y += E),
+          setCb: (x) => (d.y += x),
           radius: f,
         });
       };
@@ -12020,7 +11880,7 @@ class v2 {
     );
   }
   _calculateVelocity() {
-    const t = Yd(this.direction).copy(),
+    const t = Zd(this.direction).copy(),
       n = this.options.move;
     if (n.direction === "inside" || n.direction === "outside") return t;
     const s = (Math.PI / 180) * R(n.angle.value),
@@ -12054,7 +11914,7 @@ class v2 {
     if (n) return ne({}, xe(n, this.id, t));
   }
 }
-class m2 {
+class g2 {
   constructor(e, t) {
     (this.position = e), (this.particle = t);
   }
@@ -12178,7 +12038,7 @@ class Ye {
       (this._divided = !0);
   }
 }
-class g2 {
+class y2 {
   constructor(e, t) {
     (this.container = t),
       (this._engine = e),
@@ -12189,7 +12049,7 @@ class g2 {
       (this.limit = 0),
       (this.needsSort = !1),
       (this.lastZIndex = 0),
-      (this.interactionManager = new p2(this._engine, t));
+      (this.interactionManager = new v2(this._engine, t));
     const n = this.container.canvas.size;
     (this.quadTree = new Ye(
       new pe(
@@ -12211,7 +12071,7 @@ class g2 {
       t = e.actualOptions;
     for (const n of t.manualParticles)
       this.addParticle(
-        Zd({ size: e.canvas.size, position: n.position }),
+        Kd({ size: e.canvas.size, position: n.position }),
         n.options
       );
   }
@@ -12354,7 +12214,7 @@ class g2 {
         o.push(r);
         continue;
       }
-      this.quadTree.insert(new m2(r.getPosition(), r));
+      this.quadTree.insert(new g2(r.getPosition(), r));
     }
     for (const r of o) this.remove(r);
     await this.interactionManager.externalInteract(e);
@@ -12393,7 +12253,7 @@ class g2 {
       let o = this.pool.pop();
       o
         ? o.init(this.nextId, e, t, n)
-        : (o = new v2(this._engine, this.nextId, this.container, e, t, n));
+        : (o = new m2(this._engine, this.nextId, this.container, e, t, n));
       let r = !0;
       return (
         s && (r = s(o)),
@@ -12414,7 +12274,7 @@ class g2 {
     }
   }
 }
-class y2 {
+class C2 {
   constructor(e) {
     this.container = e;
   }
@@ -12453,10 +12313,10 @@ function ee(i) {
   return i && !i.destroyed;
 }
 function lt(i, e, ...t) {
-  const n = new h2(i, e);
+  const n = new p2(i, e);
   return os(n, ...t), n;
 }
-const C2 = "default",
+const b2 = "default",
   Qi = {
     generate: (i) => {
       const e = i.velocity.copy();
@@ -12465,7 +12325,7 @@ const C2 = "default",
     init: () => {},
     update: () => {},
   };
-class b2 {
+class _2 {
   constructor(e, t, n) {
     (this.id = t),
       (this._engine = e),
@@ -12483,17 +12343,17 @@ class b2 {
       (this.pageHidden = !1),
       (this._sourceOptions = n),
       (this._initialSourceOptions = n),
-      (this.retina = new y2(this)),
-      (this.canvas = new F0(this)),
-      (this.particles = new g2(this._engine, this)),
-      (this.frameManager = new k0(this)),
+      (this.retina = new C2(this)),
+      (this.canvas = new T0(this)),
+      (this.particles = new y2(this._engine, this)),
+      (this.frameManager = new D0(this)),
       (this.pathGenerators = new Map()),
       (this.interactivity = { mouse: { clicking: !1, inside: !1 } }),
       (this.plugins = new Map()),
       (this.drawers = new Map()),
       (this._options = lt(this._engine, this)),
       (this.actualOptions = lt(this._engine, this)),
-      (this._eventListeners = new T0(this)),
+      (this._eventListeners = new B0(this)),
       typeof IntersectionObserver < "u" &&
         IntersectionObserver &&
         (this._intersectionObserver = new IntersectionObserver((s) =>
@@ -12578,7 +12438,7 @@ class b2 {
   draw(e) {
     if (!ee(this)) return;
     let t = e;
-    this._drawAnimationFrame = e0()(async (n) => {
+    this._drawAnimationFrame = t0()(async (n) => {
       t && ((this.lastFrameTime = void 0), (t = !1)),
         await this.frameManager.nextFrame(n);
     });
@@ -12652,7 +12512,7 @@ class b2 {
     if (
       !!ee(this) &&
       (this._drawAnimationFrame !== void 0 &&
-        (t0()(this._drawAnimationFrame), delete this._drawAnimationFrame),
+        (i0()(this._drawAnimationFrame), delete this._drawAnimationFrame),
       !this._paused)
     ) {
       for (const [, e] of this.plugins) e.pause && e.pause();
@@ -12693,7 +12553,7 @@ class b2 {
         (s.init = e.init || o.init),
         (s.update = e.update || o.update);
     }
-    this.addPath(C2, s, !0);
+    this.addPath(b2, s, !0);
   }
   async start() {
     !ee(this) ||
@@ -12751,17 +12611,17 @@ class b2 {
           (t.isIntersecting ? this.play : this.pause)();
   }
 }
-function _2(i) {
+function w2(i) {
   console.error(`tsParticles - Error ${i} while retrieving config file`);
 }
-async function w2(i, e) {
+async function E2(i, e) {
   const t = xe(i, e);
   if (!t) return;
   const n = await fetch(t);
   if (n.ok) return n.json();
-  _2(n.status);
+  w2(n.status);
 }
-class E2 {
+class x2 {
   constructor(e) {
     this._engine = e;
   }
@@ -12789,7 +12649,7 @@ class E2 {
           ? t
           : `tsparticles${Math.floor(j() * 1e4)}`,
       { index: r, url: a, remote: l } = e,
-      u = l ? await w2(a, r) : e.options;
+      u = l ? await E2(a, r) : e.options;
     let c =
       (n = e.element) !== null && n !== void 0 ? n : document.getElementById(o);
     c ||
@@ -12818,7 +12678,7 @@ class E2 {
     }
     h.style.width || (h.style.width = "100%"),
       h.style.height || (h.style.height = "100%");
-    const g = new b2(this._engine, o, d);
+    const g = new _2(this._engine, o, d);
     return (
       p >= 0 ? f.splice(p, 0, g) : f.push(g),
       g.canvas.loadCanvas(h),
@@ -12860,7 +12720,7 @@ function Kt(i, e, t, n = !1) {
   let s = e.get(i);
   return (!s || n) && ((s = [...t.values()].map((o) => o(i))), e.set(i, s)), s;
 }
-class x2 {
+class F2 {
   constructor(e) {
     (this._engine = e),
       (this.plugins = []),
@@ -12941,10 +12801,10 @@ class x2 {
 class S2 {
   constructor() {
     (this._domArray = []),
-      (this._eventDispatcher = new Ud()),
+      (this._eventDispatcher = new Gd()),
       (this._initialized = !1),
-      (this._loader = new E2(this)),
-      (this.plugins = new x2(this));
+      (this._loader = new x2(this)),
+      (this.plugins = new F2(this));
   }
   addEventListener(e, t) {
     this._eventDispatcher.addEventListener(e, t);
@@ -13020,7 +12880,7 @@ class S2 {
     for (const n of t) n.addClickHandler(e);
   }
 }
-class F2 {
+class T2 {
   constructor() {
     (this.key = "hsl"), (this.stringPrefix = "hsl");
   }
@@ -13043,7 +12903,7 @@ class F2 {
         /hsla?\(\s*(\d+)\s*,\s*(\d+)%\s*,\s*(\d+)%\s*(,\s*([\d.%]+)\s*)?\)/i,
       n = t.exec(e);
     return n
-      ? l0({
+      ? u0({
           a: n.length > 4 ? qn(n[5]) : 1,
           h: parseInt(n[1], 10),
           l: parseInt(n[3], 10),
@@ -13052,7 +12912,7 @@ class F2 {
       : void 0;
   }
 }
-class T2 {
+class B2 {
   constructor() {
     (this.key = "rgb"), (this.stringPrefix = "rgb");
   }
@@ -13093,13 +12953,13 @@ class _i {
     (this.container = e), (this.type = 1);
   }
 }
-const B2 = new T2(),
-  k2 = new F2();
-Zn(B2);
+const k2 = new B2(),
+  D2 = new T2();
 Zn(k2);
-const D2 = new S2();
-D2.init();
-class A2 {
+Zn(D2);
+const A2 = new S2();
+A2.init();
+class M2 {
   constructor() {
     (this.radius = 0), (this.mass = 0);
   }
@@ -13109,9 +12969,9 @@ class A2 {
       e.radius !== void 0 && (this.radius = e.radius));
   }
 }
-class M2 extends Fe {
+class P2 extends Se {
   constructor() {
-    super(), (this.density = 5), (this.value = 50), (this.limit = new A2());
+    super(), (this.density = 5), (this.value = 50), (this.limit = new M2());
   }
   load(e) {
     !e ||
@@ -13122,7 +12982,7 @@ class M2 extends Fe {
         : this.limit.load(e.limit));
   }
 }
-class Ft {
+class St {
   constructor() {
     (this.color = new ie()),
       (this.color.value = "#000000"),
@@ -13130,7 +12990,7 @@ class Ft {
       (this.opacity = 1),
       (this.destroy = !0),
       (this.orbits = !1),
-      (this.size = new M2());
+      (this.size = new P2());
   }
   load(e) {
     e !== void 0 &&
@@ -13147,15 +13007,15 @@ class Ft {
       e.orbits !== void 0 && (this.orbits = e.orbits));
   }
 }
-class P2 {
+class O2 {
   constructor(e, t, n, s) {
     var o, r, a;
     (this.absorbers = e),
       (this.container = t),
       (this.initialPosition = s ? Z.create(s.x, s.y) : void 0),
-      n instanceof Ft
+      n instanceof St
         ? (this.options = n)
-        : ((this.options = new Ft()), this.options.load(n)),
+        : ((this.options = new St()), this.options.load(n)),
       (this.dragging = !1),
       (this.name = this.options.name),
       (this.opacity = this.options.opacity),
@@ -13168,7 +13028,7 @@ class P2 {
       mass: l.mass,
     }),
       (this.color =
-        (o = Se(this.options.color)) !== null && o !== void 0
+        (o = Fe(this.options.color)) !== null && o !== void 0
           ? o
           : { b: 0, g: 0, r: 0 }),
       (this.position =
@@ -13192,7 +13052,7 @@ class P2 {
           ((this.position.x = u.position.x), (this.position.y = u.position.y));
     }
     const s = e.getPosition(),
-      { dx: o, dy: r, distance: a } = de(this.position, s),
+      { dx: o, dy: r, distance: a } = fe(this.position, s),
       l = Z.create(o, r);
     if (
       ((l.length = (this.mass / Math.pow(a, 2)) * t.retina.reduceFactor),
@@ -13281,7 +13141,7 @@ class P2 {
     }
   }
 }
-class O2 {
+class L2 {
   constructor(e) {
     (this.container = e),
       (this.array = []),
@@ -13294,7 +13154,7 @@ class O2 {
       (e.addAbsorber = (t, n) => this.addAbsorber(t, n));
   }
   addAbsorber(e, t) {
-    const n = new P2(this, this.container, e, t);
+    const n = new O2(this, this.container, e, t);
     return this.array.push(n), n;
   }
   draw(e) {
@@ -13332,12 +13192,12 @@ class O2 {
     this.array = [];
   }
 }
-class L2 {
+class z2 {
   constructor() {
     this.id = "absorbers";
   }
   getPlugin(e) {
-    return new O2(e);
+    return new L2(e);
   }
   loadOptions(e, t) {
     var n, s;
@@ -13345,7 +13205,7 @@ class L2 {
       (t != null &&
         t.absorbers &&
         (e.absorbers = J(t.absorbers, (o) => {
-          const r = new Ft();
+          const r = new St();
           return r.load(o), r;
         })),
       (e.interactivity.modes.absorbers = J(
@@ -13356,7 +13216,7 @@ class L2 {
           ? void 0
           : s.absorbers,
         (o) => {
-          const r = new Ft();
+          const r = new St();
           return r.load(o), r;
         }
       )));
@@ -13382,11 +13242,11 @@ class L2 {
         );
   }
 }
-async function z2(i) {
-  const e = new L2();
+async function I2(i) {
+  const e = new z2();
   await i.addPlugin(e);
 }
-class I2 {
+class R2 {
   load(e) {
     !e ||
       (e.bottom !== void 0 && (this.bottom = H(e.bottom)),
@@ -13395,21 +13255,21 @@ class I2 {
       e.top !== void 0 && (this.top = H(e.top)));
   }
 }
-class R2 extends Fe {
+class $2 extends Se {
   constructor() {
     super(), (this.value = 3);
   }
 }
-class $2 extends Fe {
+class N2 extends Se {
   constructor() {
     super(), (this.value = { min: 4, max: 9 });
   }
 }
-class N2 {
+class H2 {
   constructor() {
     (this.count = 1),
-      (this.factor = new R2()),
-      (this.rate = new $2()),
+      (this.factor = new $2()),
+      (this.rate = new N2()),
       (this.sizeOffset = !0);
   }
   load(e) {
@@ -13421,9 +13281,9 @@ class N2 {
       e.sizeOffset !== void 0 && (this.sizeOffset = e.sizeOffset));
   }
 }
-class H2 {
+class V2 {
   constructor() {
-    (this.bounds = new I2()), (this.mode = "none"), (this.split = new N2());
+    (this.bounds = new R2()), (this.mode = "none"), (this.split = new H2());
   }
   load(e) {
     !e ||
@@ -13432,7 +13292,7 @@ class H2 {
       this.split.load(e.split));
   }
 }
-class V2 {
+class j2 {
   constructor(e, t) {
     (this.engine = e), (this.container = t);
   }
@@ -13456,7 +13316,7 @@ class V2 {
     return !e.destroyed;
   }
   loadOptions(e, ...t) {
-    e.destroy || (e.destroy = new H2());
+    e.destroy || (e.destroy = new V2());
     for (const n of t) e.destroy.load(n == null ? void 0 : n.destroy);
   }
   particleDestroyed(e, t) {
@@ -13516,10 +13376,10 @@ class V2 {
     for (let r = 0; r < s; r++) this.addSplitParticle(e, o);
   }
 }
-async function j2(i) {
-  await i.addParticleUpdater("destroy", (e) => new V2(i, e));
+async function q2(i) {
+  await i.addParticleUpdater("destroy", (e) => new j2(i, e));
 }
-class q2 {
+class U2 {
   randomPosition(e, t, n) {
     const s = (d, f) => {
         const p = j() / 4,
@@ -13542,7 +13402,7 @@ class q2 {
     return { x: e.x + c * Math.cos(l), y: e.y + c * Math.sin(l) };
   }
 }
-class U2 {
+class G2 {
   constructor() {
     this.wait = !1;
   }
@@ -13554,7 +13414,7 @@ class U2 {
       e.wait !== void 0 && (this.wait = e.wait));
   }
 }
-class G2 {
+class W2 {
   constructor() {
     (this.quantity = 1), (this.delay = 0.1);
   }
@@ -13579,8 +13439,8 @@ class He {
   constructor() {
     (this.autoPlay = !0),
       (this.fill = !0),
-      (this.life = new U2()),
-      (this.rate = new G2()),
+      (this.life = new G2()),
+      (this.rate = new W2()),
       (this.shape = "square"),
       (this.startCount = 0);
   }
@@ -13608,7 +13468,7 @@ class He {
       e.startCount !== void 0 && (this.startCount = e.startCount));
   }
 }
-class W2 {
+class X2 {
   constructor(e, t, n, s, o) {
     var r, a, l, u, c, d, f, p;
     (this.emitters = t),
@@ -13860,7 +13720,7 @@ class W2 {
     return (t + (u * o.fpsLimit) / l + r * 3.6) % n;
   }
 }
-class X2 {
+class Y2 {
   constructor(e, t) {
     (this.container = t),
       (this._engine = e),
@@ -13891,7 +13751,7 @@ class X2 {
   addEmitter(e, t) {
     const n = new He();
     n.load(e);
-    const s = new W2(this._engine, this, this.container, n, t);
+    const s = new X2(this._engine, this, this.container, n, t);
     return this.array.push(s), s;
   }
   handleClickMode(e) {
@@ -13951,7 +13811,7 @@ class X2 {
   }
 }
 const Jt = new Map();
-class Y2 {
+class Z2 {
   constructor(e) {
     this._engine = e;
   }
@@ -13968,7 +13828,7 @@ class Y2 {
 function en(i, e) {
   return i + e * (j() - 0.5);
 }
-class Z2 {
+class K2 {
   randomPosition(e, t, n) {
     if (n) return { x: en(e.x, t.width), y: en(e.y, t.height) };
     {
@@ -13990,12 +13850,12 @@ class Z2 {
     }
   }
 }
-class K2 {
+class J2 {
   constructor(e) {
     (this._engine = e), (this.id = "emitters");
   }
   getPlugin(e) {
-    return new X2(this._engine, e);
+    return new Y2(this._engine, e);
   }
   loadOptions(e, t) {
     var n, s, o, r, a, l;
@@ -14077,8 +13937,8 @@ class K2 {
     );
   }
 }
-async function J2(i) {
-  i.emitterShapeManager || (i.emitterShapeManager = new Y2(i)),
+async function Q2(i) {
+  i.emitterShapeManager || (i.emitterShapeManager = new Z2(i)),
     i.addEmitterShape ||
       (i.addEmitterShape = (t, n) => {
         var s;
@@ -14086,12 +13946,12 @@ async function J2(i) {
           s === void 0 ||
           s.addShape(t, n);
       });
-  const e = new K2(i);
+  const e = new J2(i);
   await i.addPlugin(e),
-    i.addEmitterShape("circle", new q2()),
-    i.addEmitterShape("square", new Z2());
+    i.addEmitterShape("circle", new U2()),
+    i.addEmitterShape("square", new K2());
 }
-class Q2 {
+class ef {
   constructor() {
     (this.delay = 1), (this.pauseOnStop = !1), (this.quantity = 1);
   }
@@ -14103,7 +13963,7 @@ class Q2 {
       e.pauseOnStop !== void 0 && (this.pauseOnStop = e.pauseOnStop));
   }
 }
-class ef extends Ae {
+class tf extends Ae {
   constructor(e) {
     super(e), (this._delay = 0);
   }
@@ -14157,13 +14017,13 @@ class ef extends Ae {
     );
   }
   loadModeOptions(e, ...t) {
-    e.trail || (e.trail = new Q2());
+    e.trail || (e.trail = new ef());
     for (const n of t) e.trail.load(n == null ? void 0 : n.trail);
   }
   reset() {}
 }
-async function tf(i) {
-  await i.addInteractor("externalTrail", (e) => new ef(e));
+async function nf(i) {
+  await i.addInteractor("externalTrail", (e) => new tf(e));
 }
 class tn {
   constructor() {
@@ -14175,7 +14035,7 @@ class tn {
       e.value !== void 0 && (this.value = H(e.value)));
   }
 }
-class nf {
+class sf {
   constructor() {
     (this.darken = new tn()),
       (this.enable = !1),
@@ -14194,14 +14054,14 @@ class nf {
       e.speed !== void 0 && (this.speed = H(e.speed)));
   }
 }
-function sf(i, e) {
+function of(i, e) {
   const t = i.options.roll;
   if (!i.roll || !(t != null && t.enable)) return;
   const n = i.roll.speed * e.factor,
     s = 2 * Math.PI;
   (i.roll.angle += n), i.roll.angle > s && (i.roll.angle -= s);
 }
-class of {
+class rf {
   getTransformValues(e) {
     var t;
     const n =
@@ -14246,17 +14106,17 @@ class of {
     return !e.destroyed && !e.spawning && !!(t != null && t.enable);
   }
   loadOptions(e, ...t) {
-    e.roll || (e.roll = new nf());
+    e.roll || (e.roll = new sf());
     for (const n of t) e.roll.load(n == null ? void 0 : n.roll);
   }
   update(e, t) {
-    !this.isEnabled(e) || sf(e, t);
+    !this.isEnabled(e) || of(e, t);
   }
 }
-async function rf(i) {
-  await i.addParticleUpdater("roll", () => new of());
+async function af(i) {
+  await i.addParticleUpdater("roll", () => new rf());
 }
-const af = (i) => {
+const lf = (i) => {
   const e = (n, s) => i.load(n, s);
   (e.load = (n, s, o) => {
     i.loadJSON(n, s)
@@ -14273,7 +14133,7 @@ const af = (i) => {
   const t = i.dom();
   return { particlesJS: e, pJSDom: t };
 };
-class lf {
+class uf {
   constructor() {
     (this.enable = !1), (this.speed = 0), (this.decay = 0), (this.sync = !1);
   }
@@ -14285,10 +14145,10 @@ class lf {
       e.sync !== void 0 && (this.sync = e.sync));
   }
 }
-class uf extends Fe {
+class cf extends Se {
   constructor() {
     super(),
-      (this.animation = new lf()),
+      (this.animation = new uf()),
       (this.direction = "clockwise"),
       (this.path = !1),
       (this.value = 0);
@@ -14301,7 +14161,7 @@ class uf extends Fe {
       e.path !== void 0 && (this.path = e.path));
   }
 }
-function cf(i, e) {
+function df(i, e) {
   var t, n;
   const s = i.rotate,
     o = i.options.rotate;
@@ -14323,7 +14183,7 @@ function cf(i, e) {
     s.velocity && u !== 1 && (s.velocity *= u);
   }
 }
-class df {
+class ff {
   constructor(e) {
     this.container = e;
   }
@@ -14364,13 +14224,13 @@ class df {
       : !1;
   }
   loadOptions(e, ...t) {
-    e.rotate || (e.rotate = new uf());
+    e.rotate || (e.rotate = new cf());
     for (const n of t) e.rotate.load(n == null ? void 0 : n.rotate);
   }
   update(e, t) {
     var n, s;
     !this.isEnabled(e) ||
-      (cf(e, t),
+      (df(e, t),
       (e.rotation =
         (s = (n = e.rotate) === null || n === void 0 ? void 0 : n.value) !==
           null && s !== void 0
@@ -14378,12 +14238,12 @@ class df {
           : 0));
   }
 }
-async function ff(i) {
-  await i.addParticleUpdater("rotate", (e) => new df(e));
+async function hf(i) {
+  await i.addParticleUpdater("rotate", (e) => new ff(e));
 }
-function hf(i) {
+function pf(i) {
   const e = i.initialPosition,
-    { dx: t, dy: n } = de(e, i.position),
+    { dx: t, dy: n } = fe(e, i.position),
     s = Math.abs(t),
     o = Math.abs(n),
     r = i.retina.maxDistance.horizontal,
@@ -14404,7 +14264,7 @@ function hf(i) {
     }
   }
 }
-function pf(i, e) {
+function vf(i, e) {
   const t = i.container;
   if (!i.spin) return;
   const n = {
@@ -14420,7 +14280,7 @@ function pf(i, e) {
     : i.spin.radius < 0 && ((i.spin.radius = 0), (i.spin.acceleration *= -1)),
     (i.spin.angle += (e / 100) * (1 - i.spin.radius / s));
 }
-function vf(i, e) {
+function mf(i, e) {
   var t;
   const n = i.options,
     s = n.move.path;
@@ -14437,10 +14297,10 @@ function vf(i, e) {
       (i.velocity.y = Be(i.velocity.y, -1, 1))),
     (i.lastPathTime -= i.pathDelay);
 }
-function mf(i) {
+function gf(i) {
   return i.slow.inRange ? i.slow.factor : 1;
 }
-class gf {
+class yf {
   init(e) {
     var t;
     const n = e.container,
@@ -14483,7 +14343,7 @@ class gf {
       u = l.move;
     if (!u.enable) return;
     const c = e.container,
-      d = mf(e),
+      d = gf(e),
       f =
         ((n = (r = e.retina).moveSpeed) !== null && n !== void 0
           ? n
@@ -14496,29 +14356,29 @@ class gf {
       h = ze(l.size.value) * c.retina.pixelRatio,
       g = u.size ? e.getRadius() / h : 1,
       y = g * d * (t.factor || 1),
-      E = 2,
-      C = (f * y) / E;
-    if (u.spin.enable) pf(e, C);
+      x = 2,
+      C = (f * y) / x;
+    if (u.spin.enable) vf(e, C);
     else {
-      vf(e, t);
+      mf(e, t);
       const b = e.gravity,
         _ = (b == null ? void 0 : b.enable) && b.inverse ? -1 : 1;
       (b == null ? void 0 : b.enable) &&
         C &&
         (e.velocity.y += (_ * (b.acceleration * t.factor)) / (60 * C)),
         p && C && (e.velocity.x += (p * t.factor) / (60 * C));
-      const x = e.moveDecay;
-      x != 1 && e.velocity.multTo(x);
+      const E = e.moveDecay;
+      E != 1 && e.velocity.multTo(E);
       const w = e.velocity.mult(C),
-        S =
+        F =
           (o = e.retina.maxSpeed) !== null && o !== void 0
             ? o
             : c.retina.maxSpeed;
       (b == null ? void 0 : b.enable) &&
-        S > 0 &&
-        ((!b.inverse && w.y >= 0 && w.y >= S) ||
-          (b.inverse && w.y <= 0 && w.y <= -S)) &&
-        ((w.y = _ * S), C && (e.velocity.y = w.y / C));
+        F > 0 &&
+        ((!b.inverse && w.y >= 0 && w.y >= F) ||
+          (b.inverse && w.y <= 0 && w.y <= -F)) &&
+        ((w.y = _ * F), C && (e.velocity.y = w.y / C));
       const k = e.options.zIndex,
         T = (1 - e.zIndexFactor) ** k.velocityRate;
       T != 1 && w.multTo(T),
@@ -14527,13 +14387,13 @@ class gf {
           ((e.position.x += Math.sin(e.position.x * Math.cos(e.position.y))),
           (e.position.y += Math.cos(e.position.y * Math.sin(e.position.x))));
     }
-    hf(e);
+    pf(e);
   }
 }
-async function yf(i) {
-  i.addMover("base", () => new gf());
+async function Cf(i) {
+  i.addMover("base", () => new yf());
 }
-class Cf {
+class bf {
   draw(e, t, n) {
     e.arc(0, 0, n, 0, Math.PI * 2, !1);
   }
@@ -14541,8 +14401,8 @@ class Cf {
     return 12;
   }
 }
-async function bf(i) {
-  await i.addShape("circle", new Cf());
+async function _f(i) {
+  await i.addShape("circle", new bf());
 }
 function Qt(i, e, t, n, s) {
   var o, r;
@@ -14559,7 +14419,7 @@ function Qt(i, e, t, n, s) {
     a.velocity && c !== 1 && (a.velocity *= c),
     a.value > n && (a.value %= n);
 }
-function _f(i, e) {
+function wf(i, e) {
   var t, n, s;
   const o = i.options.color.animation;
   ((t = i.color) === null || t === void 0 ? void 0 : t.h) !== void 0 &&
@@ -14569,7 +14429,7 @@ function _f(i, e) {
     ((s = i.color) === null || s === void 0 ? void 0 : s.l) !== void 0 &&
       Qt(e, i.color.l, o.l, 100, !0);
 }
-class wf {
+class Ef {
   constructor(e) {
     this.container = e;
   }
@@ -14600,13 +14460,13 @@ class wf {
     );
   }
   update(e, t) {
-    _f(e, t);
+    wf(e, t);
   }
 }
-async function Ef(i) {
-  await i.addParticleUpdater("color", (e) => new wf(e));
+async function xf(i) {
+  await i.addParticleUpdater("color", (e) => new Ef(e));
 }
-class xf {
+class Ff {
   constructor() {
     (this.distance = 200),
       (this.duration = 0.4),
@@ -14688,7 +14548,7 @@ class Sf extends Ae {
     return K("attract", a) || K("attract", l);
   }
   loadModeOptions(e, ...t) {
-    e.attract || (e.attract = new xf());
+    e.attract || (e.attract = new Ff());
     for (const n of t) e.attract.load(n == null ? void 0 : n.attract);
   }
   reset() {}
@@ -14720,7 +14580,7 @@ class Sf extends Ae {
     if (!o) return;
     const r = s.particles.quadTree.query(n, (a) => this.isEnabled(a));
     for (const a of r) {
-      const { dx: l, dy: u, distance: c } = de(a.position, e),
+      const { dx: l, dy: u, distance: c } = fe(a.position, e),
         d = o.speed * o.factor,
         f = Be(Hn(o.easing)(1 - c / t) * d, 0, o.maxSpeed),
         p = Z.create(c === 0 ? d : (l / c) * f, c === 0 ? d : (u / c) * f);
@@ -14728,10 +14588,10 @@ class Sf extends Ae {
     }
   }
 }
-async function Ff(i) {
+async function Tf(i) {
   await i.addInteractor("externalAttract", (e) => new Sf(i, e));
 }
-class Tf {
+class Bf {
   constructor() {
     this.distance = 200;
   }
@@ -14739,7 +14599,7 @@ class Tf {
     !e || (e.distance !== void 0 && (this.distance = e.distance));
   }
 }
-class Bf extends Ae {
+class kf extends Ae {
   constructor(e) {
     super(e);
   }
@@ -14778,7 +14638,7 @@ class Bf extends Ae {
     );
   }
   loadModeOptions(e, ...t) {
-    e.bounce || (e.bounce = new Tf());
+    e.bounce || (e.bounce = new Bf());
     for (const n of t) e.bounce.load(n == null ? void 0 : n.bounce);
   }
   reset() {}
@@ -14795,7 +14655,7 @@ class Bf extends Ae {
             velocity: Z.origin,
             factor: Z.origin,
           })
-        : n instanceof pe && o0(o, gt(e, t));
+        : n instanceof pe && r0(o, gt(e, t));
   }
   processMouseBounce() {
     const e = this.container,
@@ -14831,8 +14691,8 @@ class Bf extends Ae {
       });
   }
 }
-async function kf(i) {
-  await i.addInteractor("externalBounce", (e) => new Bf(e));
+async function Df(i) {
+  await i.addInteractor("externalBounce", (e) => new kf(e));
 }
 class ls {
   constructor() {
@@ -14854,7 +14714,7 @@ class ls {
     }
   }
 }
-class Df extends ls {
+class Af extends ls {
   constructor() {
     super(), (this.selectors = []);
   }
@@ -14871,12 +14731,12 @@ class Df extends ls {
         e.selectors !== void 0 && (this.selectors = e.selectors));
   }
 }
-class Af extends ls {
+class Mf extends ls {
   load(e) {
     super.load(e),
       e &&
         (this.divs = J(e.divs, (t) => {
-          const n = new Df();
+          const n = new Af();
           return n.load(t), n;
         }));
   }
@@ -14890,7 +14750,7 @@ function nn(i, e, t, n) {
     return Be(s, e, i);
   }
 }
-class Mf extends Ae {
+class Pf extends Ae {
   constructor(e) {
     super(e),
       e.bubble || (e.bubble = {}),
@@ -14955,7 +14815,7 @@ class Mf extends Ae {
     return K("bubble", u) || K("bubble", c) || l;
   }
   loadModeOptions(e, ...t) {
-    e.bubble || (e.bubble = new Af());
+    e.bubble || (e.bubble = new Mf());
     for (const n of t) e.bubble.load(n == null ? void 0 : n.bubble);
   }
   reset(e) {
@@ -15153,10 +15013,10 @@ class Mf extends Ae {
       });
   }
 }
-async function Pf(i) {
-  await i.addInteractor("externalBubble", (e) => new Mf(e));
+async function Of(i) {
+  await i.addInteractor("externalBubble", (e) => new Pf(e));
 }
-class Of {
+class Lf {
   constructor() {
     this.opacity = 0.5;
   }
@@ -15164,9 +15024,9 @@ class Of {
     !e || (e.opacity !== void 0 && (this.opacity = e.opacity));
   }
 }
-class Lf {
+class zf {
   constructor() {
-    (this.distance = 80), (this.links = new Of()), (this.radius = 60);
+    (this.distance = 80), (this.links = new Lf()), (this.radius = 60);
   }
   get lineLinked() {
     return this.links;
@@ -15193,7 +15053,7 @@ class Lf {
       e.radius !== void 0 && (this.radius = e.radius));
   }
 }
-function zf(i, e, t, n) {
+function If(i, e, t, n) {
   const s = Math.floor(t.getRadius() / e.getRadius()),
     o = e.getFillColor(),
     r = t.getFillColor();
@@ -15209,25 +15069,25 @@ function zf(i, e, t, n) {
     c
   );
 }
-function If(i, e, t, n, s) {
+function Rf(i, e, t, n, s) {
   ut(i, n, s), (i.lineWidth = e), (i.strokeStyle = t), i.stroke();
 }
-function Rf(i, e, t, n) {
+function $f(i, e, t, n) {
   const s = i.actualOptions,
     o = s.interactivity.modes.connect;
-  if (!!o) return zf(e, t, n, o.links.opacity);
+  if (!!o) return If(e, t, n, o.links.opacity);
 }
-function $f(i, e, t) {
+function Nf(i, e, t) {
   i.canvas.draw((n) => {
     var s;
-    const o = Rf(i, n, e, t);
+    const o = $f(i, n, e, t);
     if (!o) return;
     const r = e.getPosition(),
       a = t.getPosition();
-    If(n, (s = e.retina.linksWidth) !== null && s !== void 0 ? s : 0, o, r, a);
+    Rf(n, (s = e.retina.linksWidth) !== null && s !== void 0 ? s : 0, o, r, a);
   });
 }
-class Nf extends Ae {
+class Hf extends Ae {
   constructor(e) {
     super(e);
   }
@@ -15264,7 +15124,7 @@ class Nf extends Ae {
             d = Math.abs(e.retina.connectModeDistance),
             f = Math.abs(l.x - c.x),
             p = Math.abs(l.y - c.y);
-          f < d && p < d && $f(e, a, u);
+          f < d && p < d && Nf(e, a, u);
         }
         ++r;
       }
@@ -15282,15 +15142,15 @@ class Nf extends Ae {
     return o.onHover.enable && s.position ? K("connect", o.onHover.mode) : !1;
   }
   loadModeOptions(e, ...t) {
-    e.connect || (e.connect = new Lf());
+    e.connect || (e.connect = new zf());
     for (const n of t) e.connect.load(n == null ? void 0 : n.connect);
   }
   reset() {}
 }
-async function Hf(i) {
-  await i.addInteractor("externalConnect", (e) => new Nf(e));
+async function Vf(i) {
+  await i.addInteractor("externalConnect", (e) => new Hf(e));
 }
-class Vf {
+class jf {
   constructor() {
     (this.blink = !1), (this.consent = !1), (this.opacity = 1);
   }
@@ -15302,9 +15162,9 @@ class Vf {
       e.opacity !== void 0 && (this.opacity = e.opacity));
   }
 }
-class jf {
+class qf {
   constructor() {
-    (this.distance = 100), (this.links = new Vf());
+    (this.distance = 100), (this.links = new jf());
   }
   get lineLinked() {
     return this.links;
@@ -15330,14 +15190,14 @@ class jf {
       ));
   }
 }
-function qf(i, e, t, n, s, o) {
+function Uf(i, e, t, n, s, o) {
   ut(i, t, n), (i.strokeStyle = Ie(s, o)), (i.lineWidth = e), i.stroke();
 }
-function Uf(i, e, t, n, s) {
+function Gf(i, e, t, n, s) {
   i.canvas.draw((o) => {
     var r;
     const a = e.getPosition();
-    qf(
+    Uf(
       o,
       (r = e.retina.linksWidth) !== null && r !== void 0 ? r : 0,
       a,
@@ -15347,7 +15207,7 @@ function Uf(i, e, t, n, s) {
     );
   });
 }
-class Gf extends Ae {
+class Wf extends Ae {
   constructor(e) {
     super(e);
   }
@@ -15388,12 +15248,12 @@ class Gf extends Ae {
           ? void 0
           : t.color;
       if (!n.particles.grabLineColor && g) {
-        const E = o.modes.grab.links;
-        n.particles.grabLineColor = es(g, E.blink, E.consent);
+        const x = o.modes.grab.links;
+        n.particles.grabLineColor = es(g, x.blink, x.consent);
       }
       const y = oi(u, void 0, n.particles.grabLineColor);
       if (!y) return;
-      Uf(n, u, y, h, r);
+      Gf(n, u, y, h, r);
     }
   }
   isEnabled(e) {
@@ -15408,15 +15268,15 @@ class Gf extends Ae {
     return o.onHover.enable && !!s.position && K("grab", o.onHover.mode);
   }
   loadModeOptions(e, ...t) {
-    e.grab || (e.grab = new jf());
+    e.grab || (e.grab = new qf());
     for (const n of t) e.grab.load(n == null ? void 0 : n.grab);
   }
   reset() {}
 }
-async function Wf(i) {
-  await i.addInteractor("externalGrab", (e) => new Gf(e));
+async function Xf(i) {
+  await i.addInteractor("externalGrab", (e) => new Wf(e));
 }
-class Xf extends Ae {
+class Yf extends Ae {
   constructor(e) {
     super(e),
       (this.handleClickMode = (t) => {
@@ -15433,10 +15293,10 @@ class Xf extends Ae {
   }
   reset() {}
 }
-function Yf(i) {
-  i.addInteractor("externalPause", (e) => new Xf(e));
+function Zf(i) {
+  i.addInteractor("externalPause", (e) => new Yf(e));
 }
-class Zf {
+class Kf {
   constructor() {
     (this.default = !0), (this.groups = []), (this.quantity = 4);
   }
@@ -15456,7 +15316,7 @@ class Zf {
     n !== void 0 && (this.quantity = n);
   }
 }
-class Kf extends Ae {
+class Jf extends Ae {
   constructor(e) {
     super(e),
       (this.handleClickMode = (t) => {
@@ -15479,15 +15339,15 @@ class Kf extends Ae {
     return !0;
   }
   loadModeOptions(e, ...t) {
-    e.push || (e.push = new Zf());
+    e.push || (e.push = new Kf());
     for (const n of t) e.push.load(n == null ? void 0 : n.push);
   }
   reset() {}
 }
-async function Jf(i) {
-  await i.addInteractor("externalPush", (e) => new Kf(e));
+async function Qf(i) {
+  await i.addInteractor("externalPush", (e) => new Jf(e));
 }
-class Qf {
+class eh {
   constructor() {
     this.quantity = 2;
   }
@@ -15504,7 +15364,7 @@ class Qf {
     n !== void 0 && (this.quantity = n);
   }
 }
-class eh extends Ae {
+class th extends Ae {
   constructor(e) {
     super(e),
       (this.handleClickMode = (t) => {
@@ -15522,13 +15382,13 @@ class eh extends Ae {
     return !0;
   }
   loadModeOptions(e, ...t) {
-    e.remove || (e.remove = new Qf());
+    e.remove || (e.remove = new eh());
     for (const n of t) e.remove.load(n == null ? void 0 : n.remove);
   }
   reset() {}
 }
-function th(i) {
-  i.addInteractor("externalRemove", (e) => new eh(e));
+function ih(i) {
+  i.addInteractor("externalRemove", (e) => new th(e));
 }
 class us {
   constructor() {
@@ -15549,7 +15409,7 @@ class us {
       e.maxSpeed !== void 0 && (this.maxSpeed = e.maxSpeed));
   }
 }
-class ih extends us {
+class nh extends us {
   constructor() {
     super(), (this.selectors = []);
   }
@@ -15566,17 +15426,17 @@ class ih extends us {
         e.selectors !== void 0 && (this.selectors = e.selectors));
   }
 }
-class nh extends us {
+class sh extends us {
   load(e) {
     super.load(e),
       e &&
         (this.divs = J(e.divs, (t) => {
-          const n = new ih();
+          const n = new nh();
           return n.load(t), n;
         }));
   }
 }
-class sh extends Ae {
+class oh extends Ae {
   constructor(e, t) {
     super(t),
       (this._engine = e),
@@ -15647,7 +15507,7 @@ class sh extends Ae {
     return K("repulse", u) || K("repulse", c) || l;
   }
   loadModeOptions(e, ...t) {
-    e.repulse || (e.repulse = new nh());
+    e.repulse || (e.repulse = new sh());
     for (const n of t) e.repulse.load(n == null ? void 0 : n.repulse);
   }
   reset() {}
@@ -15671,7 +15531,7 @@ class sh extends Ae {
         const r = new ve(o.x, o.y, s),
           a = e.particles.quadTree.query(r, (l) => this.isEnabled(l));
         for (const l of a) {
-          const { dx: u, dy: c, distance: d } = de(o, l.position),
+          const { dx: u, dy: c, distance: d } = fe(o, l.position),
             f = d ** 2,
             p = t.speed,
             h = (-s * p) / f;
@@ -15701,7 +15561,7 @@ class sh extends Ae {
       l = r.actualOptions.interactivity.modes.repulse;
     if (!!l)
       for (const u of a) {
-        const { dx: c, dy: d, distance: f } = de(u.position, e),
+        const { dx: c, dy: d, distance: f } = fe(u.position, e),
           p =
             ((o = s == null ? void 0 : s.speed) !== null && o !== void 0
               ? o
@@ -15740,10 +15600,10 @@ class sh extends Ae {
       });
   }
 }
-async function oh(i) {
-  await i.addInteractor("externalRepulse", (e) => new sh(i, e));
+async function rh(i) {
+  await i.addInteractor("externalRepulse", (e) => new oh(i, e));
 }
-class rh {
+class ah {
   constructor() {
     (this.factor = 3), (this.radius = 200);
   }
@@ -15753,7 +15613,7 @@ class rh {
       e.radius !== void 0 && (this.radius = e.radius));
   }
 }
-class ah extends Ae {
+class lh extends Ae {
   constructor(e) {
     super(e);
   }
@@ -15778,7 +15638,7 @@ class ah extends Ae {
     return o.onHover.enable && !!s.position && K("slow", o.onHover.mode);
   }
   loadModeOptions(e, ...t) {
-    e.slow || (e.slow = new rh());
+    e.slow || (e.slow = new ah());
     for (const n of t) e.slow.load(n == null ? void 0 : n.slow);
   }
   reset(e) {
@@ -15796,16 +15656,16 @@ class ah extends Ae {
     l <= o && ((e.slow.inRange = !0), (e.slow.factor = u / c));
   }
 }
-async function lh(i) {
-  await i.addInteractor("externalSlow", (e) => new ah(e));
+async function uh(i) {
+  await i.addInteractor("externalSlow", (e) => new lh(e));
 }
-const uh =
+const ch =
   /(#(?:[0-9a-f]{2}){2,4}|(#[0-9a-f]{3})|(rgb|hsl)a?\((-?\d+%?[,\s]+){2,3}\s*[\d.]+%?\))|currentcolor/gi;
-function ch(i, e, t) {
+function dh(i, e, t) {
   const { svgData: n } = i;
   if (!n) return "";
   const s = nt(e, t);
-  if (n.includes("fill")) return n.replace(uh, () => s);
+  if (n.includes("fill")) return n.replace(ch, () => s);
   const o = n.indexOf(">");
   return `${n.substring(0, o)} fill="${s}"${n.substring(o)}`;
 }
@@ -15827,7 +15687,7 @@ async function wi(i) {
       (t.src = i.source);
   });
 }
-async function dh(i) {
+async function fh(i) {
   if (i.type !== "svg") {
     await wi(i);
     return;
@@ -15839,9 +15699,9 @@ async function dh(i) {
     i.error || (i.svgData = await e.text()),
     (i.loading = !1);
 }
-function fh(i, e, t, n) {
+function hh(i, e, t, n) {
   var s, o, r;
-  const a = ch(
+  const a = dh(
       i,
       t,
       (o = (s = n.opacity) === null || s === void 0 ? void 0 : s.value) !==
@@ -15877,7 +15737,7 @@ function fh(i, e, t, n) {
       (p.src = f);
   });
 }
-class hh {
+class ph {
   constructor() {
     this._images = [];
   }
@@ -15938,7 +15798,7 @@ class hh {
         var u, c;
         let d;
         l.svgData && r
-          ? (d = await fh(l, o, r, t))
+          ? (d = await hh(l, o, r, t))
           : (d = {
               color: r,
               data: l,
@@ -15971,18 +15831,18 @@ class hh {
         await ((
           (n = t.replaceColor) !== null && n !== void 0 ? n : t.replace_color
         )
-          ? dh
+          ? fh
           : wi)(o);
     } catch {
       throw new Error(`tsParticles error - ${t.src} not found`);
     }
   }
 }
-async function ph(i) {
-  const e = new hh();
+async function vh(i) {
+  const e = new ph();
   await i.addShape("image", e), await i.addShape("images", e);
 }
-class vh extends Fe {
+class mh extends Se {
   constructor() {
     super(), (this.sync = !1);
   }
@@ -15990,7 +15850,7 @@ class vh extends Fe {
     !e || (super.load(e), e.sync !== void 0 && (this.sync = e.sync));
   }
 }
-class mh extends Fe {
+class gh extends Se {
   constructor() {
     super(), (this.random.minimumValue = 1e-4), (this.sync = !1);
   }
@@ -15998,9 +15858,9 @@ class mh extends Fe {
     !e || (super.load(e), e.sync !== void 0 && (this.sync = e.sync));
   }
 }
-class gh {
+class yh {
   constructor() {
-    (this.count = 0), (this.delay = new vh()), (this.duration = new mh());
+    (this.count = 0), (this.delay = new mh()), (this.duration = new gh());
   }
   load(e) {
     !e ||
@@ -16009,7 +15869,7 @@ class gh {
       this.duration.load(e.duration));
   }
 }
-class yh {
+class Ch {
   constructor(e) {
     this.container = e;
   }
@@ -16041,7 +15901,7 @@ class yh {
     return !e.destroyed;
   }
   loadOptions(e, ...t) {
-    e.life || (e.life = new gh());
+    e.life || (e.life = new yh());
     for (const n of t) e.life.load(n == null ? void 0 : n.life);
   }
   update(e, t) {
@@ -16079,10 +15939,10 @@ class yh {
       (n.duration = R(l.duration.value) * 1e3));
   }
 }
-async function Ch(i) {
-  await i.addParticleUpdater("life", (e) => new yh(e));
+async function bh(i) {
+  await i.addParticleUpdater("life", (e) => new Ch(e));
 }
-class bh {
+class _h {
   draw(e, t, n) {
     e.moveTo(-n / 2, 0), e.lineTo(n / 2, 0);
   }
@@ -16090,10 +15950,10 @@ class bh {
     return 1;
   }
 }
-async function _h(i) {
-  await i.addShape("line", new bh());
+async function wh(i) {
+  await i.addShape("line", new _h());
 }
-function wh(i, e, t, n) {
+function Eh(i, e, t, n) {
   switch (i.options.opacity.animation.destroy) {
     case "max":
       e >= n && i.destroy();
@@ -16103,7 +15963,7 @@ function wh(i, e, t, n) {
       break;
   }
 }
-function Eh(i, e) {
+function xh(i, e) {
   var t, n, s, o, r, a;
   if (!i.opacity) return;
   const l = i.opacity.min,
@@ -16139,11 +15999,11 @@ function Eh(i, e) {
         break;
     }
     i.opacity.velocity && i.opacity.decay !== 1 && (i.opacity.velocity *= c),
-      wh(i, i.opacity.value, l, u),
+      Eh(i, i.opacity.value, l, u),
       i.destroyed || (i.opacity.value = Be(i.opacity.value, l, u));
   }
 }
-class xh {
+class Fh {
   constructor(e) {
     this.container = e;
   }
@@ -16198,13 +16058,13 @@ class xh {
     e.opacity && (e.opacity.loops = 0);
   }
   update(e, t) {
-    !this.isEnabled(e) || Eh(e, t);
+    !this.isEnabled(e) || xh(e, t);
   }
 }
 async function Sh(i) {
-  await i.addParticleUpdater("opacity", (e) => new xh(e));
+  await i.addParticleUpdater("opacity", (e) => new Fh(e));
 }
-function Fh(i) {
+function Th(i) {
   if (
     i.outMode !== "bounce" &&
     i.outMode !== "bounce-horizontal" &&
@@ -16234,7 +16094,7 @@ function Fh(i) {
     : i.bounds.left <= 0 && (i.particle.position.x = n),
     i.outMode === "split" && i.particle.destroy();
 }
-function Th(i) {
+function Bh(i) {
   if (
     i.outMode !== "bounce" &&
     i.outMode !== "bounce-vertical" &&
@@ -16264,7 +16124,7 @@ function Th(i) {
     : i.bounds.top <= 0 && (i.particle.position.y = n),
     i.outMode === "split" && i.particle.destroy();
 }
-class Bh {
+class kh {
   constructor(e) {
     (this.container = e),
       (this.modes = [
@@ -16289,7 +16149,7 @@ class Bh {
       u = e.getRadius(),
       c = gt(a, u),
       d = o.canvas.size;
-    Fh({
+    Th({
       particle: e,
       outMode: s,
       direction: t,
@@ -16298,7 +16158,7 @@ class Bh {
       offset: l,
       size: u,
     }),
-      Th({
+      Bh({
         particle: e,
         outMode: s,
         direction: t,
@@ -16309,7 +16169,7 @@ class Bh {
       });
   }
 }
-class kh {
+class Dh {
   constructor(e) {
     (this.container = e), (this.modes = ["destroy"]);
   }
@@ -16322,7 +16182,7 @@ class kh {
         if (mt(e.position, o.canvas.size, Z.origin, e.getRadius(), t)) return;
         break;
       case "inside": {
-        const { dx: r, dy: a } = de(e.position, e.moveCenter),
+        const { dx: r, dy: a } = fe(e.position, e.moveCenter),
           { x: l, y: u } = e.velocity;
         if (
           (l < 0 && r > e.moveCenter.radius) ||
@@ -16337,7 +16197,7 @@ class kh {
     o.particles.remove(e, void 0, !0);
   }
 }
-class Dh {
+class Ah {
   constructor(e) {
     (this.container = e), (this.modes = ["none"]);
   }
@@ -16369,7 +16229,7 @@ class Dh {
     }
   }
 }
-class Ah {
+class Mh {
   constructor(e) {
     (this.container = e), (this.modes = ["out"]);
   }
@@ -16383,7 +16243,7 @@ class Ah {
         (l.length = e.moveCenter.radius),
           (l.angle = e.velocity.angle + Math.PI),
           l.addTo(Z.create(e.moveCenter));
-        const { dx: u, dy: c } = de(e.position, l);
+        const { dx: u, dy: c } = fe(e.position, l);
         if (
           (r <= 0 && u >= 0) ||
           (a <= 0 && c >= 0) ||
@@ -16395,7 +16255,7 @@ class Ah {
           (e.position.y = Math.floor(
             se({ min: 0, max: o.canvas.size.height })
           ));
-        const { dx: d, dy: f } = de(e.position, e.moveCenter);
+        const { dx: d, dy: f } = fe(e.position, e.moveCenter);
         (e.direction = Math.atan2(-f, -d)), (e.velocity.angle = e.direction);
         break;
       }
@@ -16411,7 +16271,7 @@ class Ah {
                 Math.floor(
                   se({ min: -e.moveCenter.radius, max: e.moveCenter.radius })
                 ) + e.moveCenter.y);
-            const { dx: r, dy: a } = de(e.position, e.moveCenter);
+            const { dx: r, dy: a } = fe(e.position, e.moveCenter);
             e.moveCenter.radius &&
               ((e.direction = Math.atan2(a, r)),
               (e.velocity.angle = e.direction));
@@ -16462,10 +16322,10 @@ class Ah {
     }
   }
 }
-class Mh {
+class Ph {
   constructor(e) {
     (this.container = e),
-      (this.updaters = [new Bh(e), new kh(e), new Ah(e), new Dh(e)]);
+      (this.updaters = [new kh(e), new Dh(e), new Mh(e), new Ah(e)]);
   }
   init() {}
   isEnabled(e) {
@@ -16503,10 +16363,10 @@ class Mh {
     for (const o of this.updaters) o.update(e, s, t, n);
   }
 }
-async function Ph(i) {
-  await i.addParticleUpdater("outModes", (e) => new Mh(e));
+async function Oh(i) {
+  await i.addParticleUpdater("outModes", (e) => new Ph(e));
 }
-class Oh {
+class Lh {
   init() {}
   isEnabled(e) {
     return (
@@ -16530,10 +16390,10 @@ class Oh {
       (e.offset.y += (u.y - e.offset.y) / a);
   }
 }
-async function Lh(i) {
-  i.addMover("parallax", () => new Oh());
+async function zh(i) {
+  i.addMover("parallax", () => new Lh());
 }
-class zh extends _i {
+class Ih extends _i {
   constructor(e) {
     super(e);
   }
@@ -16557,7 +16417,7 @@ class zh extends _i {
       )
         continue;
       const l = a.getPosition(),
-        { dx: u, dy: c } = de(o, l),
+        { dx: u, dy: c } = fe(o, l),
         d = e.options.move.attract.rotate,
         f = u / (d.x * 1e3),
         p = c / (d.y * 1e3),
@@ -16574,8 +16434,8 @@ class zh extends _i {
   }
   reset() {}
 }
-async function Ih(i) {
-  await i.addInteractor("particlesAttract", (e) => new zh(e));
+async function Rh(i) {
+  await i.addInteractor("particlesAttract", (e) => new Ih(e));
 }
 function sn(i, e, t, n, s, o) {
   const r = Be((i.options.collisions.absorb.speed * s.factor) / 10, 0, n);
@@ -16583,7 +16443,7 @@ function sn(i, e, t, n, s, o) {
     (t.size.value -= r),
     n <= o && ((t.size.value = 0), t.destroy());
 }
-function Rh(i, e, t, n) {
+function $h(i, e, t, n) {
   const s = i.getRadius(),
     o = e.getRadius();
   s === void 0 && o !== void 0
@@ -16597,7 +16457,7 @@ function Rh(i, e, t, n) {
 function cs(i, e) {
   Xn(si(i), si(e));
 }
-function $h(i, e) {
+function Nh(i, e) {
   !i.unbreakable && !e.unbreakable && cs(i, e),
     i.getRadius() === void 0 && e.getRadius() !== void 0
       ? i.destroy()
@@ -16607,10 +16467,10 @@ function $h(i, e) {
         e.getRadius() !== void 0 &&
         (i.getRadius() >= e.getRadius() ? i : e).destroy();
 }
-function Nh(i, e, t, n) {
+function Hh(i, e, t, n) {
   switch (i.options.collisions.mode) {
     case "absorb": {
-      Rh(i, e, t, n);
+      $h(i, e, t, n);
       break;
     }
     case "bounce": {
@@ -16618,12 +16478,12 @@ function Nh(i, e, t, n) {
       break;
     }
     case "destroy": {
-      $h(i, e);
+      Nh(i, e);
       break;
     }
   }
 }
-class Hh extends _i {
+class Vh extends _i {
   constructor(e) {
     super(e);
   }
@@ -16648,7 +16508,7 @@ class Hh extends _i {
       if (Math.abs(Math.round(s.z) - Math.round(l.z)) > o + u) continue;
       const c = oe(s, l),
         d = o + u;
-      c > d || Nh(e, a, t, n.retina.pixelRatio);
+      c > d || Hh(e, a, t, n.retina.pixelRatio);
     }
   }
   isEnabled(e) {
@@ -16656,10 +16516,10 @@ class Hh extends _i {
   }
   reset() {}
 }
-async function Vh(i) {
-  await i.addInteractor("particlesCollisions", (e) => new Hh(e));
+async function jh(i) {
+  await i.addInteractor("particlesCollisions", (e) => new Vh(e));
 }
-class jh extends ve {
+class qh extends ve {
   constructor(e, t, n, s) {
     super(e, t, n),
       (this.canvasSize = s),
@@ -16695,7 +16555,7 @@ class jh extends ve {
     return !1;
   }
 }
-class qh {
+class Uh {
   constructor() {
     (this.blur = 5),
       (this.color = new ie()),
@@ -16709,7 +16569,7 @@ class qh {
       e.enable !== void 0 && (this.enable = e.enable));
   }
 }
-class Uh {
+class Gh {
   constructor() {
     (this.enable = !1), (this.frequency = 1);
   }
@@ -16721,7 +16581,7 @@ class Uh {
       e.opacity !== void 0 && (this.opacity = e.opacity));
   }
 }
-class Gh {
+class Wh {
   constructor() {
     (this.blink = !1),
       (this.color = new ie()),
@@ -16731,8 +16591,8 @@ class Gh {
       (this.enable = !1),
       (this.frequency = 1),
       (this.opacity = 1),
-      (this.shadow = new qh()),
-      (this.triangles = new Uh()),
+      (this.shadow = new Uh()),
+      (this.triangles = new Gh()),
       (this.width = 1),
       (this.warp = !1);
   }
@@ -16752,7 +16612,7 @@ class Gh {
       e.warp !== void 0 && (this.warp = e.warp));
   }
 }
-function Wh(i, e, t, n, s) {
+function Xh(i, e, t, n, s) {
   let o = oe(i, e);
   if (!s || o <= t) return o;
   const r = { x: e.x - n.width, y: e.y };
@@ -16762,7 +16622,7 @@ function Wh(i, e, t, n, s) {
   const l = { x: e.x, y: e.y - n.height };
   return (o = oe(i, l)), o;
 }
-class Xh extends _i {
+class Yh extends _i {
   constructor(e) {
     super(e), (this.linkContainer = e);
   }
@@ -16782,7 +16642,7 @@ class Xh extends _i {
       a = r.opacity,
       l = (t = e.retina.linksDistance) !== null && t !== void 0 ? t : 0,
       u = r.warp,
-      c = u ? new jh(n.x, n.y, l, o) : new ve(n.x, n.y, l),
+      c = u ? new qh(n.x, n.y, l, o) : new ve(n.x, n.y, l),
       d = s.particles.quadTree.query(c);
     for (const f of d) {
       const p = f.options.links;
@@ -16793,13 +16653,13 @@ class Xh extends _i {
         f.spawning ||
         f.destroyed ||
         !f.links ||
-        e.links.map((E) => E.destination).indexOf(f) !== -1 ||
-        f.links.map((E) => E.destination).indexOf(e) !== -1
+        e.links.map((x) => x.destination).indexOf(f) !== -1 ||
+        f.links.map((x) => x.destination).indexOf(e) !== -1
       )
         continue;
       const h = f.getPosition();
       if (h.x < 0 || h.y < 0 || h.x > o.width || h.y > o.height) continue;
-      const g = Wh(n, h, l, o, u && p.warp);
+      const g = Xh(n, h, l, o, u && p.warp);
       if (g > l) return;
       const y = (1 - g / l) * a;
       this.setColor(e), e.links.push({ destination: f, opacity: y });
@@ -16811,7 +16671,7 @@ class Xh extends _i {
   }
   loadParticlesOptions(e, ...t) {
     var n, s;
-    e.links || (e.links = new Gh());
+    e.links || (e.links = new Wh());
     for (const o of t)
       e.links.load(
         (s =
@@ -16843,31 +16703,31 @@ class Xh extends _i {
         : t.particles.linksColors.set(n.id, s);
   }
 }
-async function Yh(i) {
-  await i.addInteractor("particlesLinks", (e) => new Xh(e));
+async function Zh(i) {
+  await i.addInteractor("particlesLinks", (e) => new Yh(e));
 }
-function Zh(i, e, t, n, s, o, r, a, l, u, c, d) {
+function Kh(i, e, t, n, s, o, r, a, l, u, c, d) {
   let f = !1;
   if (oe(t, n) <= s) ut(i, t, n), (f = !0);
   else if (r) {
     let p, h;
     const g = { x: n.x - o.width, y: n.y },
-      y = de(t, g);
+      y = fe(t, g);
     if (y.distance <= s) {
-      const E = t.y - (y.dy / y.dx) * t.x;
-      (p = { x: 0, y: E }), (h = { x: o.width, y: E });
+      const x = t.y - (y.dy / y.dx) * t.x;
+      (p = { x: 0, y: x }), (h = { x: o.width, y: x });
     } else {
-      const E = { x: n.x, y: n.y - o.height },
-        C = de(t, E);
+      const x = { x: n.x, y: n.y - o.height },
+        C = fe(t, x);
       if (C.distance <= s) {
         const _ = -(t.y - (C.dy / C.dx) * t.x) / (C.dy / C.dx);
         (p = { x: _, y: 0 }), (h = { x: _, y: o.height });
       } else {
         const b = { x: n.x - o.width, y: n.y - o.height },
-          _ = de(t, b);
+          _ = fe(t, b);
         if (_.distance <= s) {
-          const x = t.y - (_.dy / _.dx) * t.x;
-          (p = { x: -x / (_.dy / _.dx), y: x }),
+          const E = t.y - (_.dy / _.dx) * t.x;
+          (p = { x: -E / (_.dy / _.dx), y: E }),
             (h = { x: p.x + o.width, y: p.y + o.height });
         }
       }
@@ -16881,27 +16741,27 @@ function Zh(i, e, t, n, s, o, r, a, l, u, c, d) {
       (i.strokeStyle = Ie(u, c)),
       d.enable)
     ) {
-      const p = Se(d.color);
+      const p = Fe(d.color);
       p && ((i.shadowBlur = d.blur), (i.shadowColor = Ie(p)));
     }
     i.stroke();
   }
 }
-function Kh(i, e, t, n, s, o, r, a) {
-  u0(i, e, t, n),
+function Jh(i, e, t, n, s, o, r, a) {
+  c0(i, e, t, n),
     s && (i.globalCompositeOperation = o),
     (i.fillStyle = Ie(r, a)),
     i.fill();
 }
-function Jh(i) {
+function Qh(i) {
   return i.sort((e, t) => e - t), i.join("_");
 }
 function on(i, e) {
-  const t = Jh(i.map((s) => s.id));
+  const t = Qh(i.map((s) => s.id));
   let n = e.get(t);
   return n === void 0 && ((n = j()), e.set(t, n)), n;
 }
-class Qh {
+class e5 {
   constructor(e) {
     (this.container = e),
       (this._freqs = { links: new Map(), triangles: new Map() });
@@ -16947,22 +16807,22 @@ class Qh {
       const h =
         (c = e.options.twinkle) === null || c === void 0 ? void 0 : c.lines;
       if (h != null && h.enable) {
-        const E = h.frequency,
-          C = Se(h.color);
-        j() < E && C && ((p = C), (l = R(h.opacity)));
+        const x = h.frequency,
+          C = Fe(h.color);
+        j() < x && C && ((p = C), (l = R(h.opacity)));
       }
       if (!p) {
-        const E = e.options.links,
+        const x = e.options.links,
           C =
-            (E == null ? void 0 : E.id) !== void 0
-              ? n.particles.linksColors.get(E.id)
+            (x == null ? void 0 : x.id) !== void 0
+              ? n.particles.linksColors.get(x.id)
               : n.particles.linksColor;
         p = oi(e, o, C);
       }
       if (!p) return;
       const g = (d = e.retina.linksWidth) !== null && d !== void 0 ? d : 0,
         y = (f = e.retina.linksDistance) !== null && f !== void 0 ? f : 0;
-      Zh(
+      Kh(
         u,
         g,
         r,
@@ -16998,24 +16858,24 @@ class Qh {
           g = l.getPosition(),
           y = (f = e.retina.linksDistance) !== null && f !== void 0 ? f : 0;
         if (oe(p, h) > y || oe(g, h) > y || oe(g, p) > y) return;
-        let E = Se(u.color);
-        if (!E) {
+        let x = Fe(u.color);
+        if (!x) {
           const C = e.options.links,
             b =
               (C == null ? void 0 : C.id) !== void 0
                 ? o.particles.linksColors.get(C.id)
                 : o.particles.linksColor;
-          E = oi(e, a, b);
+          x = oi(e, a, b);
         }
-        !E ||
-          Kh(
+        !x ||
+          Jh(
             d,
             p,
             h,
             g,
             r.backgroundMask.enable,
             r.backgroundMask.composite,
-            E,
+            x,
             c
           );
       });
@@ -17059,24 +16919,24 @@ class Qh {
     return on([e, t, n], this._freqs.triangles);
   }
 }
-class e5 {
+class t5 {
   constructor() {
     this.id = "links";
   }
   getPlugin(e) {
-    return new Qh(e);
+    return new e5(e);
   }
   loadOptions() {}
   needsPlugin() {
     return !0;
   }
 }
-async function t5(i) {
-  const e = new e5();
+async function i5(i) {
+  const e = new t5();
   await i.addPlugin(e);
 }
-async function i5(i) {
-  await Yh(i), await t5(i);
+async function n5(i) {
+  await Zh(i), await i5(i);
 }
 class ds {
   draw(e, t, n) {
@@ -17105,7 +16965,7 @@ class ds {
       : 5;
   }
 }
-class n5 extends ds {
+class s5 extends ds {
   getCenter(e, t) {
     const n = this.getSidesCount(e);
     return { x: -t / (n / 3.5), y: -t / (2.66 / 3.5) };
@@ -17128,7 +16988,7 @@ class n5 extends ds {
     };
   }
 }
-class s5 extends ds {
+class o5 extends ds {
   getCenter(e, t) {
     return { x: -t, y: t / 1.66 };
   }
@@ -17139,16 +16999,16 @@ class s5 extends ds {
     return { count: { denominator: 2, numerator: 3 }, length: t * 2 };
   }
 }
-async function o5(i) {
-  await i.addShape("polygon", new n5());
-}
 async function r5(i) {
-  await i.addShape("triangle", new s5());
+  await i.addShape("polygon", new s5());
 }
 async function a5(i) {
-  await o5(i), await r5(i);
+  await i.addShape("triangle", new o5());
 }
-function l5(i, e, t, n) {
+async function l5(i) {
+  await r5(i), await a5(i);
+}
+function u5(i, e, t, n) {
   switch (i.options.size.animation.destroy) {
     case "max":
       e >= n && i.destroy();
@@ -17158,7 +17018,7 @@ function l5(i, e, t, n) {
       break;
   }
 }
-function u5(i, e) {
+function c5(i, e) {
   var t, n, s, o, r;
   const a = ((t = i.size.velocity) !== null && t !== void 0 ? t : 0) * e.factor,
     l = i.size.min,
@@ -17189,11 +17049,11 @@ function u5(i, e) {
           : (i.size.value -= a);
     }
     i.size.velocity && c !== 1 && (i.size.velocity *= c),
-      l5(i, i.size.value, l, u),
+      u5(i, i.size.value, l, u),
       i.destroyed || (i.size.value = Be(i.size.value, l, u));
   }
 }
-class c5 {
+class d5 {
   init(e) {
     var t;
     const n = e.container,
@@ -17224,14 +17084,14 @@ class c5 {
     e.size.loops = 0;
   }
   update(e, t) {
-    !this.isEnabled(e) || u5(e, t);
+    !this.isEnabled(e) || c5(e, t);
   }
 }
-async function d5(i) {
-  await i.addParticleUpdater("size", () => new c5());
+async function f5(i) {
+  await i.addParticleUpdater("size", () => new d5());
 }
 const bt = Math.sqrt(2);
-class f5 {
+class h5 {
   draw(e, t, n) {
     e.rect(-n / bt, -n / bt, (n * 2) / bt, (n * 2) / bt);
   }
@@ -17239,11 +17099,11 @@ class f5 {
     return 4;
   }
 }
-async function h5(i) {
-  const e = new f5();
+async function p5(i) {
+  const e = new h5();
   await i.addShape("edge", e), await i.addShape("square", e);
 }
-class p5 {
+class v5 {
   draw(e, t, n) {
     var s;
     const o = t.shapeData,
@@ -17269,8 +17129,8 @@ class p5 {
       : 5;
   }
 }
-async function v5(i) {
-  await i.addShape("star", new p5());
+async function m5(i) {
+  await i.addShape("star", new v5());
 }
 function ei(i, e, t, n, s) {
   var o, r;
@@ -17287,7 +17147,7 @@ function ei(i, e, t, n, s) {
     a.velocity && c !== 1 && (a.velocity *= c),
     a.value > n && (a.value %= n);
 }
-function m5(i, e) {
+function g5(i, e) {
   var t, n, s, o, r, a, l, u, c, d;
   if (!(!((t = i.stroke) === null || t === void 0) && t.color)) return;
   const f = i.stroke.color.animation,
@@ -17316,7 +17176,7 @@ function m5(i, e) {
       : d.l;
   g && ei(e, g, f.l, 100, !0);
 }
-class g5 {
+class y5 {
   constructor(e) {
     this.container = e;
   }
@@ -17353,14 +17213,14 @@ class g5 {
     );
   }
   update(e, t) {
-    !this.isEnabled(e) || m5(e, t);
+    !this.isEnabled(e) || g5(e, t);
   }
 }
-async function y5(i) {
-  await i.addParticleUpdater("strokeColor", (e) => new g5(e));
+async function C5(i) {
+  await i.addParticleUpdater("strokeColor", (e) => new y5(e));
 }
 const ai = ["text", "character", "char"];
-class C5 {
+class b5 {
   draw(e, t, n, s) {
     var o, r, a;
     const l = t.shapeData;
@@ -17375,9 +17235,9 @@ class C5 {
       h = Math.round(n) * 2,
       g = (a = l.font) !== null && a !== void 0 ? a : "Verdana",
       y = t.fill,
-      E = (d.length * n) / 2;
+      x = (d.length * n) / 2;
     e.font = `${f} ${p} ${h}px "${g}"`;
-    const C = { x: -E, y: n / 2 };
+    const C = { x: -x, y: n / 2 };
     (e.globalAlpha = s),
       y ? e.fillText(d, C.x, C.y) : e.strokeText(d, C.x, C.y),
       (e.globalAlpha = 1);
@@ -17391,49 +17251,49 @@ class C5 {
       const n = ai.map((o) => t.particles.shape.options[o]).find((o) => !!o),
         s = [];
       J(n, (o) => {
-        s.push(i0(o.font, o.weight));
+        s.push(n0(o.font, o.weight));
       }),
         await Promise.all(s);
     }
   }
 }
-async function b5(i) {
-  const e = new C5();
+async function _5(i) {
+  const e = new b5();
   for (const t of ai) await i.addShape(t, e);
 }
-async function _5(i) {
-  await yf(i),
-    await Lh(i),
-    await Ff(i),
-    await kf(i),
-    await Pf(i),
-    await Hf(i),
-    await Wf(i),
-    await Yf(i),
-    await Jf(i),
-    await th(i),
-    await oh(i),
-    await lh(i),
-    await Ih(i),
-    await Vh(i),
-    await i5(i),
-    await bf(i),
-    await ph(i),
-    await _h(i),
-    await a5(i),
-    await h5(i),
-    await v5(i),
-    await b5(i),
-    await Ch(i),
+async function w5(i) {
+  await Cf(i),
+    await zh(i),
+    await Tf(i),
+    await Df(i),
+    await Of(i),
+    await Vf(i),
+    await Xf(i),
+    await Zf(i),
+    await Qf(i),
+    await ih(i),
+    await rh(i),
+    await uh(i),
+    await Rh(i),
+    await jh(i),
+    await n5(i),
+    await _f(i),
+    await vh(i),
+    await wh(i),
+    await l5(i),
+    await p5(i),
+    await m5(i),
+    await _5(i),
+    await bh(i),
     await Sh(i),
-    await d5(i),
-    await ff(i),
-    await Ef(i),
-    await y5(i),
-    await Ph(i),
-    await af(i);
+    await f5(i),
+    await hf(i),
+    await xf(i),
+    await C5(i),
+    await Oh(i),
+    await lf(i);
 }
-class w5 {
+class E5 {
   constructor() {
     (this.enable = !1), (this.speed = 0), (this.decay = 0), (this.sync = !1);
   }
@@ -17445,10 +17305,10 @@ class w5 {
       e.sync !== void 0 && (this.sync = e.sync));
   }
 }
-class E5 extends Fe {
+class x5 extends Se {
   constructor() {
     super(),
-      (this.animation = new w5()),
+      (this.animation = new E5()),
       (this.direction = "clockwise"),
       (this.enable = !1),
       (this.value = 0);
@@ -17461,7 +17321,7 @@ class E5 extends Fe {
         e.enable !== void 0 && (this.enable = e.enable));
   }
 }
-function x5(i, e) {
+function F5(i, e) {
   var t, n;
   if (!i.tilt || !i.options.tilt) return;
   const s = i.options.tilt,
@@ -17535,14 +17395,14 @@ class S5 {
     return !e.destroyed && !e.spawning && !!(n != null && n.enable);
   }
   loadOptions(e, ...t) {
-    e.tilt || (e.tilt = new E5());
+    e.tilt || (e.tilt = new x5());
     for (const n of t) e.tilt.load(n == null ? void 0 : n.tilt);
   }
   update(e, t) {
-    !this.isEnabled(e) || x5(e, t);
+    !this.isEnabled(e) || F5(e, t);
   }
 }
-async function F5(i) {
+async function T5(i) {
   await i.addParticleUpdater("tilt", (e) => new S5(e));
 }
 class rn {
@@ -17557,7 +17417,7 @@ class rn {
       e.opacity !== void 0 && (this.opacity = H(e.opacity)));
   }
 }
-class T5 {
+class B5 {
   constructor() {
     (this.lines = new rn()), (this.particles = new rn());
   }
@@ -17565,7 +17425,7 @@ class T5 {
     !e || (this.lines.load(e.lines), this.particles.load(e.particles));
   }
 }
-class B5 {
+class k5 {
   getColorStyles(e, t, n, s) {
     const o = e.options,
       r = o.twinkle;
@@ -17588,15 +17448,15 @@ class B5 {
     return n ? n.particles.enable : !1;
   }
   loadOptions(e, ...t) {
-    e.twinkle || (e.twinkle = new T5());
+    e.twinkle || (e.twinkle = new B5());
     for (const n of t) e.twinkle.load(n == null ? void 0 : n.twinkle);
   }
   update() {}
 }
-async function k5(i) {
-  await i.addParticleUpdater("twinkle", () => new B5());
+async function D5(i) {
+  await i.addParticleUpdater("twinkle", () => new k5());
 }
-class D5 {
+class A5 {
   constructor() {
     (this.angle = 50), (this.move = 10);
   }
@@ -17606,9 +17466,9 @@ class D5 {
       e.move !== void 0 && (this.move = H(e.move)));
   }
 }
-class A5 {
+class M5 {
   constructor() {
-    (this.distance = 5), (this.enable = !1), (this.speed = new D5());
+    (this.distance = 5), (this.enable = !1), (this.speed = new A5());
   }
   load(e) {
     if (
@@ -17626,7 +17486,7 @@ class A5 {
       }
   }
 }
-function M5(i, e) {
+function P5(i, e) {
   var t;
   const n = i.options.wobble;
   if (!(n != null && n.enable) || !i.wobble) return;
@@ -17643,7 +17503,7 @@ function M5(i, e) {
     (i.position.x += r * Math.cos(i.wobble.angle)),
     (i.position.y += r * Math.abs(Math.sin(i.wobble.angle)));
 }
-class P5 {
+class O5 {
   constructor(e) {
     this.container = e;
   }
@@ -17671,28 +17531,28 @@ class P5 {
     );
   }
   loadOptions(e, ...t) {
-    e.wobble || (e.wobble = new A5());
+    e.wobble || (e.wobble = new M5());
     for (const n of t) e.wobble.load(n == null ? void 0 : n.wobble);
   }
   update(e, t) {
-    !this.isEnabled(e) || M5(e, t);
+    !this.isEnabled(e) || P5(e, t);
   }
 }
-async function O5(i) {
-  await i.addParticleUpdater("wobble", (e) => new P5(e));
-}
 async function L5(i) {
-  await _5(i),
-    await j2(i),
-    await rf(i),
-    await F5(i),
-    await k5(i),
-    await O5(i),
-    await tf(i),
-    await z2(i),
-    await J2(i);
+  await i.addParticleUpdater("wobble", (e) => new O5(e));
 }
-const z5 = {
+async function z5(i) {
+  await w5(i),
+    await q2(i),
+    await af(i),
+    await T5(i),
+    await D5(i),
+    await L5(i),
+    await nf(i),
+    await I2(i),
+    await Q2(i);
+}
+const I5 = {
     particles: {
       number: { value: 20, density: { enable: !0, value_area: 800 } },
       color: { value: "#fff" },
@@ -17747,17 +17607,17 @@ const z5 = {
     },
     retina_detect: !1,
   },
-  I5 = (i) =>
+  R5 = (i) =>
     new Promise((e, t) => {
       setTimeout(() => {
         e("\u6210\u529F");
       }, i);
     }),
-  R5 = ae({
+  $5 = ae({
     __name: "Index",
     async setup(i) {
       let e, t;
-      ([e, t] = ks(() => I5(150))), await e, t();
+      ([e, t] = As(() => R5(150))), await e, t();
       const n = L(!1);
       Rn.on("Nav", (h) => {
         n.value = h;
@@ -17803,9 +17663,9 @@ const z5 = {
             o(h.activeIndex);
         },
         d = [bn],
-        f = z5;
+        f = I5;
       async function p(h) {
-        await L5(h);
+        await z5(h);
       }
       return (
         ke(() => {
@@ -17815,14 +17675,14 @@ const z5 = {
             }, 0);
         }),
         (h, g) => {
-          const y = Ds("Particles"),
-            E = qd,
-            C = Id,
-            b = Fd,
-            _ = I1,
-            x = Su,
-            w = cr,
-            S = Co;
+          const y = Ms("Particles"),
+            x = Ud,
+            C = Rd,
+            b = Td,
+            _ = R1,
+            E = Tu,
+            w = fr,
+            F = _o;
           return (
             P(),
             Re(
@@ -17851,8 +17711,8 @@ const z5 = {
                     { name: "homeDown" },
                     {
                       default: q(() => [
-                        v(n) ? (P(), Re(E, { key: "1" })) : X("", !0),
-                        fe(
+                        v(n) ? (P(), Re(x, { key: "1" })) : X("", !0),
+                        ce(
                           N(
                             C,
                             {
@@ -17885,7 +17745,7 @@ const z5 = {
                   N(
                     v(Qe),
                     { class: "swiper-no-swiping" },
-                    { default: q(() => [N(x)]), _: 1 }
+                    { default: q(() => [N(E)]), _: 1 }
                   ),
                   N(
                     v(Qe),
@@ -17895,7 +17755,7 @@ const z5 = {
                   N(
                     v(Qe),
                     { class: "swiper-no-swiping" },
-                    { default: q(() => [N(S)]), _: 1 }
+                    { default: q(() => [N(F)]), _: 1 }
                   ),
                 ]),
                 _: 1,
@@ -17906,5 +17766,5 @@ const z5 = {
       );
     },
   });
-const H5 = Ce(R5, [["__scopeId", "data-v-f2dfeb36"]]);
-export { H5 as default };
+const V5 = Ce($5, [["__scopeId", "data-v-f2dfeb36"]]);
+export { V5 as default };

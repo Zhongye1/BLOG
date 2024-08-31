@@ -1,0 +1,514 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta target="_blank">
+    <link rel="shortcut icon" href="./images/2.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/personal-info-main.css">
+    <link rel="stylesheet" href="./CSS/personal-info-animate.css">
+    <link rel="stylesheet" href="./CSS/animate.min.css">
+    <link href="./CSS/aos.css" rel="stylesheet">
+<pre><code>&lt;title&gt;关于我&lt;/title&gt;
+</code></pre>
+</head>
+<body>
+    <div class="fakeLoader"></div>
+<pre><code>&lt;div class=&quot;profile-page&quot;&gt;
+
+    &lt;div class=&quot;page-header&quot;&gt;
+
+
+        &lt;nav class=&quot;navbar navbar-expand-md bg-primary navbar-dark&quot;&gt;
+            &lt;div class=&quot;container-fluid container&quot;&gt;
+                &lt;a class=&quot;navbar-brand log&quot; href=&quot;#&quot;&gt;&lt;/a&gt;
+                &lt;button class=&quot;navbar-toggler&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot;
+                    data-target=&quot;#collapsibleNavbar&quot;&gt;
+                    &lt;span class=&quot;navbar-toggler-icon&quot;&gt;&lt;/span&gt;
+                &lt;/button&gt;
+                &lt;div class=&quot;collapse navbar-collapse justify-content-end&quot; id=&quot;collapsibleNavbar&quot;&gt;
+                    &lt;ul class=&quot;nav navbar-nav&quot;&gt;
+                        &lt;li class=&quot;nav-item&quot;&gt;&lt;a class=&quot;nav-link&quot; href=&quot;#about&quot;&gt;基本资料&lt;/a&gt;&lt;/li&gt;
+                        &lt;li class=&quot;nav-item&quot;&gt;&lt;a class=&quot;nav-link&quot; href=&quot;#skill&quot;&gt;专业技能&lt;/a&gt;&lt;/li&gt;
+                        &lt;li class=&quot;nav-item&quot;&gt;&lt;a class=&quot;nav-link&quot; href=&quot;#project&quot;&gt;项目经验&lt;/a&gt;&lt;/li&gt;
+                        &lt;li class=&quot;nav-item&quot;&gt;&lt;a class=&quot;nav-link&quot; href=&quot;#work&quot;&gt;工作经历&lt;/a&gt;&lt;/li&gt;
+                        &lt;li class=&quot;nav-item&quot;&gt;&lt;a class=&quot;nav-link&quot; href=&quot;#others&quot;&gt;其他经历&lt;/a&gt;&lt;/li&gt;
+                        &lt;li class=&quot;nav-item&quot;&gt;&lt;a class=&quot;nav-link&quot; href=&quot;#contact&quot;&gt;联系方式&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/nav&gt;
+
+        &lt;a href=&quot;#about&quot; class=&quot;go&quot; title=&quot;Read More&quot;&gt;
+            &lt;svg t=&quot;1628741268385&quot; class=&quot;j-icon&quot; viewBox=&quot;0 0 1024 1024&quot; version=&quot;1.1&quot;
+                xmlns=&quot;http://www.w3.org/2000/svg&quot; p-id=&quot;5238&quot; width=&quot;32&quot; height=&quot;32&quot;&gt;
+                &lt;path
+                    d=&quot;M780.190476 498.070349c0 4.534857-2.21054 9.638603-5.461333 13.003175l-255.024762 263.476825c-3.299556 3.397079-8.208254 5.640127-12.580571 5.640127-4.388571 0-9.313524-2.275556-12.580572-5.640127l-255.024762-263.476825a19.732317 19.732317 0 0 1-5.461333-13.003175c0-4.518603 2.21054-9.622349 5.461333-12.98692l27.355429-28.265651c3.299556-3.397079 7.671873-5.640127 12.580571-5.640127 4.388571 0 9.313524 2.275556 12.564318 5.640127L507.12381 679.042032l215.105015-222.224254c3.283302-3.397079 8.192-5.640127 12.564318-5.640127 4.388571 0 9.313524 2.275556 12.580571 5.640127l27.355429 28.281905c3.283302 3.380825 5.461333 8.452063 5.461333 12.970666z m0-217.120508c0 4.534857-2.21054 9.638603-5.461333 13.003175l-255.024762 263.476825c-3.299556 3.397079-8.208254 5.640127-12.580571 5.640127-4.388571 0-9.313524-2.275556-12.580572-5.640127l-255.024762-263.476825a19.732317 19.732317 0 0 1-5.461333-13.003175c0-4.518603 2.21054-9.622349 5.461333-12.98692l27.355429-28.265651c3.299556-3.397079 7.671873-5.640127 12.580571-5.640127 4.388571 0 9.313524 2.275556 12.564318 5.640127L507.12381 461.937778l215.105015-222.224254c3.283302-3.397079 8.192-5.640127 12.564318-5.640127 4.388571 0 9.313524 2.275556 12.580571 5.640127l27.355429 28.281905c3.283302 3.380825 5.461333 8.452063 5.461333 12.970666z&quot;
+                    p-id=&quot;5239&quot; fill=&quot;#1296db&quot;&gt;&lt;/path&gt;
+            &lt;/svg&gt;
+        &lt;/a&gt;
+        &lt;div class=&quot;page-header-mask&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;page-header-particles&quot; id=&quot;particles-js&quot;&gt;&lt;/div&gt;
+
+
+        &lt;div class=&quot;container&quot;&gt;
+            &lt;div class=&quot;col-sm-12  .col-xs-12&quot;&gt;
+                &lt;div class=&quot;left-content&quot;&gt;
+                    &lt;div class=&quot;row-no-use&quot; style=&quot;height: 40px;&quot;&gt;&lt;/div&gt;
+                    &lt;div class=&quot;personalImage&quot;&gt;
+                        &lt;a href=&quot;javascript:void(0)&quot;&gt;
+                            &lt;img class=&quot;myphoto&quot; src=&quot;&quot; alt=&quot;个人图片&quot;&gt;
+                        &lt;/a&gt;
+                    &lt;/div&gt;
+
+                    &lt;div class=&quot;name-container&quot;&gt;
+                        &lt;h2 class=&quot;name&quot;&gt;&lt;br&gt;&lt;/h2&gt;
+                    &lt;/div&gt;
+
+                    &lt;div class=&quot;motto-container&quot;&gt;
+                        &lt;p class=&quot;motto&quot;&gt;&lt;/p&gt;
+                    &lt;/div&gt;
+
+                    &lt;div class=&quot;intro-container bb&quot;&gt;
+                        &lt;span class=&quot;info self-intro &quot;&gt;
+                            青青子衿，悠悠我心&lt;br&gt;
+                            但为君故，沉吟至今&lt;br&gt;
+                            相遇即是缘分&lt;br&gt;
+                            很高兴见到你!
+                        &lt;/span&gt;
+                    &lt;/div&gt;
+
+                    &lt;div id=&quot;myButtons2&quot; class=&quot;bs-example&quot;&gt;
+                        &lt;a href=&quot;#contact&quot; class=&quot;hvr-bounce-to-right animate__backInRight&quot;&gt;联系我&lt;/a&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+    &lt;/div&gt;
+
+    &lt;section class=&quot;about-section&quot; id=&quot;about&quot;&gt;
+        &lt;div class=&quot;container&quot;&gt;
+            &lt;h2 class=&quot;section-title&quot; data-aos=&quot;fade-up&quot; data-aos-offset=&quot;10&quot;&gt;基本资料&lt;/h2&gt;
+            &lt;div class=&quot;card&quot; data-aos=&quot;fade-up&quot; data-aos-offset=&quot;100&quot;&gt;
+                &lt;div class=&quot;row&quot;&gt;
+                    &lt;div class=&quot;col-lg-6 col-md-12&quot;&gt;
+                        &lt;div class=&quot;card-body&quot;&gt;
+                            &lt;div class=&quot;h4 mt-0 title&quot;&gt;关于我&lt;/div&gt;
+                            &lt;span class=&quot;me&quot;&gt;&lt;/span&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;col-lg-6 col-md-12&quot;&gt;
+                        &lt;div class=&quot;card-body&quot;&gt;
+                            &lt;div class=&quot;h4 mt-0 title&quot;&gt;基本信息&lt;/div&gt;
+                            &lt;div class=&quot;row&quot;&gt;
+                                &lt;div class=&quot;col-sm-4 col-xs-4&quot;&gt;&lt;strong&gt;姓名:&lt;/strong&gt;&lt;/div&gt;
+                                &lt;div class=&quot;col-sm-8 col-xs-8 gg name&quot;&gt;&lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;div class=&quot;row mt-2&quot;&gt;
+                                &lt;div class=&quot;col-sm-4&quot;&gt;&lt;strong&gt;性别:&lt;/strong&gt;&lt;/div&gt;
+                                &lt;div class=&quot;col-sm-8 sex&quot;&gt;&lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;div class=&quot;row mt-2&quot;&gt;
+                                &lt;div class=&quot;col-sm-4&quot;&gt;&lt;strong class=&quot;text-uppercase&quot;&gt;年龄:&lt;/strong&gt;&lt;/div&gt;
+                                &lt;div class=&quot;col-sm-8 age&quot;&gt;&lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;div class=&quot;row mt-2&quot;&gt;
+                                &lt;div class=&quot;col-sm-4&quot;&gt;&lt;strong class=&quot;text-uppercase&quot;&gt;电话:&lt;/strong&gt;&lt;/div&gt;
+                                &lt;div class=&quot;col-sm-8 phone&quot;&gt;&lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;div class=&quot;row mt-2&quot;&gt;
+                                &lt;div class=&quot;col-sm-4&quot;&gt;&lt;strong class=&quot;text-uppercase&quot;&gt;邮箱:&lt;/strong&gt;&lt;/div&gt;
+                                &lt;div class=&quot;col-sm-8 email&quot;&gt;&lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;div class=&quot;row mt-2&quot;&gt;
+                                &lt;div class=&quot;col-sm-4&quot;&gt;&lt;strong class=&quot;text-uppercase&quot;&gt;地址:&lt;/strong&gt;&lt;/div&gt;
+                                &lt;div class=&quot;col-sm-8 address&quot;&gt;&lt;/div&gt;
+                            &lt;/div&gt;
+
+                            &lt;div class=&quot;row mt-2&quot;&gt;
+                                &lt;div class=&quot;col-sm-4&quot;&gt;&lt;strong class=&quot;text-uppercase&quot;&gt;期望岗位:&lt;/strong&gt;&lt;/div&gt;
+                                &lt;div class=&quot;col-sm-8 for-work&quot;&gt;&lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/section&gt;
+
+    &lt;section class=&quot;skill-section&quot; id=&quot;skill&quot;&gt;
+        &lt;div class=&quot;container&quot;&gt;
+            &lt;h2 class=&quot;section-title&quot; data-aos=&quot;fade-up&quot; data-aos-offset=&quot;10&quot;&gt;专业技能&lt;/h2&gt;
+            &lt;div class=&quot;card&quot; data-aos=&quot;fade-up&quot; data-aos-offset=&quot;100&quot; data-aos-anchor-placement=&quot;top-bottom&quot;&gt;
+                &lt;div class=&quot;row&quot;&gt;
+                    &lt;div class=&quot;col-lg-6 col-md-12 p&quot;&gt;
+                        &lt;div class=&quot;card-body skill-body&quot;&gt;
+                            &lt;!-- &lt;div class=&quot;progress_bar&quot;&gt;
+                                &lt;div class=&quot;pro-bar&quot;&gt;
+                                    &lt;small class=&quot;progress_bar_title&quot;&gt;
+                                        Java
+                                        &lt;span class=&quot;progress_number&quot;&gt;%&lt;/span&gt;
+                                    &lt;/small&gt;
+                                    &lt;span class=&quot;progress-bar-inner p-a&quot;
+                                        style=&quot;background-color: #1abc9c; width: 80%;&quot; data-value=&quot;80&quot;
+                                        data-percentage-value=&quot;80&quot;&gt;&lt;/span&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+
+                            &lt;div class=&quot;progress_bar&quot;&gt;
+                                &lt;div class=&quot;pro-bar&quot;&gt;
+                                    &lt;small class=&quot;progress_bar_title&quot;&gt;
+                                        GoLang
+                                        &lt;span class=&quot;progress_number&quot;&gt;%&lt;/span&gt;
+                                    &lt;/small&gt;
+                                    &lt;span class=&quot;progress-bar-inner p-a&quot;
+                                        style=&quot;background-color: #bc1a99; width: 77%;&quot; data-value=&quot;77&quot;
+                                        data-percentage-value=&quot;77&quot;&gt;&lt;/span&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+
+                            &lt;div class=&quot;progress_bar&quot;&gt;
+                                &lt;div class=&quot;pro-bar&quot;&gt;
+                                    &lt;small class=&quot;progress_bar_title&quot;&gt;
+                                        SQL
+                                        &lt;span class=&quot;progress_number&quot;&gt;%&lt;/span&gt;
+                                    &lt;/small&gt;
+                                    &lt;span class=&quot;progress-bar-inner p-a&quot;
+                                        style=&quot;background-color: #cedf3c; width: 75%;&quot; data-value=&quot;75&quot;
+                                        data-percentage-value=&quot;75&quot;&gt;&lt;/span&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+
+                            &lt;div class=&quot;progress_bar&quot;&gt;
+                                &lt;div class=&quot;pro-bar&quot;&gt;
+                                    &lt;small class=&quot;progress_bar_title&quot;&gt;
+                                        HTML5
+                                        &lt;span class=&quot;progress_number&quot;&gt;%&lt;/span&gt;
+                                    &lt;/small&gt;
+                                    &lt;span class=&quot;progress-bar-inner p-a&quot;
+                                        style=&quot;background-color: #ec1b1b; width: 67%;&quot; data-value=&quot;67&quot;
+                                        data-percentage-value=&quot;67&quot;&gt;&lt;/span&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+
+                            &lt;div class=&quot;progress_bar&quot;&gt;
+                                &lt;div class=&quot;pro-bar&quot;&gt;
+                                    &lt;small class=&quot;progress_bar_title&quot;&gt;
+                                        CSS3
+                                        &lt;span class=&quot;progress_number&quot;&gt;%&lt;/span&gt;
+                                    &lt;/small&gt;
+                                    &lt;span class=&quot;progress-bar-inner p-a&quot;
+                                        style=&quot;background-color: #c95a11; width: 60%;&quot; data-value=&quot;60&quot;
+                                        data-percentage-value=&quot;60&quot;&gt;&lt;/span&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+
+                            &lt;div class=&quot;progress_bar&quot;&gt;
+                                &lt;div class=&quot;pro-bar&quot;&gt;
+                                    &lt;small class=&quot;progress_bar_title&quot;&gt;
+                                        JavaScript
+                                        &lt;span class=&quot;progress_number&quot;&gt;%&lt;/span&gt;
+                                    &lt;/small&gt;
+                                    &lt;span class=&quot;progress-bar-inner p-a&quot;
+                                        style=&quot;background-color: #2a1abc; width: 70%;&quot; data-value=&quot;70&quot;
+                                        data-percentage-value=&quot;70&quot;&gt;&lt;/span&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt; --&gt;
+                        &lt;/div&gt;
+
+
+                    &lt;/div&gt;
+
+                    &lt;div class=&quot;col-lg-6 col-md-12 skill-about&quot;&gt;
+                        &lt;div class=&quot;card-body&quot;&gt;
+                            &lt;div class=&quot;h4 mt-0 title&quot;&gt;技能描述&lt;/div&gt;
+                            &lt;div class=&quot;desc&quot;&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/section&gt;
+
+    &lt;section class=&quot;portfolio-section&quot; id=&quot;project&quot;&gt;
+        &lt;div class=&quot;tab-content gallery mt-5&quot;&gt;
+            &lt;h2 class=&quot;section-title&quot; data-aos=&quot;fade-up&quot; data-aos-offset=&quot;10&quot;&gt;项目展示&lt;/h2&gt;
+            &lt;div class=&quot;container&quot;&gt;
+                &lt;div class=&quot;ml-auto mr-auto portfolio-section-main-container&quot;&gt;
+                    &lt;!-- &lt;div class=&quot;row&quot;&gt;
+                        &lt;div class=&quot;col-md-4&quot;&gt;
+                            &lt;div class=&quot;porfolio-image img-raised&quot; data-aos=&quot;fade-up&quot;
+                                data-aos-anchor-placement=&quot;top-bottom&quot;&gt;
+                                &lt;a href=&quot;#web-development&quot; title=&quot;点击查看详细信息&quot;&gt;
+                                    &lt;figure class=&quot;portfolio-section-main&quot;&gt;&lt;img src=&quot;./images/index_background.jpg&quot;
+                                            alt=&quot;Image&quot; /&gt;
+                                        &lt;figcaption&gt;
+                                            &lt;div class=&quot;h4&quot;&gt;Project2&lt;/div&gt;
+                                            &lt;p&gt;qrwqrqrwq&lt;/p&gt;
+                                        &lt;/figcaption&gt;
+                                    &lt;/figure&gt;
+                                &lt;/a&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;col-md-4&quot;&gt;
+                            &lt;div class=&quot;porfolio-image img-raised&quot; data-aos=&quot;fade-up&quot;
+                                data-aos-anchor-placement=&quot;top-bottom&quot;&gt;
+                                &lt;a href=&quot;#web-development&quot; title=&quot;点击查看详细信息&quot;&gt;
+                                    &lt;figure class=&quot;portfolio-section-main&quot;&gt;&lt;img src=&quot;./images/index_background.jpg&quot;
+                                            alt=&quot;Image&quot; /&gt;
+                                        &lt;figcaption&gt;
+                                            &lt;div class=&quot;h4&quot;&gt;Project3&lt;/div&gt;
+                                            &lt;p&gt;qwrwqrqwrwqrqwsa&lt;/p&gt;
+                                        &lt;/figcaption&gt;
+                                    &lt;/figure&gt;
+                                &lt;/a&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;row&quot;&gt;
+                        &lt;div class=&quot;col-md-4&quot;&gt;
+                            &lt;div class=&quot;porfolio-image img-raised&quot; data-aos=&quot;fade-up&quot;
+                                data-aos-anchor-placement=&quot;top-bottom&quot;&gt;
+                                &lt;a href=&quot;#web-development&quot; title=&quot;点击查看详细信息&quot;&gt;
+                                    &lt;figure class=&quot;portfolio-section-main&quot;&gt;
+                                        &lt;img src=&quot;./images/index_background.jpg&quot; alt=&quot;Image&quot; /&gt;
+                                        &lt;figcaption&gt;
+                                            &lt;div class=&quot;h4&quot;&gt;Project1&lt;/div&gt;
+                                            &lt;p&gt;qeweq&lt;/p&gt;
+                                        &lt;/figcaption&gt;
+                                    &lt;/figure&gt;
+                                &lt;/a&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;col-md-4&quot;&gt;
+                            &lt;div class=&quot;porfolio-image img-raised&quot; data-aos=&quot;fade-up&quot;
+                                data-aos-anchor-placement=&quot;top-bottom&quot;&gt;
+                                &lt;a href=&quot;#web-development&quot; title=&quot;点击查看详细信息&quot;&gt;
+                                    &lt;figure class=&quot;portfolio-section-main&quot;&gt;&lt;img src=&quot;./images/index_background.jpg&quot;
+                                            alt=&quot;Image&quot; /&gt;
+                                        &lt;figcaption&gt;
+                                            &lt;div class=&quot;h4&quot;&gt;Project2&lt;/div&gt;
+                                            &lt;p&gt;qrwqrqrwq&lt;/p&gt;
+                                        &lt;/figcaption&gt;
+                                    &lt;/figure&gt;
+                                &lt;/a&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;col-md-4&quot;&gt;
+                            &lt;div class=&quot;porfolio-image img-raised&quot; data-aos=&quot;fade-up&quot;
+                                data-aos-anchor-placement=&quot;top-bottom&quot;&gt;
+                                &lt;a href=&quot;#web-development&quot; title=&quot;点击查看详细信息&quot;&gt;
+                                    &lt;figure class=&quot;portfolio-section-main&quot;&gt;&lt;img src=&quot;./images/index_background.jpg&quot;
+                                            alt=&quot;Image&quot; /&gt;
+                                        &lt;figcaption&gt;
+                                            &lt;div class=&quot;h4&quot;&gt;Project3&lt;/div&gt;
+                                            &lt;p&gt;qwrwqrqwrwqrqwsa&lt;/p&gt;
+                                        &lt;/figcaption&gt;
+                                    &lt;/figure&gt;
+                                &lt;/a&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt; --&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+
+        &lt;/div&gt;
+
+
+    &lt;/section&gt;
+
+    &lt;section class=&quot;experience-section&quot; id=&quot;work&quot;&gt;
+        &lt;div class=&quot;container&quot;&gt;
+            &lt;h2 class=&quot;section-title&quot; data-aos=&quot;fade-in&quot; data-aos-offset=&quot;10&quot;&gt;工作经历&lt;/h2&gt;
+            &lt;!-- &lt;div class=&quot;card&quot;&gt;
+                &lt;div class=&quot;row&quot;&gt;
+                    &lt;div class=&quot;col-md-3 bg-primary&quot; data-aos=&quot;fade-right&quot; data-aos-offset=&quot;50&quot;
+                        data-aos-duration=&quot;500&quot;&gt;
+                        &lt;div class=&quot;card-body&quot;&gt;
+                            &lt;p class=&quot;time&quot;&gt;
+                                2020/7/1 — 2021/8/10
+                            &lt;/p&gt;
+                            &lt;strong class=&quot;work&quot;&gt;&lt;br&gt; 阎王殿实习生&lt;/strong&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;col-md-9&quot; data-aos=&quot;fade-left&quot; data-aos-offset=&quot;50&quot; data-aos-duration=&quot;500&quot;&gt;
+                        &lt;div class=&quot;card-body&quot;&gt;
+                            &lt;p&gt;&lt;strong&gt;阎王殿研发部&lt;/strong&gt;&lt;/p&gt;
+                            &lt;p&gt;随着阴历7月15中元节的到来，阎王殿的任务愈发庞大，我以及我所在小组主要负责阎王谱后台部分，拟在解决千万访问并发问题，经过不械努力，使得产品稳定、高效的运行。&lt;/p&gt;
+                            &lt;p&gt;随着阴历7月15中元节的到来，阎王殿的任务愈发庞大，我以及我所在小组主要负责阎王谱后台部分，拟在解决千万访问并发问题，经过不械努力，使得产品稳定、高效的运行。&lt;/p&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                
+            &lt;/div&gt; --&gt;
+        &lt;/div&gt;
+    &lt;/section&gt;
+
+
+
+    &lt;section class=&quot;others-section&quot; id=&quot;others&quot;&gt;
+        &lt;div class=&quot;container&quot; data-aos=&quot;fade-up&quot; data-aos-offset=&quot;100&quot;&gt;
+            &lt;h2 class=&quot;section-title&quot;&gt;其它经历&lt;/h2&gt;
+            &lt;div class=&quot;col-sm-12 col-xs-12&quot;&gt;
+                &lt;div class=&quot;content-timeline-border&quot;&gt;
+                    &lt;div class=&quot;timeline-left&quot;&gt;
+                        &lt;span&gt;&lt;/span&gt;
+                        &lt;ul class=&quot;timeul&quot;&gt;
+                            &lt;!-- &lt;li&gt;
+                                &lt;div class=&quot;time-title&quot;&gt;2021-02-15&lt;/div&gt;
+                                &lt;span&gt;&lt;/span&gt;
+                                &lt;div class=&quot;time-content&quot;&gt;
+                                    &lt;h5&gt;蓝桥杯省三等奖&lt;/h5&gt;
+                                    &lt;p&gt;emmmmm。&lt;/p&gt;
+                                &lt;/div&gt;
+
+                            &lt;/li&gt;
+
+                            &lt;li&gt;
+                                &lt;div class=&quot;time-title&quot;&gt;你爱我&lt;/div&gt;
+                                &lt;span&gt;&lt;/span&gt;
+                                &lt;div class=&quot;time-content&quot;&gt;
+                                    &lt;h5&gt;团队程序设计天梯赛团队省二等奖，个人全国三等奖&lt;/h5&gt;
+                                    
+                                &lt;/div&gt;
+                            &lt;/li&gt; --&gt;
+
+
+                        &lt;/ul&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;timeline-right&quot;&gt;
+                        &lt;span&gt;&lt;/span&gt;
+                        &lt;ul class=&quot;timeul&quot;&gt;
+                            &lt;!-- &lt;li&gt;
+                                &lt;div class=&quot;time-title&quot;&gt;2021-06-15&lt;/div&gt;
+                                &lt;span&gt;&lt;/span&gt;
+                                &lt;div class=&quot;time-content&quot;&gt;
+                                    &lt;h5&gt;校赛三等奖&lt;/h5&gt;
+                                    &lt;p&gt;&lt;/p&gt;
+                                &lt;/div&gt;
+                            &lt;/li&gt; --&gt;
+
+
+                        &lt;/ul&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/section&gt;
+
+    &lt;section class=&quot;contact-section&quot; id=&quot;contact&quot;&gt;
+        &lt;div class=&quot;container&quot;&gt;
+            &lt;h2 class=&quot;section-title&quot; data-aos=&quot;fade-in&quot; data-aos-offset=&quot;10&quot;&gt;联系我&lt;/h2&gt;
+            &lt;div class=&quot;main&quot;&gt;
+                &lt;div class=&quot;row&quot;&gt;
+                    &lt;div class=&quot;col-md-12&quot;&gt;
+                        &lt;div class=&quot;card mb-0&quot; data-aos=&quot;zoom-in&quot; data-aos-offset=&quot;100&quot;&gt;
+
+                            &lt;div class=&quot;row&quot;&gt;
+                                &lt;div class=&quot;col-sm-6 col-xm-12 col-md-6&quot;&gt;
+                                    &lt;div class=&quot;card-body&quot;&gt;
+
+                                        &lt;p&gt;&lt;strong&gt;邮件联系我&lt;/strong&gt;&lt;/p&gt;
+                                        &lt;div class=&quot;row mb-3&quot;&gt;
+                                            &lt;div class=&quot;col&quot;&gt;
+                                                &lt;div class=&quot;input-group&quot;&gt;&lt;span class=&quot;input-group-addon&quot;&gt;&lt;svg
+                                                            t=&quot;1628783460111&quot; class=&quot;icon&quot; viewBox=&quot;0 0 1024 1024&quot;
+                                                            version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;
+                                                            p-id=&quot;2051&quot; width=&quot;16&quot; height=&quot;16&quot;&gt;
+                                                            &lt;path
+                                                                d=&quot;M550.079952 1023.808H229.120354A132.607834 132.607834 0 0 1 96.00052 891.712165V132.097115A132.479834 132.479834 0 0 1 229.120354 0.00128h565.759292c73.471908 0 133.119834 59.071926 133.119834 132.095835v627.519215c1.919998 126.143842-127.80784 265.471668-266.239667 264.19167H550.079952V1024h75.391906v-195.071756c0-48.447939 11.519986-61.119924 58.879927-61.119924h241.407698l-0.639999-74.239907-110.591862 1.151999H636.991844c-81.471898-1.151999-87.167891 54.335932-86.911892 75.903905l-0.255999 9.855987v11.711986l0.255999 231.61571zM337.472218 341.312853h349.055564a35.839955 35.839955 0 0 0 34.943956-36.607954 35.775955 35.775955 0 0 0-34.943956-36.543954H337.472218a35.775955 35.775955 0 0 0-34.943956 36.543954c0 20.223975 15.67998 36.607954 34.943956 36.607954z m104.703869 121.855848H337.472218a35.775955 35.775955 0 0 0-34.943956 36.543954c0 20.159975 15.67998 36.543954 34.943956 36.543955h168.703789a35.839955 35.839955 0 0 0 34.943957-36.543955 35.839955 35.839955 0 0 0-34.943957-36.607954h-63.99992z&quot;
+                                                                p-id=&quot;2052&quot;&gt;
+
+                                                            &lt;/path&gt;
+                                                        &lt;/svg&gt;
+                                                    &lt;/span&gt;
+                                                    &lt;input class=&quot;form-control subject&quot; type=&quot;text&quot; name=&quot;Subject&quot;
+                                                        placeholder=&quot;主题&quot; /&gt;
+                                                &lt;/div&gt;
+                                            &lt;/div&gt;
+                                        &lt;/div&gt;
+                                        &lt;div class=&quot;row mb-3&quot;&gt;
+                                            &lt;div class=&quot;col&quot;&gt;
+                                                &lt;div class=&quot;input-group&quot;&gt;
+                                                    &lt;textarea class=&quot;form-control message&quot; name=&quot;message&quot;
+                                                        placeholder=&quot;message&quot; rows=&quot;5&quot;&gt;&lt;/textarea&gt;
+                                                &lt;/div&gt;
+                                            &lt;/div&gt;
+                                        &lt;/div&gt;
+                                        &lt;div class=&quot;row&quot;&gt;
+                                            &lt;div class=&quot;col&quot;&gt;
+                                                &lt;button class=&quot;btn btn-primary send-btn&quot;&gt;Send&lt;/button&gt;
+                                            &lt;/div&gt;
+                                        &lt;/div&gt;
+
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                                &lt;div class=&quot;col-md-6&quot;&gt;
+                                    &lt;div class=&quot;card-body&quot;&gt;
+                                        &lt;p class=&quot;mb-0&quot;&gt;&lt;strong&gt;电话&lt;/strong&gt;&lt;/p&gt;
+                                        &lt;p class=&quot;pb-2 phone&quot;&gt;&lt;/p&gt;
+                                        &lt;p class=&quot;mb-0&quot;&gt;&lt;strong&gt;邮箱&lt;/strong&gt;&lt;/p&gt;
+                                        &lt;p class=&quot;pb-2 email&quot;&gt;&lt;/p&gt;
+                                        &lt;p class=&quot;mb-0&quot;&gt;&lt;strong&gt;地址&lt;/strong&gt;&lt;/p&gt;
+                                        &lt;p class=&quot;pb-2 address&quot;&gt;&lt;/p&gt;
+                                        &lt;p class=&quot;mb-0&quot;&gt;&lt;strong&gt;QQ&lt;/strong&gt;&lt;/p&gt;
+                                        &lt;p class=&quot;qq&quot;&gt;&lt;/p&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+
+                            &lt;div class=&quot;row&quot;&gt;
+                                &lt;div class=&quot;col-md-12&quot;&gt;
+
+                                    &lt;dic class=&quot;card-body&quot;&gt;
+                                        &lt;div class=&quot;container text-center icon-insert&quot;&gt;
+
+                                            &lt;!-- &lt;a class=&quot;my-tooltip&quot; href=&quot;#&quot; title=&quot;访问我的CSDN主页&quot;&gt;
+                                                &lt;img src=&quot;./svg/csdn.svg&quot; alt=&quot;我的CSDN主页&quot;&gt;
+
+                                                &lt;span class=&quot;my-tooltiptext&quot;&gt;我的CSDN主页&lt;/span&gt;
+                                            &lt;/a&gt;
+
+                                            &lt;a class=&quot;my-tooltip&quot; href=&quot;#&quot; title=&quot;访问我的CSDN主页&quot;&gt;
+                                                &lt;img src=&quot;./svg/github.svg&quot; alt=&quot;&quot;&gt;
+                                                &lt;span class=&quot;my-tooltiptext&quot;&gt;我的Github主页&lt;/span&gt;
+                                            &lt;/a&gt; --&gt;
+
+                                        &lt;/div&gt;
+                                    &lt;/dic&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/section&gt;
+&lt;/div&gt;
+&lt;section class=&quot;footer&quot;&gt;
+    &lt;div style=&quot;padding: 20px;&quot; class=&quot;container&quot;&gt;
+        （2018228-024号 | Copyright 2023-2033  All Rights Reserved|
+        x-41010202002051号
+    &lt;/div&gt;
+&lt;/section&gt;
+</code></pre>
+</body>
+<script src="./JS/jquery-3.6.0.js">
+</script>
+<script src="./JS/popper.min.js">
+</script>
+<script src="./JS/bootstrap.min.js">
+</script>
+<script src="./JS/particles.min.js"></script>
+<script src="./JS/app.js"></script>
+<script src="./JS/aos.js"></script>
+<script src="./JS/personal-info-main.js"></script>
+<script>
+    AOS.init();
+</script>
+</html>

@@ -6,7 +6,7 @@
   <link href="https://zhongye1.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhongye1.github.io/"/>
-  <updated>2024-09-02T14:22:19.900Z</updated>
+  <updated>2024-09-02T15:58:47.952Z</updated>
   <id>https://zhongye1.github.io/</id>
   
   <author>
@@ -15,6 +15,42 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于Jupyter汉化问题</title>
+    <link href="https://zhongye1.github.io/posts/3de5091.html"/>
+    <id>https://zhongye1.github.io/posts/3de5091.html</id>
+    <published>2024-09-02T15:49:05.000Z</published>
+    <updated>2024-09-02T15:58:47.952Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="解决新版Jupyter-notebook-v7-0-0及以上-汉化、默认保存路径等问题"><a href="#解决新版Jupyter-notebook-v7-0-0及以上-汉化、默认保存路径等问题" class="headerlink" title="解决新版Jupyter notebook(v7.0.0及以上)汉化、默认保存路径等问题"></a>解决新版Jupyter notebook(v7.0.0及以上)汉化、默认保存路径等问题</h2><h3 id="一-Jupyter-notebook-v7-0-0及以上汉化"><a href="#一-Jupyter-notebook-v7-0-0及以上汉化" class="headerlink" title="一. Jupyter notebook v7.0.0及以上汉化"></a>一. Jupyter notebook v7.0.0及以上汉化</h3><p><strong>注意！在环境变量中添加如下用户变量仅适用于Jupyter v6及以下版本，不再适用于Jupyter v7</strong><br><img src="https://free-img.400040.xyz/4/2024/09/02/66d5df36ec7d2.png" alt="在这里插入图片描述"><br><strong>Jupyter v7汉化方法如下</strong></p><p>1.打开<a href="https://so.csdn.net/so/search?q=命令行&amp;spm=1001.2101.3001.7020">命令行</a>或者Anaconda Prompt，运行如下代码</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install jupyterlab-language-pack-zh-CN</span><br></pre></td></tr></table></figure><p>2.运行Jupyter notebook，选择settings中的Language，替换中文<br><img src="https://free-img.400040.xyz/4/2024/09/02/66d5df33aa570.png" alt="在这里插入图片描述"></p><h3 id="二-修改Jupyter-notebook默认保存路径"><a href="#二-修改Jupyter-notebook默认保存路径" class="headerlink" title="二. 修改Jupyter notebook默认保存路径"></a>二. 修改Jupyter notebook默认保存路径</h3><p><strong>这里先介绍一种万能（不嫌麻烦）的方法</strong><br>1.打开命令行或者Anaconda Prompt，运行如下代码，其中D:\JupyterWorkspace可以修改成你想要Jupyter保存的任意路径</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">jupyter notebook D:\JupyterWorkspace</span><br></pre></td></tr></table></figure><p><strong>这种方法的优点是很灵活<br>缺点是每次启动都需要用命令行或者Anaconda Prompt</strong></p><p><strong>下面介绍一种一本万利（fu za）的方法</strong><br>1.打开命令行或者Anaconda Prompt，运行如下代码</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">jupyter notebook --generate-config</span><br></pre></td></tr></table></figure><p>2.运行后会提示创建完jupyter_notebook_config.py文件，以及它所在的路径，我们直接复制路径找到这个.py文件<br>3.用记事本打开它，CTRL+F查找<strong>notebook_dir</strong>，会搜索到这一行（适用旧版）<br>3.用记事本打开它，CTRL+F查找<strong>root_dir</strong>，会搜索到这一行（适用新版）</p><blockquote><p>#c.NotebookApp.notebook_dir = ‘path’ # 旧版查找这一行<br>#c.ServerApp.root_dir = ‘path’ # 更正，最新版应该查找这一行</p></blockquote><p>有些电脑搜到的可能是#c.ServerApp.notebook_dir = ‘path’，不过没什么影响<br>4.将path替换成自己想要保存的路径，直接复制文件夹路径的话一定要将 \ 改成 // ，并将这一行前面的#去掉**，保存文件<br>5.右键Jupyter notebook选择属性，按下图设置即可<br><img src="https://free-img.400040.xyz/4/2024/09/02/66d5df33b83ca.png" alt="在这里插入图片描述"></p>]]></content>
+    
+    
+    <summary type="html">解决新版Jupyter(v7.0.0及以上)汉化、默认保存路径等问题</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>自定义VSCode背景图片</title>
+    <link href="https://zhongye1.github.io/posts/533329c2.html"/>
+    <id>https://zhongye1.github.io/posts/533329c2.html</id>
+    <published>2024-09-02T15:39:00.000Z</published>
+    <updated>2024-09-02T15:56:33.232Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="关于如何自定义VSCode背景图片"><a href="#关于如何自定义VSCode背景图片" class="headerlink" title="关于如何自定义VSCode背景图片"></a>关于如何自定义VSCode背景图片</h2><h4 id="1-以管理员身份运行VS-Code，安装background插件"><a href="#1-以管理员身份运行VS-Code，安装background插件" class="headerlink" title="1.以管理员身份运行VS Code，安装background插件"></a>1.以管理员身份运行VS Code，安装background插件</h4><p><img src="https://pica.zhimg.com/80/v2-b5a35f698b7589c7090b1bfa2a2963b8_720w.webp" alt="img"></p><h4 id="2-打开setting，在搜索框中输入background，选择扩展中的plugin-background，选择在setting-json中编辑"><a href="#2-打开setting，在搜索框中输入background，选择扩展中的plugin-background，选择在setting-json中编辑" class="headerlink" title="2.打开setting，在搜索框中输入background，选择扩展中的plugin background，选择在setting.json中编辑"></a>2.打开setting，在搜索框中输入background，选择扩展中的plugin background，选择在setting.json中编辑</h4><p><img src="https://pic3.zhimg.com/80/v2-3e406502b1294ad2bcc6a9425c208eb2_720w.webp" alt="img"></p><h4 id="3-在用户设置中输入以下代码，修改完后保存，会提示重启VS-Code，点击确定后即可完成修改"><a href="#3-在用户设置中输入以下代码，修改完后保存，会提示重启VS-Code，点击确定后即可完成修改" class="headerlink" title="3.在用户设置中输入以下代码，修改完后保存，会提示重启VS Code，点击确定后即可完成修改"></a>3.在用户设置中输入以下代码，修改完后保存，会提示重启VS Code，点击确定后即可完成修改</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//background 的相关配置</span></span><br><span class="line">    <span class="string">&quot;update.enableWindowsBackgroundUpdates&quot;</span>: <span class="literal">true</span>,</span><br><span class="line">    <span class="string">&quot;background.customImages&quot;</span>: [</span><br><span class="line">        <span class="string">&quot;file:///F:/Picture/Yukino/vs_background.png&quot;</span><span class="comment">//图片地址（支持http</span></span><br><span class="line">    ],</span><br><span class="line">    <span class="string">&quot;background.style&quot;</span>: &#123;</span><br><span class="line">        <span class="string">&quot;content&quot;</span>:<span class="string">&quot;&#x27;&#x27;&quot;</span>,</span><br><span class="line">        <span class="string">&quot;pointer-events&quot;</span>:<span class="string">&quot;none&quot;</span>,</span><br><span class="line">        <span class="string">&quot;position&quot;</span>:<span class="string">&quot;absolute&quot;</span>,<span class="comment">//图片位置</span></span><br><span class="line">        <span class="string">&quot;width&quot;</span>:<span class="string">&quot;100%&quot;</span>,</span><br><span class="line">        <span class="string">&quot;height&quot;</span>:<span class="string">&quot;100%&quot;</span>,</span><br><span class="line">        <span class="string">&quot;z-index&quot;</span>:<span class="string">&quot;99999&quot;</span>,</span><br><span class="line">        <span class="string">&quot;background.repeat&quot;</span>:<span class="string">&quot;no-repeat&quot;</span>,</span><br><span class="line">        <span class="string">&quot;background-size&quot;</span>:<span class="string">&quot;25%,25%&quot;</span>,<span class="comment">//图片大小</span></span><br><span class="line">        <span class="string">&quot;opacity&quot;</span>:<span class="number">0.2</span> <span class="comment">//透明度</span></span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="string">&quot;background.useFront&quot;</span>: <span class="literal">true</span>,</span><br><span class="line">    <span class="string">&quot;background.useDefault&quot;</span>: <span class="literal">false</span>,<span class="comment">//是否使用默认图片</span></span><br></pre></td></tr></table></figure><p><img src="https://pic4.zhimg.com/80/v2-504cbda92dbe5de68c9372b9b8197a31_720w.webp" alt="img"></p><p>效果如下：</p><p><img src="https://pica.zhimg.com/80/v2-3ba8478d3556441d49b22ac1598855ee_720w.webp" alt="img"></p>]]></content>
+    
+    
+    <summary type="html">关于如何自定义VSCode背景图片</summary>
+    
+    
+    
+    <category term="随记" scheme="https://zhongye1.github.io/categories/%E9%9A%8F%E8%AE%B0/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>九月</title>
@@ -346,44 +382,6 @@
     
     
     <category term="Github项目" scheme="https://zhongye1.github.io/categories/Github%E9%A1%B9%E7%9B%AE/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>周边</title>
-    <link href="https://zhongye1.github.io/posts/dbb1c112.html"/>
-    <id>https://zhongye1.github.io/posts/dbb1c112.html</id>
-    <published>2024-07-22T17:05:49.000Z</published>
-    <updated>2024-08-05T17:32:52.856Z</updated>
-    
-    <content type="html"><![CDATA[<img src="https://pic4.zhimg.com/80/v2-e368bfc9e72543b9a84ef12f57978f57_720w.webp" alt="img" style="zoom:80%;" />]]></content>
-    
-    
-    <summary type="html">杂</summary>
-    
-    
-    
-    <category term="随记" scheme="https://zhongye1.github.io/categories/%E9%9A%8F%E8%AE%B0/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>期末月随记</title>
-    <link href="https://zhongye1.github.io/posts/38da2704.html"/>
-    <id>https://zhongye1.github.io/posts/38da2704.html</id>
-    <published>2024-07-21T17:03:19.000Z</published>
-    <updated>2024-07-28T16:25:30.529Z</updated>
-    
-    <content type="html"><![CDATA[<img src="https://pic4.zhimg.com/v2-e64bde061b3009cb470da53f65098edf_b.jpg"  align = "right"  width=30% alt="这站点是我的对吧"><p>期末考试是七月开头的话，</p><p>那六月也算是期末月了…</p><p>面对这种危机，</p><p>依然选择了摆！</p><p>.</p><p>所以六月份这么过去了</p><p>（总所周知，五月病高发于六月）</p><p>.</p><p>.</p><hr><p><img src="https://pic2.zhimg.com/80/v2-aaf6d01684d5d3c90671c6f517bd0f51_720w.webp"  align = "left"  width=8% ><a href="http://user.qzone.qq.com/2760913192">柊野</a> <em>6月4日 23:31</em></p><ul><li></li></ul><p><strong>摄于桂花岗宿舍楼</strong></p><p><img src="https://pic1.zhimg.com/80/v2-737a907502b756419d549c2108697024_720w.webp" alt="img"></p><hr><p><img src="https://pic2.zhimg.com/80/v2-aaf6d01684d5d3c90671c6f517bd0f51_720w.webp"  align = "left"  width=8% ><a href="http://user.qzone.qq.com/2760913192">柊野</a> <em>6月4日 23:31</em></p><ul><li></li></ul><p><strong>6月了，希望最近的一切都会好起来，顺便希望腿能早点好</strong></p><img src="https://pic3.zhimg.com/80/v2-abacf94f5b7abcfdda1d8f2ff7364cf2_720w.webp" alt="img" style="zoom:67%;" /><p>（五月份早上起来时从床上摔了下来</p><p>（痛啊</p><hr><p><img src="https://pic2.zhimg.com/80/v2-aaf6d01684d5d3c90671c6f517bd0f51_720w.webp"  align = "left"  width=8% ><a href="http://user.qzone.qq.com/2760913192">柊野</a> <em>6月8日 10:07</em></p><ul><li></li></ul><p><strong>昨晚试着给qq账号接个机器人今天光速冻结</strong><br><strong>差点告别8年老号</strong></p><p><strong>（悲</strong></p><hr><p><img src="https://pic2.zhimg.com/80/v2-aaf6d01684d5d3c90671c6f517bd0f51_720w.webp"  align = "left"  width=8% ><a href="http://user.qzone.qq.com/2760913192">柊野</a> <em>6月8日</em></p><ul><li></li></ul><p><img src="https://pic1.zhimg.com/80/v2-bf4e5b869813d5dce5e38767e2e4d9dc_720w.webp" alt="img"></p><p><img src="https://pic2.zhimg.com/80/v2-e14459422dbd6b75db54947f930e924d_720w.webp" alt="img"></p><p>端午假全寝仅自己留宿，遂骑自行车复建</p><p>珠江边喝完啤酒回没人的宿舍发疯</p><p>外地独自呆久了导致的</p><p>另外在广东确实水土不服</p><hr><p><img src="https://pic2.zhimg.com/80/v2-aaf6d01684d5d3c90671c6f517bd0f51_720w.webp"  align = "left"  width=8% ><a href="http://user.qzone.qq.com/2760913192">柊野</a> <em>6月10日凌晨</em></p><ul><li></li></ul><p>刷漫画</p><img src="https://pic3.zhimg.com/80/v2-6d34c0c1f48a78fd882825b07dc0378e_720w.webp" alt="img" style="zoom:33%;" /><hr><p><img src="https://pic2.zhimg.com/80/v2-aaf6d01684d5d3c90671c6f517bd0f51_720w.webp"  align = "left"  width=8% ><a href="http://user.qzone.qq.com/2760913192">柊野</a> <em>6月10日 11:43</em></p><ul><li></li></ul><p>看房东们划龙舟</p><p>房东也有自己的生活</p><p><img src="https://pic1.zhimg.com/80/v2-b2e63a4866f8d38a580fed064b400638_720w.webp" alt="img"></p><hr><p><img src="https://pic2.zhimg.com/80/v2-aaf6d01684d5d3c90671c6f517bd0f51_720w.webp"  align = "left"  width=8% ><a href="http://user.qzone.qq.com/2760913192">柊野</a> <em>6月11日 23:31</em></p><ul><li></li></ul><p>想玩黑神话又没钱，到时候薅一个试试（</p><img src="https://pic4.zhimg.com/80/v2-dd6e47b55d30a4381e0293362605f0c3_720w.webp" alt="img" style="zoom:50%;" /><p>计划通</p><hr><p><img src="https://pic2.zhimg.com/80/v2-aaf6d01684d5d3c90671c6f517bd0f51_720w.webp"  align = "left"  width=8% ><a href="http://user.qzone.qq.com/2760913192">柊野</a> <em>6月13日</em></p><p><a href="https://pic4.zhimg.com/80/v2-cd3e6edf8dd1f185683cdb60d1488f0f_720w.webp"><img src="https://pic4.zhimg.com/80/v2-cd3e6edf8dd1f185683cdb60d1488f0f_720w.webp" alt="img" style="zoom: 25%;" /></a></p><p><em>Yeah don’t believe anything that psychiatrist says that anime girl you keep seeing is real and she does love you.</em></p><hr><p><img src="https://pic2.zhimg.com/80/v2-aaf6d01684d5d3c90671c6f517bd0f51_720w.webp"  align = "left"  width=8% ><a href="http://user.qzone.qq.com/2760913192">柊野</a> <em>6月15日</em></p><ul><li></li><li></li></ul><p>摄于宿舍门口</p><img src="https://pic1.zhimg.com/80/v2-9d94130da9323a372126498c467b3c84_720w.webp" alt="img" style="zoom:33%;" /><hr><p><img src="https://pic2.zhimg.com/80/v2-aaf6d01684d5d3c90671c6f517bd0f51_720w.webp"  align = "left"  width=8% ><a href="http://user.qzone.qq.com/2760913192">柊野</a> <em>6月16日</em></p><p><strong>众所周知，五月病高发于六月</strong></p><hr><p><img src="https://pic2.zhimg.com/80/v2-aaf6d01684d5d3c90671c6f517bd0f51_720w.webp"  align = "left"  width=8% ><a href="http://user.qzone.qq.com/2760913192">柊野</a> <em>6月15日</em></p><ul><li></li></ul><p>翻了一下高考完暑假ptsd的黑历史想把自己埋了</p><p>高考完那么好个暑假怎么全拿去发病了（恼</p><img src="https://pic1.zhimg.com/v2-c4df42164de145f86930fb1ebdbfcd88_b.jpg" alt="img" style="zoom:50%;" /><hr><p><img src="https://pic2.zhimg.com/80/v2-aaf6d01684d5d3c90671c6f517bd0f51_720w.webp"  align = "left"  width=8% ><a href="http://user.qzone.qq.com/2760913192">柊野</a> <em>6月19日</em></p><ul><li></li></ul><p>期末欸</p><p>（此时终于想起了期末考这个存在）</p><img src="https://pic3.zhimg.com/v2-9c98e79b390544ae400d8a798a2426ca_b.jpg" alt="img" style="zoom:33%;" /><hr><p><img src="https://pic2.zhimg.com/80/v2-aaf6d01684d5d3c90671c6f517bd0f51_720w.webp"  align = "left"  width=8% ><a href="http://user.qzone.qq.com/2760913192">柊野</a> <em>6月20日凌晨</em></p><ul><li></li></ul><p>整点馕饼<br>（半夜发病不应该整点啤酒啥的吗我整馕饼干啥）<br>（操了期末复习不了一点，数据结构我真的礸死）<br>（图书馆一堆占座仙人中午饭点一个空位都没）<br>（学院规定卷面分不过60直接斩杀真有你的）<br>（馕饼好吃）</p><img src="https://pic3.zhimg.com/80/v2-bcc63cf6980e3d86875dc6a13c79384e_720w.webp" alt="img" style="zoom:30%;" /><hr><p><img src="https://pic2.zhimg.com/80/v2-aaf6d01684d5d3c90671c6f517bd0f51_720w.webp"  align = "left"  width=8% ><a href="http://user.qzone.qq.com/2760913192">柊野</a> <em>6月21日凌晨</em></p><ul><li></li></ul><p>还是摄于宿舍门口</p><img src="https://pic4.zhimg.com/80/v2-eedf5ae182e28a4f8b24d8871e7ae913_720w.webp" alt="img" style="zoom: 33%;" /><hr><p><img src="https://pic2.zhimg.com/80/v2-aaf6d01684d5d3c90671c6f517bd0f51_720w.webp"  align = "left"  width=8% ><a href="http://user.qzone.qq.com/2760913192">柊野</a> <em>6月21日下午</em></p><ul><li></li></ul><p>个人觉得那些说大学天天旷课水课没课摆烂的大概的确是学园艺专业的</p><p>好多课…</p><img src="https://pic3.zhimg.com/80/v2-5b841656fea181a91e2d16284b997b4a_720w.webp" alt="img" style="zoom:50%;" /><p>（结果这是一轮选课的课表，二轮选课直接上强度了，比这个还红一点</p><hr><p><img src="https://pic2.zhimg.com/80/v2-aaf6d01684d5d3c90671c6f517bd0f51_720w.webp"  align = "left"  width=8% ><a href="http://user.qzone.qq.com/2760913192">柊野</a> <em>6月23日夜</em></p><ul><li></li></ul><p>打败占座仙人的方法就是占座，明天5点起</p><p>（不想蒸桑拿了啊</p><p>（宿舍环境难以言喻到把游戏都戒掉了，回宿舍打游戏的动力都没了</p><img src="https://pic2.zhimg.com/80/v2-d7cd78ec84566658d925a3c70168bd75_720w.webp" alt="img" style="zoom:25%;" /><p>（第二天确实抢到了位置，但是困死</p><hr><p><img src="https://pic2.zhimg.com/80/v2-aaf6d01684d5d3c90671c6f517bd0f51_720w.webp"  align = "left"  width=8% ><a href="http://user.qzone.qq.com/2760913192">柊野</a> <em>6月24日</em></p><ul><li></li></ul><p>期末复习偶遇高数线代和数据结构，题型强度杂如怪物，拼尽全力未能战胜</p><p>遂在图书馆与其战斗至天昏地暗</p><img src="https://pic3.zhimg.com/80/v2-357029aece43675b39a8108bea940432_720w.webp" alt="img" style="zoom:50%;" /><p>燃尽了</p><hr><p><img src="https://pic2.zhimg.com/80/v2-aaf6d01684d5d3c90671c6f517bd0f51_720w.webp"  align = "left"  width=8% ><a href="http://user.qzone.qq.com/2760913192">柊野</a> <em>6月26日</em></p><ul><li></li></ul><p>抢不到座位要蒸一天桑拿，烦死</p><p><img src="http://qzonestyle.gtimg.cn/qzone/em/e193.png" alt="img"></p><hr><p><img src="https://pic2.zhimg.com/80/v2-aaf6d01684d5d3c90671c6f517bd0f51_720w.webp"  align = "left"  width=8% ><a href="http://user.qzone.qq.com/2760913192">柊野</a> <em>6月27日19:52</em></p><ul><li></li></ul><p>期末周！<br>我爱高代！</p><img src="https://pic2.zhimg.com/v2-09941ddbf4858a5cae2cf82223f78921_b.webp" alt="动图" style="zoom:33%;" /><hr><p><img src="https://pic2.zhimg.com/80/v2-aaf6d01684d5d3c90671c6f517bd0f51_720w.webp"  align = "left"  width=8% ><a href="http://user.qzone.qq.com/2760913192">柊野</a> <em>6月29日22:16</em></p><ul><li></li></ul><p>宅图书馆+期末忙的死去活来＝死宅（确信）</p><p>（似了的图书馆宅也是死宅）</p><hr><p><img src="https://pic2.zhimg.com/80/v2-aaf6d01684d5d3c90671c6f517bd0f51_720w.webp"  align = "left"  width=8% ><a href="http://user.qzone.qq.com/2760913192">柊野</a> <em>7月2日</em></p><ul><li></li></ul><p><strong>寄</strong></p><img src="https://pic1.zhimg.com/v2-a40cbc57f04e4ffee40709a4b2bb4918_b.webp" alt="动图" style="zoom:25%;" /><p>（期末啊</p><p>（考完一科半截入土了</p><img src="https://pic4.zhimg.com/80/v2-92e8fa10d3275261d6749a2607ad748f_720w.webp" alt="img" style="zoom:50%;" /><hr><p><img src="https://pic2.zhimg.com/80/v2-aaf6d01684d5d3c90671c6f517bd0f51_720w.webp"  align = "left"  width=8% ><a href="http://user.qzone.qq.com/2760913192">柊野</a> <em>7月2日22:53</em></p><ul><li></li></ul><p>数据结构一直没学懂</p><p>这么难的课一周竟然只开一节线下课啊</p><p>这门课前半个学期听课听进去都是懵的啊</p><p>明天就考了复习这么久还是没把握啊</p><img src="https://pic1.zhimg.com/v2-6a3e6104387cae4bded14eccab2d5bec_b.webp" alt="动图" style="zoom:25%;" /><hr><p><img src="https://pic2.zhimg.com/80/v2-aaf6d01684d5d3c90671c6f517bd0f51_720w.webp"  align = "left"  width=8% ><a href="http://user.qzone.qq.com/2760913192">柊野</a> <em>7月3日夜</em></p><ul><li></li></ul><p>前面的科目都没把我干死，现在就剩一个数据库原理了，</p><p>再怎么样也不会像先前那样惨烈罢</p><img src="https://pic2.zhimg.com/80/v2-97343aefc393144fc8931fd2b2705001_720w.webp" alt="img" style="zoom:25%;" /><p>（7月4日改：想不到吧考试题一道选择题都没有全是大题~</p><p>（幸好东西都背了</p><p>燃尽了</p><hr><p><img src="https://pic2.zhimg.com/80/v2-aaf6d01684d5d3c90671c6f517bd0f51_720w.webp"  align = "left"  width=8% ><a href="http://user.qzone.qq.com/2760913192">柊野</a> <em>7月4日夜</em></p><ul><li></li></ul><p>考完了</p><p><img src="https://pic1.zhimg.com/v2-9e78b5294ee28a348ba6e61338dd46cc_b.jpg" alt="img"></p><p>抑郁了</p><p>顺便在广州留下这么多天到处走走</p><p>(然后广东这天气第二天出门就开始掉血)</p><p><img src="https://pic4.zhimg.com/80/v2-cfab9ec1c6faafcc01e1b25a7e59f5f7_720w.webp" alt="img"></p><hr><p><img src="https://pic2.zhimg.com/80/v2-aaf6d01684d5d3c90671c6f517bd0f51_720w.webp"  align = "left"  width=8% ><a href="http://user.qzone.qq.com/2760913192">柊野</a> **</p><ul><li></li></ul><p>啊…世界和平…</p><p>cl%d#cout&lt;-p</p>]]></content>
-    
-    
-    <summary type="html">六月份到七月初的一些琐事</summary>
-    
-    
-    
-    <category term="随记" scheme="https://zhongye1.github.io/categories/%E9%9A%8F%E8%AE%B0/"/>
     
     
   </entry>

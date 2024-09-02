@@ -4,6 +4,38 @@
   
     
     <entry>
+      <title>关于Jupyter汉化问题</title>
+      <link href="/posts/3de5091.html"/>
+      <url>/posts/3de5091.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="解决新版Jupyter-notebook-v7-0-0及以上-汉化、默认保存路径等问题"><a href="#解决新版Jupyter-notebook-v7-0-0及以上-汉化、默认保存路径等问题" class="headerlink" title="解决新版Jupyter notebook(v7.0.0及以上)汉化、默认保存路径等问题"></a>解决新版Jupyter notebook(v7.0.0及以上)汉化、默认保存路径等问题</h2><h3 id="一-Jupyter-notebook-v7-0-0及以上汉化"><a href="#一-Jupyter-notebook-v7-0-0及以上汉化" class="headerlink" title="一. Jupyter notebook v7.0.0及以上汉化"></a>一. Jupyter notebook v7.0.0及以上汉化</h3><p><strong>注意！在环境变量中添加如下用户变量仅适用于Jupyter v6及以下版本，不再适用于Jupyter v7</strong><br><img src="https://free-img.400040.xyz/4/2024/09/02/66d5df36ec7d2.png" alt="在这里插入图片描述"><br><strong>Jupyter v7汉化方法如下</strong></p><p>1.打开<a href="https://so.csdn.net/so/search?q=命令行&amp;spm=1001.2101.3001.7020">命令行</a>或者Anaconda Prompt，运行如下代码</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install jupyterlab-language-pack-zh-CN</span><br></pre></td></tr></table></figure><p>2.运行Jupyter notebook，选择settings中的Language，替换中文<br><img src="https://free-img.400040.xyz/4/2024/09/02/66d5df33aa570.png" alt="在这里插入图片描述"></p><h3 id="二-修改Jupyter-notebook默认保存路径"><a href="#二-修改Jupyter-notebook默认保存路径" class="headerlink" title="二. 修改Jupyter notebook默认保存路径"></a>二. 修改Jupyter notebook默认保存路径</h3><p><strong>这里先介绍一种万能（不嫌麻烦）的方法</strong><br>1.打开命令行或者Anaconda Prompt，运行如下代码，其中D:\JupyterWorkspace可以修改成你想要Jupyter保存的任意路径</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">jupyter notebook D:\JupyterWorkspace</span><br></pre></td></tr></table></figure><p><strong>这种方法的优点是很灵活<br>缺点是每次启动都需要用命令行或者Anaconda Prompt</strong></p><p><strong>下面介绍一种一本万利（fu za）的方法</strong><br>1.打开命令行或者Anaconda Prompt，运行如下代码</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">jupyter notebook --generate-config</span><br></pre></td></tr></table></figure><p>2.运行后会提示创建完jupyter_notebook_config.py文件，以及它所在的路径，我们直接复制路径找到这个.py文件<br>3.用记事本打开它，CTRL+F查找<strong>notebook_dir</strong>，会搜索到这一行（适用旧版）<br>3.用记事本打开它，CTRL+F查找<strong>root_dir</strong>，会搜索到这一行（适用新版）</p><blockquote><p>#c.NotebookApp.notebook_dir = ‘path’ # 旧版查找这一行<br>#c.ServerApp.root_dir = ‘path’ # 更正，最新版应该查找这一行</p></blockquote><p>有些电脑搜到的可能是#c.ServerApp.notebook_dir = ‘path’，不过没什么影响<br>4.将path替换成自己想要保存的路径，直接复制文件夹路径的话一定要将 \ 改成 // ，并将这一行前面的#去掉**，保存文件<br>5.右键Jupyter notebook选择属性，按下图设置即可<br><img src="https://free-img.400040.xyz/4/2024/09/02/66d5df33b83ca.png" alt="在这里插入图片描述"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>自定义VSCode背景图片</title>
+      <link href="/posts/533329c2.html"/>
+      <url>/posts/533329c2.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="关于如何自定义VSCode背景图片"><a href="#关于如何自定义VSCode背景图片" class="headerlink" title="关于如何自定义VSCode背景图片"></a>关于如何自定义VSCode背景图片</h2><h4 id="1-以管理员身份运行VS-Code，安装background插件"><a href="#1-以管理员身份运行VS-Code，安装background插件" class="headerlink" title="1.以管理员身份运行VS Code，安装background插件"></a>1.以管理员身份运行VS Code，安装background插件</h4><p><img src="https://pica.zhimg.com/80/v2-b5a35f698b7589c7090b1bfa2a2963b8_720w.webp" alt="img"></p><h4 id="2-打开setting，在搜索框中输入background，选择扩展中的plugin-background，选择在setting-json中编辑"><a href="#2-打开setting，在搜索框中输入background，选择扩展中的plugin-background，选择在setting-json中编辑" class="headerlink" title="2.打开setting，在搜索框中输入background，选择扩展中的plugin background，选择在setting.json中编辑"></a>2.打开setting，在搜索框中输入background，选择扩展中的plugin background，选择在setting.json中编辑</h4><p><img src="https://pic3.zhimg.com/80/v2-3e406502b1294ad2bcc6a9425c208eb2_720w.webp" alt="img"></p><h4 id="3-在用户设置中输入以下代码，修改完后保存，会提示重启VS-Code，点击确定后即可完成修改"><a href="#3-在用户设置中输入以下代码，修改完后保存，会提示重启VS-Code，点击确定后即可完成修改" class="headerlink" title="3.在用户设置中输入以下代码，修改完后保存，会提示重启VS Code，点击确定后即可完成修改"></a>3.在用户设置中输入以下代码，修改完后保存，会提示重启VS Code，点击确定后即可完成修改</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//background 的相关配置</span></span><br><span class="line">    <span class="string">&quot;update.enableWindowsBackgroundUpdates&quot;</span>: <span class="literal">true</span>,</span><br><span class="line">    <span class="string">&quot;background.customImages&quot;</span>: [</span><br><span class="line">        <span class="string">&quot;file:///F:/Picture/Yukino/vs_background.png&quot;</span><span class="comment">//图片地址（支持http</span></span><br><span class="line">    ],</span><br><span class="line">    <span class="string">&quot;background.style&quot;</span>: &#123;</span><br><span class="line">        <span class="string">&quot;content&quot;</span>:<span class="string">&quot;&#x27;&#x27;&quot;</span>,</span><br><span class="line">        <span class="string">&quot;pointer-events&quot;</span>:<span class="string">&quot;none&quot;</span>,</span><br><span class="line">        <span class="string">&quot;position&quot;</span>:<span class="string">&quot;absolute&quot;</span>,<span class="comment">//图片位置</span></span><br><span class="line">        <span class="string">&quot;width&quot;</span>:<span class="string">&quot;100%&quot;</span>,</span><br><span class="line">        <span class="string">&quot;height&quot;</span>:<span class="string">&quot;100%&quot;</span>,</span><br><span class="line">        <span class="string">&quot;z-index&quot;</span>:<span class="string">&quot;99999&quot;</span>,</span><br><span class="line">        <span class="string">&quot;background.repeat&quot;</span>:<span class="string">&quot;no-repeat&quot;</span>,</span><br><span class="line">        <span class="string">&quot;background-size&quot;</span>:<span class="string">&quot;25%,25%&quot;</span>,<span class="comment">//图片大小</span></span><br><span class="line">        <span class="string">&quot;opacity&quot;</span>:<span class="number">0.2</span> <span class="comment">//透明度</span></span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="string">&quot;background.useFront&quot;</span>: <span class="literal">true</span>,</span><br><span class="line">    <span class="string">&quot;background.useDefault&quot;</span>: <span class="literal">false</span>,<span class="comment">//是否使用默认图片</span></span><br></pre></td></tr></table></figure><p><img src="https://pic4.zhimg.com/80/v2-504cbda92dbe5de68c9372b9b8197a31_720w.webp" alt="img"></p><p>效果如下：</p><p><img src="https://pica.zhimg.com/80/v2-3ba8478d3556441d49b22ac1598855ee_720w.webp" alt="img"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 随记 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>九月</title>
       <link href="/posts/fd12c93d.html"/>
       <url>/posts/fd12c93d.html</url>

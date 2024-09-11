@@ -7236,7 +7236,7 @@ button.swiper-pagination-bullet {
   height: 100%;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url(/assets/https://pic4.zhimg.com/80/v2-d9884f32711e19e80979eac58e943897_720w.webp);
+  background-image: url(https://pic4.zhimg.com/80/v2-d9884f32711e19e80979eac58e943897_720w.webp);
   opacity: var(--0b42bce8);
   z-index: -1;
   transition: all 0.5s;

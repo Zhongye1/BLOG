@@ -7514,64 +7514,7 @@ button.swiper-pagination-bullet {
   text-align: justify;
   text-align-last: justify;
 }
-#section-home .homepage .homeDownBtn .homewapper .DownLinks[data-v-563ab70f] {
-  width: 25%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-#section-home .homepage .homeDownBtn .homewapper .DownLinks a[data-v-563ab70f] {
-  display: block;
-  width: 100%;
-  height: 25%;
-  border-radius: 6px;
-  transition: all 0.5s;
-}
-#section-home
-  .homepage
-  .homeDownBtn
-  .homewapper
-  .DownLinks
-  a[data-v-563ab70f]:hover {
-  border: 1px solid white;
-}
-#section-home
-  .homepage
-  .homeDownBtn
-  .homewapper
-  .DownLinks
-  a
-  text[data-v-563ab70f] {
-  fill: #fff;
-}
-#section-home
-  .homepage
-  .homeDownBtn
-  .homewapper
-  .DownLinks
-  .ios[data-v-563ab70f] {
-  background-color: #000;
-  border: 1px solid #333;
-}
-#section-home
-  .homepage
-  .homeDownBtn
-  .homewapper
-  .DownLinks
-  .android[data-v-563ab70f] {
-  background-color: #8fc31f;
-  border: 1px solid #8fc31f;
-}
-#section-home
-  .homepage
-  .homeDownBtn
-  .homewapper
-  .DownLinks
-  .taptap[data-v-563ab70f] {
-  background-color: #009baa;
-  border: 1px solid #009baa;
-}
+
 #section-home .homepage .homeDownBtn .homewapper .DownImg[data-v-563ab70f] {
   width: 25%;
   height: 100%;

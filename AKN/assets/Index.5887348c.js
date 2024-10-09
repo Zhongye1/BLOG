@@ -8192,7 +8192,7 @@ const N1 = $1(),
         m("path", {
           id: "play-btn-outline",
           "data-cursor": "pointer",
-          d: "M95.000,50.000 L86.406,76.450 L63.906,92.798 L36.094,92.798 L13.594,76.450 L5.000,50.000 L13.594,23.550 L36.094,7.202 L63.906,7.202 L86.406,23.550 Z",
+          d: "",
         }),
         m("path", {
           id: "play-btn-triangle",
@@ -8222,7 +8222,7 @@ const N1 = $1(),
     m(
       "div",
       { class: "ImageText" },
-      [m("span", { "data-cursor": "pointer" }, "dev by  柊野")],
+      [m("span", { "data-cursor": "pointer" }, "zhongye")],
       -1
     )
   ),
@@ -8230,7 +8230,7 @@ const N1 = $1(),
     m(
       "div",
       { class: "ImageText" },
-      [m("span", { "data-cursor": "pointer" }, "下载站点安全应用")],
+      [m("span", { "data-cursor": "pointer" }, "GZHU")],
       -1
     )
   ),
@@ -8440,8 +8440,8 @@ const N1 = $1(),
             id: "001",
             isActive: !0,
             dataSource: "https://web.hycdn.cn/pv/pv.m3u8",
-            Title: "THE PRELUDE",
-            BGM: "BGM-MONSTER-STARSET",
+            Title: "https://zhongye1.github.io",
+            BGM: "https://zhongye1.github.io",
           },
           {
             id: "002",

@@ -1,0 +1,523 @@
+<p>&lt;!DOCTYPE html&gt;</p>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>万晨希-数据231-网页设计大赛</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/1.css">
+    <link rel="stylesheet" href="./css/APlayer.min.css">
+    <link rel="stylesheet" href="./effects/jquery-1.7.1.min.js">
+    <link rel="stylesheet" href="./css/APlayer.min.css">
+    <link rel="stylesheet" href="./effects/statics.js">
+    <link rel="stylesheet" href="./css/gallery.css">
+    <script src="./js/APlayer.min.js"></script>
+    <script src="./js/Meting.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Bocchi's SITE</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="https://zhongye1.github.io/">我的博客</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>                
+        <div class="blank1"></div><div class="blank1"></div>
+<div id="biaoti">Bocchi's SITE</div>
+        <div id="typing-effect" class="content"></div>
+        <div id="music" class="music"><meting-js server="netease" type="song" id="2053710706"></meting-js></div>
+        <div id="scroll-prompt" class="scroll-prompt">
+            <i class="fas fa-angle-down"></i>
+            <style>
+                .music{
+width: 110vh;
+margin: auto;
+                }
+                .scroll-prompt {
+                    position: absolute; /* 绝对定位 */
+                    left: 50%; /* 居中 */
+                    transform: translateX(-50%); /* 水平居中调整 */
+                    bottom: 10px; /* 距离底部10px */
+                    animation: bounce 2s infinite; /* 添加弹跳动画 */
+                }
+                .scroll-prompt i {
+                    font-size: 48px; /* 图标的大小 */
+                    color: #ccc; /* 图标的颜色 */
+                }
+                @keyframes bounce {
+                    0%, 20%, 50%, 80%, 100% {
+                        transform: translateY(0);
+                    }
+                    40% {
+                        transform: translateY(-30px);
+                    }
+                    60% {
+                        transform: translateY(-15px);
+                    }
+                }
+            </style>
+        </div>
+        <div class="top">
+            <div class="info">
+                                <style>
+                                    .biaoti{
+                                        margin-top: 100px;
+                                        font-size: 72px; /* 字体大小 */
+                                        height: 200px;
+                                    }
+                                    .quote {
+                                      font-style: italic;
+                                      color: #7ccdff;
+                                      margin-bottom: 20px;
+                                    }
+                                    .info {
+                                      background: rgba(225, 224, 224, 0.132);
+                                      background: #e1e1e1 url("./img/21.jpg") no-repeat center center fixed;
+                                      padding: 20px;
+                                      border-radius: 8px;
+                                      box-shadow: 0 0 10px rgba(245, 244, 244, 0.1);
+                                    }
+                                    .top2{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    background-color: #ffffff;
+    width: 100%;
+    background: url("./img/122.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+                                  </style>
+                                  <br><br><br>
+                                <h1>「 阴郁的话就去玩摇滚！」</h1>
+                                <br>
+                                <div class="slider">
+                                    <div class="slide-track">
+                                    <!-- 这里替换为自己的图片地址 -->
+                                    <div class="slide"><img src="./img/6.png" alt="Image 3"></div>
+                                    <div class="slide"><img src="./img/12.jpg" alt="Image 2"></div>
+                                        <div class="slide"><img src="./img/3.png" alt="Image 1"></div>
+                                        <div class="slide"><img src="./img/5.png" alt="Image 2"></div>
+                                        <div class="slide"><img src="./img/21.jpg" alt="Image 3"></div>
+                                        <!-- 可以继续添加更多图片 -->
+                                    </div>
+                                    <span class="prev" onclick="moveSlide(-1)">&#10094;</span>
+                                    <span class="next" onclick="moveSlide(1)">&#10095;</span>
+
+<script>
+    let currentIndex = 0;
+    const slides = document.querySelectorAll('.slide');
+    const totalSlides = slides.length;
+    const slideWidth = 600; // 根据图片宽度设置
+    const slideTrack = document.querySelector('.slide-track');
+    const indicatorsContainer = document.querySelector('.indicators');
+
+    // 创建指示器
+    for (let i = 0; i < totalSlides; i++) {
+        const indicator = document.createElement('div');
+        indicator.classList.add('indicator');
+        if (i === 0) indicator.classList.add('active');
+        indicator.addEventListener('click', () => {
+            currentIndex = i;
+            updateSlidePosition();
+            updateIndicators();
+        });
+        indicatorsContainer.appendChild(indicator);
+    }
+
+    function updateSlidePosition() {
+        slideTrack.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+    }
+
+    function updateIndicators() {
+        document.querySelectorAll('.indicator').forEach((indicator, index) => {
+            if (index === currentIndex) {
+                indicator.classList.add('active');
+            } else {
+                indicator.classList.remove('active');
+            }
+        });
+    }
+
+    function moveSlide(direction) {
+        currentIndex += direction;
+        if (currentIndex >= totalSlides) {
+            currentIndex = 0;
+        } else if (currentIndex < 0) {
+            currentIndex = totalSlides - 1;
+        }
+        updateSlidePosition();
+        updateIndicators();
+    }
+
+    // 自动轮播
+    let autoSlideInterval = setInterval(() => {
+        moveSlide(1);
+    }, 2500); // 设置轮播间隔为 2秒
+
+    // 鼠标悬停时停止自动轮播
+    const slider = document.querySelector('.slider');
+    slider.addEventListener('mouseenter', () => clearInterval(autoSlideInterval));
+    slider.addEventListener('mouseleave', () => autoSlideInterval = setInterval(() => moveSlide(1), 2000));
+
+    // 初始化轮播位置
+    updateSlidePosition();
+</script>
+<div class="indicators"></div>
+                            </div>
+                                <br><br>
+                                <h2>《孤独摇滚！》简介</h2><br>
+                                 <br>《孤独摇滚！》（Bocchi the Rock）是由日本漫画家はまじあき创作的漫画作品，并有动画等衍生作品。</p>
+                                <p> <br>作为网络吉他手“Guitar Hero”而广受好评的后藤一里，在现实中却是个什么都不会的沟通障碍者。<br>
+                                    <br>一里有着组建乐队的梦想，但因为不敢向人主动搭话而一直没有成功。 
+                                        <br><br>直到一天在公园中被伊地知虹夏发现并邀请进入缺少吉他手的“结束乐队” <br>
+                                            <br>可是，完全没有和他人合作经历的一里，在人前完全发挥不出原本的实力。 <br>
+                                                <br>为了努力克服沟通障碍，一里与“结束乐队”的成员们一同开始努力…… <br><br><br></p>
+                            </div>
+            </div>       </div>       </div>       </div>  </div>     
+
+<style>
+    .img-hover-effect {
+    transition: transform 0.3s, box-shadow 0.3s; 
+}
+
+.img-hover-effect:hover {
+    transform: scale(1.1); /* 鼠标悬停时放大 */
+    box-shadow: 0 4px 8px rgb(255, 255, 255); /* 阴影 */
+}
+</style>
+<div class="top2">
+            <div class="flex-md-row mb-4 box-shadow h-xl-300">
+                <div class="jieshao1">
+                    <img height="200" src="./img/B1.jpg" class="img-hover-effect">
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                            <br>
+                            <a href="https://mzh.moegirl.org.cn/%E5%90%8E%E8%97%A4%E4%B8%80%E9%87%8C" title="后藤一里">后藤一里</a>
+                        </h2><small class="text-muted">後藤ひとり</small><br>
+                        <div class="card-text text-muted small">
+                            <p>极度怕生又阴郁的高中一年级生。<br>
+                                担任着结束乐队的主音吉他。<br>
+                                虽然阴郁但也憧憬着看起来闪闪发光的乐队活动，因此开始弹吉他。<br>
+                                虽然技术高超，但在乐队或公共场合中无法发挥得很好。<br>
+                                是网络上人气不菲的视频主“吉他英雄”，但在现实中却有着严重的社交恐惧症。<br>
+                                </p>
+                        </div>
+                    </div>
+                </div>
+<div class="jieshao2">
+                    <img height="200" src="./img/B2.jpg"  class="img-hover-effect">
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                            <br>
+                            <a href="https://mzh.moegirl.org.cn/%E4%BC%8A%E5%9C%B0%E7%9F%A5%E8%99%B9%E5%A4%8F" title="伊地知虹夏">伊地知虹夏</a>
+                        </h2><small class="text-muted">nijika</small><br>
+                        <div class="card-text text-muted small">
+                            <p>乐队的鼓手<br>
+                                在公园中发现了背着吉他包灰心丧气的波奇，并强拉她加入了“结束乐队”。<br>
+                                    对加入到结束乐队中的波奇给予了很多照顾、担任着乐队总管的角色。<br>
+                                    姐姐伊地知星歌是Livehouse「STARRY」的店长<br>
+                                    对Livehouse有着特殊的感情<br>
+                                将自己姐姐的Livehouse作为乐队活动地点，平常会在Livehouse打工。</p>
+                        </div>    
+                    </div>
+                </div>
+
+
+<div class="jieshao3">
+    <img height="200" src="./img/B4.jpg"  class="img-hover-effect">
+    <div class="pl-3">
+        <h2 class="mb-2 h6 font-weight-bold">
+            <br>
+            <a href="https://mzh.moegirl.org.cn/%E5%B1%B1%E7%94%B0%E5%87%89" title="山田凉">山田凉</a>
+        </h2><small class="text-muted">ryo</small><br>
+        <div class="card-text text-muted small">
+            <p>高中二年生<br>乐队的贝斯手、作曲担当，是虹夏的好友<br>
+                被别人叫做怪人会很兴奋的怪人<br>
+                个性很屑（<br>
+                表情变化少，和波奇一样没什么朋友。<br>曾经因为过于孤僻而被波奇当成是社恐同类却发现只是喜欢一个人待着而已。</p>
+        </div>    
+    </div>
+</div>
+
+
+
+<div class="jieshao4">
+    <img height="200" src="./img/B3.jpg"  class="img-hover-effect">
+    <div class="pl-3">
+        <h2 class="mb-2 h6 font-weight-bold">
+            <br>
+            <a href="https://mzh.moegirl.org.cn/%E5%96%9C%E5%A4%9A%E9%83%81%E4%BB%A3" title="喜多郁代">喜多郁代</a>
+        </h2><small class="text-muted">kita</small><br>
+        <div class="card-text text-muted small">
+            <p>开朗又有名望的高中一年生<br>
+                担当结束乐队的吉他主唱<br>
+                个性开朗活泼，精力旺盛，是一个有很多朋友和社交活动的现充<br>
+                喜欢在社交平台上发照片或者直播分享自己的生活<br>
+                经常在Ins上传照片</p><br><br><br><br>
+        </div>
+
+</div>
+</div>
+            </div>
+         </div>
+        </div>
+        <!-- 图文展示 -->
+        <div class="gallery1">
+            <section class="feature-section text-content">
+                <h2>结束乐队</h2>
+                <article>
+                    <img src="./3.png" alt="结束乐队" class="feature-image">
+                </article>
+            </section>
+        </div>
+        <div class="blank1"></div>
+            <h2>图集</h2>
+        <div class="waterfall-container">
+
+<div class="waterfall-item">
+              <img src="./img/2.jpg">
+            </div>
+            <div class="waterfall-item">
+              <img src="./img/6.png">
+            </div>
+            <div class="waterfall-item">
+                <img src="./img/1.3.png">
+              </div>
+              <div class="waterfall-item">
+                <img src="./img/1.4.png">
+              </div>
+              <div class="waterfall-item">
+                <img src="./img/1.1.png">
+              </div>
+              <div class="waterfall-item">
+                <img src="./img/212.jpg">
+              </div>
+              <div class="waterfall-item">
+                <img src="./img/121.jpg">
+              </div>
+              <div class="waterfall-item">
+                <img src="./img/21.jpg">
+              </div>
+              <div class="waterfall-item">
+                <img src="./img/3.jpg">
+              </div>
+              <div class="waterfall-item">
+                <img src="./img/4.jpg">
+              </div>
+              <div class="waterfall-item">
+                <img src="./img/2.1.jpg">
+              </div>
+              <div class="waterfall-item">
+                <img src="./img/2.10.jpg">
+              </div>
+              <div class="waterfall-item">
+                  <img src="./img/2.9.jpg">
+                </div>
+                <div class="waterfall-item">
+                  <img src="./img/2.8.jpg">
+                </div>
+                <div class="waterfall-item">
+                  <img src="./img/2.7.jpg">
+                </div>
+                <div class="waterfall-item">
+                  <img src="./img/2.6.jpg">
+                </div>
+                <div class="waterfall-item">
+                  <img src="./img/2.5.jpg">
+                </div>
+                <div class="waterfall-item">
+                  <img src="./img/2.4.jpg">
+                </div>
+                <div class="waterfall-item">
+                  <img src="./img/2.3.jpg">
+                </div>
+                <div class="waterfall-item">
+                  <img src="./img/2.2.jpg">
+                </div>
+                <div class="waterfall-item">
+                    <img src="./img/3.1.jpg">
+                  </div>
+                  <div class="waterfall-item">
+                    <img src="./img/3.2.jpg">
+                  </div>
+                  <div class="waterfall-item">
+                    <img src="./img/kitaa.jpeg">
+                  </div>
+                  <div class="waterfall-item">
+                    <img src="./img/5.png">
+                  </div>
+            <!-- 添加更多图片项 -->
+          </div>
+        <!-- 画廊 -->
+        <section class="gallery-section text-content">
+        </section>
+    </main>
+    <h1 align="middle" class="RE">「 Re:結束バンド！」</h1>
+    <style>
+.RE{
+    color: #ffffff;
+    margin: auto;
+    width: 120vh;
+    background-color: rgba(216, 216, 216, 0.231);
+}
+    </style>
+    <div id="music" class="music"><meting-js server="netease" type="album" id="243454282"></meting-js></div>
+
+<div class="floating-video">
+
+
+</div>
+
+</body>
+
+
+<footer>
+    <div id="workboard">
+        <img class="boardsign" src="./img/bo1.jpg" width="55" height="55" title="by wcx"><br>
+        <div style="font-size:13px;font-weight:bold">网页设计作品 <i id="heartbeat" class="fas fa-heartbeat"></i>
+        <br> 欢迎访问我的博客 <a href="https://zhongye1.github.io">zhongye1.github.io</a> 🚀  
+        <br>
+        <a href="https://zhongye1.github.io/">
+            <img src="https://img.shields.io/badge/制作-zhongye-blue.svg" alt="Build Status">
+        </a>
+        <a href="https://www.runoob.com/html/html5-intro.html">
+            <img src="https://img.shields.io/badge/语言-HTML,CSS,JS-orange.svg" alt="lang Status">
+        </a>
+        <a href="">
+            <img src="https://img.shields.io/badge/Email-2760913192@qq.com-cyan.svg" alt="Downloads">
+        </a>
+        <a href="https://zhongye1.github.io/">
+            <img src="https://img.shields.io/badge/博客-zhongye1.github.io-blue.svg" alt="License">
+        </a>                              
+    </div>
+    </div>
+</footer>
+    <script src="./js/type.js"></script><!-- 打字效果 -->
+    <script>
+        var typed = new Typed("#typing-effect", {
+            strings: ["孤独摇滚！", "Bocchi the rock!", "dev by Gotoh Hitori!"],
+            startDelay: 30,
+            backDelay: 1020,
+            typeSpeed: 70,
+            loop: true,
+            backSpeed: 70
+        });
+    </script>
+
+<script src="./js/snow.js"></script> <!-- 将下雪动画代码移到单独的JS文件中 -->
+<script>
+    var snow = new SnowFall({maxFlake: 60});
+    snow.start();
+</script>
+
+
+<span class="js-cursor-container"></span>
+    <script>
+        (function fairyDustCursor() {
+            var possibleColors = ["#D61C59", "#E7D84B", "#1B8798"]
+            var width = window.innerWidth;
+            var height = window.innerHeight;
+            var cursor = { x: width / 2, y: width / 2 };
+            var particles = [];
+            function init() {
+                bindEvents();
+                loop();
+            }
+            // Bind events that are needed
+            function bindEvents() {
+                document.addEventListener('mousemove', onMouseMove);
+                window.addEventListener('resize', onWindowResize);
+            }
+            function onWindowResize(e) {
+                width = window.innerWidth;
+                height = window.innerHeight;
+            }
+            function onMouseMove(e) {
+                cursor.x = e.clientX;
+                cursor.y = e.clientY;
+                addParticle(cursor.x, cursor.y, possibleColors[Math.floor(Math.random() * possibleColors.length)]);
+            }
+            function addParticle(x, y, color) {
+                var particle = new Particle();
+                particle.init(x, y, color);
+                particles.push(particle);
+            }
+            function updateParticles() {
+                // Updated
+                for (var i = 0; i < particles.length; i++) {
+                    particles[i].update();
+                }
+                // Remove dead particles
+                for (var i = particles.length - 1; i >= 0; i--) {
+                    if (particles[i].lifeSpan < 0) {
+                        particles[i].die();
+                        particles.splice(i, 1);
+                    }
+                }
+            }
+            function loop() {
+                requestAnimationFrame(loop);
+                updateParticles();
+            }
+            /**
+             * Particles
+             */
+            function Particle() {
+                this.character = "*";
+                this.lifeSpan = 120; //ms
+                this.initialStyles = {
+                    "position": "fixed",
+                    "display": "inline-block",
+                    "top": "0px",
+                    "left": "0px",
+                    "pointerEvents": "none",
+                    "touch-action": "none",
+                    "z-index": "10000000",
+                    "fontSize": "25px",
+                    "will-change": "transform"
+                };
+                // Init, and set properties
+                this.init = function (x, y, color) {
+                    this.velocity = {
+                        x: (Math.random() < 0.5 ? -1 : 1) * (Math.random() / 2),
+                        y: 1
+                    };
+                    this.position = { x: x + 10, y: y + 10 };
+                    this.initialStyles.color = color;
+                    this.element = document.createElement('span');
+                    this.element.innerHTML = this.character;
+                    applyProperties(this.element, this.initialStyles);
+                    this.update();
+                    document.querySelector('.js-cursor-container').appendChild(this.element);
+                };
+                this.update = function () {
+                    this.position.x += this.velocity.x;
+                    this.position.y += this.velocity.y;
+                    this.lifeSpan--;
+                    this.element.style.transform = "translate3d(" + this.position.x + "px," + this.position.y + "px, 0) scale(" + (this.lifeSpan / 120) + ")";
+                }
+                this.die = function () {
+                    this.element.parentNode.removeChild(this.element);
+                }
+            }
+            /**
+             * Utils
+             */
+            // Applies css `properties` to an element.
+            function applyProperties(target, properties) {
+                for (var key in properties) {
+                    target.style[key] = properties[key];
+                }
+            }
+            if (!('ontouchstart' in window || navigator.msMaxTouchPoints)) init();
+        })();    
+    </script>
+
+
+</html>

@@ -351,6 +351,7 @@ header a {
     object-fit: cover; /* 保持宽高比，并填充容器 */
     border-radius: 10px; /* 圆角边框 */
     box-shadow: 0 4px 8px rgba(212, 212, 212, 0.495); /* 阴影效果 */
+    z-index: 3;
   }
 
   .jieshu{

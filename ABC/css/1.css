@@ -5,7 +5,7 @@ body {
 }
 
 footer {
-    background-color: #333;
+    background-color: #555;
     color: white;
     text-align: center;
     padding: 1em 0;
@@ -190,12 +190,12 @@ header a {
 
 .top{
     margin: 0 auto;
-    margin-top: 200px;
+    margin-top: 295px;
     background-color: #ffffff;
     width: 100%;
     height: 900px;
     background: #e1e1e1 url("../img/122.png") no-repeat center center fixed;
-    -webkit-background-size: cover;
+    /* -webkit-background-size: cover; */
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
@@ -209,7 +209,7 @@ header a {
 }
 
 .blank1{
-    height: 100px;
+    height: 30px;
 }
 
 .top2{
@@ -283,7 +283,7 @@ header a {
   .waterfall-item:hover::after {
     opacity: 1;}
 
-a{outline:none;color:rgb(148, 205, 255);}
+a{outline:none;color: rgb(148 226 255);}
 a{text-decoration:none;}
 a:hover{text-decoration:none;color:#fdaddd;outline: #f9f9f9;}
 
@@ -319,9 +319,3 @@ a:hover{text-decoration:none;color:#fdaddd;outline: #f9f9f9;}
     background: #e1e1e1 url("../bocchi.png") no-repeat center center fixed;
 
 }
-
-.floating-video {
-    position: fixed; /* 固定位置 */
-    bottom: 20px; /* 下边距 */
-    z-index: 1000; /* 确保在其他内容之上 */
-  }

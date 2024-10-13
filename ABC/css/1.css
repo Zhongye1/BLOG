@@ -191,9 +191,9 @@ header a {
 .top{
     margin: 0 auto;
     margin-top: 295px;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     width: 100%;
-    height: 900px;
+    height: 645px;
     background: #e1e1e1 url("../img/122.png") no-repeat center center fixed;
     /* -webkit-background-size: cover; */
     -moz-background-size: cover;
@@ -283,14 +283,27 @@ header a {
   .waterfall-item:hover::after {
     opacity: 1;}
 
-a{outline:none;color: rgb(148 226 255);}
-a{text-decoration:none;}
-a:hover{text-decoration:none;color:#fdaddd;outline: #f9f9f9;}
+    a {
+        outline: none;
+        color: rgb(107, 165, 231);
+        text-decoration: none;
+        padding: 5px 10px; /* 添加内边距 */
+        border-radius: 5px; /* 圆角 */
+        transition: all 0.3s ease; /* 所有属性的过渡效果 */
+    }
+    
+    a:hover {
+        text-decoration: none;
+        color: #6b6b6b;
+        background-color: #ffffff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 添加阴影 */
+        transform: translateY(-2px); /* 微小向上移动，增加点击感 */
+    }
 
 
-.jieshao1, .jieshao2, .jieshao3, .jieshao4 {
+.jieshao1, .jieshao2, .jieshao3, .jieshao4, .jieshao0 {
     background-color: #e1e1e1;
-    padding: 20px; /* 可选：为内容添加内边距 */
+    padding: 52px; /* 可选：为内容添加内边距 */
     width: 100%; /* 确保容器宽度一致 */
     background-repeat: no-repeat;
     background-position: center center;
@@ -299,6 +312,10 @@ a:hover{text-decoration:none;color:#fdaddd;outline: #f9f9f9;}
 }
 
 /* 单独定义每个类的背景图片 */
+.jieshao0 {
+    background-image: url("../img/12.jpg");
+}
+
 .jieshao1 {
     background-image: url("../img/bocchi1.png");
 }
@@ -319,3 +336,39 @@ a:hover{text-decoration:none;color:#fdaddd;outline: #f9f9f9;}
     background: #e1e1e1 url("../bocchi.png") no-repeat center center fixed;
 
 }
+
+.video-container {
+    width: 660px;
+    height: 457px;
+    position: relative;
+    overflow: hidden;
+    margin: 10px auto; /* 居中并添加一些顶部间距 */
+  }
+
+  .video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* 保持宽高比，并填充容器 */
+    border-radius: 10px; /* 圆角边框 */
+    box-shadow: 0 4px 8px rgba(212, 212, 212, 0.495); /* 阴影效果 */
+  }
+
+  .jieshu{
+    text-align: left;
+    background-color: #9c99999e;
+    border-radius: 10px; /* 圆角边框 */
+    transition: transform 0.2s ease-in-out; /* 添加过渡效果 */
+  }
+
+/* 容器 */
+.BOC2 {
+    margin: 20px;
+    COLOR: white;
+    text-align: center;
+    /* background-color: #f4f4f591; */
+}
+
+
+
+
+

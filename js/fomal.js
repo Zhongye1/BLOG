@@ -2684,7 +2684,7 @@ map.set('yellow', "rgb(241, 238, 71)")
 map.set('purple', "rgb(179, 71, 241)");
 map.set('blue', "rgb(102, 204, 255)");
 map.set('gray', "rgb(226, 226, 226)");
-map.set('green', "rgb(57, 197, 187)");
+map.set('green', "rgb(63, 203, 239)");
 map.set('whitegray', "rgb(241, 241, 241)");
 map.set('pink', "rgb(237, 112, 155)");
 map.set('black', "rgb(0, 0, 0)");

@@ -34,13 +34,21 @@ nav ul li a:hover {
 
 /* 重置默认样式 */
 * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /* 头部 */
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
+    color: white;
     z-index: 100;
+    padding: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,7 +59,6 @@ main {
     margin-top: 0%;
     min-height: calc(100vh - 5rem);
     display: flex;
-    width: auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -69,14 +76,15 @@ main {
 
 
 body, html {
-    font-weight: bold;
+    margin: 0;
+    padding: 0;
     width: 100%;
+    font-weight: bold;
     background: #e1e1e1 url("../background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
-    /* background-position-x: left; */
     -o-background-size: cover;
     background-size: cover;
-    margin: 0;
 }
 /* 打字效果的字体样式 */
 .content {
@@ -128,9 +136,7 @@ header {
     background-color: rgba(152, 152, 152, 0.5);
     color: white;
     text-align: center;
-    padding: -14px;
-    height: 50px;
-    /* width: auto; */
+    padding: 10px;
 }
 
 header ul {
@@ -184,11 +190,14 @@ header a {
 
 .top{
     margin: 0 auto;
-    margin-top: 296px;
+    margin-top: 295px;
     /* background-color: #ffffff; */
     width: 100%;
-    height: 1325px;
+    height: 645px;
     background: #e1e1e1 url("../img/122.png") no-repeat center center fixed;
+    /* -webkit-background-size: cover; */
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 
@@ -232,7 +241,8 @@ header a {
   .waterfall-container {
     column-count: 3;
     column-gap: 20px;
-    width: 80%;
+    padding: 20px;
+    width: 100vh;
   }
 
   .waterfall-item {
@@ -293,11 +303,8 @@ header a {
 
 .jieshao1, .jieshao2, .jieshao3, .jieshao4, .jieshao0 {
     background-color: #e1e1e1;
-     /* 可选：为内容添加内边距 */
+    padding: 52px; /* 可选：为内容添加内边距 */
     width: 100%; /* 确保容器宽度一致 */
-    /* height: 500px; */
-    padding-top: 10vh;
-    padding-bottom: 10vh;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed; /* 如果你希望背景固定不动 */
@@ -307,9 +314,6 @@ header a {
 /* 单独定义每个类的背景图片 */
 .jieshao0 {
     background-image: url("../img/12.jpg");
-    margin-bottom: -49px;
-    height: 848px;
-    /* margin-top: 63px; */
 }
 
 .jieshao1 {
@@ -334,19 +338,20 @@ header a {
 }
 
 .video-container {
-    width: 100%;
-    /* height: 223px; */
+    width: 660px;
+    height: 457px;
     position: relative;
     overflow: hidden;
     margin: 10px auto; /* 居中并添加一些顶部间距 */
   }
 
   .video-container video {
-    width: 400px;
-    height: 274px;
+    width: 100%;
+    height: 100%;
     object-fit: cover; /* 保持宽高比，并填充容器 */
     border-radius: 10px; /* 圆角边框 */
     box-shadow: 0 4px 8px rgba(212, 212, 212, 0.495); /* 阴影效果 */
+    z-index: 3;
   }
 
   .jieshu{
@@ -366,98 +371,5 @@ header a {
 
 
 
-.music{/* width: 100%; *//* margin: auto; */}
-.scroll-prompt {
-    position: absolute; /* 绝对定位 */
-    left: 50%; /* 居中 */
-    transform: translateX(-50%); /* 水平居中调整 */
-    bottom: 10px; /* 距离底部10px */
-    animation: bounce 2s infinite; /* 添加弹跳动画 */
-}
-
-.scroll-prompt i {
-    font-size: 48px; /* 图标的大小 */
-    color: #ccc; /* 图标的颜色 *//* 绝对定位 *//* 绝对定位 *//* 绝对定位 *//* 绝对定位 *//* 绝对定位 */
-}
-
-@keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-        transform: translateY(0);
-    }
-    40% {
-        transform: translateY(-30px);
-    }
-    60% {
-        transform: translateY(-15px);
-    }
-}
-
-.biaoti{
-    margin-top: 100px;
-    font-size: 72px; /* 字体大小 */
-    height: 200px;
-
-}
-.quote {
-  font-style: italic;
-  color: #7ccdff;
-  margin-bottom: 20px;
-}
-.info {
-  contain-intrinsic-block-size: auto 100px;
-  /* background: #e1e1e1 url("./img/21.jpg") no-repeat center center fixed; */
-  width: 100%;
-  box-shadow: 0 0 10px rgba(245, 244, 244, 0.1);
-  height: 1311px;
-  /* margin-top: 100px; */
-}
-.top2{margin-top: -48px;margin-bottom: 20px;/* background-color: #ffffff; */width: 100%;background: url("./img/122.png") no-repeat center center fixed;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
-
-.img-hover-effect {
-    transition: transform 0.3s, box-shadow 0.3s;
-    padding-top: -2px;
-}
-
-.img-hover-effect:hover {
-    transform: scale(1.1); /* 鼠标悬停时放大 */
-    box-shadow: 0 4px 8px rgb(255 255 255); /* 阴影 */
-}
-
-.img-hover-effect1 {
-    transition: transform 0.3s, box-shadow 0.3s;
-    background-color: #e8e8e840;
-    border-radius: 5px; /* 圆角 */
-    transition: all 0.3s ease; /* 所有属性的过渡效果 */
-}
-
-.img-hover-effect1:hover {
-    transform: scale(1.1); /* 鼠标悬停时放大 */
-    box-shadow: 0 4px 8px rgb(255 255 255); /* 阴影 */
-    background-color: #02020287;
-}
-
-.RE0{
-    color: #ffffff;
-    margin: auto;
-    width: 100%;
-    background-color: rgba(216, 216, 216, 0.231);
-    font-size: 30px;
-}
-.RE{
-    color: #ffffff;
-    margin: auto;
-    width: 100%;
-    background-color: rgba(216, 216, 216, 0);
-    font-size: 20px; 
-    
-
-.blank2{
-    height: 40px;
-}
-}
-.music{
-    width: 100%;
-    margin: auto;
-}
 
 

@@ -1,7 +1,8 @@
 .aplayer {
   background: #fff;
   font-family: Arial, Helvetica, sans-serif;
-  margin: 5px;
+  width: 80%;
+  margin: auto;
   box-shadow:
     0 2px 2px 0 rgba(0, 0, 0, 0.07),
     0 1px 5px 0 rgba(0, 0, 0, 0.1);
@@ -16,6 +17,7 @@
 }
 .aplayer * {
   box-sizing: content-box;
+  margin: auto;
 }
 .aplayer svg {
   width: 100%;

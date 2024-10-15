@@ -1,6 +1,8 @@
 .slider {
-    width: 600px;
-    margin: 50px auto;
+    width: 70%;
+    /* padding: -38px; */
+    height: 0;
+    /* margin: 26px auto; */
     overflow: hidden;
     position: relative;
     box-shadow: 0 4px 10px rgba(0,0,0,0.4);
@@ -12,8 +14,8 @@
 }
 .slide {
     display: inline-block;
-    width: 600px;
-    height: 300px;
+    width: 100%;
+    height: 428px;
     background: #000;
     color: #fff;
     text-align: center;
@@ -24,6 +26,7 @@
 .slide img {
     width: 100%;
     height: 100%;
+    transition: auto;
     object-fit: cover;
 }
 .prev, .next {

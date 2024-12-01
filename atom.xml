@@ -6,7 +6,7 @@
   <link href="https://zhongye1.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhongye1.github.io/"/>
-  <updated>2024-11-29T17:29:19.096Z</updated>
+  <updated>2024-12-01T16:24:21.223Z</updated>
   <id>https://zhongye1.github.io/</id>
   
   <author>
@@ -15,6 +15,44 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>年末</title>
+    <link href="https://zhongye1.github.io/posts/49138b5e.html"/>
+    <id>https://zhongye1.github.io/posts/49138b5e.html</id>
+    <published>2024-12-01T15:21:49.000Z</published>
+    <updated>2024-12-01T16:24:21.223Z</updated>
+    
+    <content type="html"><![CDATA[<div class="container" style="font-size:20px">    <div id="current-datetime">        <p> Hello, it is <span id="current-date"></span>  -  <span id="current-time"></span>  -  <span id="current-day-of-week"></span> now!<br> Without you here again.</p>    </div>    <div id="elapsed-time">        <p>今年已经过去了<span id="elapsed-days"></span>天 <span id="elapsed-hours"></span>小时 <span id="elapsed-minutes"></span>分钟 <span id="elapsed-seconds"></span>秒 <span id="elapsed-milliseconds"></span>ms</p>    </div>    <div id="percentage">        <p>今年已经过去<span id="elapsed-percentage"></span>%</p>    </div><script>function updateElapsedTime() {    const now = new Date();    const startOfYear = new Date(now.getFullYear(), 0, 0, 0, 0, 0, 0);    const endOfYear = new Date(now.getFullYear() + 1, 0, 0, 0, 0, 0, 0);    const elapsedTime = now - startOfYear;    const totalYearTime = endOfYear - startOfYear;    const elapsedDays = Math.floor(elapsedTime / (1000 * 60 * 60 * 24));    const elapsedHours = Math.floor((elapsedTime % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));    const elapsedMinutes = Math.floor((elapsedTime % (1000 * 60 * 60)) / (1000 * 60));    const elapsedSeconds = Math.floor((elapsedTime % (1000 * 60)) / 1000);    const elapsedMilliseconds = Math.floor((elapsedTime % 10)); // 精确到0.1毫秒    const elapsedPercentage = (elapsedTime / totalYearTime) * 100;    document.getElementById('elapsed-days').innerText = elapsedDays;    document.getElementById('elapsed-hours').innerText = elapsedHours;    document.getElementById('elapsed-minutes').innerText = elapsedMinutes;    document.getElementById('elapsed-seconds').innerText = elapsedSeconds;    document.getElementById('elapsed-milliseconds').innerText = elapsedMilliseconds.toFixed(1);    document.getElementById('elapsed-percentage').innerText = elapsedPercentage.toFixed(10); // 修改为两位小数        // 更新当前时间和日期以及星期    const hours = now.getHours().toString().padStart(2, '0');    const minutes = now.getMinutes().toString().padStart(2, '0');    const seconds = now.getSeconds().toString().padStart(2, '0');    const year = now.getFullYear();    const month = (now.getMonth() + 1).toString().padStart(2, '0'); // 注意月份从0开始    const day = now.getDate().toString().padStart(2, '0');    const dayOfWeek = ['Sun', 'Mon.', 'Tues.', 'Wed.', 'Thur.', 'Fri.', 'Sat.'][now.getDay()];        document.getElementById('current-time').innerText = `${hours}:${minutes}:${seconds}`;    document.getElementById('current-date').innerText = `${year}-${month}-${day}`;    document.getElementById('current-day-of-week').innerText = dayOfWeek;}// 每1秒更新一次const timerInterval = setInterval(updateElapsedTime, 1);updateElapsedTime(); // 初始化显示</script><p>另外，也感谢在这些日子里一同合作走过去的开发者们：</p><div style="display: flex; flex-wrap: wrap; justify-content: center;">  <div style="background-color: white; border-radius: 10px; box-shadow: 0 4px 8px rgba(46, 46, 46, 0.36); margin: 10px; padding: 15px; width: 282px; text-align: center; transition: transform 0.2s, box-shadow 0.2s;">    <a href="https://github.com/Zhongye1" style="color: #0073bb; text-decoration: none;">      <img src="https://free-img.400040.xyz/4/2024/11/30/6749f6f41d521.png" alt="Vaibhav" style="border-radius: 50%; width: 100px; height: 100px; margin-bottom: 10px;" />      <h3 style="font-size: 16px; margin: 0;">Gotoh Hitori</h3>    </a>    <p style="margin: 5px 0; font-size: 12px; color: #666;">      GitHub: <a href="https://github.com/Zhongye1" style="color: #0073bb; text-decoration: none;">@Bocchi</a><br />    </p>  </div>  <div style="background-color: white; border-radius: 10px; box-shadow: 0 4px 8px rgba(46, 46, 46, 0.36); margin: 10px; padding: 15px; width: 282px; text-align: center; transition: transform 0.2s, box-shadow 0.2s;">    <a href="https://github.com/Ijichi-Nijika" style="color: #0073bb; text-decoration: none;">      <img src="https://free-img.400040.xyz/4/2024/11/30/6749f6ce9c921.png" alt="Ijichi-Nijika" style="border-radius: 50%; width: 100px; height: 100px; margin-bottom: 10px;" />      <h3 style="font-size: 16px; margin: 0;">Ijichi Nijika</h3>    </a>    <p style="margin: 5px 0; font-size: 12px; color: #666;">      GitHub: <a href="https://github.com/Ijichi-Nijika" style="color: #0073bb; text-decoration: none;">@Ijichi-Nijika</a><br />    </p>  </div>  <div style="background-color: white; border-radius: 10px; box-shadow: 0 4px 8px rgba(46, 46, 46, 0.36); margin: 10px; padding: 15px; width: 282px; text-align: center; transition: transform 0.2s, box-shadow 0.2s;">    <a href="https://github.com/Yamada-Ryō" style="color: #0073bb; text-decoration: none;">      <img src="https://free-img.400040.xyz/4/2024/11/30/6749f6fa199e3.png" alt="Yamada Ryo" style="border-radius: 50%; width: 100px; height: 100px; margin-bottom: 10px;" />      <h3 style="font-size: 16px; margin: 0;">Yamada-Ryo</h3>    </a>    <p style="margin: 5px 0; font-size: 12px; color: #666;">      GitHub: <a href="https://github.com/Yamada-Ryō" style="color: #0073bb; text-decoration: none;">@Ryosenpai</a><br />    </p>  </div>  <div style="background-color: white; border-radius: 10px; box-shadow: 0 4px 8px rgba(46, 46, 46, 0.36); margin: 10px; padding: 15px; width: 282px; text-align: center; transition: transform 0.2s, box-shadow 0.2s;">    <a href="https://github.com/Kita-Ikuyo" style="color: #0073bb; text-decoration: none;">      <img src="https://free-img.400040.xyz/4/2024/11/30/6749f700ec63d.png" alt="Kita Ikuyo" style="border-radius: 50%; width: 100px; height: 100px; margin-bottom: 10px;" />      <h3 style="font-size: 16px; margin: 0;">Kita Ikuyo</h3>    </a>    <p style="margin: 5px 0; font-size: 12px; color: #666;">      GitHub: <a href="https://github.com/Kita-Ikuyo" style="color: #0073bb; text-decoration: none;">@Kita Ikuyo</a><br />    </p>  </div>  <div style="background-color: white; border-radius: 10px; box-shadow: 0 4px 8px rgba(46, 46, 46, 0.36); margin: 10px; padding: 15px; width: 282px; text-align: center; transition: transform 0.2s, box-shadow 0.2s;">    <a href="https://github.com/Hiroi-Kikuri" style="color: #0073bb; text-decoration: none;">      <img src="https://free-img.400040.xyz/4/2024/11/30/6749f70829fbf.png" alt="Hiroi-Kikuri" style="border-radius: 50%; width: 100px; height: 100px; margin-bottom: 10px;" />      <h3 style="font-size: 16px; margin: 0;">Hiroi-Kikuri</h3>    </a>    <p style="margin: 5px 0; font-size: 12px; color: #666;">      GitHub: <a href="https://github.com/Hiroi-Kikuri" style="color: #0073bb; text-decoration: none;">@Hiroi-Kikuri</a><br />    </p>  </div></div></div>-<p><img src="https://free-img.400040.xyz/4/2024/12/02/674c8cb32dfcc.png" alt=""></p><p><img src="https://free-img.400040.xyz/4/2024/12/02/674c8cab6d85b.png" alt=""></p>]]></content>
+    
+    
+    <summary type="html">另外，也感谢在这些日子里一同合作走过去的开发者们</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>十二月</title>
+    <link href="https://zhongye1.github.io/posts/932283f3.html"/>
+    <id>https://zhongye1.github.io/posts/932283f3.html</id>
+    <published>2024-12-01T15:13:47.000Z</published>
+    <updated>2024-12-01T15:55:29.763Z</updated>
+    
+    <content type="html"><![CDATA[<hr><div class="tip "><p>12月1日</p></div><p>已经十二月了，最近有很多事情</p><p>虽然但是，这些还是要继续下去，没有时间停下来说抱歉，我回信道。</p><p><img src="https://free-img.400040.xyz/4/2024/12/01/674c7eafc7beb.png" alt=""></p>]]></content>
+    
+    
+    <summary type="html">虽然但是，这些还是要继续下去</summary>
+    
+    
+    
+    <category term="随记" scheme="https://zhongye1.github.io/categories/%E9%9A%8F%E8%AE%B0/"/>
+    
+    
+    <category term="随记" scheme="https://zhongye1.github.io/tags/%E9%9A%8F%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>十一月</title>
@@ -350,44 +388,6 @@
     <summary type="html">论如何让你的好友不停看到你在玩奇怪游戏</summary>
     
     
-    
-    
-  </entry>
-  
-  <entry>
-    <title>MikuTap</title>
-    <link href="https://zhongye1.github.io/posts/mikumiku.html"/>
-    <id>https://zhongye1.github.io/posts/mikumiku.html</id>
-    <published>2024-08-04T07:21:26.000Z</published>
-    <updated>2024-08-04T07:51:37.097Z</updated>
-    
-    <content type="html"><![CDATA[<!DOCTYPE html><html lang="en" version="4"><head>    <meta charset="UTF-8">    <title>MikuMikuTap~</title>    <style>        body, html {            margin: 0;            padding: 0;            height: 100%;        }        #Frame {            border: none; /* 移除边框 */            display: block; /* 块级元素 */            width: 100%; /* 宽度100% */            height: calc(100vh - 40px); /* 减去按钮的高度 */            position: absolute; /* 绝对定位 */            top: 40px; /* 使iframe位于按钮下方 */            left: 0;        }        .return-button {            display: block;            position: fixed; /* 固定定位 */            top: 0; /* 顶部位置 */            left: 50%; /* 水平居中 */            transform: translateX(-50%); /* 水平居中 */            background-color: #333;            color: white;            text-align: center;            padding: 10px 20px;            text-decoration: none;            z-index: 1000; /* 确保按钮在其他元素之上 */        }    </style></head><body inject_video_svd="true"><!-- 添加按钮 --><p><a href="https://zhongye1.github.io/" class="return-button">返回博客主页~</a></p><iframe id="Frame" src="https://air.moe/funs/MikuTap/" allowfullscreen=""></iframe></body></html>]]></content>
-    
-    
-    <summary type="html">Miku声乐小游戏</summary>
-    
-    
-    
-    <category term="Github项目" scheme="https://zhongye1.github.io/categories/Github%E9%A1%B9%E7%9B%AE/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>申论生成器</title>
-    <link href="https://zhongye1.github.io/posts/b61fa24.html"/>
-    <id>https://zhongye1.github.io/posts/b61fa24.html</id>
-    <published>2024-08-04T06:38:10.000Z</published>
-    <updated>2024-08-20T16:06:26.094Z</updated>
-    
-    <content type="html"><![CDATA[<!DOCTYPE html><html lang="en" version="4"><head>    <meta charset="UTF-8">    <title>申论生成器</title>    <style>        body, html {            margin: 0;            padding: 0;            height: 100%;        }        #Frame {            border: none; /* 移除边框 */            display: block; /* 块级元素 */            width: 100%; /* 宽度100% */            height: calc(100vh - 40px); /* 减去按钮的高度 */            position: absolute; /* 绝对定位 */            top: 40px; /* 使iframe位于按钮下方 */            left: 0;        }        .return-button {            display: block;            position: fixed; /* 固定定位 */            top: 0; /* 顶部位置 */            left: 50%; /* 水平居中 */            transform: translateX(-50%); /* 水平居中 */            background-color: #333;            color: white;            text-align: center;            padding: 10px 20px;            text-decoration: none;            z-index: 1000; /* 确保按钮在其他元素之上 */        }    </style></head><body inject_video_svd="true"><!-- 添加按钮 --><p><a href="https://zhongye1.github.io/" class="return-button">返回博客主页~</a></p><iframe id="Frame" src="https://air.moe/funs/Slscq/" allowfullscreen=""></iframe></body></html>]]></content>
-    
-    
-    <summary type="html">50-5000字申论自动生成器</summary>
-    
-    
-    
-    <category term="Github项目" scheme="https://zhongye1.github.io/categories/Github%E9%A1%B9%E7%9B%AE/"/>
     
     
   </entry>
